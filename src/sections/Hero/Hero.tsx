@@ -66,7 +66,7 @@ export default function Hero() {
         <motion.p className="hero-tag" variants={v}>
           Every word is a <em>time machine.</em>
         </motion.p>
-        <motion.p className="hero-sub" variants={v}>Trace any English word back thousands of years.</motion.p>
+        <motion.p className="hero-sub" variants={v}>Trace any word back thousands of years, in English or 50 other languages.</motion.p>
 
         <motion.div className="hero-morph" variants={v}>
           {entries.length > 0 && <MorphWord entries={entries} onStage={onStage} />}

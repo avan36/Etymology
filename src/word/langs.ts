@@ -74,6 +74,7 @@ const EXTRA: Record<string, Extra> = {
   'owl': { name: 'Old Welsh', stream: 'celtic', region: [-3.6, 52.3] },
   'wlm': { name: 'Middle Welsh', stream: 'celtic', region: [-3.6, 52.3] },
   'cel-bry-pro': { name: 'Proto-Brythonic', stream: 'celtic', region: [-3, 52] },
+  'xaa': { name: 'Andalusian Arabic', stream: 'semitic', region: [-4.8, 37.9] },
   'mt': { name: 'Maltese', stream: 'semitic', region: [14.5, 35.9] },
   'syc': { name: 'Classical Syriac', stream: 'semitic', region: [38.8, 37.2] },
   'gez': { name: 'Ge’ez', stream: 'semitic', region: [38.7, 14.1] },
@@ -160,6 +161,7 @@ const EXTRA: Record<string, Extra> = {
   'ln': { name: 'Lingala', stream: 'world', region: [15.3, -4.3] },
   'mg': { name: 'Malagasy', stream: 'world', region: [47.5, -18.9] },
   'mul': { name: 'Translingual', stream: 'world' },
+  'eo': { name: 'Esperanto', stream: 'world' },
 };
 
 const STREAM_IDS = new Set(Object.keys(STREAM));
@@ -198,4 +200,35 @@ export function langInfo(code: string): LangInfo {
 export function isKnownLang(code: string): boolean {
   const id = normLang(code);
   return data.lang.has(id) || id in EXTRA;
+}
+
+// ── live lookups in other languages ─────────────────────────────────────────────
+
+/** Languages offered by the search's language picker. `name` is the Wiktionary section heading. */
+export const LOOKUP_LANGS: { code: string; name: string }[] = [
+  ['af', 'Afrikaans'], ['grc', 'Ancient Greek'], ['ar', 'Arabic'], ['bn', 'Bengali'], ['ca', 'Catalan'], ['zh', 'Chinese'],
+  ['cs', 'Czech'], ['da', 'Danish'], ['nl', 'Dutch'], ['en', 'English'], ['eo', 'Esperanto'], ['fi', 'Finnish'], ['fr', 'French'],
+  ['de', 'German'], ['el', 'Greek'], ['he', 'Hebrew'], ['hi', 'Hindi'], ['hu', 'Hungarian'], ['is', 'Icelandic'], ['id', 'Indonesian'],
+  ['ga', 'Irish'], ['it', 'Italian'], ['ja', 'Japanese'], ['ko', 'Korean'], ['la', 'Latin'], ['enm', 'Middle English'],
+  ['nb', 'Norwegian Bokmål'], ['ang', 'Old English'], ['fro', 'Old French'], ['non', 'Old Norse'], ['fa', 'Persian'], ['pl', 'Polish'],
+  ['pt', 'Portuguese'], ['ro', 'Romanian'], ['ru', 'Russian'], ['sa', 'Sanskrit'], ['gd', 'Scottish Gaelic'], ['es', 'Spanish'],
+  ['sw', 'Swahili'], ['sv', 'Swedish'], ['tl', 'Tagalog'], ['ta', 'Tamil'], ['th', 'Thai'], ['tr', 'Turkish'], ['uk', 'Ukrainian'],
+  ['ur', 'Urdu'], ['vi', 'Vietnamese'], ['cy', 'Welsh'], ['yi', 'Yiddish'],
+].map(([code, name]) => ({ code, name }));
+
+/** The Wiktionary section heading for a language code ("de" → "German"). */
+export function headingFor(code: string): string {
+  return LOOKUP_LANGS.find((l) => l.code === code)?.name ?? langInfo(code).name;
+}
+
+let byHeading: Map<string, string> | null = null;
+/** The language code for a Wiktionary section heading ("German" → "de"), if we know it. */
+export function codeForHeading(heading: string): string | undefined {
+  if (!byHeading) {
+    byHeading = new Map();
+    for (const [id, x] of Object.entries(EXTRA)) byHeading.set(x.name, id);
+    for (const l of data.languages) byHeading.set(l.name, l.id);
+    for (const l of LOOKUP_LANGS) byHeading.set(l.name, l.code);
+  }
+  return byHeading.get(heading);
 }

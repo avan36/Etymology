@@ -22,6 +22,10 @@ export interface SheetWord {
   gloss?: string;
   first?: number;
   origin: string;
+  /** The word's own language: "en" for the collection, any Wiktionary code for live lookups. */
+  lang: string;
+  /** Live lookups: inherited from `origin` (vs borrowed), when Wiktionary says. */
+  inherited?: boolean;
   status: WordStatus;
   died?: number;
   replacedBy?: string;
@@ -39,7 +43,8 @@ export interface SheetWord {
   wikiUrl: string;
 }
 
-export const wiktionaryUrl = (w: string) => `https://en.wiktionary.org/wiki/${encodeURIComponent(w.replace(/ /g, '_'))}#English`;
+export const wiktionaryUrl = (w: string, heading = 'English') =>
+  `https://en.wiktionary.org/wiki/${encodeURIComponent(w.replace(/ /g, '_'))}#${encodeURIComponent(heading.replace(/ /g, '_'))}`;
 
 export function fromCurated(w: Word): SheetWord {
   const r = rootOf(w);
@@ -51,6 +56,7 @@ export function fromCurated(w: Word): SheetWord {
     gloss: w.gloss,
     first: w.first,
     origin: w.origin,
+    lang: 'en',
     status: w.status ?? 'living',
     died: w.died,
     replacedBy: w.replacedBy,
@@ -162,7 +168,7 @@ export function heroFrames(sw: SheetWord): Frame[] {
       if (roman) raw.push({ text: roman.split(/,\s+/)[0].trim(), whole: !isSplittable(roman), lang: st.lang, year: st.year, final: false });
     }
   }
-  raw.push({ text: sw.word, whole: !isSplittable(sw.word), lang: sw.path.at(-1)?.lang ?? 'en', final: true });
+  raw.push({ text: sw.word, whole: !isSplittable(sw.word), lang: sw.path.at(-1)?.lang ?? sw.lang, final: true });
 
   // Merge consecutive identical forms (keep the earliest caption; the last one is the final word).
   const merged: Raw[] = [];

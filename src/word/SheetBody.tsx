@@ -68,10 +68,11 @@ function NextCard({ next, onNext }: { next: Word; onNext: () => void }) {
   );
 }
 
-export function SheetBody({ sw, titleId, next, onNext, live }: { sw: SheetWord; titleId: string; next?: Word; onNext?: () => void; live?: boolean }) {
+export function SheetBody({ sw, titleId, next, onNext, live, afterHero }: { sw: SheetWord; titleId: string; next?: Word; onNext?: () => void; live?: boolean; afterHero?: React.ReactNode }) {
   return (
     <article className={`ws-body${sw.status !== 'living' ? ' is-lost' : ''}`} style={{ '--c': sw.color } as React.CSSProperties}>
       <Hero sw={sw} titleId={titleId} live={live} />
+      {afterHero}
       {sw.story && <Story text={sw.story} />}
       {sw.summary && <Summary text={sw.summary} />}
       <Journey sw={sw} />

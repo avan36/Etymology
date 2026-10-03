@@ -7,6 +7,8 @@ import { exampleWords } from '../../search/engine';
 import { openSearch } from '../../search/bus';
 import { isApple, setPendingQuery } from '../../search/recent';
 import { ArrowIcon, CloseIcon, SearchIcon } from '../../search/icons';
+import { useLookupLang } from '../../search/lang';
+import { LangPicker } from '../../search/LangPicker';
 
 export default function HeroSearch() {
   const reduce = useReducedMotion();
@@ -16,7 +18,8 @@ export default function HeroSearch() {
   const [dismissed, setDismissed] = useState(false);
   const inputRef = useRef<HTMLInputElement>(null);
   const uid = useId().replace(/[^a-zA-Z0-9_-]/g, '');
-  const groups = useMemo(() => (q.trim() ? buildGroups(q, [], { compact: true }) : []), [q]);
+  const lang = useLookupLang();
+  const groups = useMemo(() => (q.trim() ? buildGroups(q, [], { compact: true, lang }) : []), [q, lang]);
   const flat = useMemo(() => groups.flatMap((g) => g.items), [groups]);
   const open = focused && !dismissed && flat.length > 0;
   const act = Math.max(0, Math.min(active, flat.length - 1));
@@ -101,7 +104,7 @@ export default function HeroSearch() {
             onKeyDown={onKeyDown}
             onFocus={onFocus}
             onBlur={() => setFocused(false)}
-            aria-label="Search any English word"
+            aria-label="Search any word"
             role="combobox"
             aria-expanded={open}
             aria-controls={`${uid}-list`}
@@ -134,6 +137,7 @@ export default function HeroSearch() {
             </span>
           )}
         </div>
+        <LangPicker className="hs-lang" />
         {q ? (
           <>
             <button type="button" className="hs-clear" onMouseDown={(e) => e.preventDefault()} onClick={() => { setQ(''); inputRef.current?.focus(); }} aria-label="Clear">

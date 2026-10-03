@@ -235,3 +235,37 @@
   .sx-row { min-height: 58px; padding: 9px 12px; }
   .sx-meta { max-width: 34%; }
 }
+
+/* ── language picker (palette bar and hero pill) ─────────────────── */
+.lp {
+  position: relative;
+  flex: none;
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  height: 32px;
+  padding: 0 10px 0 9px;
+  border-radius: 999px;
+  border: 1px solid var(--line-2);
+  color: var(--ink-3);
+  font-size: 13px;
+  white-space: nowrap;
+  cursor: pointer;
+  transition: color 0.2s var(--ease), border-color 0.2s var(--ease), background 0.2s var(--ease);
+}
+.lp:hover { color: var(--ink); border-color: var(--ink-3); }
+.lp.is-set { color: var(--accent); border-color: color-mix(in srgb, var(--accent) 45%, transparent); background: color-mix(in srgb, var(--accent) 8%, transparent); }
+.lp__icon { flex: none; }
+.lp__name { max-width: 9.5em; overflow: hidden; text-overflow: ellipsis; }
+.lp__code { display: none; font-family: var(--font-mono); font-size: 11px; letter-spacing: 0.06em; }
+.lp__chev { flex: none; opacity: 0.7; }
+/* The real control sits invisibly on top, so the OS menu opens on click or tap. */
+.lp__select { position: absolute; inset: 0; width: 100%; height: 100%; opacity: 0; cursor: pointer; font-size: 16px; appearance: none; border: 0; }
+.lp:has(.lp__select:focus-visible) { outline: 2px solid var(--accent); outline-offset: 2px; }
+.lp__select option { color: var(--ink); background: var(--card-solid); }
+
+@media (max-width: 640px) {
+  .lp { padding: 0 8px; gap: 4px; }
+  .lp__name { display: none; }
+  .lp__code { display: inline; }
+}

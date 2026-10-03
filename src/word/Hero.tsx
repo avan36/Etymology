@@ -35,9 +35,9 @@ function needsOldFont(g: string): boolean {
 }
 
 function verb(sw: SheetWord): string {
-  if (sw.origin === 'en') return 'Made in English';
+  if (sw.origin === sw.lang) return `Made in ${langInfo(sw.lang).name}`;
   const l = langInfo(sw.origin);
-  if (l.stream === 'native') return `Inherited from ${l.name}`;
+  if (sw.inherited ?? l.stream === 'native') return `Inherited from ${l.name}`;
   return `Borrowed from ${l.name}`;
 }
 
@@ -86,7 +86,7 @@ export function Hero({ sw, titleId, live }: { sw: SheetWord; titleId: string; li
       <motion.div className="ws-hero__eyebrow" initial={{ opacity: 0, y: 8 }} animate={{ opacity: 1, y: 0 }} transition={{ delay: 0.15, duration: 0.6, ease: [0.16, 1, 0.3, 1] }}>
         <span className="dot" />
         <span>{verb(sw)}</span>
-        {live && <span className="ws-badge ws-badge--live"><span className="ws-live-dot" />Live from Wiktionary</span>}
+        {live && <span className="ws-badge ws-badge--live"><span className="ws-live-dot" />{sw.lang !== 'en' ? `${langInfo(sw.lang).name} · ` : ''}Live from Wiktionary</span>}
       </motion.div>
 
       <h1
@@ -179,7 +179,7 @@ export function Hero({ sw, titleId, live }: { sw: SheetWord; titleId: string; li
             </li>
           )}
           <li className="ws-meta__item ws-meta__item--lang">
-            <span className="ws-meta__k">{sw.origin === 'en' ? 'Coined in' : 'From'}</span>
+            <span className="ws-meta__k">{sw.origin === sw.lang ? 'Coined in' : 'From'}</span>
             <LangPill id={sw.origin} />
           </li>
           <li className="ws-meta__item">

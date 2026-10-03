@@ -31,6 +31,8 @@ function fromLive(e: LiveEntry, id: string): SheetWord {
     gloss: e.gloss && e.gloss.length > 150 ? `${e.gloss.slice(0, 150).replace(/[\s,;]+\S*$/, '')}…` : e.gloss,
     first: e.first,
     origin: l.id,
+    lang: e.lang,
+    inherited: e.inherited,
     status: e.status,
     path: e.first !== undefined ? e.path.map((st, i) => (i === e.path.length - 1 ? { ...st, year: e.first } : st)) : e.path,
     root,
@@ -40,26 +42,58 @@ function fromLive(e: LiveEntry, id: string): SheetWord {
     color: STREAM[l.stream].color,
     source: 'wiktionary',
     summary: e.summary || undefined,
-    wikiUrl: wiktionaryUrl(e.title),
+    wikiUrl: wiktionaryUrl(e.title, e.heading),
   };
 }
 
-export function LiveSheet({ word, titleId }: { word: string; titleId: string }) {
+export function LiveSheet({ word, lang, titleId }: { word: string; lang?: string; titleId: string }) {
   const [res, setRes] = useState<LiveResult | null>(null);
   const [attempt, setAttempt] = useState(0);
 
   useEffect(() => {
     let live = true;
     setRes(null);
-    lookupWiktionary(word).then((r) => live && setRes(r));
+    lookupWiktionary(word, lang).then((r) => live && setRes(r));
     return () => {
       live = false;
     };
-  }, [word, attempt]);
+  }, [word, lang, attempt]);
 
   if (!res) return <Loading word={word} titleId={titleId} />;
-  if (res.kind === 'ok') return <SheetBody sw={fromLive(res.entry, word)} titleId={titleId} live />;
-  return <Missing word={word} titleId={titleId} error={res.kind === 'error'} onRetry={() => setAttempt((a) => a + 1)} />;
+  if (res.kind === 'ok') return <SheetBody sw={fromLive(res.entry, word)} titleId={titleId} live afterHero={<AlsoIn entry={res.entry} />} />;
+  return <Missing word={word} lang={lang} titleId={titleId} error={res.kind === 'error'} onRetry={() => setAttempt((a) => a + 1)} />;
+}
+
+const ALSO_MAX = 8;
+
+/** The same spelling is a word in other languages too: Gift is "present" in English, "poison" in German. */
+function AlsoIn({ entry }: { entry: LiveEntry }) {
+  const [all, setAll] = useState(false);
+  if (!entry.others.length) return null;
+  const shown = all ? entry.others : entry.others.slice(0, ALSO_MAX);
+  const more = entry.others.length - shown.length;
+  return (
+    <nav className="ws-also" aria-label={`“${entry.title}” in other languages`}>
+      <span className="ws-also__k">Also a word in</span>
+      <ul className="ws-chips ws-also__list">
+        {shown.map((o) => (
+          <li key={o.code}>
+            <a className="chip ws-chip" href={href.word(entry.title, o.code)} style={{ '--c': langInfo(o.code).color } as React.CSSProperties}>
+              <span className="dot" />
+              {o.name}
+            </a>
+          </li>
+        ))}
+        {more > 0 && (
+          <li>
+            <button type="button" className="chip ws-chip ws-also__more" onClick={() => setAll(true)}>
+              +{more} more
+            </button>
+          </li>
+        )}
+      </ul>
+    </nav>
+  );
 }
 
 function Loading({ word, titleId }: { word: string; titleId: string }) {
@@ -102,8 +136,11 @@ function Loading({ word, titleId }: { word: string; titleId: string }) {
   );
 }
 
-function Missing({ word, titleId, error, onRetry }: { word: string; titleId: string; error: boolean; onRetry: () => void }) {
-  const sugg = suggestions(word, 6);
+function Missing({ word, lang, titleId, error, onRetry }: { word: string; lang?: string; titleId: string; error: boolean; onRetry: () => void }) {
+  const foreign = !!lang && lang !== 'en';
+  // The curated suggestions are English words, so they only help English (or any-language) searches.
+  const sugg = foreign ? [] : suggestions(word, 6);
+  const langLabel = lang ? langInfo(lang).name : '';
   return (
     <article className="ws-body ws-missing">
       <header className="ws-hero">
@@ -128,7 +165,12 @@ function Missing({ word, titleId, error, onRetry }: { word: string; titleId: str
               <>We couldn’t reach Wiktionary just now, so this word’s story will have to wait. Check your connection and try again.</>
             ) : (
               <>
-                Wiktionary has no English entry for <em>“{word}”</em>. Perhaps a different spelling, or one of these?
+                Wiktionary has no {langLabel ? `${langLabel} ` : ''}entry for <em>“{word}”</em>.{' '}
+                {foreign ? (
+                  <>Check the spelling and accents, or <a className="ws-link" href={href.word(word)}>try it in any language</a>.</>
+                ) : (
+                  'Perhaps a different spelling, or one of these?'
+                )}
               </>
             )}
           </p>

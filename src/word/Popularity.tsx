@@ -29,16 +29,18 @@ export function fetchFrequency(word: string): Promise<number | null> {
   return p;
 }
 
-function useFrequency(word: string): number | null | undefined {
+/** Datamuse only knows English, so other languages get no "today" figure. */
+function useFrequency(word: string, english: boolean): number | null | undefined {
   const [f, setF] = useState<number | null | undefined>(undefined);
   useEffect(() => {
     let live = true;
     setF(undefined);
-    fetchFrequency(word).then((v) => live && setF(v));
+    if (english) fetchFrequency(word).then((v) => live && setF(v));
+    else setF(null);
     return () => {
       live = false;
     };
-  }, [word]);
+  }, [word, english]);
   return f;
 }
 
@@ -250,7 +252,7 @@ function Today({ f }: { f: number }) {
 }
 
 export function Popularity({ sw }: { sw: SheetWord }) {
-  const f = useFrequency(sw.word);
+  const f = useFrequency(sw.word, sw.lang === 'en');
   const hasUsage = !!sw.usage && sw.usage.length >= 2;
   if (!hasUsage && !f) return null;
 

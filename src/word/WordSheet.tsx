@@ -6,6 +6,7 @@ import { back, go, href, parse } from '../lib/router';
 import { findWord } from '../data';
 import type { Word } from '../data';
 import { STREAM } from '../lib/streams';
+import { langInfo } from './langs';
 import { useSearchOpen } from '../search/bus';
 import { fromCurated, streamSiblings } from './model';
 import type { SheetWord } from './model';
@@ -54,8 +55,9 @@ function useOverlayLock() {
 
 const FOCUSABLE = 'a[href], button:not([disabled]), input:not([disabled]), select, textarea, [tabindex]:not([tabindex="-1"])';
 
-export default function WordSheet({ word }: { word: string }) {
-  const curated = useMemo(() => findWord(word), [word]);
+export default function WordSheet({ word, lang }: { word: string; lang?: string }) {
+  // The curated collection is English; other languages are always looked up live.
+  const curated = useMemo(() => (!lang || lang === 'en' ? findWord(word) : undefined), [word, lang]);
   const sw = useMemo<SheetWord | null>(() => (curated ? fromCurated(curated) : null), [curated]);
   const present = useIsPresent();
   const reduce = !!useReducedMotion();
@@ -187,7 +189,7 @@ export default function WordSheet({ word }: { word: string }) {
           <SheetBar
             scrollRef={scrollRef}
             word={sw?.word ?? word}
-            label={stream ? `${stream.short} stream` : 'Live lookup'}
+            label={stream ? `${stream.short} stream` : lang && lang !== 'en' ? `${langInfo(lang).name} · live` : 'Live lookup'}
             color={sw?.color}
             position={idx >= 0 && n > 1 ? `${idx + 1} / ${n}` : undefined}
             prev={prev}
@@ -196,7 +198,7 @@ export default function WordSheet({ word }: { word: string }) {
             onNext={() => goto(next, 1)}
             onHandleDown={startDrag}
           />
-          {sw ? <SheetBody sw={sw} titleId={titleId} next={next} onNext={() => goto(next, 1)} /> : <LiveSheet word={word} titleId={titleId} />}
+          {sw ? <SheetBody sw={sw} titleId={titleId} next={next} onNext={() => goto(next, 1)} /> : <LiveSheet word={word} lang={lang} titleId={titleId} />}
         </div>
       </motion.div>
     </div>

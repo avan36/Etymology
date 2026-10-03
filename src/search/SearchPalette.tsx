@@ -10,6 +10,8 @@ import { activate, buildGroups, defaultActive, ItemRow, itemLabel } from './item
 import type { Item } from './items';
 import { clearRecent, isApple, takePendingQuery, useRecent } from './recent';
 import { CloseIcon, SearchIcon } from './icons';
+import { lookupLangName, useLookupLang } from './lang';
+import { LangPicker } from './LangPicker';
 import './search.css';
 
 let isOpenNow = false;
@@ -64,7 +66,8 @@ function Palette() {
   const [active, setActive] = useState(0);
   const [small] = useState(() => window.matchMedia('(max-width: 640px)').matches);
   const recent = useRecent();
-  const groups = useMemo(() => buildGroups(q, recent), [q, recent]);
+  const lang = useLookupLang();
+  const groups = useMemo(() => buildGroups(q, recent, { lang }), [q, recent, lang]);
   const flat = useMemo(() => groups.flatMap((g) => g.items), [groups]);
   const inputRef = useRef<HTMLInputElement>(null);
   const uid = useId().replace(/[^a-zA-Z0-9_-]/g, '');
@@ -169,7 +172,7 @@ function Palette() {
               value={q}
               onChange={(e) => setQ(e.target.value)}
               onKeyDown={onKeyDown}
-              placeholder="Search a word, an old form, a root…"
+              placeholder={lang === 'auto' || lang === 'en' ? 'Search a word, an old form, a root…' : `Look up a word in ${lookupLangName(lang)}…`}
               aria-label="Search words, roots and languages"
               role="combobox"
               aria-expanded="true"
@@ -187,6 +190,7 @@ function Palette() {
                 <CloseIcon size={15} />
               </button>
             )}
+            <LangPicker className="sp-lang" />
             <button type="button" className="sp-esc" onClick={() => closeSearch()} aria-label="Close search">
               <kbd className="sp-esc__kbd">esc</kbd>
               <span className="sp-esc__txt">Cancel</span>
@@ -231,7 +235,7 @@ function Palette() {
                 })}
               </div>
             ))}
-            {q.trim() && counts.length === 0 && (
+            {q.trim() && counts.length === 0 && (lang === 'auto' || lang === 'en') && (
               <p className="sp-empty">No curated story for <strong>“{q.trim()}”</strong> yet. Wiktionary may know where it came from.</p>
             )}
           </div>

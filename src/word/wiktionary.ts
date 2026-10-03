@@ -1,12 +1,14 @@
 import type { Stage, WordStatus } from '../data';
-import { langInfo, normLang } from './langs';
+import { codeForHeading, headingFor, langInfo, normLang } from './langs';
 
 /**
  * Live lookups for words that are not in the curated data.
  *
- *   lookupWiktionary('serendipity') → { kind: 'ok', entry } | { kind: 'notfound' } | { kind: 'error' }
+ *   lookupWiktionary('serendipity')   → { kind: 'ok', entry } | { kind: 'notfound' } | { kind: 'error' }
+ *   lookupWiktionary('Wasser', 'de')  → the German entry
+ *   lookupWiktionary('almohada')      → English if there is one, otherwise the first language on the page
  *
- * Reads the English ===Etymology=== wikitext (CORS-enabled MediaWiki API), turns its templates
+ * Reads a language's ===Etymology=== wikitext (CORS-enabled MediaWiki API), turns its templates
  * ({{inh}}, {{bor}}, {{der}}, {{m}}, {{af}}…) into a journey (oldest first) and a plain-text
  * summary, and reads the gloss from the REST definition endpoint. `parseEtymology` is pure and
  * exported for testing.
@@ -18,18 +20,26 @@ export interface LiveEntry {
   pos?: string;
   gloss?: string;
   status: WordStatus;
-  /** Oldest first; ends with the English word. */
+  /** The language of the entry (a Wiktionary code, e.g. "en", "de"). */
+  lang: string;
+  /** Its Wiktionary section heading ("English", "German"), for links. */
+  heading: string;
+  /** Oldest first; ends with the word itself. */
   path: Stage[];
-  /** Immediate source language (the newest non-English stage), "en" for coinages. */
+  /** Immediate source language (the newest stage in another language); `lang` for coinages. */
   origin: string;
+  /** True when the word was inherited from `origin` ({{inh}}) rather than borrowed. */
+  inherited?: boolean;
   root?: { lang: string; form: string };
   summary: string;
   first?: number;
+  /** Other languages with an entry on the same page. */
+  others: { code: string; name: string }[];
 }
 
 export type LiveResult =
   | { kind: 'ok'; entry: LiveEntry }
-  | { kind: 'notfound'; word: string }
+  | { kind: 'notfound'; word: string; lang?: string }
   | { kind: 'error'; word: string; message: string };
 
 // ── template scanning ──────────────────────────────────────────────────────────
@@ -320,20 +330,24 @@ export function clean(s: string): string {
 
 // ── sections ───────────────────────────────────────────────────────────────────
 
-/** The ==English== section of a page's wikitext (or ''). */
-export function englishSection(wikitext: string): string {
-  const m = /^==\s*English\s*==\s*$/m.exec(wikitext);
-  if (!m) return '';
-  const rest = wikitext.slice(m.index + m[0].length);
-  const next = /^==[^=].*==\s*$/m.exec(rest);
-  return next ? rest.slice(0, next.index) : rest;
+/** The language sections (==English==, ==German==…) of a page, in page order. */
+export function languageSections(wikitext: string): { heading: string; body: string }[] {
+  const re = /^==\s*([^=\n]+?)\s*==\s*$/gm;
+  const heads: { heading: string; start: number; end: number }[] = [];
+  for (let m = re.exec(wikitext); m; m = re.exec(wikitext)) heads.push({ heading: m[1], start: m.index, end: m.index + m[0].length });
+  return heads.map((h, i) => ({ heading: h.heading, body: wikitext.slice(h.end, i + 1 < heads.length ? heads[i + 1].start : undefined) }));
 }
 
-/** The first ===Etymology=== / ===Etymology 1=== body inside the English section (or ''). */
-export function etymologySection(english: string): string {
-  const m = /^(={3,5})\s*Etymology(?:\s+\d+)?\s*\1\s*$/m.exec(english);
+/** The section for one language heading (default English), or ''. */
+export function languageSection(wikitext: string, heading = 'English'): string {
+  return languageSections(wikitext).find((x) => x.heading === heading)?.body ?? '';
+}
+
+/** The first ===Etymology=== / ===Etymology 1=== body inside a language section (or ''). */
+export function etymologySection(section: string): string {
+  const m = /^(={3,5})\s*Etymology(?:\s+\d+)?\s*\1\s*$/m.exec(section);
   if (!m) return '';
-  const rest = english.slice(m.index + m[0].length);
+  const rest = section.slice(m.index + m[0].length);
   const next = /^=+[^=\n][^\n]*=+\s*$/m.exec(rest);
   return (next ? rest.slice(0, next.index) : rest).trim();
 }
@@ -347,13 +361,14 @@ export interface ParsedEtymology {
   /** Newest-first stages as read ("From X, from Y, from Z"), reversed to oldest-first. */
   stages: Stage[];
   origin?: string;
+  inherited?: boolean;
   root?: { lang: string; form: string };
   summary: string;
   first?: number;
 }
 
 /** Turn an etymology section's wikitext into stages (oldest first) and a plain-text summary. */
-export function parseEtymology(ety: string): ParsedEtymology {
+export function parseEtymology(ety: string, target = 'en'): ParsedEtymology {
   const text = preclean(ety);
   const chunks = scan(text);
 
@@ -378,6 +393,7 @@ export function parseEtymology(ety: string): ParsedEtymology {
   // Walk the chunks in reading order until a "Cognate with…" style sentence.
   const stages: Stage[] = [];
   let origin: string | undefined;
+  let inherited: boolean | undefined;
   let root: { lang: string; form: string } | undefined;
   let pending: Stage | null = null;
   let stopped = false;
@@ -406,7 +422,10 @@ export function parseEtymology(ety: string): ParsedEtymology {
       const tr = c.named.tr ? clean(c.named.tr) : '';
       const meaning = clean(c.named.t ?? c.named.gloss ?? c.pos[4] ?? '') || undefined;
       const st: Stage = { lang, form: term ? (tr ? `${term} (${tr})` : term) : '', meaning };
-      if (!origin && lang !== 'en') origin = lang;
+      if (!origin && lang !== target) {
+        origin = lang;
+        inherited = n.startsWith('inh');
+      }
       formationSeen = true;
       if (term) {
         stages.push(st);
@@ -442,14 +461,14 @@ export function parseEtymology(ety: string): ParsedEtymology {
         stages.push({ lang, form: parts.map((p) => p.term).join(' + '), meaning: glosses.length === parts.length ? glosses.join(' + ') : undefined });
         if (!formationSeen) {
           formationSeen = true;
-          if (!origin && lang !== 'en') origin = lang;
+          if (!origin && lang !== target) origin = lang;
         }
         k = j;
       }
       continue;
     }
     if (AFFIX.has(n) && n !== 'surf' && n !== 'surface analysis') {
-      const lang = normLang(c.pos[0] ?? 'en');
+      const lang = normLang(c.pos[0] || target);
       const parts = affixParts(c);
       if (parts.length >= 2) {
         stages.push({ lang, form: parts.join(' + ') });
@@ -462,7 +481,7 @@ export function parseEtymology(ety: string): ParsedEtymology {
     }
     if ((n === 'coinage' || n === 'coin' || n === 'named-after' || n === 'back-formation' || n === 'bf' || n === 'clipping' || n === 'blend') && !formationSeen) {
       formationSeen = true;
-      origin = origin ?? 'en';
+      origin = origin ?? target;
     }
   }
 
@@ -473,7 +492,7 @@ export function parseEtymology(ety: string): ParsedEtymology {
     if (prev && prev.lang === st.lang && prev.form === st.form) continue;
     oldestFirst.push(st);
   }
-  return { stages: oldestFirst, origin, root, summary, first };
+  return { stages: oldestFirst, origin, inherited, root, summary, first };
 }
 
 // ── definitions ────────────────────────────────────────────────────────────────
@@ -493,19 +512,50 @@ function htmlText(html: string): string {
   return stripMarkup(html).replace(/\s+/g, ' ').trim();
 }
 
-export function parseDefinitions(json: unknown): { pos?: string; gloss?: string; status: WordStatus } | null {
-  const en = (json as { en?: DefEntry[] } | null)?.en;
-  if (!Array.isArray(en) || !en.length) return null;
-  for (const entry of en) {
-    const defs = (entry.definitions ?? []).map((d) => htmlText(d.definition ?? '')).filter(Boolean);
-    if (!defs.length) continue;
-    const label = (d: string) => /^\(([^)]*)\)/.exec(d)?.[1].toLowerCase() ?? '';
-    const isObs = (d: string) => /\bobsolete\b/.test(label(d));
-    const isArch = (d: string) => /\b(archaic|dated)\b/.test(label(d));
-    const status: WordStatus = defs.every(isObs) ? 'extinct' : isArch(defs[0]) || defs.every((d) => isObs(d) || isArch(d)) ? 'archaic' : 'living';
-    const best = defs.find((d) => !isObs(d)) ?? defs[0];
-    const gloss = best.replace(/^\([^)]*\)\s*/, '').replace(/[.:]\s*$/, '');
-    return { pos: entry.partOfSpeech?.toLowerCase(), gloss: gloss ? gloss[0].toLowerCase() + gloss.slice(1) : undefined, status };
+type Defs = { pos?: string; gloss?: string; status: WordStatus };
+
+/** Gloss and status from one part of speech's definitions ("(obsolete) …" labels and all). */
+function summarize(defs: string[], pos?: string): Defs | null {
+  if (!defs.length) return null;
+  const label = (d: string) => /^\(([^)]*)\)/.exec(d)?.[1].toLowerCase() ?? '';
+  const isObs = (d: string) => /\bobsolete\b/.test(label(d));
+  const isArch = (d: string) => /\b(archaic|dated)\b/.test(label(d));
+  const status: WordStatus = defs.every(isObs) ? 'extinct' : isArch(defs[0]) || defs.every((d) => isObs(d) || isArch(d)) ? 'archaic' : 'living';
+  const best = defs.find((d) => !isObs(d)) ?? defs[0];
+  const gloss = best.replace(/^\([^)]*\)\s*/, '').replace(/[.:;]\s*$/, '');
+  return { pos: pos?.toLowerCase(), gloss: gloss ? gloss[0].toLowerCase() + gloss.slice(1) : undefined, status };
+}
+
+/** Definitions from the REST endpoint ({ en: […], de: […], other: […] }) for one language heading. */
+export function parseDefinitions(json: unknown, heading = 'English'): Defs | null {
+  if (!json || typeof json !== 'object') return null;
+  const groups = Object.entries(json as Record<string, DefEntry[]>).filter(([, v]) => Array.isArray(v));
+  // Entries carry their language name; English responses also key them under "en".
+  const entries = groups.flatMap(([k, v]) => v.filter((e) => (e.language ? e.language === heading : heading === 'English' && k === 'en')));
+  for (const entry of entries) {
+    const r = summarize((entry.definitions ?? []).map((d) => htmlText(d.definition ?? '')).filter(Boolean), entry.partOfSpeech);
+    if (r) return r;
+  }
+  return null;
+}
+
+const POS = /^(Noun|Proper noun|Verb|Adjective|Adverb|Pronoun|Preposition|Conjunction|Interjection|Determiner|Article|Numeral|Particle|Postposition|Prefix|Suffix|Phrase|Proverb|Idiom|Contraction|Letter|Symbol|Classifier|Counter)$/i;
+
+/** Fallback: the first part of speech's "# …" definition lines in a language section. */
+export function definitionsFromWikitext(section: string): Defs | null {
+  const lines = preclean(section).split('\n');
+  for (let i = 0; i < lines.length; i++) {
+    const h = /^={3,5}\s*([^=]+?)\s*={3,5}\s*$/.exec(lines[i]);
+    if (!h || !POS.test(h[1])) continue;
+    const defs: string[] = [];
+    for (let j = i + 1; j < lines.length && !/^=/.test(lines[j]); j++) {
+      if (/^#\s/.test(lines[j])) {
+        const d = clean(lines[j].replace(/^#\s*/, ''));
+        if (d && !/^\(.*\)$/.test(d)) defs.push(d);
+      }
+    }
+    const r = summarize(defs, h[1]);
+    if (r) return r;
   }
   return null;
 }
@@ -532,19 +582,20 @@ async function fetchWikitext(title: string, signal?: AbortSignal): Promise<{ tit
   return { title: j.parse.title ?? title, wikitext };
 }
 
-async function fetchDefinitions(title: string, signal?: AbortSignal) {
+async function fetchDefinitions(title: string, heading: string, signal?: AbortSignal) {
   try {
-    return parseDefinitions(await getJSON(REST + encodeURIComponent(title.replace(/ /g, '_')), signal));
+    return parseDefinitions(await getJSON(REST + encodeURIComponent(title.replace(/ /g, '_')), signal), heading);
   } catch {
     return null;
   }
 }
 
-export function lookupWiktionary(word: string): Promise<LiveResult> {
-  const key = word.trim();
+/** Look a word up. `lang` is a Wiktionary code; without one, English wins, else the page's first language. */
+export function lookupWiktionary(word: string, lang?: string): Promise<LiveResult> {
+  const key = `${word.trim()}\u0000${lang ?? ''}`;
   let p = cache.get(key);
   if (!p) {
-    p = doLookup(key).catch((e: unknown) => ({ kind: 'error' as const, word: key, message: e instanceof Error ? e.message : String(e) }));
+    p = doLookup(word.trim(), lang).catch((e: unknown) => ({ kind: 'error' as const, word: word.trim(), message: e instanceof Error ? e.message : String(e) }));
     cache.set(key, p);
     // Don't keep failures around: a retry should really retry.
     p.then((r) => { if (r.kind === 'error') cache.delete(key); });
@@ -552,24 +603,47 @@ export function lookupWiktionary(word: string): Promise<LiveResult> {
   return p;
 }
 
-async function doLookup(word: string): Promise<LiveResult> {
-  const variants = [...new Set([word, word.toLowerCase(), word.replace(/-/g, ' ')])];
-  let page: { title: string; wikitext: string } | null = null;
-  let english = '';
+async function doLookup(word: string, lang?: string): Promise<LiveResult> {
+  const cap = word.charAt(0).toUpperCase() + word.slice(1);
+  const variants = [...new Set([word, word.toLowerCase(), cap, word.replace(/-/g, ' ')])];
+  const want = lang ? headingFor(lang) : 'English';
+  type Hit = { title: string; wikitext: string; heading: string; body: string };
+  let hit: Hit | null = null;
+  let fallback: Hit | null = null;
   for (const v of variants) {
-    page = await fetchWikitext(v);
-    english = page ? englishSection(page.wikitext) : '';
-    if (english) break;
+    const page = await fetchWikitext(v);
+    if (!page) continue;
+    const secs = languageSections(page.wikitext);
+    const mine = secs.find((x) => x.heading === want);
+    if (mine) {
+      hit = { ...page, heading: mine.heading, body: mine.body };
+      break;
+    }
+    // No preferred language: remember the page's first language (Translingual only as a last resort).
+    if (!lang && !fallback && secs.length) {
+      const first = secs.find((x) => x.heading !== 'Translingual') ?? secs[0];
+      fallback = { ...page, heading: first.heading, body: first.body };
+    }
   }
-  const title = page?.title ?? word;
-  const defs = english ? await fetchDefinitions(title) : null;
-  if (!english && !defs) return { kind: 'notfound', word };
+  hit = hit ?? fallback;
+  if (!hit) return { kind: 'notfound', word, lang };
 
-  const ety = parseEtymology(etymologySection(english));
+  const code = lang && hit.heading === want ? normLang(lang) : codeForHeading(hit.heading) ?? hit.heading;
+  const title = hit.title;
+  const defs = (await fetchDefinitions(title, hit.heading)) ?? definitionsFromWikitext(hit.body);
+
+  const ety = parseEtymology(etymologySection(hit.body), code);
   const path = ety.stages.slice();
   const last = path.at(-1);
-  if (!last || last.lang !== 'en' || last.form.toLowerCase() !== title.toLowerCase()) path.push({ lang: 'en', form: title });
+  if (!last || last.lang !== code || last.form.toLowerCase() !== title.toLowerCase()) path.push({ lang: code, form: title });
   else last.form = title;
+
+  const others: { code: string; name: string }[] = [];
+  for (const x of languageSections(hit.wikitext)) {
+    if (x.heading === hit.heading || x.heading === 'Translingual') continue;
+    const c = codeForHeading(x.heading);
+    if (c && !others.some((o) => o.code === c)) others.push({ code: c, name: langInfo(c).name });
+  }
 
   return {
     kind: 'ok',
@@ -579,11 +653,15 @@ async function doLookup(word: string): Promise<LiveResult> {
       pos: defs?.pos,
       gloss: defs?.gloss,
       status: defs?.status ?? 'living',
+      lang: code,
+      heading: hit.heading,
       path,
-      origin: ety.origin ?? (path.length > 1 ? path[path.length - 2].lang : 'en'),
+      origin: ety.origin ?? (path.length > 1 ? path[path.length - 2].lang : code),
+      inherited: ety.origin ? ety.inherited : undefined,
       root: ety.root,
       summary: ety.summary,
       first: ety.first,
+      others,
     },
   };
 }

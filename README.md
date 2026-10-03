@@ -11,8 +11,11 @@ the way, how popular they've been, and the words we lost.
 - **Word pages** show each word's journey stage by stage (for example *wódr̥ → wæter → water)
   on a timeline and a map, plus its story, an estimated popularity curve, today's frequency
   and its word family.
-- **Any word, live.** Words that aren't in the curated data are looked up on Wiktionary as you
-  search, and their etymology is turned into the same journey view.
+- **Any word, live, in any language.** Words that aren't in the curated data are looked up on
+  Wiktionary as you search, and their etymology is turned into the same journey view. Pick a
+  language in the search box (German, Spanish, Japanese… about 50 are listed) or leave it on
+  "Any language", which prefers English and otherwise uses whatever language Wiktionary has.
+  Links look like `#/w/Gift/de`.
 - **Roots** grows the family tree of a single ancient root into dozens of modern words.
 - **Languages** shows where the English vocabulary comes from and the language family tree.
 - **Trends** shows words rising and falling, with a time machine to scrub through the centuries.

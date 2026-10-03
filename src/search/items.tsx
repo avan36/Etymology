@@ -7,6 +7,8 @@ import { STREAM } from '../lib/streams';
 import { featuredWords, highlight, randomWord, search } from './engine';
 import type { WordHit } from './engine';
 import { addRecent } from './recent';
+import { langInfo } from '../word/langs';
+import { linkLang, lookupLangName } from './lang';
 import type { Recent } from './recent';
 import { ClockIcon, DiceIcon, GlobeIcon, ReturnIcon, RootIcon } from './icons';
 
@@ -14,30 +16,34 @@ export type Item =
   | { kind: 'word'; key: string; word: Word; hit?: WordHit }
   | { kind: 'root'; key: string; root: Root; count: number; score?: number }
   | { kind: 'lang'; key: string; lang: Language; count: number; score?: number }
-  | { kind: 'live'; key: string; q: string }
+  | { kind: 'live'; key: string; q: string; lang: string }
   | { kind: 'random'; key: string }
   | { kind: 'recent'; key: string; recent: Recent };
 
 export interface Group { id: string; label: string; items: Item[]; action?: 'clear-recent' }
 
-export function buildGroups(q: string, recent: Recent[], opts: { compact?: boolean } = {}): Group[] {
+/** `lang` is the lookup language ("auto" or a code); the curated collection only answers English searches. */
+export function buildGroups(q: string, recent: Recent[], opts: { compact?: boolean; lang?: string } = {}): Group[] {
   const query = q.trim();
+  const lang = opts.lang ?? 'auto';
   if (!query) {
     const groups: Group[] = [];
     if (recent.length && !opts.compact) {
-      groups.push({ id: 'recent', label: 'Recent', action: 'clear-recent', items: recent.slice(0, 5).map((r) => ({ kind: 'recent', key: `recent:${r.kind}:${r.id}`, recent: r })) });
+      groups.push({ id: 'recent', label: 'Recent', action: 'clear-recent', items: recent.slice(0, 5).map((r) => ({ kind: 'recent', key: `recent:${r.kind}:${r.id}:${r.kind === 'live' ? (r.lang ?? '') : ''}`, recent: r })) });
     }
     const featured = featuredWords().slice(0, opts.compact ? 4 : 6);
     if (featured.length) groups.push({ id: 'featured', label: 'Featured words', items: featured.map((w) => ({ kind: 'word', key: `w:${w.id}`, word: w })) });
     groups.push({ id: 'surprise', label: 'Feeling curious?', items: [{ kind: 'random', key: 'random' }] });
     return groups;
   }
+  const live: Item = { kind: 'live', key: `live:${lang}`, q: query, lang };
+  if (lang !== 'auto' && lang !== 'en') return [{ id: 'live', label: lookupLangName(lang), items: [live] }];
   const r = search(query, opts.compact ? { words: 5, roots: 1, langs: 1 } : { words: 12, roots: 4, langs: 4 });
   const groups: Group[] = [];
   if (r.words.length) groups.push({ id: 'words', label: 'Words', items: r.words.map((h) => ({ kind: 'word', key: `w:${h.word.id}`, word: h.word, hit: h })) });
   if (r.roots.length) groups.push({ id: 'roots', label: 'Roots', items: r.roots.map((h) => ({ kind: 'root', key: `r:${h.root.id}`, root: h.root, count: h.count, score: h.score })) });
   if (r.langs.length) groups.push({ id: 'langs', label: 'Languages', items: r.langs.map((h) => ({ kind: 'lang', key: `l:${h.lang.id}`, lang: h.lang, count: h.count, score: h.score })) });
-  groups.push({ id: 'live', label: groups.length ? 'Beyond the collection' : 'Not in the collection yet', items: [{ kind: 'live', key: 'live', q: query }] });
+  groups.push({ id: 'live', label: groups.length ? 'Beyond the collection' : 'Not in the collection yet', items: [live] });
   return groups;
 }
 
@@ -80,8 +86,9 @@ export function activate(item: Item): boolean {
     case 'live': {
       const q = item.q.trim();
       if (!q) return false;
-      addRecent({ kind: 'live', id: q, label: q });
-      go(href.word(q));
+      const lang = linkLang(item.lang);
+      addRecent(lang ? { kind: 'live', id: q, label: q, lang } : { kind: 'live', id: q, label: q });
+      go(href.word(q, lang));
       return true;
     }
     case 'random': {
@@ -93,7 +100,7 @@ export function activate(item: Item): boolean {
     case 'recent': {
       const r = item.recent;
       addRecent(r);
-      go(r.kind === 'root' ? href.root(r.id) : r.kind === 'lang' ? href.lang(r.id) : href.word(r.id));
+      go(r.kind === 'root' ? href.root(r.id) : r.kind === 'lang' ? href.lang(r.id) : href.word(r.id, r.kind === 'live' ? r.lang : undefined));
       return true;
     }
   }
@@ -105,10 +112,20 @@ export function itemLabel(item: Item): string {
     case 'word': return `${item.word.word}: ${item.word.gloss ?? ''}`;
     case 'root': return `Root ${item.root.form}, ${item.root.meaning}`;
     case 'lang': return `Language: ${item.lang.name}`;
-    case 'live': return `Look up “${item.q}” live on Wiktionary`;
+    case 'live': return liveTitle(item);
     case 'random': return 'Random word';
     case 'recent': return `Recent: ${item.recent.label}`;
   }
+}
+
+function liveTitle(item: Extract<Item, { kind: 'live' }>): string {
+  return item.lang === 'auto' ? `Look up “${item.q}” live on Wiktionary` : `Look up “${item.q}” in ${lookupLangName(item.lang)}`;
+}
+
+function liveSub(lang: string): string {
+  if (lang === 'auto') return 'English first, otherwise any language Wiktionary knows';
+  if (lang === 'en') return 'Fetches its etymology from Wiktionary & Datamuse';
+  return `Fetches the ${lookupLangName(lang)} etymology from Wiktionary`;
 }
 
 function Marked({ text, q }: { text: string; q: string }) {
@@ -189,8 +206,12 @@ export const ItemRow = memo(function ItemRow({ item, q, active }: { item: Item; 
         <>
           <span className="sx-icon sx-icon--live"><GlobeIcon size={16} /></span>
           <span className="sx-main">
-            <span className="sx-title"><span className="sx-plain">Look up <strong>“{item.q}”</strong> live on Wiktionary</span></span>
-            <span className="sx-sub">Fetches its etymology from Wiktionary &amp; Datamuse</span>
+            <span className="sx-title">
+              <span className="sx-plain">
+                Look up <strong>“{item.q}”</strong> {item.lang === 'auto' ? 'live on Wiktionary' : <>in {lookupLangName(item.lang)}</>}
+              </span>
+            </span>
+            <span className="sx-sub">{liveSub(item.lang)}</span>
           </span>
           <span className="sx-meta sx-meta--icon">{active ? <ReturnIcon size={15} /> : null}</span>
         </>
@@ -214,7 +235,7 @@ export const ItemRow = memo(function ItemRow({ item, q, active }: { item: Item; 
           <span className="sx-main">
             <span className="sx-title"><span className={`sx-word${r.kind === 'root' ? ' old' : ''}`}>{r.label}</span></span>
           </span>
-          <span className="sx-meta"><span>{r.kind === 'live' ? 'Live lookup' : r.kind === 'lang' ? 'Language' : r.kind === 'root' ? 'Root' : 'Word'}</span></span>
+          <span className="sx-meta"><span>{r.kind === 'live' ? (r.lang && r.lang !== 'en' ? `${langInfo(r.lang).name} · live` : 'Live lookup') : r.kind === 'lang' ? 'Language' : r.kind === 'root' ? 'Root' : 'Word'}</span></span>
         </>
       );
     }

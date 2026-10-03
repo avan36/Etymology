@@ -91,7 +91,7 @@ export function Journey({ sw }: { sw: SheetWord }) {
           ) : span && span > 0 ? (
             <><em>{span.toLocaleString('en-US')} years</em> in {n} {n === 1 ? 'step' : 'steps'}</>
           ) : (
-            <>{n} steps to <em>English</em></>
+            <>{n} steps to <em>{langInfo(sw.lang).name}</em></>
           )}
         </h2>
       </div>

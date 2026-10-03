@@ -5,7 +5,7 @@ export type Recent =
   | { kind: 'word'; id: string; label: string }
   | { kind: 'root'; id: string; label: string }
   | { kind: 'lang'; id: string; label: string }
-  | { kind: 'live'; id: string; label: string };
+  | { kind: 'live'; id: string; label: string; lang?: string };
 
 const KEY = 'etymon-recent';
 const MAX = 6;
@@ -31,7 +31,8 @@ function write(xs: Recent[]) {
 }
 
 export function addRecent(r: Recent) {
-  write([r, ...read().filter((x) => !(x.kind === r.kind && x.id === r.id))].slice(0, MAX));
+  const same = (x: Recent) => x.kind === r.kind && x.id === r.id && (x.kind !== 'live' || r.kind !== 'live' || x.lang === r.lang);
+  write([r, ...read().filter((x) => !same(x))].slice(0, MAX));
 }
 
 export function clearRecent() { write([]); }

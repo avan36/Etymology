@@ -37,7 +37,7 @@ export default function App() {
         <Lost />
       </main>
       <Footer />
-      <AnimatePresence>{route.kind === 'word' && <WordSheet key={route.word} word={route.word} />}</AnimatePresence>
+      <AnimatePresence>{route.kind === 'word' && <WordSheet key={`${route.word}/${route.lang ?? ''}`} word={route.word} lang={route.lang} />}</AnimatePresence>
       <SearchPalette />
     </>
   );
