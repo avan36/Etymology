@@ -1,0 +1,20 @@
+[
+  {"id": "bhrater-brother", "form": "*bʰréh₂tēr", "lang": "ine-pro", "meaning": "brother", "blurb": "Brother in Germanic; Latin frāter gave fraternal and fraternity, and French frère gave friar, a monk who is literally a brother."},
+  {"id": "sehwl-sun", "form": "*sóh₂wl̥", "lang": "ine-pro", "meaning": "sun", "blurb": "Sun and Sunday grew from its n-form; Latin sōl gave solar, solstice and parasol; Greek hḗlios gave helium, first spotted in the sun's light."},
+  {"id": "pehwr-fire", "form": "*péh₂wr̥", "lang": "ine-pro", "meaning": "fire (as a thing, not a living force)", "blurb": "Fire and bonfire in Germanic; Greek pûr gave pyre, pyrotechnics and pyromania."},
+  {"id": "hweh-blow", "form": "*h₂weh₁-", "lang": "ine-pro", "meaning": "to blow", "blurb": "Wind, weather and window (the Norse 'wind-eye'); Latin ventus gave vent and ventilate; Sanskrit nirvāṇa is the 'blowing out' of a flame."},
+  {"id": "deru-tree", "form": "*dóru", "lang": "ine-pro", "meaning": "tree, wood; firm, solid", "blurb": "Tree, true, trust and truce: things as firm as an oak. Greek drûs (oak) gave dryad; the Celtic druid was probably an 'oak-knower'."},
+  {"id": "wihro-man", "form": "*wiHrós", "lang": "ine-pro", "meaning": "man", "blurb": "Old English wer survives in werewolf and in world, 'the age of man'; Latin vir gave virile, virtue and virtuoso."},
+  {"id": "yeher-year", "form": "*yóh₁r̥", "lang": "ine-pro", "meaning": "year, season", "blurb": "Year in Germanic; Greek hṓrā, 'season, hour', gave hour, horoscope and horology."},
+  {"id": "hrewdh-red", "form": "*h₁rewdʰ-", "lang": "ine-pro", "meaning": "red", "blurb": "Red, ruddy and rust; Latin ruber gave ruby, rubric and rubella; French rouge; Greek eruthrós gave erythrocyte, the red blood cell."},
+  {"id": "nas-nose", "form": "*néh₂s", "lang": "ine-pro", "meaning": "nose", "blurb": "Nose and nostril; Latin nāsus gave nasal and nasturtium, the 'nose-twister'."},
+  {"id": "preyh-dear", "form": "*preyH-", "lang": "ine-pro", "meaning": "to love; dear", "blurb": "Friend ('one who loves'), free (once 'beloved, one of the family') and Friday, the day of Frigg; Sanskrit priyá, 'dear'."},
+  {"id": "leubh-love", "form": "*lewbʰ-", "lang": "ine-pro", "meaning": "to love, to care for", "blurb": "Love, lief and believe in Germanic; Latin libīdō, 'desire'; Russian lyubov', 'love'."},
+  {"id": "werdh-word", "form": "*werdʰh₁om", "lang": "ine-pro", "meaning": "word", "blurb": "Word in Germanic; Latin verbum gave verb, verbal, verbose, adverb and proverb."},
+  {"id": "reh-reason", "form": "*reh₁-", "lang": "ine-pro", "meaning": "to reason, to count", "blurb": "Read, riddle and rede (advice) in Germanic; Latin rērī, 'to reckon', gave reason, ratio, ration and rate."},
+  {"id": "hews-dawn", "form": "*h₂ews-", "lang": "ine-pro", "meaning": "dawn; to shine", "blurb": "East, Easter and Austria (Österreich, the 'eastern realm'); Latin aurōra and Greek Ēṓs, both the dawn."},
+  {"id": "mus-mouse", "form": "*múh₂s", "lang": "ine-pro", "meaning": "mouse", "blurb": "Mouse in Germanic; Latin mūsculus, 'little mouse', gave muscle and mussel."},
+  {"id": "peisk-fish", "form": "*peysḱ-", "lang": "ine-pro", "meaning": "fish", "blurb": "Fish in Germanic; Latin piscis gave Pisces, piscine and porpoise, the 'pig-fish'."},
+  {"id": "porko-pig", "form": "*pórḱos", "lang": "ine-pro", "meaning": "young pig", "blurb": "Farrow (a litter of piglets) in English; Latin porcus gave pork, porcupine ('spiny pig') and porpoise ('pig-fish'); Dutch varken gave aardvark, the 'earth-pig'."},
+  {"id": "ghordho-garden", "form": "*gʰórdʰos", "lang": "ine-pro", "meaning": "enclosure", "blurb": "An enclosure, from the root *gʰer- 'to enclose': Old English geard (yard) and middangeard, the 'middle enclosure' of the world; garden via Frankish and French; Latin hortus and cohors gave horticulture, cohort and court."}
+]

@@ -1,0 +1,783 @@
+[
+  {
+    "id": "philosophy", "word": "philosophy", "pos": "noun", "gloss": "the study of the fundamental nature of knowledge, reality and existence",
+    "origin": "fro", "first": 1300,
+    "path": [
+      { "lang": "grc", "form": "φιλοσοφία (philosophia)", "meaning": "love of wisdom", "year": -450 },
+      { "lang": "la", "form": "philosophia", "year": -50 },
+      { "lang": "fro", "form": "filosofie", "year": 1150 },
+      { "lang": "enm", "form": "philosophie", "meaning": "all learning, science and alchemy included", "year": 1300 },
+      { "lang": "en", "form": "philosophy", "year": 1600 }
+    ],
+    "story": "Philos (loving) + sophia (wisdom). Tradition says Pythagoras was the first to call himself a philosophos: too modest to claim he was wise, only that he loved wisdom. In Middle English the word covered all learning, alchemy included, hence the philosopher's stone.",
+    "usage": [[1300, 10], [1500, 35], [1650, 70], [1800, 100], [1900, 80], [2000, 62], [2020, 58]],
+    "tags": ["philosophy"], "related": ["logic", "skeptic", "cynic"]
+  },
+  {
+    "id": "democracy", "word": "democracy", "pos": "noun", "gloss": "government by the whole people, usually through elected representatives",
+    "origin": "frm", "first": 1576,
+    "path": [
+      { "lang": "grc", "form": "δημοκρατία (dēmokratia)", "meaning": "rule by the people (dēmos + kratos)", "year": -450 },
+      { "lang": "la-med", "form": "democratia", "note": "in William of Moerbeke's Latin Aristotle", "year": 1260 },
+      { "lang": "frm", "form": "démocratie", "year": 1370 },
+      { "lang": "en", "form": "democracy", "year": 1576 }
+    ],
+    "story": "Dēmos (the people) + kratos (power), coined in Athens in the 400s BCE. For the next two thousand years it was mostly a word of warning, since Plato and Aristotle distrusted rule by the crowd. Only after the American and French revolutions did it become an ideal worth fighting for.",
+    "usage": [[1576, 2], [1700, 8], [1800, 25], [1900, 45], [1945, 100], [1990, 85], [2020, 80]],
+    "tags": ["law", "people"], "related": ["idiot"]
+  },
+  {
+    "id": "idea", "word": "idea", "pos": "noun", "gloss": "a thought or suggestion; a mental picture of something",
+    "origin": "la", "first": 1400, "root": "weid-see",
+    "path": [
+      { "lang": "ine-pro", "form": "*weyd-", "meaning": "to see", "year": -4000 },
+      { "lang": "grc", "form": "ἰδέα (idea)", "meaning": "look, form; Plato's eternal Form", "year": -380 },
+      { "lang": "la", "form": "idea", "meaning": "archetype, ideal pattern", "year": -50 },
+      { "lang": "enm", "form": "idea", "meaning": "archetype of a thing in the mind of God", "year": 1400 },
+      { "lang": "en", "form": "idea", "meaning": "a thought, a notion", "year": 1645 }
+    ],
+    "story": "To Plato an idea was the perfect, eternal Form of a thing, of which every real horse or chair is a shadowy copy. The word comes from idein, 'to see': an idea was first a look. Its cousins include wit, wise, video and history.",
+    "usage": [[1400, 2], [1600, 20], [1700, 55], [1800, 80], [1900, 90], [2000, 100], [2020, 98]],
+    "tags": ["philosophy", "meaning-shift"], "related": ["history", "wise", "wit", "video"]
+  },
+  {
+    "id": "history", "word": "history", "pos": "noun", "gloss": "the study of past events; a record of them",
+    "origin": "la", "first": 1390, "root": "weid-see",
+    "path": [
+      { "lang": "ine-pro", "form": "*weyd-", "meaning": "to see, to know", "year": -4000 },
+      { "lang": "grc", "form": "ἵστωρ (histōr)", "meaning": "one who knows; a judge", "year": -700 },
+      { "lang": "grc", "form": "ἱστορία (historia)", "meaning": "inquiry; knowledge gained by asking", "year": -430 },
+      { "lang": "la", "form": "historia", "meaning": "account, narrative", "year": -50 },
+      { "lang": "enm", "form": "historie", "meaning": "a story, a tale", "year": 1390 },
+      { "lang": "en", "form": "history", "meaning": "the record of past events", "year": 1480 }
+    ],
+    "story": "When Herodotus called his book Historiai in the 400s BCE, he meant 'inquiries': the findings of a man who went and asked. History and story are the same word. Story came through French, history straight from Latin, and for centuries either could mean a tale.",
+    "usage": [[1390, 5], [1550, 25], [1700, 50], [1850, 75], [1950, 95], [2000, 100], [2020, 95]],
+    "tags": ["time", "meaning-shift"], "related": ["story", "idea"]
+  },
+  {
+    "id": "theory", "word": "theory", "pos": "noun", "gloss": "a set of ideas intended to explain something",
+    "origin": "la-lat", "first": 1592,
+    "path": [
+      { "lang": "grc", "form": "θεωρός (theōros)", "meaning": "spectator; envoy sent to a festival", "year": -500 },
+      { "lang": "grc", "form": "θεωρία (theōria)", "meaning": "a looking at; contemplation; spectacle", "year": -400 },
+      { "lang": "la-lat", "form": "theoria", "year": 400 },
+      { "lang": "en", "form": "theory", "meaning": "contemplation, a mental view", "year": 1592 },
+      { "lang": "en", "form": "theory", "meaning": "a scheme of ideas that explains facts", "year": 1638 }
+    ],
+    "story": "Thea, a view, gave both theory and theatre. A theōros was a spectator, sometimes an official envoy sent to watch a festival or consult an oracle, and theōria was the act of looking. A theory is still, at heart, a way of seeing.",
+    "usage": [[1592, 2], [1700, 20], [1800, 35], [1900, 60], [1975, 100], [2020, 85]],
+    "tags": ["science", "philosophy"], "related": ["theatre", "idea"]
+  },
+  {
+    "id": "music", "word": "music", "pos": "noun", "gloss": "sounds arranged to be pleasing or expressive",
+    "origin": "fro", "first": 1250,
+    "path": [
+      { "lang": "grc", "form": "Μοῦσα (Mousa)", "meaning": "a Muse", "year": -700 },
+      { "lang": "grc", "form": "μουσική (mousikē)", "meaning": "the art of the Muses", "year": -450 },
+      { "lang": "la", "form": "musica", "year": -50 },
+      { "lang": "fro", "form": "musique", "year": 1150 },
+      { "lang": "enm", "form": "musike", "year": 1250 },
+      { "lang": "en", "form": "music", "year": 1600 }
+    ],
+    "story": "Mousikē meant any art presided over by the nine Muses: poetry, dance and learning as well as song. Museum, a 'seat of the Muses', is a cousin. Amuse, oddly, is not.",
+    "usage": [[1250, 8], [1500, 30], [1700, 50], [1850, 65], [1950, 85], [2000, 100], [2020, 98]],
+    "tags": ["music", "art", "mythology"], "related": ["museum", "muse"]
+  },
+  {
+    "id": "school", "word": "school", "pos": "noun", "gloss": "a place where children or students are taught",
+    "origin": "la", "first": 900,
+    "path": [
+      { "lang": "grc", "form": "σχολή (skholē)", "meaning": "leisure, spare time; then a place for lectures", "year": -400 },
+      { "lang": "la", "form": "schola", "meaning": "lecture room, school", "year": -50 },
+      { "lang": "ang", "form": "scōl", "year": 900 },
+      { "lang": "enm", "form": "scole", "year": 1200 },
+      { "lang": "en", "form": "school", "year": 1500 }
+    ],
+    "story": "Greek skholē meant leisure, and then what free men did with their leisure: argue, listen, learn. So school literally means 'spare time'. (A school of fish is a different word, from Dutch.)",
+    "usage": [[900, 30], [1200, 35], [1500, 50], [1700, 60], [1850, 80], [1950, 100], [2020, 95]],
+    "tags": ["meaning-shift"], "related": ["scholar"]
+  },
+  {
+    "id": "telephone", "word": "telephone", "pos": "noun", "gloss": "a device for talking to someone at a distance",
+    "origin": "en", "first": 1835, "root": "bheh-speak",
+    "path": [
+      { "lang": "ine-pro", "form": "*bʰeh₂-", "meaning": "to speak", "year": -4000 },
+      { "lang": "grc", "form": "τῆλε (tēle) + φωνή (phōnē)", "meaning": "far off + voice, sound", "year": -700 },
+      { "lang": "en", "form": "telephone", "meaning": "a device for signalling with sound", "year": 1835 },
+      { "lang": "en", "form": "telephone", "meaning": "an instrument carrying speech by wire", "year": 1876 }
+    ],
+    "story": "Built in English from Greek parts, tēle (far) + phōnē (voice), decades before the device existed: in the 1830s it named systems for sending signals with musical notes or horns. Alexander Graham Bell's talking wire of 1876 took the name over, and by the 1880s people were shortening it to phone.",
+    "usage": [[1835, 1], [1876, 5], [1900, 40], [1950, 100], [2000, 75], [2020, 60]],
+    "tags": ["technology"], "related": ["telescope", "symphony", "phone"]
+  },
+  {
+    "id": "atom", "word": "atom", "pos": "noun", "gloss": "the smallest unit of a chemical element",
+    "origin": "la", "first": 1490,
+    "path": [
+      { "lang": "grc", "form": "ἄτομος (atomos)", "meaning": "uncuttable, indivisible", "year": -430 },
+      { "lang": "la", "form": "atomus", "year": -50 },
+      { "lang": "en", "form": "attomos, atom", "meaning": "a hypothetical indivisible particle", "year": 1490 },
+      { "lang": "en", "form": "atom", "meaning": "smallest unit of an element (Dalton)", "year": 1808 }
+    ],
+    "story": "Democritus imagined the world built from tiny particles that could not be cut: a- (not) + tomos (cut). In 1932 physicists split one anyway. The same Greek 'cut' is inside anatomy (a cutting up) and tome (a volume cut from a larger work).",
+    "usage": [[1490, 2], [1650, 10], [1800, 15], [1900, 35], [1955, 100], [2020, 55]],
+    "tags": ["science"], "related": ["anatomy", "tome"]
+  },
+  {
+    "id": "planet", "word": "planet", "pos": "noun", "gloss": "a large body moving in orbit around a star",
+    "origin": "fro", "first": 1200,
+    "path": [
+      { "lang": "grc", "form": "ἀστέρες πλανῆται (asteres planētai)", "meaning": "wandering stars", "year": -400 },
+      { "lang": "la-lat", "form": "planeta", "year": 300 },
+      { "lang": "fro", "form": "planete", "year": 1150 },
+      { "lang": "enm", "form": "planete", "year": 1200 },
+      { "lang": "en", "form": "planet", "year": 1500 }
+    ],
+    "story": "Against the fixed pattern of the stars, seven lights wandered: the Sun, the Moon, Mercury, Venus, Mars, Jupiter and Saturn. The Greeks called them 'wandering stars', so for most of history the Sun was a planet and the Earth was not.",
+    "usage": [[1200, 10], [1500, 30], [1700, 40], [1850, 45], [1950, 60], [2000, 90], [2020, 100]],
+    "tags": ["science"], "related": ["comet", "astronomy"]
+  },
+  {
+    "id": "comet", "word": "comet", "pos": "noun", "gloss": "an icy body that grows a glowing tail near the sun",
+    "origin": "la", "first": 890,
+    "path": [
+      { "lang": "grc", "form": "κόμη (komē)", "meaning": "hair of the head", "year": -700 },
+      { "lang": "grc", "form": "κομήτης (komētēs)", "meaning": "long-haired (star)", "year": -350 },
+      { "lang": "la", "form": "cometa", "year": -50 },
+      { "lang": "ang", "form": "cometa", "year": 890 },
+      { "lang": "enm", "form": "comete", "note": "reborrowed from Old French", "year": 1200 },
+      { "lang": "en", "form": "comet", "year": 1500 }
+    ],
+    "story": "A comet is a 'long-haired star', its glowing tail streaming like hair. When Halley's Comet appeared in 1066, the Anglo-Saxon Chronicle said some men called it 'cometa the star, which some men call the haired star', a few months before the Norman Conquest.",
+    "usage": [[890, 5], [1200, 15], [1600, 40], [1800, 50], [1910, 70], [1986, 100], [2020, 70]],
+    "tags": ["science"], "related": ["planet", "astronomy"]
+  },
+  {
+    "id": "cosmos", "word": "cosmos", "pos": "noun", "gloss": "the universe seen as an ordered whole",
+    "origin": "grc", "first": 1650,
+    "path": [
+      { "lang": "grc", "form": "κόσμος (kosmos)", "meaning": "order; ornament; the ordered universe", "year": -500 },
+      { "lang": "en", "form": "cosmos", "year": 1650 }
+    ],
+    "story": "Kosmos meant order and also ornament: anything well arranged. Pythagoras is said to have been the first to call the universe a kosmos, an orderly whole. The 'ornament' sense survives in cosmetic, the art of putting your face in order.",
+    "usage": [[1650, 2], [1848, 12], [1900, 18], [1960, 40], [1980, 85], [2014, 100], [2020, 95]],
+    "tags": ["science", "philosophy"], "related": ["chaos", "cosmetic"]
+  },
+  {
+    "id": "chaos", "word": "chaos", "pos": "noun", "gloss": "complete disorder and confusion",
+    "origin": "la", "first": 1400,
+    "path": [
+      { "lang": "grc", "form": "χάος (khaos)", "meaning": "abyss, yawning void", "year": -700 },
+      { "lang": "la", "form": "chaos", "year": -10 },
+      { "lang": "en", "form": "chaos", "meaning": "the gaping void before creation", "year": 1400 },
+      { "lang": "en", "form": "chaos", "meaning": "utter confusion", "year": 1600 }
+    ],
+    "story": "In Hesiod's account of creation, first of all came Chaos: not a mess, but a yawning gap. The sense of total disorder came later. In the 1600s the Flemish chemist Jan Baptist van Helmont, reading the Greek ch like a Dutch g, built a new word from it: gas.",
+    "usage": [[1400, 3], [1600, 20], [1800, 30], [1900, 30], [2000, 85], [2020, 100]],
+    "tags": ["mythology", "meaning-shift", "philosophy"], "related": ["gas", "cosmos"]
+  },
+  {
+    "id": "echo", "word": "echo", "pos": "noun", "gloss": "a sound reflected back to the listener",
+    "origin": "la", "first": 1340,
+    "path": [
+      { "lang": "grc", "form": "ἠχώ (ēkhō)", "meaning": "sound, echo; a mountain nymph", "year": -700 },
+      { "lang": "la", "form": "echo", "year": -10 },
+      { "lang": "enm", "form": "ecco", "year": 1340 },
+      { "lang": "en", "form": "echo", "year": 1550 }
+    ],
+    "story": "In Ovid's telling, the nymph Echo was cursed by Juno to say only the last words spoken to her. She fell for the beautiful Narcissus, who spurned her, and she wasted away until nothing was left but her voice.",
+    "usage": [[1340, 5], [1600, 40], [1800, 70], [1900, 90], [2000, 100], [2020, 95]],
+    "tags": ["mythology", "nature"], "related": ["narcissism"]
+  },
+  {
+    "id": "panic", "word": "panic", "pos": "noun", "gloss": "sudden uncontrollable fear",
+    "origin": "frm", "first": 1603,
+    "path": [
+      { "lang": "grc", "form": "Πάν (Pan)", "meaning": "goat-legged god of shepherds and wild places", "year": -700 },
+      { "lang": "grc", "form": "πανικός (panikos)", "meaning": "of Pan", "year": -400 },
+      { "lang": "frm", "form": "panique", "year": 1550 },
+      { "lang": "en", "form": "panic", "meaning": "(of fear) sudden, groundless", "year": 1603 },
+      { "lang": "en", "form": "panic", "meaning": "a sudden fright (noun)", "year": 1708 }
+    ],
+    "story": "Pan, the goat-legged god of the wild, could fill flocks and armies with sudden, senseless terror: panikon deima, 'Pan's fear'. The Athenians even credited him with helping them rout the Persians at Marathon in 490 BCE.",
+    "usage": [[1603, 2], [1708, 10], [1800, 15], [1900, 30], [1990, 80], [2020, 100]],
+    "tags": ["mythology", "feelings"]
+  },
+  {
+    "id": "tantalize", "word": "tantalize", "pos": "verb", "gloss": "to torment or tease with something desired but out of reach",
+    "origin": "en", "first": 1597,
+    "path": [
+      { "lang": "grc", "form": "Τάνταλος (Tantalos)", "meaning": "a mythical king punished in the underworld", "year": -700 },
+      { "lang": "la", "form": "Tantalus", "year": -10 },
+      { "lang": "en", "form": "tantalize", "year": 1597 }
+    ],
+    "story": "King Tantalus offended the gods and was made to stand forever in a pool beneath a fruit tree: when he bent to drink, the water drained away; when he reached up, the branches rose. In 1802 the chemist Anders Ekeberg named the element tantalum after him, because it could sit in acid without absorbing any.",
+    "usage": [[1597, 2], [1700, 15], [1800, 40], [1900, 70], [1990, 100], [2020, 90]],
+    "tags": ["mythology", "feelings"]
+  },
+  {
+    "id": "narcissism", "word": "narcissism", "pos": "noun", "gloss": "excessive interest in or admiration of oneself",
+    "origin": "de", "first": 1905,
+    "path": [
+      { "lang": "grc", "form": "Νάρκισσος (Narkissos)", "meaning": "a youth who loved his own reflection", "year": -700 },
+      { "lang": "la", "form": "Narcissus", "year": -10 },
+      { "lang": "de", "form": "Narcismus", "note": "coined by the psychiatrist Paul Näcke", "year": 1899 },
+      { "lang": "en", "form": "narcissism", "year": 1905 }
+    ],
+    "story": "Ovid's Narcissus fell in love with his own reflection in a pool and could not tear himself away. In 1898 Havelock Ellis borrowed the myth to describe a kind of self-absorption; a year later Paul Näcke coined the German term, and Freud's 1914 essay 'On Narcissism' made it famous.",
+    "usage": [[1905, 1], [1950, 15], [1980, 60], [2000, 75], [2020, 100]],
+    "tags": ["mythology", "feelings", "medicine"], "related": ["echo"]
+  },
+  {
+    "id": "nemesis", "word": "nemesis", "pos": "noun", "gloss": "an inescapable agent of someone's downfall; an arch-rival",
+    "origin": "la", "first": 1576,
+    "path": [
+      { "lang": "grc", "form": "νέμεσις (nemesis)", "meaning": "righteous anger; retribution; the goddess who deals it", "year": -700 },
+      { "lang": "la", "form": "Nemesis", "year": -10 },
+      { "lang": "en", "form": "Nemesis", "meaning": "the goddess of retribution", "year": 1576 },
+      { "lang": "en", "form": "nemesis", "meaning": "any agent of retribution", "year": 1597 }
+    ],
+    "story": "Nemesis was the goddess who handed out what people deserved, usually the comeuppance of the arrogant. Her name comes from nemein, 'to deal out'. Today a nemesis is more often an arch-enemy: the Moriarty to your Sherlock Holmes.",
+    "usage": [[1576, 2], [1700, 8], [1850, 20], [1950, 40], [2000, 85], [2020, 100]],
+    "tags": ["mythology"]
+  },
+  {
+    "id": "hypocrite", "word": "hypocrite", "pos": "noun", "gloss": "a person who pretends to have virtues or beliefs they do not have",
+    "origin": "fro", "first": 1225,
+    "path": [
+      { "lang": "grc", "form": "ὑποκριτής (hypokritēs)", "meaning": "stage actor; pretender", "year": -400 },
+      { "lang": "la-lat", "form": "hypocrita", "year": 400 },
+      { "lang": "fro", "form": "ypocrite", "year": 1150 },
+      { "lang": "enm", "form": "ipocrite", "year": 1225 },
+      { "lang": "en", "form": "hypocrite", "year": 1550 }
+    ],
+    "story": "A hypokritēs was simply an actor, perhaps 'one who answers' the chorus. The Gospels, written in Greek, used it for people who play-act their piety, and that sneer is the sense that survived.",
+    "usage": [[1225, 10], [1500, 50], [1680, 100], [1850, 90], [1950, 60], [2020, 65]],
+    "tags": ["meaning-shift", "religion", "art"], "related": ["protagonist"]
+  },
+  {
+    "id": "idiot", "word": "idiot", "pos": "noun", "gloss": "a stupid person",
+    "origin": "fro", "first": 1300,
+    "path": [
+      { "lang": "grc", "form": "ἴδιος (idios)", "meaning": "one's own, private", "year": -700 },
+      { "lang": "grc", "form": "ἰδιώτης (idiōtēs)", "meaning": "private citizen; layman without expertise", "year": -450 },
+      { "lang": "la", "form": "idiota", "meaning": "ordinary person; ignoramus", "year": -50 },
+      { "lang": "fro", "form": "idiote", "year": 1200 },
+      { "lang": "enm", "form": "idiote", "meaning": "a person lacking reason", "year": 1300 },
+      { "lang": "en", "form": "idiot", "year": 1500 }
+    ],
+    "story": "In Athens an idiōtēs was a private citizen: someone with no public office or professional skill, from idios, 'one's own'. Latin turned the layman into an ignoramus, and English into a fool. Its siblings idiom and idiosyncrasy kept the 'one's own' sense.",
+    "usage": [[1300, 10], [1600, 30], [1800, 40], [1900, 50], [2000, 90], [2020, 100]],
+    "tags": ["meaning-shift", "people"], "related": ["idiom", "idiosyncrasy"]
+  },
+  {
+    "id": "sarcasm", "word": "sarcasm", "pos": "noun", "gloss": "mocking remarks that say the opposite of what is meant",
+    "origin": "la-lat", "first": 1579, "featured": true,
+    "path": [
+      { "lang": "grc", "form": "σάρξ (sarx)", "meaning": "flesh", "year": -700 },
+      { "lang": "grc", "form": "σαρκάζειν (sarkazein)", "meaning": "to tear flesh like a dog; to bite one's lips in rage; to sneer", "year": -400 },
+      { "lang": "grc", "form": "σαρκασμός (sarkasmos)", "meaning": "a bitter taunt", "year": 100 },
+      { "lang": "la-lat", "form": "sarcasmus", "year": 400 },
+      { "lang": "en", "form": "sarcasmus", "year": 1579 },
+      { "lang": "en", "form": "sarcasm", "year": 1620 }
+    ],
+    "story": "Sarcasm bites. Greek sarkazein meant to tear flesh like a dog, then to bite one's lips in rage, then to sneer. The same sarx, flesh, is in sarcophagus, the 'flesh-eater': a limestone coffin that Greeks believed consumed the body.",
+    "usage": [[1579, 2], [1700, 15], [1800, 40], [1900, 55], [2000, 90], [2020, 100]],
+    "tags": ["feelings", "body"], "related": ["sarcophagus"]
+  },
+  {
+    "id": "enthusiasm", "word": "enthusiasm", "pos": "noun", "gloss": "intense and eager enjoyment or interest",
+    "origin": "la-lat", "first": 1603,
+    "path": [
+      { "lang": "grc", "form": "ἔνθεος (entheos)", "meaning": "having a god within", "year": -500 },
+      { "lang": "grc", "form": "ἐνθουσιασμός (enthousiasmos)", "meaning": "divine possession, inspiration", "year": -400 },
+      { "lang": "la-lat", "form": "enthusiasmus", "year": 300 },
+      { "lang": "en", "form": "enthusiasm", "meaning": "possession by a god", "year": 1603 },
+      { "lang": "en", "form": "enthusiasm", "meaning": "religious fanaticism", "year": 1660 },
+      { "lang": "en", "form": "enthusiasm", "meaning": "eager interest", "year": 1716 }
+    ],
+    "story": "To be enthousiastos was to have a god inside you (en + theos), speaking through you like the oracle at Delphi. In the 1600s and 1700s the word was an insult, hurled at religious zealots who claimed private revelations. Only later did it cool into mere eagerness.",
+    "usage": [[1603, 2], [1700, 25], [1800, 70], [1900, 100], [2000, 65], [2020, 62]],
+    "tags": ["religion", "feelings", "meaning-shift"], "related": ["theology", "ecstasy"]
+  },
+  {
+    "id": "cynic", "word": "cynic", "pos": "noun", "gloss": "a person who believes people act only out of self-interest",
+    "origin": "la", "first": 1547, "root": "kwon-dog",
+    "path": [
+      { "lang": "ine-pro", "form": "*ḱwṓ", "meaning": "dog", "year": -4000 },
+      { "lang": "grc", "form": "κύων (kyōn)", "meaning": "dog", "year": -700 },
+      { "lang": "grc", "form": "κυνικός (kynikos)", "meaning": "dog-like; a Cynic philosopher", "year": -350 },
+      { "lang": "la", "form": "cynicus", "year": -50 },
+      { "lang": "en", "form": "cynic", "meaning": "a Cynic philosopher", "year": 1547 },
+      { "lang": "en", "form": "cynic", "meaning": "one who distrusts others' motives", "year": 1596 }
+    ],
+    "story": "The Cynics were 'the doggish ones', perhaps because their founder taught at a gymnasium called the Kynosarges, or because they lived shamelessly in public like dogs. The most famous of them, Diogenes, is said to have slept in a storage jar and told Alexander the Great to stand out of his sunlight.",
+    "usage": [[1547, 2], [1700, 10], [1800, 20], [1900, 45], [2000, 95], [2020, 100]],
+    "tags": ["philosophy", "animals", "meaning-shift"], "related": ["hound", "corgi", "canine"]
+  },
+  {
+    "id": "skeptic", "word": "skeptic", "pos": "noun", "gloss": "a person inclined to question or doubt accepted opinions",
+    "origin": "la", "first": 1587, "root": "spek-observe",
+    "path": [
+      { "lang": "ine-pro", "form": "*speḱ-", "meaning": "to look, to observe", "year": -4000 },
+      { "lang": "grc", "form": "σκέπτομαι (skeptomai)", "meaning": "I look at, I consider", "year": -500 },
+      { "lang": "grc", "form": "σκεπτικός (skeptikos)", "meaning": "inquiring, reflective", "year": -300 },
+      { "lang": "la", "form": "scepticus", "year": 150 },
+      { "lang": "en", "form": "sceptic", "meaning": "a follower of Pyrrho", "year": 1587 },
+      { "lang": "en", "form": "skeptic", "meaning": "a doubter", "year": 1615 }
+    ],
+    "story": "A skeptikos was 'one who looks carefully'. The followers of Pyrrho held that we can never be certain of anything, so the wise suspend judgement. The Greek skep- is the ancient root of spy and spectacle with its sounds swapped round.",
+    "usage": [[1587, 2], [1700, 25], [1800, 35], [1900, 40], [2000, 90], [2020, 100]],
+    "tags": ["philosophy"], "related": ["telescope", "bishop", "spy"]
+  },
+  {
+    "id": "bishop", "word": "bishop", "pos": "noun", "gloss": "a senior member of the Christian clergy in charge of a diocese",
+    "origin": "la-lat", "first": 700, "root": "spek-observe",
+    "path": [
+      { "lang": "ine-pro", "form": "*speḱ-", "meaning": "to look, to observe", "year": -4000 },
+      { "lang": "grc", "form": "ἐπίσκοπος (episkopos)", "meaning": "overseer, guardian", "year": -400 },
+      { "lang": "la-lat", "form": "episcopus", "year": 200 },
+      { "lang": "ang", "form": "biscop", "year": 700 },
+      { "lang": "enm", "form": "bisshop", "year": 1200 },
+      { "lang": "en", "form": "bishop", "year": 1500 }
+    ],
+    "story": "An episkopos was an 'over-seer' (epi + skopos, watcher). Spoken Latin dropped the e-, Old English softened the rest, and episkopos became biscop, while Spanish made it obispo and French évêque. The learned word episcopal keeps the full Greek shape.",
+    "usage": [[700, 60], [1100, 80], [1400, 100], [1700, 70], [1900, 45], [2020, 30]],
+    "tags": ["religion", "people"], "related": ["telescope", "skeptic", "episcopal"]
+  },
+  {
+    "id": "telescope", "word": "telescope", "pos": "noun", "gloss": "an instrument that makes distant objects look nearer",
+    "origin": "it", "first": 1648, "root": "spek-observe",
+    "path": [
+      { "lang": "ine-pro", "form": "*speḱ-", "meaning": "to look, to observe", "year": -4000 },
+      { "lang": "grc", "form": "τηλεσκόπος (tēleskopos)", "meaning": "far-seeing", "year": -300 },
+      { "lang": "it", "form": "telescopio", "year": 1611 },
+      { "lang": "en", "form": "telescope", "year": 1648 }
+    ],
+    "story": "Galileo first called his instrument a perspicillum. The name telescopio was proposed at a banquet in his honour in Rome in 1611, reportedly by the Greek scholar Giovanni Demisiani: tēle (far) + skopein (to look).",
+    "usage": [[1648, 5], [1750, 30], [1850, 50], [1950, 70], [2000, 100], [2020, 95]],
+    "tags": ["science", "technology"], "related": ["bishop", "skeptic", "telephone"]
+  },
+  {
+    "id": "octopus", "word": "octopus", "pos": "noun", "gloss": "a soft-bodied sea creature with eight arms",
+    "origin": "la-new", "first": 1758, "root": "ped-foot",
+    "path": [
+      { "lang": "ine-pro", "form": "*pṓds", "meaning": "foot", "year": -4000 },
+      { "lang": "grc", "form": "ὀκτώπους (oktōpous)", "meaning": "eight-footed", "year": -350 },
+      { "lang": "la-new", "form": "octopus", "year": 1750 },
+      { "lang": "en", "form": "octopus", "year": 1758 }
+    ],
+    "story": "Eight (oktō) feet (pous). Because the word is Greek, not Latin, the learned plural would be octopodes; octopi is a mistaken Latin ending. Plain English octopuses is perfectly correct.",
+    "usage": [[1758, 2], [1850, 15], [1900, 35], [1950, 50], [2000, 80], [2020, 100]],
+    "tags": ["animals", "sea", "numbers"], "related": ["podium", "pajamas", "foot", "pedal"]
+  },
+  {
+    "id": "podium", "word": "podium", "pos": "noun", "gloss": "a raised platform for a speaker, conductor or winner",
+    "origin": "la", "first": 1743, "root": "ped-foot",
+    "path": [
+      { "lang": "ine-pro", "form": "*pṓds", "meaning": "foot", "year": -4000 },
+      { "lang": "grc", "form": "πόδιον (podion)", "meaning": "little foot; base", "year": -300 },
+      { "lang": "la", "form": "podium", "meaning": "raised platform around the arena", "year": -50 },
+      { "lang": "en", "form": "podium", "meaning": "a raised base or platform", "year": 1743 }
+    ],
+    "story": "A 'little foot' that grew. In Roman amphitheatres the podium was the raised wall around the arena where the emperor and senators had their seats. Its Latin plural podia, via French, also gave English pew.",
+    "usage": [[1743, 2], [1850, 8], [1900, 15], [1950, 30], [2000, 80], [2020, 100]],
+    "tags": ["meaning-shift"], "related": ["pew", "octopus", "foot"]
+  },
+  {
+    "id": "rhinoceros", "word": "rhinoceros", "pos": "noun", "gloss": "a large, thick-skinned animal with one or two horns on its nose",
+    "origin": "la", "first": 1300, "root": "ker-horn",
+    "path": [
+      { "lang": "ine-pro", "form": "*ḱer-", "meaning": "horn, head", "year": -4000 },
+      { "lang": "grc", "form": "ῥινόκερως (rhinokerōs)", "meaning": "nose-horned", "year": -300 },
+      { "lang": "la", "form": "rhinoceros", "year": 50 },
+      { "lang": "enm", "form": "rinoceros", "year": 1300 },
+      { "lang": "en", "form": "rhinoceros", "year": 1550 }
+    ],
+    "story": "Rhis (nose) + keras (horn). In 1515 Albrecht Dürer made a famous woodcut of a rhinoceros sent to the king of Portugal without ever seeing it. Working from a sketch and a letter, he gave it armour plates and a small extra horn on its back, and Europeans copied his version for two centuries.",
+    "usage": [[1300, 2], [1600, 10], [1800, 25], [1900, 40], [2000, 100], [2020, 90]],
+    "tags": ["animals"], "related": ["horn", "unicorn"]
+  },
+  {
+    "id": "hippopotamus", "word": "hippopotamus", "pos": "noun", "gloss": "a huge, thick-skinned African mammal that lives in rivers",
+    "origin": "la", "first": 1563, "root": "ekwo-horse",
+    "path": [
+      { "lang": "ine-pro", "form": "*h₁éḱwos", "meaning": "horse", "year": -4000 },
+      { "lang": "grc", "form": "ἵππος ὁ ποτάμιος (hippos ho potamios)", "meaning": "horse of the river", "year": -440 },
+      { "lang": "grc", "form": "ἱπποπόταμος (hippopotamos)", "year": 150 },
+      { "lang": "la", "form": "hippopotamus", "year": 200 },
+      { "lang": "en", "form": "hippopotamus", "year": 1563 }
+    ],
+    "story": "A 'river horse' (hippos + potamos). Herodotus, writing in the 400s BCE, claimed it had a horse's mane and tail and neighed like one. It is no horse at all: its closest living relatives turn out to be whales.",
+    "usage": [[1563, 2], [1700, 10], [1800, 25], [1900, 50], [2000, 100], [2020, 95]],
+    "tags": ["animals", "nature"], "related": ["equine", "behemoth"]
+  },
+  {
+    "id": "chameleon", "word": "chameleon", "pos": "noun", "gloss": "a lizard that can change the colour of its skin",
+    "origin": "fro", "first": 1340, "root": "dhghem-earth",
+    "path": [
+      { "lang": "ine-pro", "form": "*dʰéǵʰōm", "meaning": "earth", "year": -4000 },
+      { "lang": "grc", "form": "χαμαιλέων (khamaileōn)", "meaning": "ground-lion (khamai 'on the ground' + leōn 'lion')", "year": -350 },
+      { "lang": "la", "form": "chamaeleon", "year": -50 },
+      { "lang": "fro", "form": "caméléon", "year": 1250 },
+      { "lang": "enm", "form": "camelion", "year": 1340 },
+      { "lang": "en", "form": "chameleon", "year": 1600 }
+    ],
+    "story": "Khamai (on the ground) + leōn (lion): a 'ground lion'. People long believed chameleons lived on air alone, which is why Hamlet, asked how he fares, quips: 'Of the chameleon's dish: I eat the air, promise-crammed.' Its distant cousins include human and humble, creatures of the earth.",
+    "usage": [[1340, 3], [1600, 20], [1800, 30], [1900, 40], [2000, 100], [2020, 90]],
+    "tags": ["animals", "colors"], "related": ["human", "humble"]
+  },
+  {
+    "id": "anonymous", "word": "anonymous", "pos": "adjective", "gloss": "of unknown name or authorship",
+    "origin": "la-lat", "first": 1601, "root": "nomn-name",
+    "path": [
+      { "lang": "ine-pro", "form": "*h₁nómn̥", "meaning": "name", "year": -4000 },
+      { "lang": "grc", "form": "ἀνώνυμος (anōnymos)", "meaning": "nameless", "year": -450 },
+      { "lang": "la-lat", "form": "anonymus", "year": 300 },
+      { "lang": "en", "form": "anonymous", "year": 1601 }
+    ],
+    "story": "An- (without) + onyma, a dialect form of onoma (name). Virginia Woolf ventured to guess that 'Anon, who wrote so many poems without signing them, was often a woman.' Its cousins include name, noun and synonym.",
+    "usage": [[1601, 2], [1700, 30], [1800, 60], [1900, 70], [2000, 100], [2020, 95]],
+    "tags": ["people"], "related": ["synonym", "name", "noun"]
+  },
+  {
+    "id": "synonym", "word": "synonym", "pos": "noun", "gloss": "a word that means the same as another",
+    "origin": "la", "first": 1440, "root": "nomn-name",
+    "path": [
+      { "lang": "ine-pro", "form": "*h₁nómn̥", "meaning": "name", "year": -4000 },
+      { "lang": "grc", "form": "συνώνυμον (synōnymon)", "meaning": "word with the same meaning", "year": -350 },
+      { "lang": "la", "form": "synonymum", "year": 400 },
+      { "lang": "enm", "form": "sinonyme", "year": 1440 },
+      { "lang": "en", "form": "synonym", "year": 1600 }
+    ],
+    "story": "Syn- (together) + onyma (name): words that share a meaning. English is unusually rich in them because it borrowed so freely: kingly from Old English, royal from French and regal from Latin all mean the same thing.",
+    "usage": [[1440, 2], [1600, 10], [1800, 25], [1900, 40], [2000, 100], [2020, 95]],
+    "related": ["anonymous", "name", "noun", "lexicon"]
+  },
+  {
+    "id": "lexicon", "word": "lexicon", "pos": "noun", "gloss": "the vocabulary of a language; a dictionary",
+    "origin": "la-new", "first": 1603, "root": "leg-gather",
+    "path": [
+      { "lang": "ine-pro", "form": "*leǵ-", "meaning": "to gather; to speak", "year": -4000 },
+      { "lang": "grc", "form": "λέξις (lexis)", "meaning": "word, speech", "year": -400 },
+      { "lang": "grc", "form": "λεξικόν (lexikon)", "meaning": "word book", "year": 900 },
+      { "lang": "la-new", "form": "lexicon", "year": 1600 },
+      { "lang": "en", "form": "lexicon", "year": 1603 }
+    ],
+    "story": "A lexikon was a 'word book'; the Byzantine scholar Photius compiled a famous one in the 800s. When Samuel Johnson finished his English dictionary in 1755, he defined a lexicographer as 'a writer of dictionaries; a harmless drudge'.",
+    "usage": [[1603, 3], [1700, 20], [1800, 35], [1900, 40], [2000, 100], [2020, 90]],
+    "related": ["logic", "catalogue", "synonym"]
+  },
+  {
+    "id": "catalogue", "word": "catalogue", "pos": "noun", "gloss": "a complete list of items, often with descriptions",
+    "origin": "fro", "first": 1460, "root": "leg-gather",
+    "path": [
+      { "lang": "ine-pro", "form": "*leǵ-", "meaning": "to gather; to count", "year": -4000 },
+      { "lang": "grc", "form": "κατάλογος (katalogos)", "meaning": "list, register (kata 'fully' + legein 'to count')", "year": -400 },
+      { "lang": "la-lat", "form": "catalogus", "year": 300 },
+      { "lang": "fro", "form": "catalogue", "year": 1300 },
+      { "lang": "enm", "form": "cathaloge", "year": 1460 },
+      { "lang": "en", "form": "catalogue", "year": 1600 }
+    ],
+    "story": "A list told off item by item: kata (fully) + legein (to count, recount). The most famous is Homer's 'Catalogue of Ships' in the Iliad, which names every Greek contingent at Troy, 1,186 ships in all. Americans later trimmed the spelling to catalog.",
+    "usage": [[1460, 2], [1600, 15], [1800, 40], [1900, 70], [1990, 100], [2020, 75]],
+    "tags": ["trade"], "related": ["logic", "lexicon"]
+  },
+  {
+    "id": "logic", "word": "logic", "pos": "noun", "gloss": "reasoning conducted according to strict principles",
+    "origin": "fro", "first": 1350, "root": "leg-gather",
+    "path": [
+      { "lang": "ine-pro", "form": "*leǵ-", "meaning": "to gather; to speak", "year": -4000 },
+      { "lang": "grc", "form": "λόγος (logos)", "meaning": "word, speech, account, reason", "year": -500 },
+      { "lang": "grc", "form": "λογική (logikē)", "meaning": "the art of reasoning", "year": -300 },
+      { "lang": "la", "form": "logica", "year": -50 },
+      { "lang": "fro", "form": "logique", "year": 1250 },
+      { "lang": "enm", "form": "logike", "year": 1350 },
+      { "lang": "en", "form": "logic", "year": 1600 }
+    ],
+    "story": "Logos meant word, speech, account and reason all at once; the Gospel of John opens 'In the beginning was the Logos'. Logikē was the art of reasoning with words, and the same logos ends every -logy, from biology to theology.",
+    "usage": [[1350, 5], [1600, 30], [1800, 50], [1900, 60], [1970, 100], [2020, 85]],
+    "tags": ["philosophy", "math"], "related": ["lexicon", "catalogue", "theology"]
+  },
+  {
+    "id": "mania", "word": "mania", "pos": "noun", "gloss": "wild excitement or obsession; a mental state of abnormal elation",
+    "origin": "la-lat", "first": 1400, "root": "men-think",
+    "path": [
+      { "lang": "ine-pro", "form": "*men-", "meaning": "to think", "year": -4000 },
+      { "lang": "grc", "form": "μαίνομαι (mainomai)", "meaning": "I rage, I am mad", "year": -700 },
+      { "lang": "grc", "form": "μανία (mania)", "meaning": "madness, frenzy; divine inspiration", "year": -400 },
+      { "lang": "la-lat", "form": "mania", "year": 300 },
+      { "lang": "enm", "form": "manie", "year": 1400 },
+      { "lang": "en", "form": "mania", "year": 1600 }
+    ],
+    "story": "In Plato's Phaedrus, Socrates praises mania as a gift of the gods: the madness of prophets, poets and lovers. It shares its ancient root with mind and mental, madness being the mind in overdrive. English later turned it into a suffix for crazes, from bibliomania to Beatlemania.",
+    "usage": [[1400, 2], [1700, 20], [1800, 45], [1900, 60], [1990, 100], [2020, 90]],
+    "tags": ["medicine", "feelings"], "related": ["mentor", "mantra", "mind", "mental"]
+  },
+  {
+    "id": "mentor", "word": "mentor", "pos": "noun", "gloss": "an experienced and trusted adviser",
+    "origin": "fr", "first": 1750, "root": "men-think",
+    "path": [
+      { "lang": "ine-pro", "form": "*men-", "meaning": "to think", "year": -4000 },
+      { "lang": "grc", "form": "Μέντωρ (Mentōr)", "meaning": "friend and adviser of Odysseus", "year": -700 },
+      { "lang": "fr", "form": "Mentor", "note": "hero of Fénelon's Télémaque", "year": 1699 },
+      { "lang": "en", "form": "mentor", "meaning": "a wise adviser", "year": 1750 }
+    ],
+    "story": "In the Odyssey, the goddess Athena takes the form of old Mentor to guide Odysseus' son Telemachus. François Fénelon's 1699 bestseller Télémaque made Mentor a star, and English turned his name into a common noun. The name itself probably meant 'adviser', from the root of mind.",
+    "usage": [[1750, 5], [1800, 20], [1900, 25], [1970, 40], [2000, 90], [2020, 100]],
+    "tags": ["mythology", "people"], "related": ["mania", "mantra", "mind"]
+  },
+  {
+    "id": "protagonist", "word": "protagonist", "pos": "noun", "gloss": "the leading character in a story, play or real event",
+    "origin": "grc", "first": 1671, "root": "ag-drive",
+    "path": [
+      { "lang": "ine-pro", "form": "*h₂eǵ-", "meaning": "to drive, to lead", "year": -4000 },
+      { "lang": "grc", "form": "ἀγών (agōn)", "meaning": "contest, struggle", "year": -700 },
+      { "lang": "grc", "form": "πρωταγωνιστής (prōtagōnistēs)", "meaning": "actor who plays the first part", "year": -350 },
+      { "lang": "en", "form": "protagonist", "year": 1671 }
+    ],
+    "story": "Classical Greek tragedy used at most three speaking actors: the prōtagōnistēs (first contender), the deuteragonist (second) and the tritagonist (third). The pro- is not 'for' but prōtos, first, so strictly a play has only one protagonist.",
+    "usage": [[1671, 2], [1800, 10], [1900, 25], [1950, 50], [2000, 90], [2020, 100]],
+    "tags": ["art", "people"], "related": ["agony", "hypocrite", "act"]
+  },
+  {
+    "id": "agony", "word": "agony", "pos": "noun", "gloss": "extreme physical or mental suffering",
+    "origin": "la-lat", "first": 1380, "root": "ag-drive",
+    "path": [
+      { "lang": "ine-pro", "form": "*h₂eǵ-", "meaning": "to drive, to lead", "year": -4000 },
+      { "lang": "grc", "form": "ἀγών (agōn)", "meaning": "gathering; contest at the games", "year": -700 },
+      { "lang": "grc", "form": "ἀγωνία (agōnia)", "meaning": "struggle for victory; anguish", "year": -400 },
+      { "lang": "la-lat", "form": "agonia", "year": 400 },
+      { "lang": "enm", "form": "agonie", "meaning": "mental anguish, especially Christ's in Gethsemane", "year": 1380 },
+      { "lang": "en", "form": "agony", "meaning": "intense pain", "year": 1600 }
+    ],
+    "story": "An agōn was a contest: an athletic event, a lawsuit, a battle of wits. Agōnia was the struggle and strain of it. English first used agony for Christ's anguish in the Garden of Gethsemane before letting it mean any extreme pain.",
+    "usage": [[1380, 5], [1600, 35], [1800, 75], [1880, 100], [1950, 70], [2020, 60]],
+    "tags": ["feelings", "religion"], "related": ["protagonist", "act"]
+  },
+  {
+    "id": "apocalypse", "word": "apocalypse", "pos": "noun", "gloss": "the complete destruction of the world; a catastrophe",
+    "origin": "la-ecc", "first": 1300, "root": "kel-cover",
+    "path": [
+      { "lang": "ine-pro", "form": "*ḱel-", "meaning": "to cover, to conceal", "year": -4000 },
+      { "lang": "grc", "form": "καλύπτειν (kalyptein)", "meaning": "to cover", "year": -700 },
+      { "lang": "grc-koi", "form": "ἀποκάλυψις (apokalypsis)", "meaning": "an uncovering, revelation", "year": 95 },
+      { "lang": "la-ecc", "form": "apocalypsis", "year": 400 },
+      { "lang": "enm", "form": "apocalips", "meaning": "revelation; the Book of Revelation", "year": 1300 },
+      { "lang": "en", "form": "apocalypse", "meaning": "the end of the world", "year": 1850 }
+    ],
+    "story": "Apo- (off) + kalyptein (to cover): a revelation, the lifting of a veil. It became the Greek name of the Bible's last book, the Revelation of John, whose visions of the world's end gave the word its modern doom. The same verb is inside eucalyptus, named for the cap that 'well covers' its flower bud.",
+    "usage": [[1300, 5], [1600, 20], [1800, 15], [1900, 20], [1980, 60], [2020, 100]],
+    "tags": ["religion", "meaning-shift"], "related": ["eucalyptus", "hell", "helmet", "conceal"]
+  },
+  {
+    "id": "cardiac", "word": "cardiac", "pos": "adjective", "gloss": "relating to the heart",
+    "origin": "la", "first": 1601, "root": "kerd-heart",
+    "path": [
+      { "lang": "ine-pro", "form": "*ḱḗr", "meaning": "heart", "year": -4000 },
+      { "lang": "grc", "form": "καρδία (kardia)", "meaning": "heart", "year": -700 },
+      { "lang": "grc", "form": "καρδιακός (kardiakos)", "meaning": "of the heart", "year": -400 },
+      { "lang": "la", "form": "cardiacus", "year": -50 },
+      { "lang": "en", "form": "cardiac", "year": 1601 }
+    ],
+    "story": "From kardia, the Greek cousin of English heart and Latin cor (courage, cordial, record). Greek doctors also used kardia for the upper opening of the stomach, which anatomists still call the cardia.",
+    "usage": [[1601, 2], [1800, 10], [1900, 25], [1950, 60], [2000, 100], [2020, 95]],
+    "tags": ["body", "medicine"], "related": ["heart", "courage", "cordial", "record"]
+  },
+  {
+    "id": "astronomy", "word": "astronomy", "pos": "noun", "gloss": "the science of stars, planets and the universe",
+    "origin": "fro", "first": 1200, "root": "ster-star",
+    "path": [
+      { "lang": "ine-pro", "form": "*h₂stḗr", "meaning": "star", "year": -4000 },
+      { "lang": "grc", "form": "ἀστρονομία (astronomia)", "meaning": "star-arranging (astron + nomos 'law')", "year": -400 },
+      { "lang": "la", "form": "astronomia", "year": -50 },
+      { "lang": "fro", "form": "astronomie", "year": 1150 },
+      { "lang": "enm", "form": "astronomie", "year": 1200 },
+      { "lang": "en", "form": "astronomy", "year": 1550 }
+    ],
+    "story": "Literally the laws (nomos) of the stars (astron). For centuries astronomy and astrology were near-synonyms, and astronomers routinely cast horoscopes; the two only parted ways in the 1600s.",
+    "usage": [[1200, 5], [1500, 40], [1700, 80], [1850, 100], [1950, 60], [2020, 55]],
+    "tags": ["science"], "related": ["asterisk", "disaster", "star", "planet"]
+  },
+  {
+    "id": "asterisk", "word": "asterisk", "pos": "noun", "gloss": "the symbol *, used to mark a note or omission",
+    "origin": "la-lat", "first": 1400, "root": "ster-star",
+    "path": [
+      { "lang": "ine-pro", "form": "*h₂stḗr", "meaning": "star", "year": -4000 },
+      { "lang": "grc", "form": "ἀστήρ (astēr)", "meaning": "star", "year": -700 },
+      { "lang": "grc", "form": "ἀστερίσκος (asteriskos)", "meaning": "little star", "year": -200 },
+      { "lang": "la-lat", "form": "asteriscus", "year": 400 },
+      { "lang": "en", "form": "asterisk", "year": 1400 }
+    ],
+    "story": "A 'little star'. Scholars in ancient Alexandria used it to flag lines in their editions of Homer, and it has marked notes and omissions ever since. René Goscinny named his little Gaulish hero Astérix after the French astérisque.",
+    "usage": [[1400, 2], [1700, 10], [1850, 25], [1950, 40], [2000, 100], [2020, 90]],
+    "related": ["astronomy", "disaster", "star"]
+  },
+  {
+    "id": "hydrogen", "word": "hydrogen", "pos": "noun", "gloss": "the lightest chemical element, a colourless flammable gas",
+    "origin": "fr", "first": 1791, "root": "wed-water",
+    "path": [
+      { "lang": "ine-pro", "form": "*wódr̥", "meaning": "water", "year": -4000 },
+      { "lang": "grc", "form": "ὕδωρ (hydōr)", "meaning": "water", "year": -700 },
+      { "lang": "fr", "form": "hydrogène", "meaning": "water-producer", "year": 1787 },
+      { "lang": "en", "form": "hydrogen", "year": 1791 }
+    ],
+    "story": "Henry Cavendish found that his 'inflammable air' burned to make water. In 1787 Antoine Lavoisier and his colleagues named it hydrogène, 'water-producer', from Greek hydōr. It is a distant cousin of English water and Russian vodka.",
+    "usage": [[1791, 5], [1850, 30], [1900, 50], [1950, 80], [2000, 90], [2020, 100]],
+    "tags": ["science"], "related": ["water", "vodka", "whisky"]
+  },
+  {
+    "id": "metaphor", "word": "metaphor", "pos": "noun", "gloss": "a figure of speech that describes one thing as another",
+    "origin": "frm", "first": 1500, "root": "bher-carry",
+    "path": [
+      { "lang": "ine-pro", "form": "*bʰer-", "meaning": "to carry", "year": -4000 },
+      { "lang": "grc", "form": "μεταφορά (metaphora)", "meaning": "a carrying over, transfer", "year": -350 },
+      { "lang": "la", "form": "metaphora", "year": -50 },
+      { "lang": "frm", "form": "metaphore", "year": 1450 },
+      { "lang": "en", "form": "metaphor", "year": 1500 }
+    ],
+    "story": "Meta- (across) + pherein (to carry): a metaphor carries meaning from one thing to another. In Greece today the word still works for a living: removal vans are marked μεταφορές, 'transports'.",
+    "usage": [[1500, 3], [1700, 15], [1800, 20], [1900, 30], [2000, 100], [2020, 95]],
+    "tags": ["art", "meaning-shift"], "related": ["euphoria", "bear", "transfer"]
+  },
+  {
+    "id": "euphoria", "word": "euphoria", "pos": "noun", "gloss": "a feeling of intense happiness and excitement",
+    "origin": "la-new", "first": 1727, "root": "bher-carry",
+    "path": [
+      { "lang": "ine-pro", "form": "*bʰer-", "meaning": "to carry, to bear", "year": -4000 },
+      { "lang": "grc", "form": "εὐφορία (euphoria)", "meaning": "the power of bearing up well", "year": -400 },
+      { "lang": "la-new", "form": "euphoria", "meaning": "a patient's sense of well-being", "year": 1680 },
+      { "lang": "en", "form": "euphoria", "meaning": "well-being (medical)", "year": 1727 },
+      { "lang": "en", "form": "euphoria", "meaning": "intense elation", "year": 1880 }
+    ],
+    "story": "Eu- (well) + pherein (to bear): Greek doctors used euphoria for a patient who bore up well. English borrowed it as a medical term in the 1700s; the giddy, floating elation came in the late 1800s.",
+    "usage": [[1727, 1], [1850, 5], [1900, 10], [1950, 40], [2000, 100], [2020, 95]],
+    "tags": ["feelings", "medicine"], "related": ["metaphor", "bear"]
+  },
+  {
+    "id": "theme", "word": "theme", "pos": "noun", "gloss": "the subject of a talk, a piece of writing or a work of art",
+    "origin": "fro", "first": 1300, "root": "dhe-put",
+    "path": [
+      { "lang": "ine-pro", "form": "*dʰeh₁-", "meaning": "to put, to set", "year": -4000 },
+      { "lang": "grc", "form": "θέμα (thema)", "meaning": "something set down; a proposition", "year": -400 },
+      { "lang": "la", "form": "thema", "year": -50 },
+      { "lang": "fro", "form": "tesme", "year": 1200 },
+      { "lang": "enm", "form": "teme", "meaning": "the text of a sermon", "year": 1300 },
+      { "lang": "en", "form": "theme", "year": 1550 }
+    ],
+    "story": "A thema was 'something put down': the text a speaker sets before an audience. Middle English spelled it teme; scholars later put the h back to make it look Greek again. Theme parks arrived in 1960.",
+    "usage": [[1300, 5], [1600, 25], [1800, 45], [1900, 55], [2000, 100], [2020, 95]],
+    "tags": ["art", "music"], "related": ["thesis", "do"]
+  },
+  {
+    "id": "thesis", "word": "thesis", "pos": "noun", "gloss": "a statement put forward to be proved; a long academic essay",
+    "origin": "la-lat", "first": 1390, "root": "dhe-put",
+    "path": [
+      { "lang": "ine-pro", "form": "*dʰeh₁-", "meaning": "to put, to set", "year": -4000 },
+      { "lang": "grc", "form": "θέσις (thesis)", "meaning": "a setting down; a proposition", "year": -400 },
+      { "lang": "la-lat", "form": "thesis", "year": 300 },
+      { "lang": "en", "form": "thesis", "meaning": "an unstressed syllable (in verse)", "year": 1390 },
+      { "lang": "en", "form": "thesis", "meaning": "a proposition to be defended", "year": 1579 },
+      { "lang": "en", "form": "thesis", "meaning": "a dissertation", "year": 1650 }
+    ],
+    "story": "A thesis is literally a 'putting down': a position you plant and then defend. Its relatives are built the same way: a hypothesis is put underneath, a synthesis put together, and an antithesis put against.",
+    "usage": [[1390, 2], [1600, 15], [1800, 25], [1900, 35], [2000, 100], [2020, 85]],
+    "tags": ["philosophy", "science"], "related": ["theme"]
+  },
+  {
+    "id": "system", "word": "system", "pos": "noun", "gloss": "a set of connected parts working together as a whole",
+    "origin": "la-lat", "first": 1619, "root": "sta-stand",
+    "path": [
+      { "lang": "ine-pro", "form": "*steh₂-", "meaning": "to stand", "year": -4000 },
+      { "lang": "grc", "form": "σύστημα (systēma)", "meaning": "an organised whole (syn 'together' + histanai 'to make stand')", "year": -400 },
+      { "lang": "la-lat", "form": "systema", "year": 300 },
+      { "lang": "en", "form": "system", "meaning": "the whole universe", "year": 1619 },
+      { "lang": "en", "form": "system", "meaning": "a set of connected parts", "year": 1640 }
+    ],
+    "story": "A system is things that 'stand together' as a whole. English first used it for the entire universe; by the early 1800s people were railing against 'the system', meaning the whole social order.",
+    "usage": [[1619, 2], [1700, 20], [1800, 40], [1900, 60], [1980, 100], [2020, 85]],
+    "tags": ["science", "technology"], "related": ["ecstasy", "stand"]
+  },
+  {
+    "id": "ecstasy", "word": "ecstasy", "pos": "noun", "gloss": "an overwhelming feeling of joy",
+    "origin": "fro", "first": 1380, "root": "sta-stand",
+    "path": [
+      { "lang": "ine-pro", "form": "*steh₂-", "meaning": "to stand", "year": -4000 },
+      { "lang": "grc", "form": "ἔκστασις (ekstasis)", "meaning": "standing outside oneself; trance, astonishment", "year": -400 },
+      { "lang": "la-lat", "form": "extasis", "year": 400 },
+      { "lang": "fro", "form": "extasie", "year": 1200 },
+      { "lang": "enm", "form": "extasie", "meaning": "frenzy, bewilderment", "year": 1380 },
+      { "lang": "en", "form": "ecstasy", "meaning": "rapture, intense joy", "year": 1600 }
+    ],
+    "story": "Ek- (out) + stasis (standing): in ecstasy you are, quite literally, beside yourself. Medieval mystics used it for a soul carried out of the body; in the 1980s it became a street name for the drug MDMA.",
+    "usage": [[1380, 5], [1600, 30], [1800, 50], [1900, 55], [1990, 100], [2020, 80]],
+    "tags": ["feelings", "religion"], "related": ["system", "enthusiasm", "stand"]
+  },
+  {
+    "id": "genesis", "word": "genesis", "pos": "noun", "gloss": "the origin or coming into being of something",
+    "origin": "la-ecc", "first": 1000, "root": "gene-beget",
+    "path": [
+      { "lang": "ine-pro", "form": "*ǵenh₁-", "meaning": "to give birth, to beget", "year": -4000 },
+      { "lang": "grc", "form": "γένεσις (genesis)", "meaning": "origin, birth, creation", "year": -400 },
+      { "lang": "grc-koi", "form": "Γένεσις (Genesis)", "meaning": "title of the first book of the Bible", "year": -250 },
+      { "lang": "la-ecc", "form": "Genesis", "year": 400 },
+      { "lang": "ang", "form": "Genesis", "year": 1000 },
+      { "lang": "en", "form": "genesis", "meaning": "any origin", "year": 1604 }
+    ],
+    "story": "Genesis meant 'origin' or 'birth'. Greek translators of the Hebrew Bible, working in Alexandria around 250 BCE, gave the name to its first book, whose Hebrew title Bereshit means 'in the beginning'. English began using it for any beginning in the 1600s.",
+    "usage": [[1000, 10], [1500, 20], [1700, 30], [1850, 50], [1950, 60], [2000, 100], [2020, 95]],
+    "tags": ["religion", "time"], "related": ["gene", "kin", "genius"]
+  },
+  {
+    "id": "gene", "word": "gene", "pos": "noun", "gloss": "a unit of heredity passed from parent to offspring",
+    "origin": "de", "first": 1911, "root": "gene-beget",
+    "path": [
+      { "lang": "ine-pro", "form": "*ǵenh₁-", "meaning": "to give birth, to beget", "year": -4000 },
+      { "lang": "grc", "form": "γένος (genos)", "meaning": "race, kind, offspring", "year": -700 },
+      { "lang": "de", "form": "Gen", "note": "coined by Wilhelm Johannsen", "year": 1909 },
+      { "lang": "en", "form": "gene", "year": 1911 }
+    ],
+    "story": "The Danish botanist Wilhelm Johannsen coined Gen in 1909, wanting a short word free of any hypothesis for a unit of heredity; he trimmed it from Hugo de Vries's pangene. Oddly, genetics came first: William Bateson had named the science in 1905.",
+    "usage": [[1911, 1], [1950, 15], [1980, 50], [2000, 100], [2020, 95]],
+    "tags": ["science", "family"], "related": ["genesis", "kin", "genius"]
+  },
+  {
+    "id": "diagnosis", "word": "diagnosis", "pos": "noun", "gloss": "the identification of an illness from its signs and symptoms",
+    "origin": "la-new", "first": 1681, "root": "gno-know",
+    "path": [
+      { "lang": "ine-pro", "form": "*ǵneh₃-", "meaning": "to know", "year": -4000 },
+      { "lang": "grc", "form": "διάγνωσις (diagnōsis)", "meaning": "a telling apart, discernment", "year": -400 },
+      { "lang": "la-new", "form": "diagnosis", "year": 1600 },
+      { "lang": "en", "form": "diagnosis", "year": 1681 }
+    ],
+    "story": "Dia- (apart) + gnōsis (knowing): a diagnosis tells one disease apart from another. Its ancient root also gave English know, can and cunning, and Latin's noble and ignore.",
+    "usage": [[1681, 2], [1800, 10], [1900, 30], [1950, 60], [2000, 100], [2020, 95]],
+    "tags": ["medicine"], "related": ["know", "agnostic", "prognosis"]
+  },
+  {
+    "id": "alphabet", "word": "alphabet", "pos": "noun", "gloss": "the set of letters used to write a language",
+    "origin": "la-lat", "first": 1573,
+    "path": [
+      { "lang": "phn", "form": "ʾālep + bēt", "meaning": "ox + house (the first two letters)", "year": -1050 },
+      { "lang": "grc", "form": "ἄλφα (alpha) + βῆτα (bēta)", "year": -750 },
+      { "lang": "la-lat", "form": "alphabetum", "year": 200 },
+      { "lang": "en", "form": "alphabet", "year": 1573 }
+    ],
+    "story": "Name the first two letters and you have named them all: alpha + bēta. The Greeks took both the letters and their names from the Phoenicians, for whom ʾālep meant 'ox' and bēt 'house'. Turn a capital A upside down and you can still see the ox's head and horns.",
+    "usage": [[1573, 2], [1700, 20], [1800, 35], [1900, 50], [2000, 100], [2020, 95]],
+    "related": ["camel"]
+  },
+  {
+    "id": "dinosaur", "word": "dinosaur", "pos": "noun", "gloss": "a prehistoric reptile of the Mesozoic era",
+    "origin": "en", "first": 1842,
+    "path": [
+      { "lang": "grc", "form": "δεινός (deinos) + σαῦρος (sauros)", "meaning": "terrible, fearfully great + lizard", "year": -500 },
+      { "lang": "la-new", "form": "Dinosauria", "note": "coined by Richard Owen", "year": 1842 },
+      { "lang": "en", "form": "dinosaur", "year": 1842 }
+    ],
+    "story": "Coined by the English anatomist Richard Owen in 1842 for the giant fossil reptiles then being dug up in England: deinos (terrible, fearfully great) + sauros (lizard). Dinosaurs aren't lizards at all, and their closest living relatives are birds.",
+    "usage": [[1842, 1], [1900, 15], [1950, 35], [1993, 100], [2020, 85]],
+    "tags": ["animals", "science"]
+  }
+]

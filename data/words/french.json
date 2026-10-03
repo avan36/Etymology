@@ -1,0 +1,786 @@
+[
+  {
+    "id": "pork", "word": "pork", "pos": "noun", "gloss": "the meat of a pig", "origin": "xno", "first": 1300, "root": "porko-pig",
+    "path": [
+      {"lang": "ine-pro", "form": "*pórḱos", "meaning": "young pig", "year": -4000},
+      {"lang": "la", "form": "porcus", "meaning": "pig", "year": -50},
+      {"lang": "fro", "form": "porc", "meaning": "pig", "year": 1100},
+      {"lang": "xno", "form": "porc", "year": 1250},
+      {"lang": "enm", "form": "pork", "year": 1300},
+      {"lang": "en", "form": "pork", "year": 1500}
+    ],
+    "story": "In the field it was a swine or a pig; on the Norman lord’s table it was porc. Latin porcus shares its ancestor with Old English fearh, a young pig, which survives as farrow, and with porpoise, the “pig fish”.",
+    "usage": [[1300, 15], [1500, 30], [1700, 50], [1850, 75], [1950, 100], [2020, 85]],
+    "tags": ["food", "animals"], "related": ["beef", "mutton", "veal", "swine", "porpoise"]
+  },
+  {
+    "id": "mutton", "word": "mutton", "pos": "noun", "gloss": "the meat of a grown sheep", "origin": "xno", "first": 1300,
+    "path": [
+      {"lang": "la-med", "form": "multō", "meaning": "a ram, a wether (probably from Gaulish)", "year": 800},
+      {"lang": "fro", "form": "moton", "meaning": "a sheep", "year": 1100},
+      {"lang": "xno", "form": "moton", "year": 1250},
+      {"lang": "enm", "form": "motoun", "meaning": "sheep's flesh as food", "year": 1300},
+      {"lang": "en", "form": "mutton", "year": 1500}
+    ],
+    "story": "Old French moton meant the living sheep, as French mouton still does, and the word is probably Celtic in origin. In English it came to mean only the meat, leaving sheep to the shepherds. “Mutton dressed as lamb” has mocked people trying to look younger since the early 1800s.",
+    "usage": [[1300, 30], [1600, 60], [1850, 100], [1950, 50], [2020, 25]],
+    "tags": ["food", "animals"], "related": ["beef", "pork", "sheep"]
+  },
+  {
+    "id": "veal", "word": "veal", "pos": "noun", "gloss": "the meat of a calf", "origin": "xno", "first": 1380, "root": "wet-year",
+    "path": [
+      {"lang": "ine-pro", "form": "*wet-", "meaning": "year", "year": -4000},
+      {"lang": "la", "form": "vitulus", "meaning": "a calf, a yearling", "year": -50},
+      {"lang": "la", "form": "vitellus", "meaning": "a little calf", "year": -50},
+      {"lang": "fro", "form": "veel", "year": 1100},
+      {"lang": "xno", "form": "vel", "year": 1250},
+      {"lang": "enm", "form": "veel", "year": 1380},
+      {"lang": "en", "form": "veal", "year": 1500}
+    ],
+    "story": "In Walter Scott’s Ivanhoe (1819) the jester Wamba spells it out: “Mynheer Calf, too, becomes Monsieur de Veau in the like manner; he is Saxon when he requires tendance, and takes a Norman name when he becomes matter of enjoyment.” Latin vitulus probably meant “yearling”.",
+    "usage": [[1380, 15], [1600, 35], [1800, 70], [1950, 100], [2020, 60]],
+    "tags": ["food", "animals"], "related": ["calf", "beef", "pork", "veteran"]
+  },
+  {
+    "id": "venison", "word": "venison", "pos": "noun", "gloss": "the meat of a deer", "origin": "xno", "first": 1300,
+    "path": [
+      {"lang": "la", "form": "vēnātiō", "meaning": "hunting; game (from vēnārī, to hunt)", "year": -50},
+      {"lang": "fro", "form": "veneison", "year": 1150},
+      {"lang": "xno", "form": "venesoun", "year": 1250},
+      {"lang": "enm", "form": "venisoun", "meaning": "the meat of any hunted animal", "year": 1300},
+      {"lang": "en", "form": "venison", "meaning": "deer meat", "year": 1600}
+    ],
+    "story": "Venison is literally “the hunt”, from Latin vēnātiō. In Middle English it meant the meat of any hunted beast, boar and hare included. Only later did it narrow to deer, the noblest quarry of the Norman royal forests. Deer itself once meant any animal.",
+    "usage": [[1300, 40], [1500, 70], [1700, 100], [1900, 50], [2020, 40]],
+    "tags": ["food", "animals", "meaning-shift"], "related": ["deer"]
+  },
+  {
+    "id": "poultry", "word": "poultry", "pos": "noun", "gloss": "chickens, ducks, geese and other domestic birds", "origin": "fro", "first": 1350, "root": "pau-little",
+    "path": [
+      {"lang": "ine-pro", "form": "*peh₂w-", "meaning": "few, little", "year": -4000},
+      {"lang": "la", "form": "pullus", "meaning": "a young animal, a chicken", "year": -50},
+      {"lang": "fro", "form": "poulet", "meaning": "a young fowl", "year": 1200},
+      {"lang": "fro", "form": "pouletrie", "meaning": "domestic fowl; the poulterer's trade", "year": 1300},
+      {"lang": "enm", "form": "pultrie", "year": 1350},
+      {"lang": "en", "form": "poultry", "year": 1500}
+    ],
+    "story": "From Latin pullus, any young animal: a chick, a foal. The poulterer sold pullets, and poultry was his stock. The same ancient root for “small, few” gave English few and foal, and through Latin pauper and poor.",
+    "usage": [[1350, 15], [1600, 35], [1850, 70], [1950, 100], [2020, 80]],
+    "tags": ["food", "animals"], "related": ["pauper", "poor", "foal", "few"]
+  },
+  {
+    "id": "sausage", "word": "sausage", "pos": "noun", "gloss": "minced meat stuffed into a casing", "origin": "fro", "first": 1450, "root": "sal-salt",
+    "path": [
+      {"lang": "ine-pro", "form": "*seh₂l-", "meaning": "salt", "year": -4000},
+      {"lang": "la", "form": "salsus", "meaning": "salted", "year": -50},
+      {"lang": "la-lat", "form": "salsīcia", "meaning": "sausage", "year": 400},
+      {"lang": "fro", "form": "saussiche", "year": 1200, "note": "Old North French"},
+      {"lang": "enm", "form": "sawsyge", "year": 1450},
+      {"lang": "en", "form": "sausage", "year": 1550}
+    ],
+    "story": "A sausage is meat preserved with salt: Late Latin salsīcia, from salsus, “salted”. Its briny relatives include salad, sauce, salsa, salami and the soldier’s salary.",
+    "usage": [[1450, 10], [1600, 25], [1800, 45], [1950, 100], [2020, 90]],
+    "tags": ["food"], "related": ["salad", "sauce", "salary"]
+  },
+  {
+    "id": "sauce", "word": "sauce", "pos": "noun", "gloss": "a liquid served with food to add flavour", "origin": "fro", "first": 1340, "root": "sal-salt",
+    "path": [
+      {"lang": "ine-pro", "form": "*seh₂l-", "meaning": "salt", "year": -4000},
+      {"lang": "la", "form": "salsa", "meaning": "salted things (from salsus)", "year": -50},
+      {"lang": "fro", "form": "sauce", "year": 1150},
+      {"lang": "enm", "form": "sauce", "year": 1340},
+      {"lang": "en", "form": "sauce", "year": 1500}
+    ],
+    "story": "Salt was the first sauce: Latin salsa meant simply “salted”. Italian and Spanish kept the form as salsa, French made it sauce, and English added saucer, at first a little dish for holding sauce.",
+    "usage": [[1340, 20], [1600, 45], [1800, 60], [1950, 90], [2020, 100]],
+    "tags": ["food"], "related": ["salad", "sausage", "salary"]
+  },
+  {
+    "id": "salad", "word": "salad", "pos": "noun", "gloss": "a cold dish of raw vegetables or leaves", "origin": "fro", "first": 1390, "root": "sal-salt",
+    "path": [
+      {"lang": "ine-pro", "form": "*seh₂l-", "meaning": "salt", "year": -4000},
+      {"lang": "la-vul", "form": "*salāta (herba)", "meaning": "salted (greens)", "year": 600},
+      {"lang": "fro", "form": "salade", "year": 1300},
+      {"lang": "enm", "form": "salade", "year": 1390},
+      {"lang": "en", "form": "salad", "year": 1500}
+    ],
+    "story": "Romans dressed raw greens with brine or salty dressings, and herba salāta, “salted greens”, became salad. Shakespeare’s Cleopatra remembers “my salad days, when I was green in judgment”, and the phrase has meant youthful inexperience ever since.",
+    "usage": [[1390, 10], [1600, 25], [1800, 40], [1950, 80], [2020, 100]],
+    "tags": ["food"], "related": ["sauce", "sausage", "salary"]
+  },
+  {
+    "id": "dinner", "word": "dinner", "pos": "noun", "gloss": "the main meal of the day, usually eaten in the evening", "origin": "xno", "first": 1300, "featured": true,
+    "path": [
+      {"lang": "la-vul", "form": "*disiēiūnāre", "meaning": "to break one's fast", "year": 500},
+      {"lang": "fro", "form": "disner", "meaning": "to dine; a meal", "year": 1100},
+      {"lang": "xno", "form": "diner", "year": 1250},
+      {"lang": "enm", "form": "diner", "meaning": "the first big meal of the day, eaten late in the morning", "year": 1300},
+      {"lang": "en", "form": "dinner", "meaning": "the main meal, at midday", "year": 1600},
+      {"lang": "en", "form": "dinner", "meaning": "the evening meal", "year": 1850}
+    ],
+    "story": "Dinner means breakfast. It comes from the Old French verb disner, from Latin for “to un-fast”, and in medieval England it was the first proper meal of the day, eaten late in the morning. As fashionable hours crept later, dinner slid toward evening, while French déjeuner, from the same verb, became lunch.",
+    "usage": [[1300, 20], [1500, 35], [1700, 55], [1850, 80], [1950, 100], [2020, 90]],
+    "tags": ["food", "time", "meaning-shift"], "related": ["breakfast"]
+  },
+  {
+    "id": "appetite", "word": "appetite", "pos": "noun", "gloss": "a natural desire for food; a liking for something", "origin": "fro", "first": 1340, "root": "pet-fly",
+    "path": [
+      {"lang": "ine-pro", "form": "*peth₂-", "meaning": "to rush, to fly", "year": -4000},
+      {"lang": "la", "form": "appetītus", "meaning": "a desire for (from appetere, to strive for)", "year": -50},
+      {"lang": "fro", "form": "apetit", "year": 1200},
+      {"lang": "enm", "form": "appetit", "year": 1340},
+      {"lang": "en", "form": "appetite", "year": 1500}
+    ],
+    "story": "Latin petere meant to rush at, seek or make for, so an appetite is a craving that flies at its object. The same verb is behind petition, compete and repeat, and its root also gave English feather and Greek pteron, “wing”, as in pterodactyl.",
+    "usage": [[1340, 15], [1600, 50], [1800, 80], [1900, 100], [2020, 70]],
+    "tags": ["food", "feelings"], "related": ["feather"]
+  },
+  {
+    "id": "cuisine", "word": "cuisine", "pos": "noun", "gloss": "a style of cooking", "origin": "fr", "first": 1786, "root": "pekw-cook",
+    "path": [
+      {"lang": "ine-pro", "form": "*pekʷ-", "meaning": "to cook, to ripen", "year": -4000},
+      {"lang": "la-lat", "form": "coquīna", "meaning": "kitchen (from coquere, to cook)", "year": 300},
+      {"lang": "fro", "form": "cuisine", "meaning": "kitchen", "year": 1200},
+      {"lang": "fr", "form": "cuisine", "meaning": "kitchen; cookery", "year": 1700},
+      {"lang": "en", "form": "cuisine", "meaning": "a style of cooking", "year": 1786}
+    ],
+    "story": "Cuisine and kitchen are the same Latin word, coquīna, borrowed a thousand years apart. Kitchen came with the Anglo-Saxons; cuisine came with 18th-century diners who wanted French cooking to sound French.",
+    "usage": [[1786, 2], [1850, 10], [1950, 40], [1990, 90], [2020, 100]],
+    "tags": ["food"], "related": ["kitchen", "cook", "biscuit"]
+  },
+  {
+    "id": "restaurant", "word": "restaurant", "pos": "noun", "gloss": "a place where people pay to sit and eat meals", "origin": "fr", "first": 1821, "root": "sta-stand",
+    "path": [
+      {"lang": "ine-pro", "form": "*steh₂-", "meaning": "to stand", "year": -4000},
+      {"lang": "la", "form": "restaurāre", "meaning": "to restore, to repair", "year": -50},
+      {"lang": "fr", "form": "restaurant", "meaning": "a restorative broth", "year": 1765},
+      {"lang": "fr", "form": "restaurant", "meaning": "an eating house", "year": 1780},
+      {"lang": "en", "form": "restaurant", "year": 1821}
+    ],
+    "story": "A restaurant was first a soup. In 1760s Paris, restaurants were restorative meat broths, sold to delicate customers in shops that took the name of their dish. The word simply means “restoring”.",
+    "usage": [[1821, 2], [1880, 20], [1950, 70], [2000, 100], [2020, 95]],
+    "tags": ["food", "places", "meaning-shift"], "related": ["cuisine", "cafe"]
+  },
+  {
+    "id": "chef", "word": "chef", "pos": "noun", "gloss": "a professional cook, especially the head cook in a restaurant", "origin": "fr", "first": 1826, "root": "kaput-head",
+    "path": [
+      {"lang": "la", "form": "caput", "meaning": "head", "year": -50},
+      {"lang": "fro", "form": "chief", "meaning": "head, leader", "year": 1100},
+      {"lang": "fr", "form": "chef de cuisine", "meaning": "head of the kitchen", "year": 1800},
+      {"lang": "en", "form": "chef", "year": 1826}
+    ],
+    "story": "A chef is simply a chief: the head of the kitchen, short for chef de cuisine. English had already borrowed the same Old French word five centuries earlier as chief; French then changed its pronunciation, and English borrowed it again.",
+    "usage": [[1826, 2], [1900, 15], [1960, 40], [2000, 85], [2020, 100]],
+    "tags": ["food", "people"], "related": ["chief", "kerchief", "cattle"]
+  },
+  {
+    "id": "cafe", "word": "café", "pos": "noun", "gloss": "a small restaurant serving coffee and light meals", "origin": "fr", "first": 1802,
+    "path": [
+      {"lang": "ar", "form": "قَهْوَة (qahwa)", "meaning": "coffee", "year": 800},
+      {"lang": "ota", "form": "قهوه (kahve)", "meaning": "coffee", "year": 1500},
+      {"lang": "it", "form": "caffè", "meaning": "coffee", "year": 1600},
+      {"lang": "fr", "form": "café", "meaning": "coffee; a coffee house", "year": 1650},
+      {"lang": "en", "form": "café", "meaning": "a coffee house", "year": 1802}
+    ],
+    "story": "Café is French for coffee, and the coffee house simply took the name of its drink, just as restaurants took theirs from a soup. The word came from Arabic qahwa, through Turkish kahve and Italian caffè.",
+    "usage": [[1802, 3], [1900, 25], [1950, 55], [2000, 100], [2020, 95]],
+    "tags": ["food", "places"], "related": ["coffee", "restaurant"]
+  },
+  {
+    "id": "croissant", "word": "croissant", "pos": "noun", "gloss": "a flaky crescent-shaped bread roll", "origin": "fr", "first": 1899, "root": "ker-grow",
+    "path": [
+      {"lang": "ine-pro", "form": "*ḱreh₁-", "meaning": "to grow", "year": -4000},
+      {"lang": "la", "form": "crēscere", "meaning": "to grow", "year": -50},
+      {"lang": "fro", "form": "creissant", "meaning": "growing; the waxing moon", "year": 1150},
+      {"lang": "fr", "form": "croissant", "meaning": "a crescent; a crescent-shaped roll", "year": 1850},
+      {"lang": "en", "form": "croissant", "year": 1899}
+    ],
+    "story": "Croissant means “crescent”, the waxing or “growing” moon. A popular tale says Viennese bakers invented it to celebrate the defeat of the Ottoman siege in 1683, but there is no evidence for that. The pastry grew out of the Austrian kipferl, sold in Paris by a Viennese bakery from the late 1830s and then remade the French way.",
+    "usage": [[1899, 2], [1950, 15], [1980, 60], [2005, 100], [2020, 95]],
+    "tags": ["food"], "related": ["crescent", "concrete"]
+  },
+  {
+    "id": "biscuit", "word": "biscuit", "pos": "noun", "gloss": "a small, flat, crisp baked cake (in the US, a soft bread roll)", "origin": "fro", "first": 1330, "root": "pekw-cook",
+    "path": [
+      {"lang": "ine-pro", "form": "*pekʷ-", "meaning": "to cook", "year": -4000},
+      {"lang": "la", "form": "bis coctus", "meaning": "twice cooked", "year": -50},
+      {"lang": "fro", "form": "bescuit", "year": 1200},
+      {"lang": "enm", "form": "bysquyte", "meaning": "twice-baked bread", "year": 1330},
+      {"lang": "en", "form": "biscuit", "year": 1600}
+    ],
+    "story": "Bis-cuit is literally “twice cooked”: hard, dry bread baked a second time so it would keep on long voyages. English long spelled it bisket; the French spelling was later restored, without the French pronunciation. In America a biscuit is soft, and British biscuits are cookies.",
+    "usage": [[1330, 10], [1600, 30], [1800, 60], [1950, 100], [2020, 80]],
+    "tags": ["food", "sea"], "related": ["cook", "kitchen", "cuisine"]
+  },
+  {
+    "id": "porpoise", "word": "porpoise", "pos": "noun", "gloss": "a small toothed whale with a blunt snout", "origin": "xno", "first": 1300, "root": "porko-pig",
+    "path": [
+      {"lang": "ine-pro", "form": "*pórḱos", "meaning": "young pig", "year": -4000},
+      {"lang": "la-vul", "form": "*porcopiscis", "meaning": "pig fish (porcus + piscis)", "year": 600},
+      {"lang": "fro", "form": "porpois", "year": 1200},
+      {"lang": "xno", "form": "porpeis", "year": 1250},
+      {"lang": "enm", "form": "porpeys", "year": 1300},
+      {"lang": "en", "form": "porpoise", "year": 1500}
+    ],
+    "story": "A porpoise is a “pig fish”, perhaps for its stout body and blunt snout. Medieval Latin also called it porcus marīnus, “sea pig”, and medieval cooks happily served it as fish.",
+    "usage": [[1300, 20], [1600, 40], [1850, 80], [1950, 100], [2020, 70]],
+    "tags": ["animals", "sea"], "related": ["pork"]
+  },
+  {
+    "id": "gourmet", "word": "gourmet", "pos": "noun", "gloss": "a connoisseur of good food and drink", "origin": "fr", "first": 1820,
+    "path": [
+      {"lang": "fro", "form": "groumet", "meaning": "a servant; a wine merchant's assistant", "year": 1350},
+      {"lang": "fr", "form": "gourmet", "meaning": "a connoisseur of wine and food", "year": 1700},
+      {"lang": "en", "form": "gourmet", "year": 1820}
+    ],
+    "story": "Gourmet began humbly. Old French groumet was a servant, especially a wine merchant’s assistant who tasted the stock. Influenced by gourmand, “greedy eater”, the wine boy became the refined connoisseur.",
+    "usage": [[1820, 2], [1900, 15], [1960, 60], [1990, 100], [2020, 80]],
+    "tags": ["food", "people", "meaning-shift"]
+  },
+  {
+    "id": "ballet", "word": "ballet", "pos": "noun", "gloss": "a theatrical art of dance with set steps, music and costume", "origin": "fr", "first": 1634,
+    "path": [
+      {"lang": "la-lat", "form": "ballāre", "meaning": "to dance", "year": 300},
+      {"lang": "it", "form": "balletto", "meaning": "a little dance", "year": 1500},
+      {"lang": "fr", "form": "ballet", "year": 1590},
+      {"lang": "en", "form": "ballet", "year": 1634}
+    ],
+    "story": "Ballet is a “little dance”, Italian balletto, perfected at the French court. Louis XIV danced the rising sun in the Ballet de la Nuit in 1653, the role that made him the Sun King, and founded the Royal Academy of Dance in 1661. That is why ballet’s vocabulary is French.",
+    "usage": [[1634, 3], [1800, 15], [1900, 45], [1960, 100], [2020, 80]],
+    "tags": ["art", "music"]
+  },
+  {
+    "id": "deja-vu", "word": "déjà vu", "pos": "phrase", "gloss": "the feeling of having already experienced the present moment", "origin": "fr", "first": 1903, "root": "weid-see",
+    "path": [
+      {"lang": "ine-pro", "form": "*weyd-", "meaning": "to see", "year": -4000},
+      {"lang": "la", "form": "vidēre", "meaning": "to see", "year": -50},
+      {"lang": "fr", "form": "déjà vu", "meaning": "already seen", "year": 1876},
+      {"lang": "en", "form": "déjà vu", "year": 1903}
+    ],
+    "story": "The uncanny feeling of having lived a moment before is named with the French for “already seen”. The term is credited to the psychical researcher Émile Boirac, and English adopted it in the early 1900s.",
+    "usage": [[1903, 1], [1950, 15], [1980, 60], [2000, 100], [2020, 90]],
+    "tags": ["feelings"], "related": ["vision", "video"]
+  },
+  {
+    "id": "rendezvous", "word": "rendezvous", "pos": "noun", "gloss": "a meeting at an agreed time and place", "origin": "frm", "first": 1591, "root": "deh-give",
+    "path": [
+      {"lang": "ine-pro", "form": "*deh₃-", "meaning": "to give", "year": -4000},
+      {"lang": "la", "form": "reddere", "meaning": "to give back (re- + dare)", "year": -50},
+      {"lang": "fro", "form": "rendre", "meaning": "to give back, to render", "year": 1100},
+      {"lang": "frm", "form": "rendez-vous", "meaning": "present yourselves!", "year": 1580},
+      {"lang": "en", "form": "rendezvous", "meaning": "a place where troops assemble", "year": 1591},
+      {"lang": "en", "form": "rendezvous", "meaning": "a meeting by appointment", "year": 1600}
+    ],
+    "story": "It was an order before it was a romance: rendez-vous means “present yourselves”, the command for troops to assemble. Since the 1960s it has also meant two spacecraft meeting in orbit. Rendre itself comes from Latin reddere, “to give back”.",
+    "usage": [[1591, 10], [1700, 40], [1850, 60], [1950, 100], [2020, 60]],
+    "tags": ["war", "meaning-shift"], "related": ["data", "tradition"]
+  },
+  {
+    "id": "entrepreneur", "word": "entrepreneur", "pos": "noun", "gloss": "a person who starts and runs a business, taking on financial risk", "origin": "fr", "first": 1828, "root": "ghend-seize",
+    "path": [
+      {"lang": "ine-pro", "form": "*gʰend-", "meaning": "to seize, to take", "year": -4000},
+      {"lang": "la", "form": "prehendere", "meaning": "to grasp", "year": -50},
+      {"lang": "fro", "form": "entreprendre", "meaning": "to undertake", "year": 1200},
+      {"lang": "fr", "form": "entrepreneur", "meaning": "one who undertakes", "year": 1700},
+      {"lang": "en", "form": "entrepreneur", "meaning": "a promoter of concerts and shows", "year": 1828},
+      {"lang": "en", "form": "entrepreneur", "meaning": "a business founder", "year": 1852}
+    ],
+    "story": "An entrepreneur is one who “takes on” a venture; the same French verb gave enterprise. Its first English sense, in the 1820s, was a concert or theatre promoter. The economists’ risk-taking founder, described by Richard Cantillon in the 1700s, arrived around 1850.",
+    "usage": [[1828, 1], [1900, 5], [1960, 20], [1990, 70], [2020, 100]],
+    "tags": ["trade", "money", "people"], "related": ["prison"]
+  },
+  {
+    "id": "souvenir", "word": "souvenir", "pos": "noun", "gloss": "a thing kept as a reminder of a place or event", "origin": "fr", "first": 1775, "root": "gwem-come",
+    "path": [
+      {"lang": "ine-pro", "form": "*gʷem-", "meaning": "to come", "year": -4000},
+      {"lang": "la", "form": "subvenīre", "meaning": "to come up; to come to mind", "year": -50},
+      {"lang": "fro", "form": "sovenir", "meaning": "to remember", "year": 1100},
+      {"lang": "fr", "form": "souvenir", "meaning": "a memory; a keepsake", "year": 1700},
+      {"lang": "en", "form": "souvenir", "meaning": "a remembrance", "year": 1775},
+      {"lang": "en", "form": "souvenir", "meaning": "a keepsake", "year": 1782}
+    ],
+    "story": "Souvenir is French for “to remember”, literally “to come up from below” into the mind. A souvenir is a memory you can carry home. Its Latin root also gave venue, event and adventure, and natively, come.",
+    "usage": [[1775, 5], [1850, 30], [1920, 80], [1960, 100], [2020, 70]],
+    "tags": ["feelings"], "related": ["prevent", "come"]
+  },
+  {
+    "id": "bus", "word": "bus", "pos": "noun", "gloss": "a large road vehicle carrying passengers on a fixed route", "origin": "fr", "first": 1832, "featured": true,
+    "path": [
+      {"lang": "la", "form": "omnibus", "meaning": "for all (dative plural of omnis)", "year": -50},
+      {"lang": "fr", "form": "voiture omnibus", "meaning": "a carriage for all", "year": 1825},
+      {"lang": "en", "form": "omnibus", "year": 1829},
+      {"lang": "en", "form": "bus", "year": 1832}
+    ],
+    "story": "In 1820s Nantes a coach service called the voitures omnibus, “carriages for all”, began running. According to the usual story the name came from a hatter’s shop at the terminus, run by a Monsieur Omnès, whose sign punned “Omnès Omnibus”. London got its omnibus in 1829, and by 1832 it had been clipped to bus: a Latin case ending that became a word.",
+    "usage": [[1832, 5], [1900, 40], [1950, 100], [2000, 85], [2020, 80]],
+    "tags": ["technology", "places"]
+  },
+  {
+    "id": "judge", "word": "judge", "pos": "noun", "gloss": "a public official who decides cases in a court of law", "origin": "xno", "first": 1340, "root": "deik-show",
+    "path": [
+      {"lang": "ine-pro", "form": "*deyḱ-", "meaning": "to show, to point out", "year": -4000},
+      {"lang": "la", "form": "iūdex", "meaning": "judge (iūs, law + dīcere, to say)", "year": -50},
+      {"lang": "fro", "form": "juge", "year": 1150},
+      {"lang": "xno", "form": "juge", "year": 1250},
+      {"lang": "enm", "form": "juge", "year": 1340},
+      {"lang": "en", "form": "judge", "year": 1500}
+    ],
+    "story": "A Latin iūdex was “one who speaks the law”: iūs, law, plus dīcere, to say. The “say” half gives verdict and dictionary; the law half gives justice, jury and injury, which was first a wrong done against the law.",
+    "usage": [[1340, 30], [1600, 60], [1800, 80], [1950, 100], [2020, 90]],
+    "tags": ["law", "power"], "related": ["jury", "justice", "verdict", "dictionary"]
+  },
+  {
+    "id": "jury", "word": "jury", "pos": "noun", "gloss": "a group of people sworn to give a verdict in a court case", "origin": "xno", "first": 1300,
+    "path": [
+      {"lang": "la", "form": "iūrāre", "meaning": "to swear (from iūs, law)", "year": -50},
+      {"lang": "la-med", "form": "iūrāta", "meaning": "a sworn body", "year": 1200},
+      {"lang": "fro", "form": "juree", "meaning": "an oath; an inquiry", "year": 1200},
+      {"lang": "xno", "form": "juree", "year": 1250},
+      {"lang": "enm", "form": "jure", "year": 1300},
+      {"lang": "en", "form": "jury", "year": 1500}
+    ],
+    "story": "A jury is a body of people under oath: Anglo-Norman juree, from Latin iūrāre, “to swear”, which also gave perjury. Jury-rigged is a different word: sailors’ “jury masts” are of unknown origin.",
+    "usage": [[1300, 20], [1600, 50], [1850, 85], [1950, 100], [2020, 85]],
+    "tags": ["law"], "related": ["judge", "justice"]
+  },
+  {
+    "id": "court", "word": "court", "pos": "noun", "gloss": "a place where legal cases are heard; a monarch's household", "origin": "xno", "first": 1175, "root": "gher-enclose",
+    "path": [
+      {"lang": "ine-pro", "form": "*gʰer-", "meaning": "to grasp, to enclose", "year": -4000},
+      {"lang": "la", "form": "cohors, cohortis", "meaning": "an enclosed yard; a retinue", "year": -50},
+      {"lang": "la-lat", "form": "cōrs, cortis", "year": 400},
+      {"lang": "fro", "form": "cort", "year": 1100},
+      {"lang": "xno", "form": "curt", "year": 1150},
+      {"lang": "enm", "form": "court", "year": 1175},
+      {"lang": "en", "form": "court", "year": 1500}
+    ],
+    "story": "A Latin cohors was a farmyard, an enclosure; then the troops quartered there; then any retinue. A king’s household, and the place where justice was done, grew from that yard. The same root gave English yard and garden, and Latin hortus, as in horticulture.",
+    "usage": [[1175, 40], [1500, 70], [1700, 90], [1900, 100], [2020, 85]],
+    "tags": ["law", "power", "places"], "related": ["courtesy", "garden", "yard"]
+  },
+  {
+    "id": "courtesy", "word": "courtesy", "pos": "noun", "gloss": "polite and considerate behaviour", "origin": "fro", "first": 1225, "root": "gher-enclose",
+    "path": [
+      {"lang": "ine-pro", "form": "*gʰer-", "meaning": "to enclose", "year": -4000},
+      {"lang": "la", "form": "cohors", "meaning": "an enclosed yard; a retinue", "year": -50},
+      {"lang": "fro", "form": "corteisie", "meaning": "courtly manners", "year": 1150},
+      {"lang": "enm", "form": "curteisie", "year": 1225},
+      {"lang": "en", "form": "courtesy", "year": 1500}
+    ],
+    "story": "Courtesy was the code of behaviour at court, the manners of the courtly. The curtsy, a bob of the knees, is the same word worn down in speech by the 1500s.",
+    "usage": [[1225, 40], [1500, 70], [1700, 100], [1900, 70], [2020, 45]],
+    "tags": ["people", "feelings"], "related": ["court", "curtsy"]
+  },
+  {
+    "id": "crime", "word": "crime", "pos": "noun", "gloss": "an act that breaks the law", "origin": "fro", "first": 1250,
+    "path": [
+      {"lang": "la", "form": "crīmen", "meaning": "a charge, an accusation; a fault", "year": -50},
+      {"lang": "fro", "form": "crimne", "year": 1150},
+      {"lang": "enm", "form": "crime", "meaning": "sinfulness", "year": 1250},
+      {"lang": "en", "form": "crime", "meaning": "an offence punishable by law", "year": 1500}
+    ],
+    "story": "A Latin crīmen was first an accusation, the charge brought against you, before it meant the deed itself. Early English used crime for sinfulness in general; the legal sense of an offence against the law hardened in the 1300s.",
+    "usage": [[1250, 10], [1500, 30], [1750, 50], [1900, 75], [1995, 100], [2020, 90]],
+    "tags": ["law"], "related": ["judge"]
+  },
+  {
+    "id": "justice", "word": "justice", "pos": "noun", "gloss": "fair treatment; the administration of law", "origin": "fro", "first": 1140,
+    "path": [
+      {"lang": "la", "form": "iūstitia", "meaning": "righteousness, equity (from iūs, law)", "year": -50},
+      {"lang": "fro", "form": "justise", "year": 1100},
+      {"lang": "enm", "form": "justise", "meaning": "a judicial officer; the administration of law", "year": 1140},
+      {"lang": "en", "form": "justice", "year": 1500}
+    ],
+    "story": "One of the earliest French words in English, recorded around 1140, a generation before most of the Norman flood. At first it meant the officer who dispensed justice as well as justice itself. Its Latin root iūs also gave just, jury, judge and injury.",
+    "usage": [[1140, 20], [1400, 50], [1700, 85], [1900, 100], [2020, 85]],
+    "tags": ["law", "power"], "related": ["judge", "jury"]
+  },
+  {
+    "id": "parliament", "word": "parliament", "pos": "noun", "gloss": "an elected assembly that makes a country's laws", "origin": "xno", "first": 1290,
+    "path": [
+      {"lang": "grc", "form": "παραβολή (parabolḗ)", "meaning": "a comparison", "year": -300},
+      {"lang": "la-lat", "form": "parabola", "meaning": "a speech, a parable", "year": 400},
+      {"lang": "fro", "form": "parler", "meaning": "to speak", "year": 1100},
+      {"lang": "fro", "form": "parlement", "meaning": "a talk; a conference", "year": 1100},
+      {"lang": "xno", "form": "parlement", "year": 1250},
+      {"lang": "enm", "form": "parlement", "year": 1290},
+      {"lang": "en", "form": "parliament", "year": 1500, "note": "spelling after Medieval Latin parliamentum"}
+    ],
+    "story": "A parliament is “a talking”, from French parler, “to speak”, which goes back to Greek parabolē, a comparison or parable. Chaucer’s Parlement of Foules (around 1382) is a debate among birds choosing their mates on St Valentine’s Day, one of the earliest links between Valentine’s Day and love.",
+    "usage": [[1290, 20], [1500, 40], [1700, 80], [1850, 100], [2020, 60]],
+    "tags": ["power", "law"]
+  },
+  {
+    "id": "government", "word": "government", "pos": "noun", "gloss": "the group of people who run a country or state", "origin": "fro", "first": 1380,
+    "path": [
+      {"lang": "grc", "form": "κυβερνάω (kubernáō)", "meaning": "to steer a ship", "year": -500},
+      {"lang": "la", "form": "gubernāre", "meaning": "to steer; to rule", "year": -50},
+      {"lang": "fro", "form": "governer", "meaning": "to govern", "year": 1100},
+      {"lang": "fro", "form": "governement", "year": 1200},
+      {"lang": "enm", "form": "governement", "meaning": "the act of governing", "year": 1380},
+      {"lang": "en", "form": "government", "year": 1500}
+    ],
+    "story": "To govern was to steer: Greek kybernan meant piloting a ship, and Latin borrowed it as gubernāre. In 1948 Norbert Wiener went back to the same Greek word to name cybernetics, so every cyber- word is government’s cousin.",
+    "usage": [[1380, 10], [1600, 40], [1800, 75], [1950, 100], [2020, 85]],
+    "tags": ["power"]
+  },
+  {
+    "id": "prison", "word": "prison", "pos": "noun", "gloss": "a building where criminals are held", "origin": "fro", "first": 1125, "root": "ghend-seize",
+    "path": [
+      {"lang": "ine-pro", "form": "*gʰend-", "meaning": "to seize, to take", "year": -4000},
+      {"lang": "la", "form": "prehēnsiō", "meaning": "a seizing, an arrest", "year": -50},
+      {"lang": "fro", "form": "prisun", "meaning": "captivity", "year": 1100},
+      {"lang": "enm", "form": "prisun", "meaning": "imprisonment", "year": 1125},
+      {"lang": "enm", "form": "prisoun", "meaning": "a jail", "year": 1300},
+      {"lang": "en", "form": "prison", "year": 1500}
+    ],
+    "story": "Prison was first the act of seizing someone (Latin prehēnsiō, “a taking hold”) and only later the building. The same grasping root gives comprehend (grasping an idea), apprentice and entrepreneur, and through Old Norse, get.",
+    "usage": [[1125, 30], [1400, 50], [1700, 70], [1900, 85], [2000, 100], [2020, 95]],
+    "tags": ["law"], "related": ["entrepreneur", "get"]
+  },
+  {
+    "id": "sovereign", "word": "sovereign", "pos": "noun", "gloss": "a supreme ruler, especially a monarch", "origin": "xno", "first": 1290,
+    "path": [
+      {"lang": "la", "form": "super", "meaning": "above", "year": -50},
+      {"lang": "la-vul", "form": "*superānus", "meaning": "chief, principal", "year": 600},
+      {"lang": "fro", "form": "soverain", "year": 1100},
+      {"lang": "xno", "form": "soverein", "year": 1250},
+      {"lang": "enm", "form": "soverein", "year": 1290},
+      {"lang": "en", "form": "sovereign", "year": 1500}
+    ],
+    "story": "Sovereign has no “reign” in it. It comes from Vulgar Latin *superānus, “the one above”, and the -g- crept in because people assumed a sovereign must reign. Italian turned the same word into soprano, the highest voice.",
+    "usage": [[1290, 30], [1500, 60], [1700, 100], [1900, 70], [2020, 50]],
+    "tags": ["power"], "related": ["reign", "soprano"]
+  },
+  {
+    "id": "duke", "word": "duke", "pos": "noun", "gloss": "a nobleman of the highest rank below a prince", "origin": "fro", "first": 1150, "root": "deuk-lead",
+    "path": [
+      {"lang": "ine-pro", "form": "*dewk-", "meaning": "to lead", "year": -4000},
+      {"lang": "la", "form": "dux, ducis", "meaning": "leader, general", "year": -50},
+      {"lang": "fro", "form": "duc", "year": 1100},
+      {"lang": "enm", "form": "duk", "year": 1150},
+      {"lang": "en", "form": "duke", "year": 1500}
+    ],
+    "story": "A Latin dux was simply a leader, especially a general. English used duke for foreign princes long before it had a duke of its own: the first, Edward the Black Prince, was made Duke of Cornwall in 1337. Mussolini’s title, Il Duce, is the same word.",
+    "usage": [[1150, 30], [1400, 60], [1600, 100], [1900, 60], [2020, 40]],
+    "tags": ["power", "people"], "related": ["educate"]
+  },
+  {
+    "id": "verdict", "word": "verdict", "pos": "noun", "gloss": "a decision on an issue of fact in a court case", "origin": "xno", "first": 1300, "root": "deik-show",
+    "path": [
+      {"lang": "ine-pro", "form": "*deyḱ-", "meaning": "to show; to pronounce", "year": -4000},
+      {"lang": "la-med", "form": "vērēdictum", "meaning": "a true saying (vērē, truly + dictum, said)", "year": 1200},
+      {"lang": "xno", "form": "verdit", "year": 1250},
+      {"lang": "enm", "form": "verdit", "year": 1300},
+      {"lang": "en", "form": "verdict", "year": 1500, "note": "spelling re-Latinized"}
+    ],
+    "story": "A verdict is a jury’s “true saying”: Anglo-Norman verdit, from Medieval Latin vērēdictum. Around 1500, scholars put back the Latin c, and verdit became verdict.",
+    "usage": [[1300, 10], [1600, 35], [1850, 70], [1950, 100], [2020, 80]],
+    "tags": ["law"], "related": ["judge", "jury", "dictionary"]
+  },
+  {
+    "id": "mortgage", "word": "mortgage", "pos": "noun", "gloss": "a loan to buy property, with the property as security", "origin": "fro", "first": 1390, "root": "mer-die", "featured": true,
+    "path": [
+      {"lang": "ine-pro", "form": "*mer-", "meaning": "to die", "year": -4000},
+      {"lang": "la", "form": "mortuus", "meaning": "dead", "year": -50},
+      {"lang": "fro", "form": "mort gage", "meaning": "a dead pledge", "year": 1200},
+      {"lang": "fro", "form": "morgage", "year": 1250},
+      {"lang": "enm", "form": "morgage", "year": 1390},
+      {"lang": "en", "form": "mortgage", "year": 1500}
+    ],
+    "story": "A mortgage is a “death pledge”. The classic explanation, from the 17th-century jurist Sir Edward Coke, is that the deal dies either way: when the debt is paid off, or when the borrower fails to pay and the land is lost to them forever.",
+    "usage": [[1390, 10], [1600, 30], [1800, 50], [1950, 70], [2008, 100], [2020, 90]],
+    "tags": ["money", "law"], "related": ["mortal", "murder"]
+  },
+  {
+    "id": "danger", "word": "danger", "pos": "noun", "gloss": "the possibility of harm or injury", "origin": "xno", "first": 1225, "root": "dem-house",
+    "path": [
+      {"lang": "ine-pro", "form": "*dem-", "meaning": "house", "year": -4000},
+      {"lang": "la", "form": "dominus", "meaning": "master of the house, lord", "year": -50},
+      {"lang": "la-vul", "form": "*dominiārium", "meaning": "lordship, power", "year": 600},
+      {"lang": "fro", "form": "dangier", "meaning": "power, dominion; power to harm", "year": 1100},
+      {"lang": "xno", "form": "daunger", "year": 1200},
+      {"lang": "enm", "form": "daunger", "meaning": "power, control", "year": 1225},
+      {"lang": "en", "form": "danger", "meaning": "liability to harm", "year": 1500}
+    ],
+    "story": "Danger once meant power: the power of a lord over those in his domain. To be “in someone’s danger” was to be at their mercy, and from there the word slid to the peril itself. It probably goes back to Latin dominus, master of the house.",
+    "usage": [[1225, 20], [1500, 50], [1700, 80], [1900, 100], [2020, 80]],
+    "tags": ["power", "meaning-shift"], "related": ["dungeon", "domestic"]
+  },
+  {
+    "id": "dungeon", "word": "dungeon", "pos": "noun", "gloss": "a dark underground prison in a castle", "origin": "fro", "first": 1300, "root": "dem-house",
+    "path": [
+      {"lang": "ine-pro", "form": "*dem-", "meaning": "house", "year": -4000},
+      {"lang": "la", "form": "dominus", "meaning": "lord", "year": -50},
+      {"lang": "la-med", "form": "domniō", "meaning": "a lord's tower", "year": 900},
+      {"lang": "fro", "form": "donjon", "meaning": "the great tower of a castle, the keep", "year": 1100},
+      {"lang": "enm", "form": "donjoun", "meaning": "a castle keep", "year": 1300},
+      {"lang": "en", "form": "dungeon", "meaning": "an underground cell", "year": 1500}
+    ],
+    "story": "A dungeon was the lord’s tower, the great keep at the heart of a castle, from Medieval Latin domniō, “lordship”. Prisoners were held in its depths, and the name sank with them. French donjon still means the keep.",
+    "usage": [[1300, 30], [1500, 50], [1800, 70], [1980, 100], [2020, 90]],
+    "tags": ["places", "power", "meaning-shift"], "related": ["danger", "domestic"]
+  },
+  {
+    "id": "sir", "word": "sir", "pos": "noun", "gloss": "a polite form of address to a man; the title of a knight", "origin": "fro", "first": 1300, "root": "sen-old",
+    "path": [
+      {"lang": "ine-pro", "form": "*sen-", "meaning": "old", "year": -4000},
+      {"lang": "la", "form": "senior", "meaning": "older", "year": -50},
+      {"lang": "fro", "form": "sire", "meaning": "lord", "year": 1100},
+      {"lang": "enm", "form": "sire", "year": 1205},
+      {"lang": "enm", "form": "sir", "meaning": "(unstressed form of sire)", "year": 1300},
+      {"lang": "en", "form": "sir", "year": 1500}
+    ],
+    "story": "Sir is Latin senior, “older”, worn down by centuries of polite mouths: senior became Old French sire, and its unstressed English form became sir. Spanish señor, Italian signor and French monsieur are all the same respectful “elder”.",
+    "usage": [[1300, 40], [1600, 80], [1800, 100], [1950, 70], [2020, 50]],
+    "tags": ["people", "power"], "related": ["senior"]
+  },
+  {
+    "id": "treason", "word": "treason", "pos": "noun", "gloss": "the crime of betraying one's country or ruler", "origin": "xno", "first": 1225, "root": "deh-give",
+    "path": [
+      {"lang": "ine-pro", "form": "*deh₃-", "meaning": "to give", "year": -4000},
+      {"lang": "la", "form": "trāditiō", "meaning": "a handing over", "year": -50},
+      {"lang": "fro", "form": "traïson", "year": 1100},
+      {"lang": "xno", "form": "treison", "year": 1200},
+      {"lang": "enm", "form": "tresoun", "year": 1225},
+      {"lang": "en", "form": "treason", "year": 1500}
+    ],
+    "story": "Treason and tradition are the same Latin word, trāditiō, “a handing over”. Tradition hands down what is precious; treason hands your lord over to his enemies.",
+    "usage": [[1225, 30], [1500, 70], [1650, 100], [1900, 50], [2020, 35]],
+    "tags": ["law", "power"], "related": ["tradition"]
+  },
+  {
+    "id": "noble", "word": "noble", "pos": "adjective", "gloss": "belonging to the aristocracy; having fine personal qualities", "origin": "fro", "first": 1225, "root": "gno-know",
+    "path": [
+      {"lang": "ine-pro", "form": "*ǵneh₃-", "meaning": "to know", "year": -4000},
+      {"lang": "la", "form": "nōbilis", "meaning": "knowable; famous; high-born (Old Latin gnōbilis)", "year": -50},
+      {"lang": "fro", "form": "noble", "year": 1100},
+      {"lang": "enm", "form": "noble", "year": 1225},
+      {"lang": "en", "form": "noble", "year": 1500}
+    ],
+    "story": "Noble meant “knowable” (Old Latin gnōbilis), and so famous: someone everybody knows. Its opposite, ignōbilis, was the obscure commoner. The g that dropped out still shows in its cousins know and ignore.",
+    "usage": [[1225, 40], [1500, 70], [1750, 100], [1900, 70], [2020, 45]],
+    "tags": ["power", "people"], "related": ["ignore", "know", "quaint"]
+  },
+  {
+    "id": "quaint", "word": "quaint", "pos": "adjective", "gloss": "attractively unusual or old-fashioned", "origin": "fro", "first": 1225, "root": "gno-know",
+    "path": [
+      {"lang": "ine-pro", "form": "*ǵneh₃-", "meaning": "to know", "year": -4000},
+      {"lang": "la", "form": "cognitus", "meaning": "known", "year": -50},
+      {"lang": "fro", "form": "cointe", "meaning": "clever, wise; elegant", "year": 1100},
+      {"lang": "enm", "form": "queynte", "meaning": "cunning, clever", "year": 1225},
+      {"lang": "en", "form": "quaint", "meaning": "elaborate, ingenious", "year": 1500},
+      {"lang": "en", "form": "quaint", "meaning": "charmingly old-fashioned", "year": 1795}
+    ],
+    "story": "Quaint comes from Latin cognitus, “known”, the same word as cognition, and first meant clever, wise or cunning. It wandered through “elaborate” and “strange” until, in the 1790s, it settled on charmingly old-fashioned.",
+    "usage": [[1225, 20], [1500, 40], [1700, 20], [1900, 80], [1950, 100], [2020, 70]],
+    "tags": ["meaning-shift"], "related": ["noble", "know"]
+  },
+  {
+    "id": "royal", "word": "royal", "pos": "adjective", "gloss": "of or relating to a king or queen", "origin": "fro", "first": 1350, "root": "hreg-straight",
+    "path": [
+      {"lang": "ine-pro", "form": "*h₃reǵ-", "meaning": "to move in a straight line; to rule", "year": -4000},
+      {"lang": "la", "form": "rēgālis", "meaning": "kingly", "year": -50},
+      {"lang": "fro", "form": "roial", "year": 1150},
+      {"lang": "enm", "form": "roial", "year": 1350},
+      {"lang": "en", "form": "royal", "year": 1500}
+    ],
+    "story": "Royal and regal are twins, both from Latin rēgālis. Royal took the long road through French and lost its g along the way; regal came almost straight from Latin. The same thing happened to loyal and legal.",
+    "usage": [[1350, 30], [1600, 70], [1850, 100], [1950, 85], [2020, 75]],
+    "tags": ["power"], "related": ["regal", "reign", "realm", "loyal"]
+  },
+  {
+    "id": "reign", "word": "reign", "pos": "noun", "gloss": "the period during which a monarch rules", "origin": "fro", "first": 1225, "root": "hreg-straight",
+    "path": [
+      {"lang": "ine-pro", "form": "*h₃reǵ-", "meaning": "to rule", "year": -4000},
+      {"lang": "la", "form": "rēgnum", "meaning": "kingship, kingdom", "year": -50},
+      {"lang": "fro", "form": "reigne", "year": 1100},
+      {"lang": "enm", "form": "regne", "year": 1225},
+      {"lang": "en", "form": "reign", "year": 1500}
+    ],
+    "story": "From Latin rēgnum, kingship, built on the same rēg- as rēx (king) and regal. Don’t confuse it with rein, from Latin retinēre, “to hold back”: giving someone “free rein” is a riding image, not a royal one.",
+    "usage": [[1225, 40], [1500, 70], [1800, 100], [1950, 70], [2020, 55]],
+    "tags": ["power", "time"], "related": ["regal", "royal", "sovereign"]
+  },
+  {
+    "id": "realm", "word": "realm", "pos": "noun", "gloss": "a kingdom; a field of activity or interest", "origin": "fro", "first": 1290, "root": "hreg-straight",
+    "path": [
+      {"lang": "ine-pro", "form": "*h₃reǵ-", "meaning": "to rule", "year": -4000},
+      {"lang": "la", "form": "regimen", "meaning": "rule, government", "year": -50},
+      {"lang": "fro", "form": "realme, reaume", "year": 1150, "note": "reshaped by reial, royal"},
+      {"lang": "enm", "form": "reaume", "year": 1290},
+      {"lang": "en", "form": "realm", "year": 1500}
+    ],
+    "story": "Realm comes from Latin regimen, “rule” (a cousin of regime and regiment), reshaped in Old French under the influence of reial, “royal”. A realm is whatever a ruler rules.",
+    "usage": [[1290, 40], [1500, 70], [1700, 100], [1900, 60], [2020, 55]],
+    "tags": ["power", "places"], "related": ["regal", "royal", "reign"]
+  },
+  {
+    "id": "rule", "word": "rule", "pos": "noun", "gloss": "a principle that governs conduct; control or government", "origin": "fro", "first": 1200, "root": "hreg-straight",
+    "path": [
+      {"lang": "ine-pro", "form": "*h₃reǵ-", "meaning": "to move in a straight line", "year": -4000},
+      {"lang": "la", "form": "rēgula", "meaning": "a straight stick, a ruler; a pattern", "year": -50},
+      {"lang": "fro", "form": "riule", "year": 1100},
+      {"lang": "enm", "form": "reule", "meaning": "the code of a religious order", "year": 1200},
+      {"lang": "en", "form": "rule", "year": 1500}
+    ],
+    "story": "A Latin rēgula was a straight stick for drawing lines, and the rule of a monastery was its straight path of life. That is why a ruler is both a monarch and a measuring stick.",
+    "usage": [[1200, 30], [1500, 55], [1800, 80], [1950, 100], [2020, 90]],
+    "tags": ["power", "math"], "related": ["regal", "royal", "reign"]
+  },
+  {
+    "id": "loyal", "word": "loyal", "pos": "adjective", "gloss": "giving firm and constant support", "origin": "frm", "first": 1531,
+    "path": [
+      {"lang": "la", "form": "lēgālis", "meaning": "of the law (from lēx, law)", "year": -50},
+      {"lang": "fro", "form": "loial", "meaning": "faithful", "year": 1150},
+      {"lang": "frm", "form": "loyal", "year": 1500},
+      {"lang": "en", "form": "loyal", "year": 1531}
+    ],
+    "story": "Loyal is legal in French clothes. Both come from Latin lēgālis, “of the law”, but on its way through Old French it came to mean faithful: keeping your word as if bound by law. English had already borrowed it once as leal, which still lives in Scots.",
+    "usage": [[1531, 10], [1700, 40], [1850, 70], [1950, 100], [2020, 90]],
+    "tags": ["feelings", "law"], "related": ["legal", "royal"]
+  },
+  {
+    "id": "sure", "word": "sure", "pos": "adjective", "gloss": "confident; certain", "origin": "xno", "first": 1330,
+    "path": [
+      {"lang": "la", "form": "sēcūrus", "meaning": "free from care", "year": -50},
+      {"lang": "fro", "form": "seur", "year": 1100},
+      {"lang": "xno", "form": "sur", "year": 1250},
+      {"lang": "enm", "form": "sure", "year": 1330},
+      {"lang": "en", "form": "sure", "year": 1500}
+    ],
+    "story": "Sure and secure are doublets of Latin sēcūrus, “without care”. Sure took the French road and wore down; secure was borrowed fresh from Latin two centuries later.",
+    "usage": [[1330, 30], [1600, 60], [1850, 80], [1950, 90], [2020, 100]],
+    "tags": ["core"], "related": ["secure"]
+  },
+  {
+    "id": "count", "word": "count", "pos": "verb", "gloss": "to find the total number of; to say numbers in order", "origin": "xno", "first": 1325,
+    "path": [
+      {"lang": "la", "form": "computāre", "meaning": "to reckon together", "year": -50},
+      {"lang": "fro", "form": "conter", "meaning": "to add up; to tell a story", "year": 1100},
+      {"lang": "xno", "form": "counter", "year": 1300},
+      {"lang": "enm", "form": "counten", "year": 1325},
+      {"lang": "en", "form": "count", "year": 1500}
+    ],
+    "story": "Count and compute are the same Latin verb, computāre: one worn smooth by French, the other borrowed straight from Latin in the 1630s. French conter came to mean both counting and telling a tale (conte), hence recount. The count who is a nobleman is a different word, from Latin comes, “companion”.",
+    "usage": [[1325, 30], [1600, 55], [1850, 75], [1950, 90], [2020, 100]],
+    "tags": ["numbers", "math"], "related": ["compute", "calculate"]
+  },
+  {
+    "id": "ransom", "word": "ransom", "pos": "noun", "gloss": "money demanded for the release of a captive", "origin": "xno", "first": 1250,
+    "path": [
+      {"lang": "la", "form": "redēmptiō", "meaning": "a buying back", "year": -50},
+      {"lang": "fro", "form": "raençon", "year": 1100},
+      {"lang": "xno", "form": "raunceoun", "year": 1200},
+      {"lang": "enm", "form": "raunsoun", "year": 1250},
+      {"lang": "en", "form": "ransom", "year": 1500}
+    ],
+    "story": "Ransom and redemption are one Latin word, redēmptiō, “a buying back”: one came through French, the other straight from Latin. A king’s ransom was no figure of speech for Richard the Lionheart, whose release from captivity in Germany in 1194 cost England a crushing 100,000 marks of silver.",
+    "usage": [[1250, 30], [1500, 60], [1700, 70], [1900, 60], [2020, 50]],
+    "tags": ["money", "war"]
+  },
+  {
+    "id": "army", "word": "army", "pos": "noun", "gloss": "an organized military force for fighting on land", "origin": "fro", "first": 1386, "root": "ar-fit",
+    "path": [
+      {"lang": "ine-pro", "form": "*h₂er-", "meaning": "to fit together", "year": -4000},
+      {"lang": "la", "form": "arma", "meaning": "weapons, gear", "year": -50},
+      {"lang": "la-med", "form": "armāta", "meaning": "an armed force", "year": 900},
+      {"lang": "fro", "form": "armee", "meaning": "an armed expedition", "year": 1250},
+      {"lang": "enm", "form": "armee", "year": 1386},
+      {"lang": "en", "form": "army", "meaning": "an organized land force", "year": 1500}
+    ],
+    "story": "Army began as Medieval Latin armāta, “an armed (force)”, the same word as Spanish armada, which English uses for a fleet of warships. Latin arma, “gear, fittings”, comes from a root meaning “to fit together”, which also gives art, arm and harmony.",
+    "usage": [[1386, 10], [1600, 40], [1800, 70], [1945, 100], [2020, 70]],
+    "tags": ["war"], "related": ["art", "harmony"]
+  },
+  {
+    "id": "navy", "word": "navy", "pos": "noun", "gloss": "a country's warships and sailors", "origin": "fro", "first": 1340, "root": "nau-boat",
+    "path": [
+      {"lang": "ine-pro", "form": "*neh₂u-", "meaning": "boat", "year": -4000},
+      {"lang": "la", "form": "nāvis", "meaning": "ship", "year": -50},
+      {"lang": "la-vul", "form": "*nāvia", "meaning": "a fleet", "year": 500},
+      {"lang": "fro", "form": "navie", "meaning": "a fleet, ships", "year": 1100},
+      {"lang": "enm", "form": "navie", "meaning": "any fleet of ships", "year": 1340},
+      {"lang": "en", "form": "navy", "meaning": "a nation's warships", "year": 1540}
+    ],
+    "story": "In Chaucer’s day a navy was any fleet, merchant ships included. Only in the 1500s, as standing royal fleets grew, did it come to mean a nation’s sea power. Navy blue was named in the 1840s after the dark blue of British naval uniforms.",
+    "usage": [[1340, 10], [1600, 30], [1800, 60], [1945, 100], [2020, 60]],
+    "tags": ["sea", "war", "colors"], "related": ["navigate", "nausea", "astronaut"]
+  },
+  {
+    "id": "soldier", "word": "soldier", "pos": "noun", "gloss": "a person who serves in an army", "origin": "fro", "first": 1300, "root": "sol-whole",
+    "path": [
+      {"lang": "ine-pro", "form": "*solh₂-", "meaning": "whole", "year": -4000},
+      {"lang": "la-lat", "form": "solidus", "meaning": "a solid gold coin", "year": 300},
+      {"lang": "fro", "form": "soudier", "meaning": "one who serves for pay", "year": 1100},
+      {"lang": "enm", "form": "soudiour", "year": 1300},
+      {"lang": "en", "form": "soldier", "year": 1500}
+    ],
+    "story": "A soldier was someone who fought for pay, for a solidus, the solid gold coin of the late Roman Empire. The coin’s name lives on in Italian soldo, “money”, and in the old abbreviation for a British shilling, s.",
+    "usage": [[1300, 20], [1600, 50], [1800, 75], [1915, 100], [2020, 60]],
+    "tags": ["war", "money"], "related": ["safe", "salary"]
+  },
+  {
+    "id": "battle", "word": "battle", "pos": "noun", "gloss": "a fight between armed forces", "origin": "fro", "first": 1300,
+    "path": [
+      {"lang": "la", "form": "battuere", "meaning": "to beat (possibly from Gaulish)", "year": -50},
+      {"lang": "la-lat", "form": "battuālia", "meaning": "fighting and fencing exercises", "year": 400},
+      {"lang": "fro", "form": "bataille", "year": 1100},
+      {"lang": "enm", "form": "bataille", "year": 1300},
+      {"lang": "en", "form": "battle", "year": 1500}
+    ],
+    "story": "At root a battle is a beating. Late Latin battuālia were soldiers’ and gladiators’ drills, from battuere, “to beat”, possibly a Gaulish word. Combat, debate, batter, battery and battalion all beat the same drum.",
+    "usage": [[1300, 30], [1600, 60], [1800, 80], [1915, 100], [2020, 70]],
+    "tags": ["war"]
+  },
+  {
+    "id": "enemy", "word": "enemy", "pos": "noun", "gloss": "a person who is hostile to someone; an opposing military force", "origin": "fro", "first": 1300,
+    "path": [
+      {"lang": "la", "form": "inimīcus", "meaning": "hostile; an enemy (in-, not + amīcus, friend)", "year": -50},
+      {"lang": "fro", "form": "enemi", "year": 1100},
+      {"lang": "enm", "form": "enemi", "year": 1300},
+      {"lang": "en", "form": "enemy", "year": 1500}
+    ],
+    "story": "An enemy is just a “not-friend”: Latin inimīcus, from in- + amīcus. Amicable, amiable and amateur (someone who does something for love) sit on the friendly side of the family.",
+    "usage": [[1300, 30], [1600, 70], [1800, 80], [1940, 100], [2020, 70]],
+    "tags": ["war", "people", "feelings"]
+  },
+  {
+    "id": "dainty", "word": "dainty", "pos": "adjective", "gloss": "delicately small and pretty", "origin": "xno", "first": 1300,
+    "path": [
+      {"lang": "la", "form": "dignitās", "meaning": "worthiness, worth", "year": -50},
+      {"lang": "fro", "form": "deintié", "meaning": "worth; a delicacy", "year": 1100},
+      {"lang": "xno", "form": "deintie", "year": 1250},
+      {"lang": "enm", "form": "deinte", "meaning": "esteem; a choice morsel", "year": 1300},
+      {"lang": "en", "form": "dainty", "meaning": "delicate, pretty", "year": 1550}
+    ],
+    "story": "Dainty is dignity in a Norman accent. Latin dignitās, “worth”, became Old French deintié, something valuable, especially a choice morsel, and the adjective came to mean small, delicate and refined.",
+    "usage": [[1300, 20], [1600, 60], [1850, 100], [1950, 60], [2020, 35]],
+    "tags": ["food", "meaning-shift"]
+  },
+  {
+    "id": "poison", "word": "poison", "pos": "noun", "gloss": "a substance that harms or kills when it enters the body", "origin": "fro", "first": 1225,
+    "path": [
+      {"lang": "la", "form": "pōtiō", "meaning": "a drink", "year": -50},
+      {"lang": "fro", "form": "poison", "meaning": "a drink; a potion; a poisonous draught", "year": 1100},
+      {"lang": "enm", "form": "poisoun", "meaning": "a deadly potion", "year": 1225},
+      {"lang": "en", "form": "poison", "year": 1500}
+    ],
+    "story": "Poison was once a polite word for a drink: Latin pōtiō, which also gave potion and potable. Murderers’ drinks gave it a bad name, and by the time it reached English around 1200 it meant a deadly draught.",
+    "usage": [[1225, 30], [1500, 60], [1800, 80], [1950, 100], [2020, 80]],
+    "tags": ["medicine", "meaning-shift"]
+  },
+  {
+    "id": "curfew", "word": "curfew", "pos": "noun", "gloss": "a rule requiring people to stay indoors after a certain time", "origin": "xno", "first": 1285, "featured": true,
+    "path": [
+      {"lang": "la", "form": "cooperīre + focus", "meaning": "to cover + hearth", "year": -50},
+      {"lang": "fro", "form": "covrefeu", "meaning": "cover fire!", "year": 1200},
+      {"lang": "xno", "form": "coeverfu", "year": 1250},
+      {"lang": "enm", "form": "curfeu", "meaning": "the evening signal to cover fires", "year": 1285},
+      {"lang": "en", "form": "curfew", "meaning": "an order to stay indoors", "year": 1800}
+    ],
+    "story": "Curfew means “cover the fire”. In medieval towns a bell rang each evening as the signal to bank down or cover hearth fires for the night, a sensible precaution in crowded timber streets. The popular tale that William the Conqueror imposed it to crush the Saxons is doubtful.",
+    "usage": [[1285, 20], [1500, 40], [1800, 30], [1950, 80], [2020, 100]],
+    "tags": ["time", "home", "meaning-shift"], "related": ["focus"]
+  }
+]

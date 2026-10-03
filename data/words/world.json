@@ -1,0 +1,1771 @@
+[
+  {
+    "id": "whisky", "word": "whisky", "pos": "noun", "gloss": "a spirit distilled from malted grain",
+    "origin": "gd", "first": 1715, "root": "wed-water", "featured": true,
+    "path": [
+      { "lang": "ine-pro", "form": "*wódr̥", "meaning": "water", "year": -4000 },
+      { "lang": "sga", "form": "uisce", "meaning": "water", "year": 800 },
+      { "lang": "gd", "form": "uisge beatha", "meaning": "water of life", "year": 1500 },
+      { "lang": "en", "form": "whisky", "year": 1715 }
+    ],
+    "story": "Gaelic uisge beatha, 'water of life', a translation of the alchemists' Latin aqua vitae. English first borrowed the whole phrase as usquebaugh, then kept only the water. Uisge descends from the same ancient root as English water and Russian vodka.",
+    "usage": [[1715, 3], [1800, 20], [1900, 50], [1950, 70], [2000, 95], [2020, 100]],
+    "tags": ["food"], "related": ["water", "vodka", "hydrogen"]
+  },
+  {
+    "id": "slogan", "word": "slogan", "pos": "noun", "gloss": "a short, memorable phrase used in advertising or politics",
+    "origin": "gd", "first": 1513,
+    "path": [
+      { "lang": "gd", "form": "sluagh-ghairm", "meaning": "battle cry (sluagh 'host, army' + gairm 'cry')", "year": 1400 },
+      { "lang": "en", "form": "slogorne", "meaning": "a clan's battle cry", "year": 1513 },
+      { "lang": "en", "form": "slogan", "meaning": "a party's watchword", "year": 1704 }
+    ],
+    "story": "Highland clans charged into battle shouting a sluagh-ghairm, a 'host-cry', often the clan's name or rallying place. By 1704 English used slogan for a party's watchword, and advertisers did the rest.",
+    "usage": [[1513, 2], [1700, 5], [1800, 10], [1900, 25], [1950, 70], [2000, 100], [2020, 90]],
+    "tags": ["war", "meaning-shift"], "related": ["clan"]
+  },
+  {
+    "id": "clan", "word": "clan", "pos": "noun", "gloss": "a group of families claiming descent from a common ancestor",
+    "origin": "gd", "first": 1425,
+    "path": [
+      { "lang": "la", "form": "planta", "meaning": "sprout, offshoot", "year": -50 },
+      { "lang": "sga", "form": "cland", "meaning": "offspring, family", "year": 700 },
+      { "lang": "gd", "form": "clann", "meaning": "children, family", "year": 1200 },
+      { "lang": "en", "form": "clan", "year": 1425 }
+    ],
+    "story": "Surprisingly, clan comes from Latin planta, a sprout. Early Irish had no p sound, so borrowed Latin p became c: planta turned into cland, 'offspring', and a clan was everyone sprung from a common stock.",
+    "usage": [[1425, 3], [1600, 15], [1800, 45], [1900, 60], [2000, 100], [2020, 95]],
+    "tags": ["family", "people"], "related": ["plant", "slogan"]
+  },
+  {
+    "id": "glen", "word": "glen", "pos": "noun", "gloss": "a narrow valley, especially in Scotland or Ireland",
+    "origin": "gd", "first": 1489,
+    "path": [
+      { "lang": "sga", "form": "glenn", "meaning": "valley", "year": 800 },
+      { "lang": "gd", "form": "gleann", "year": 1200 },
+      { "lang": "en", "form": "glen", "year": 1489 }
+    ],
+    "story": "A narrow, steep-sided Highland valley, from Gaelic gleann. It is stamped all over the Scottish map, from Glencoe to Glenfinnan, and on the labels of many a single malt.",
+    "usage": [[1489, 2], [1700, 10], [1800, 60], [1880, 100], [2000, 70], [2020, 65]],
+    "tags": ["nature", "places"], "related": ["whisky"]
+  },
+  {
+    "id": "galore", "word": "galore", "pos": "adjective", "gloss": "in abundance (always placed after its noun)",
+    "origin": "ga", "first": 1675,
+    "path": [
+      { "lang": "ga", "form": "go leor", "meaning": "enough, sufficiently", "year": 1600 },
+      { "lang": "en", "form": "galore", "year": 1675 }
+    ],
+    "story": "From Irish go leor, 'enough, to sufficiency'. It is one of very few English words that follow the noun they describe, just as the Irish phrase does: whisky galore, bargains galore.",
+    "usage": [[1675, 2], [1800, 15], [1900, 40], [1950, 70], [2000, 100], [2020, 95]],
+    "tags": ["numbers"]
+  },
+  {
+    "id": "smithereens", "word": "smithereens", "pos": "noun", "gloss": "small broken pieces",
+    "origin": "ga", "first": 1829,
+    "path": [
+      { "lang": "ga", "form": "smidirín", "meaning": "a little fragment (from smiodar, fragment)", "year": 1800 },
+      { "lang": "en", "form": "smithereens", "year": 1829 }
+    ],
+    "story": "Irish smiodar is a fragment and smidirín a little one; English added its own plural -s. It is almost never heard outside one phrase: blown to smithereens.",
+    "usage": [[1829, 2], [1880, 20], [1920, 60], [1950, 100], [2000, 80], [2020, 75]]
+  },
+  {
+    "id": "bog", "word": "bog", "pos": "noun", "gloss": "wet, spongy ground of decaying plants",
+    "origin": "gd", "first": 1505,
+    "path": [
+      { "lang": "gd", "form": "bogach", "meaning": "marsh (from bog, 'soft')", "year": 1400 },
+      { "lang": "en", "form": "bog", "year": 1505 }
+    ],
+    "story": "From Gaelic bog, 'soft'. Peat bogs are so airless and acidic that they preserve what falls into them: Irish bogs still turn up casks of 'bog butter' buried centuries, sometimes millennia, ago.",
+    "usage": [[1505, 5], [1700, 40], [1850, 100], [1950, 85], [2020, 75]],
+    "tags": ["nature"]
+  },
+  {
+    "id": "corgi", "word": "corgi", "pos": "noun", "gloss": "a short-legged Welsh breed of dog with a fox-like head",
+    "origin": "cy", "first": 1926, "root": "kwon-dog",
+    "path": [
+      { "lang": "ine-pro", "form": "*ḱwṓ", "meaning": "dog", "year": -4000 },
+      { "lang": "cy", "form": "cor + ci", "meaning": "dwarf + dog", "year": 1500 },
+      { "lang": "en", "form": "corgi", "year": 1926 }
+    ],
+    "story": "Welsh cor (dwarf) + ci (dog): a dwarf dog, bred to herd cattle by nipping at their heels. Ci comes from the same ancient root as hound and cynic. Queen Elizabeth II owned more than thirty corgis over her reign.",
+    "usage": [[1926, 2], [1950, 20], [1980, 45], [2000, 70], [2020, 100]],
+    "tags": ["animals"], "related": ["hound", "cynic"]
+  },
+  {
+    "id": "flannel", "word": "flannel", "pos": "noun", "gloss": "a soft woven cloth, usually of wool or cotton",
+    "origin": "cy", "first": 1503,
+    "path": [
+      { "lang": "cy", "form": "gwlân", "meaning": "wool", "year": 1000 },
+      { "lang": "cy", "form": "gwlanen", "meaning": "a woollen cloth", "year": 1400 },
+      { "lang": "en", "form": "flannel", "year": 1503 }
+    ],
+    "story": "Probably from Welsh gwlanen, a woollen cloth, at a time when Wales was famous for its weaving; English smoothed the tricky gwl- into fl-. Welsh gwlân is a distant cousin of English wool.",
+    "usage": [[1503, 3], [1700, 20], [1850, 60], [1920, 100], [2000, 60], [2020, 55]],
+    "tags": ["clothing"], "related": ["wool"]
+  },
+  {
+    "id": "car", "word": "car", "pos": "noun", "gloss": "a road vehicle with an engine, for a small number of people",
+    "origin": "xno", "first": 1300, "root": "kers-run",
+    "path": [
+      { "lang": "ine-pro", "form": "*ḱers-", "meaning": "to run", "year": -4000 },
+      { "lang": "cel-gau", "form": "*karros", "meaning": "wagon, war chariot", "year": -200 },
+      { "lang": "la", "form": "carrus", "meaning": "four-wheeled wagon", "year": -50 },
+      { "lang": "xno", "form": "carre", "year": 1250 },
+      { "lang": "enm", "form": "carre", "meaning": "wheeled vehicle, cart", "year": 1300 },
+      { "lang": "en", "form": "car", "meaning": "railway carriage", "year": 1830 },
+      { "lang": "en", "form": "car", "meaning": "motor car", "year": 1896 }
+    ],
+    "story": "The Romans borrowed carrus from the Gauls, whose wagons and war chariots impressed them. It rolled on into French and English as a word for any cart, then for railway carriages, and from 1896 for the horseless carriage. Carry, cargo, career and charge are all its offspring.",
+    "usage": [[1300, 5], [1600, 10], [1850, 20], [1900, 35], [1960, 90], [2000, 100], [2020, 95]],
+    "tags": ["technology"], "related": ["carry", "cargo", "career", "charge"]
+  },
+  {
+    "id": "bard", "word": "bard", "pos": "noun", "gloss": "a poet, especially one in the ancient Celtic tradition",
+    "origin": "gd", "first": 1450,
+    "path": [
+      { "lang": "cel-pro", "form": "*bardos", "meaning": "poet, singer of praises", "year": -500 },
+      { "lang": "gd", "form": "bàrd", "year": 1200 },
+      { "lang": "en", "form": "bard", "year": 1450 }
+    ],
+    "story": "Greek and Roman writers already knew of the Celtic bards, poets who sang the praises of chiefs. In late medieval Scotland the word was a sneer, and laws grouped wandering bards with beggars and vagabonds. Romantic writers restored its glory, and Shakespeare became 'the Bard of Avon'.",
+    "usage": [[1450, 2], [1700, 20], [1820, 100], [1900, 60], [2000, 45], [2020, 40]],
+    "tags": ["art", "music", "people"]
+  },
+  {
+    "id": "banshee", "word": "banshee", "pos": "noun", "gloss": "a female spirit whose wailing warns of a death",
+    "origin": "ga", "first": 1771, "root": "gwen-woman",
+    "path": [
+      { "lang": "ine-pro", "form": "*gʷén-", "meaning": "woman", "year": -4000 },
+      { "lang": "sga", "form": "ben síde", "meaning": "woman of the fairy mound", "year": 800 },
+      { "lang": "ga", "form": "bean sí", "year": 1600 },
+      { "lang": "en", "form": "banshee", "year": 1771 }
+    ],
+    "story": "Irish bean sí, 'woman of the síd', the fairy mounds where the old gods were said to live. Her keening foretold a death in the family. Bean, woman, is a distant cousin of English queen and Greek gynē, as in gynaecology.",
+    "usage": [[1771, 2], [1850, 30], [1900, 50], [1950, 60], [2000, 90], [2020, 100]],
+    "tags": ["mythology"], "related": ["queen"]
+  },
+
+  {
+    "id": "piano", "word": "piano", "pos": "noun", "gloss": "a large keyboard instrument whose strings are struck by hammers",
+    "origin": "it", "first": 1803,
+    "path": [
+      { "lang": "la", "form": "plānus", "meaning": "flat, smooth", "year": -50 },
+      { "lang": "it", "form": "piano", "meaning": "soft, quiet", "year": 1300 },
+      { "lang": "it", "form": "pianoforte", "meaning": "soft-loud (an instrument)", "year": 1710 },
+      { "lang": "en", "form": "pianoforte", "year": 1767 },
+      { "lang": "en", "form": "piano", "year": 1803 }
+    ],
+    "story": "Around 1700 Bartolomeo Cristofori of Florence built a harpsichord whose strings were struck by hammers, so it could play both soft and loud: a gravicembalo col piano e forte. The pianoforte became the piano, named, ironically, for its softness alone.",
+    "usage": [[1803, 5], [1850, 40], [1900, 100], [1950, 80], [2000, 70], [2020, 65]],
+    "tags": ["music"], "related": ["opera"]
+  },
+  {
+    "id": "opera", "word": "opera", "pos": "noun", "gloss": "a dramatic work set to music for singers and orchestra",
+    "origin": "it", "first": 1644,
+    "path": [
+      { "lang": "la", "form": "opera", "meaning": "works, effort (plural of opus)", "year": -50 },
+      { "lang": "it", "form": "opera", "meaning": "a work; a sung drama", "year": 1600 },
+      { "lang": "en", "form": "opera", "year": 1644 }
+    ],
+    "story": "In Latin opera meant 'works', the plural of opus. Around 1600 Florentine musicians invented a new kind of drama sung from start to finish, and such a 'work' of music gave the art form its name. English travellers met it in Italy in the 1640s and brought the word home.",
+    "usage": [[1644, 5], [1750, 40], [1850, 80], [1920, 100], [2000, 70], [2020, 65]],
+    "tags": ["music", "art"], "related": ["piano", "operate"]
+  },
+  {
+    "id": "fresco", "word": "fresco", "pos": "noun", "gloss": "a painting made on wet plaster",
+    "origin": "it", "first": 1598,
+    "path": [
+      { "lang": "gem-pro", "form": "*friskaz", "meaning": "fresh", "year": -500 },
+      { "lang": "it", "form": "fresco", "meaning": "fresh", "year": 1300 },
+      { "lang": "en", "form": "fresco", "meaning": "painting on fresh plaster", "year": 1598 }
+    ],
+    "story": "Fresco simply means 'fresh', and Italian borrowed it from a Germanic language: it is a cousin of English fresh. Fresco painters brush pigment onto fresh, wet plaster so the colour binds into the wall as it dries, which is why Michelangelo had to work fast, patch by patch, across the Sistine Chapel ceiling.",
+    "usage": [[1598, 3], [1700, 15], [1850, 50], [1900, 70], [2000, 100], [2020, 90]],
+    "tags": ["art"], "related": ["fresh"]
+  },
+  {
+    "id": "balcony", "word": "balcony", "pos": "noun", "gloss": "a platform with a railing projecting from the wall of a building",
+    "origin": "it", "first": 1618,
+    "path": [
+      { "lang": "gem-pro", "form": "*balkô", "meaning": "beam", "year": -500 },
+      { "lang": "it", "form": "balcone", "year": 1400 },
+      { "lang": "en", "form": "balcony", "year": 1618 }
+    ],
+    "story": "Italian balcone came from a Germanic word for a beam, a cousin of English balk. Until about 1825 English stressed it bal-CO-ny, and the poet Samuel Rogers grumbled that 'contemplate is bad enough, but balcony makes me sick'.",
+    "usage": [[1618, 3], [1700, 20], [1800, 45], [1900, 80], [2000, 100], [2020, 95]],
+    "tags": ["home"], "related": ["balk"]
+  },
+  {
+    "id": "bank", "word": "bank", "pos": "noun", "gloss": "a business that keeps and lends money",
+    "origin": "frm", "first": 1474,
+    "path": [
+      { "lang": "gem-pro", "form": "*bankiz", "meaning": "bench", "year": -500 },
+      { "lang": "it", "form": "banca", "meaning": "bench; a money-changer's counter", "year": 1200 },
+      { "lang": "frm", "form": "banque", "year": 1450 },
+      { "lang": "en", "form": "bank", "year": 1474 }
+    ],
+    "story": "Medieval Italian money-changers did business at a banca, a bench or counter, in the marketplace; the word is Germanic, a cousin of English bench. Italian bankers spread it across Europe, and London's Lombard Street is still named after them.",
+    "usage": [[1474, 5], [1600, 25], [1750, 50], [1900, 85], [2000, 100], [2020, 95]],
+    "tags": ["money", "trade"], "related": ["bankrupt", "bench"]
+  },
+  {
+    "id": "bankrupt", "word": "bankrupt", "pos": "adjective", "gloss": "unable to pay one's debts",
+    "origin": "it", "first": 1533,
+    "path": [
+      { "lang": "gem-pro", "form": "*bankiz", "meaning": "bench", "year": -500 },
+      { "lang": "it", "form": "banca rotta", "meaning": "broken bench; insolvency", "year": 1400 },
+      { "lang": "en", "form": "bankrout", "year": 1533 },
+      { "lang": "en", "form": "bankrupt", "note": "re-spelled after Latin ruptus, broken", "year": 1560 }
+    ],
+    "story": "Italian banca rotta, 'broken bench': a money-changer who could not pay was finished. The tale that his bench was ceremonially smashed is colourful but hard to prove. English later re-spelled the second half to match Latin ruptus, 'broken', as in rupture.",
+    "usage": [[1533, 5], [1700, 40], [1850, 60], [1900, 70], [2000, 100], [2020, 90]],
+    "tags": ["money", "law"], "related": ["bank", "rupture"]
+  },
+  {
+    "id": "umbrella", "word": "umbrella", "pos": "noun", "gloss": "a folding canopy on a stick, used against rain or sun",
+    "origin": "it", "first": 1609,
+    "path": [
+      { "lang": "la", "form": "umbra", "meaning": "shade, shadow", "year": -50 },
+      { "lang": "la", "form": "umbella", "meaning": "sunshade, parasol", "year": 50 },
+      { "lang": "it", "form": "ombrella", "year": 1500 },
+      { "lang": "en", "form": "umbrello", "year": 1609 },
+      { "lang": "en", "form": "umbrella", "year": 1650 }
+    ],
+    "story": "A 'little shade', from Latin umbra, and at first a sunshade. When Jonas Hanway carried one against the rain through 1750s London, people jeered, since umbrellas were thought fit only for women; within a generation every gentleman had one.",
+    "usage": [[1609, 2], [1700, 15], [1800, 40], [1900, 70], [2000, 100], [2020, 95]],
+    "tags": ["home", "clothing"]
+  },
+  {
+    "id": "ghetto", "word": "ghetto", "pos": "noun", "gloss": "a part of a city where a minority group lives, often by force or poverty",
+    "origin": "it", "first": 1611,
+    "path": [
+      { "lang": "it", "form": "ghetto", "meaning": "the Jewish quarter of Venice", "note": "probably from Venetian ghèto, a foundry", "year": 1516 },
+      { "lang": "en", "form": "ghetto", "year": 1611 }
+    ],
+    "story": "In 1516 Venice confined its Jewish residents to a walled island in the Cannaregio district, on the site of an old copper foundry, probably the getto (casting) that gave the place, and the word, its name. The English traveller Thomas Coryat described the Venetian Ghetto in 1611.",
+    "usage": [[1611, 2], [1800, 10], [1900, 25], [1970, 100], [2000, 80], [2020, 70]],
+    "tags": ["places", "people"]
+  },
+  {
+    "id": "influenza", "word": "influenza", "pos": "noun", "gloss": "a contagious viral infection of the airways; flu",
+    "origin": "it", "first": 1743,
+    "path": [
+      { "lang": "la-med", "form": "influentia", "meaning": "a flowing in (of power from the stars)", "year": 1300 },
+      { "lang": "it", "form": "influenza", "meaning": "influence; an epidemic", "year": 1500 },
+      { "lang": "en", "form": "influenza", "year": 1743 },
+      { "lang": "en", "form": "flu", "year": 1839 }
+    ],
+    "story": "Italian influenza meant 'influence', specifically the influence of the stars, which were blamed for outbreaks of disease. English borrowed it during a European epidemic in 1743, and by 1839 had shortened it to flu.",
+    "usage": [[1743, 5], [1850, 30], [1918, 100], [1950, 40], [2009, 60], [2020, 55]],
+    "tags": ["medicine"], "related": ["influence", "disaster"]
+  },
+  {
+    "id": "malaria", "word": "malaria", "pos": "noun", "gloss": "a fever caused by a parasite spread by mosquitoes",
+    "origin": "it", "first": 1740,
+    "path": [
+      { "lang": "it", "form": "mal'aria", "meaning": "bad air", "year": 1500 },
+      { "lang": "en", "form": "malaria", "year": 1740 }
+    ],
+    "story": "Mal'aria, 'bad air': Italians blamed the summer fevers on foul vapours rising from the marshes around Rome. Horace Walpole wrote home in 1740 about 'a horrid thing called the mal'aria, that comes to Rome every summer, and kills one'. The real culprit, a parasite carried by mosquitoes, was only tracked down in the 1880s and 1890s.",
+    "usage": [[1740, 2], [1850, 30], [1900, 70], [1950, 100], [2000, 80], [2020, 70]],
+    "tags": ["medicine"], "related": ["mosquito"]
+  },
+  {
+    "id": "quarantine", "word": "quarantine", "pos": "noun", "gloss": "a period of isolation to stop a disease spreading",
+    "origin": "it", "first": 1663,
+    "path": [
+      { "lang": "la", "form": "quadrāgintā", "meaning": "forty", "year": -50 },
+      { "lang": "it", "form": "quaranta giorni", "meaning": "forty days", "year": 1400 },
+      { "lang": "en", "form": "quarantine", "year": 1663 }
+    ],
+    "story": "From the 1370s, Ragusa (Dubrovnik) and later Venice made ships arriving from plague-stricken ports wait offshore, first for thirty days, later for forty: quaranta giorni. Why forty is unclear; the biblical forty days of Lent and of the Flood may have suggested it.",
+    "usage": [[1663, 5], [1800, 30], [1900, 40], [1950, 25], [2019, 30], [2020, 100]],
+    "tags": ["medicine", "numbers", "sea"]
+  },
+  {
+    "id": "pizza", "word": "pizza", "pos": "noun", "gloss": "a flat round bread baked with toppings such as tomato and cheese",
+    "origin": "it", "first": 1935,
+    "path": [
+      { "lang": "la-med", "form": "pizza", "note": "in a Latin document from Gaeta, near Naples", "year": 997 },
+      { "lang": "it", "form": "pizza", "year": 1500 },
+      { "lang": "en", "form": "pizza", "year": 1935 }
+    ],
+    "story": "The word first turns up in a Latin document from Gaeta, near Naples, in 997, though nobody knows what that pizza looked like or where the word came from. Tomato-topped pizza is a Neapolitan creation of the 1700s and 1800s; Italian immigrants made it an American staple in the 20th century.",
+    "usage": [[1935, 2], [1950, 10], [1970, 45], [2000, 90], [2020, 100]],
+    "tags": ["food"]
+  },
+  {
+    "id": "volcano", "word": "volcano", "pos": "noun", "gloss": "a mountain with a vent through which lava and gas erupt",
+    "origin": "it", "first": 1613,
+    "path": [
+      { "lang": "la", "form": "Vulcānus", "meaning": "Vulcan, god of fire", "year": -200 },
+      { "lang": "it", "form": "vulcano", "meaning": "a fire-mountain (first, the island of Vulcano)", "year": 1500 },
+      { "lang": "en", "form": "volcano", "year": 1613 }
+    ],
+    "story": "Named after Vulcan, the Roman god of fire and the forge, whose workshop was imagined beneath Vulcano, a smoking island north of Sicily. Italian turned the island's name into the word for any fire-mountain.",
+    "usage": [[1613, 3], [1700, 20], [1800, 50], [1900, 70], [2000, 100], [2020, 90]],
+    "tags": ["nature", "mythology", "science"]
+  },
+  {
+    "id": "canyon", "word": "canyon", "pos": "noun", "gloss": "a deep gorge with steep sides, usually cut by a river",
+    "origin": "es", "first": 1834,
+    "path": [
+      { "lang": "la", "form": "canna", "meaning": "reed, cane", "year": -50 },
+      { "lang": "es", "form": "caño", "meaning": "tube, pipe", "year": 1200 },
+      { "lang": "es", "form": "cañón", "meaning": "large tube; (in Mexico) a deep gorge", "year": 1700 },
+      { "lang": "en", "form": "canyon", "year": 1834 }
+    ],
+    "story": "Spanish cañón means a large tube or pipe, from caño, tube, from Latin canna, a reed; in Mexico it came to mean a deep, narrow gorge. Americans anglicised the spelling as they pushed west. Cannon and cane grew from the same reed.",
+    "usage": [[1834, 2], [1880, 20], [1920, 50], [2000, 100], [2020, 90]],
+    "tags": ["nature", "places"], "related": ["cannon", "cane"]
+  },
+  {
+    "id": "guitar", "word": "guitar", "pos": "noun", "gloss": "a stringed instrument with a long neck, played by plucking",
+    "origin": "es", "first": 1621,
+    "path": [
+      { "lang": "grc", "form": "κιθάρα (kithara)", "meaning": "a kind of lyre", "year": -700 },
+      { "lang": "ar", "form": "قيثارة (qīthāra)", "year": 900 },
+      { "lang": "es", "form": "guitarra", "year": 1300 },
+      { "lang": "en", "form": "guitar", "year": 1621 }
+    ],
+    "story": "The Greek kithara was a lyre; by way of Arabic qīthāra it became Spanish guitarra. English had already borrowed the same word once, through French, as gittern, and German, through Latin, made it zither.",
+    "usage": [[1621, 2], [1800, 20], [1900, 30], [1950, 50], [2000, 100], [2020, 95]],
+    "tags": ["music"], "related": ["zither"]
+  },
+  {
+    "id": "mosquito", "word": "mosquito", "pos": "noun", "gloss": "a small flying insect whose female sucks blood",
+    "origin": "es", "first": 1583,
+    "path": [
+      { "lang": "la", "form": "musca", "meaning": "fly", "year": -50 },
+      { "lang": "es", "form": "mosca", "meaning": "fly", "year": 1200 },
+      { "lang": "es", "form": "mosquito", "meaning": "little fly", "year": 1500 },
+      { "lang": "en", "form": "mosquito", "year": 1583 }
+    ],
+    "story": "Simply a 'little fly' in Spanish, from mosca. Spanish explorers used it for the biting insects of the Americas. Three centuries later scientists showed that mosquitoes carry malaria and yellow fever, making this little fly the deadliest animal on Earth.",
+    "usage": [[1583, 2], [1700, 10], [1850, 30], [1950, 70], [2000, 100], [2020, 95]],
+    "tags": ["animals"], "related": ["malaria"]
+  },
+  {
+    "id": "tornado", "word": "tornado", "pos": "noun", "gloss": "a violently rotating column of air reaching down from a storm cloud",
+    "origin": "es", "first": 1556,
+    "path": [
+      { "lang": "es", "form": "tronada", "meaning": "thunderstorm", "year": 1500 },
+      { "lang": "en", "form": "ternado", "meaning": "a violent thunderstorm at sea", "year": 1556 },
+      { "lang": "en", "form": "tornado", "meaning": "a rotating funnel of wind" }
+    ],
+    "story": "Probably a sailors' mangling of Spanish tronada, a thunderstorm, reshaped under the influence of tornar, 'to turn'. At first it meant a violent squall in the tropical Atlantic; the twisting funnels of the American plains made the 'turning' sense stick.",
+    "usage": [[1556, 2], [1700, 10], [1850, 30], [1950, 60], [2011, 100], [2020, 90]],
+    "tags": ["nature", "meaning-shift", "sea"], "related": ["hurricane", "typhoon"]
+  },
+  {
+    "id": "alligator", "word": "alligator", "pos": "noun", "gloss": "a large reptile of the Americas and China, related to crocodiles",
+    "origin": "es", "first": 1568,
+    "path": [
+      { "lang": "la", "form": "lacertus", "meaning": "lizard", "year": -50 },
+      { "lang": "es", "form": "el lagarto", "meaning": "the lizard", "year": 1500 },
+      { "lang": "en", "form": "lagarto", "year": 1568 },
+      { "lang": "en", "form": "alligator", "year": 1600 }
+    ],
+    "story": "Spanish sailors in the Caribbean called the creature el lagarto, 'the lizard'. English swallowed the article along with the noun, and el lagarto became alligator. Lizard comes from the same Latin lacertus.",
+    "usage": [[1568, 2], [1700, 10], [1850, 30], [1950, 50], [2000, 100], [2020, 95]],
+    "tags": ["animals"], "related": ["lizard"]
+  },
+  {
+    "id": "cockroach", "word": "cockroach", "pos": "noun", "gloss": "a fast-running, flat-bodied insect that infests buildings",
+    "origin": "es", "first": 1624,
+    "path": [
+      { "lang": "es", "form": "cucaracha", "year": 1500 },
+      { "lang": "en", "form": "cacarootch", "year": 1624 },
+      { "lang": "en", "form": "cockroach", "year": 1660 }
+    ],
+    "story": "Captain John Smith wrote in 1624 of 'a certaine India Bug, called by the Spaniards a Cacarootch'. English speakers remade the foreign word out of two familiar ones, cock and roach (a fish), though the insect is neither.",
+    "usage": [[1624, 2], [1750, 10], [1850, 25], [1950, 50], [2000, 100], [2020, 95]],
+    "tags": ["animals"]
+  },
+  {
+    "id": "ranch", "word": "ranch", "pos": "noun", "gloss": "a large farm, especially for raising cattle or horses",
+    "origin": "es", "first": 1808,
+    "path": [
+      { "lang": "es", "form": "rancho", "meaning": "a group who eat together; a hut", "year": 1500 },
+      { "lang": "es", "form": "rancho", "meaning": "(in Mexico) a small farm", "year": 1700 },
+      { "lang": "en", "form": "rancho", "year": 1808 },
+      { "lang": "en", "form": "ranch", "year": 1831 }
+    ],
+    "story": "In Spain a rancho was a group of soldiers or herdsmen messing together, then the huts where they lived. In Mexico it became a farm, and American cattlemen clipped it to ranch.",
+    "usage": [[1808, 2], [1870, 20], [1920, 60], [1960, 100], [2020, 80]],
+    "tags": ["home", "animals"], "related": ["rodeo"]
+  },
+  {
+    "id": "rodeo", "word": "rodeo", "pos": "noun", "gloss": "a show of cowboy skills such as riding broncos and roping cattle",
+    "origin": "es", "first": 1834,
+    "path": [
+      { "lang": "la", "form": "rotāre", "meaning": "to turn, to revolve", "year": -50 },
+      { "lang": "es", "form": "rodear", "meaning": "to go around, to surround", "year": 1200 },
+      { "lang": "es", "form": "rodeo", "meaning": "a cattle round-up", "year": 1700 },
+      { "lang": "en", "form": "rodeo", "meaning": "a cattle round-up", "year": 1834 },
+      { "lang": "en", "form": "rodeo", "meaning": "a public show of cowboy skills", "year": 1914 }
+    ],
+    "story": "From Spanish rodear, 'to go around': a rodeo was a round-up, when vaqueros circled the herd. The public shows of riding and roping took the name in the early 1900s. Rotate is a cousin.",
+    "usage": [[1834, 2], [1900, 10], [1930, 50], [1980, 100], [2020, 80]],
+    "tags": ["animals"], "related": ["ranch", "rotate"]
+  },
+  {
+    "id": "vanilla", "word": "vanilla", "pos": "noun", "gloss": "a flavouring from the pods of a tropical orchid",
+    "origin": "es", "first": 1662,
+    "path": [
+      { "lang": "la", "form": "vāgīna", "meaning": "sheath, scabbard", "year": -50 },
+      { "lang": "es", "form": "vaina", "meaning": "sheath, pod", "year": 1200 },
+      { "lang": "es", "form": "vainilla", "meaning": "little pod", "year": 1600 },
+      { "lang": "en", "form": "vanilla", "year": 1662 }
+    ],
+    "story": "Spanish vainilla, 'little pod', from vaina, sheath, which comes, a little startlingly, from Latin vāgīna, a scabbard. The Aztecs flavoured their cacao drinks with it. The sense 'plain, ordinary' arrived only in the late 20th century.",
+    "usage": [[1662, 2], [1800, 15], [1900, 40], [1950, 70], [2000, 100], [2020, 95]],
+    "tags": ["food", "meaning-shift"], "related": ["chocolate"]
+  },
+  {
+    "id": "cobra", "word": "cobra", "pos": "noun", "gloss": "a venomous snake that spreads a hood when threatened",
+    "origin": "pt", "first": 1671,
+    "path": [
+      { "lang": "la", "form": "colubra", "meaning": "snake", "year": -50 },
+      { "lang": "pt", "form": "cobra de capello", "meaning": "snake with a hood", "year": 1500 },
+      { "lang": "en", "form": "cobra de capello", "year": 1671 },
+      { "lang": "en", "form": "cobra", "year": 1802 }
+    ],
+    "story": "Portuguese explorers in India named it cobra de capello, 'snake with a hood', for the flap it spreads when threatened. English kept only the 'snake': cobra is just Portuguese for serpent, from Latin colubra.",
+    "usage": [[1671, 2], [1802, 10], [1900, 40], [2000, 100], [2020, 90]],
+    "tags": ["animals", "empire"]
+  },
+  {
+    "id": "flamingo", "word": "flamingo", "pos": "noun", "gloss": "a tall pink wading bird with a long neck",
+    "origin": "pt", "first": 1565,
+    "path": [
+      { "lang": "la", "form": "flamma", "meaning": "flame", "year": -50 },
+      { "lang": "pro", "form": "flamenc", "meaning": "flame-coloured", "year": 1300 },
+      { "lang": "pt", "form": "flamengo", "year": 1500 },
+      { "lang": "en", "form": "flamingo", "year": 1565 }
+    ],
+    "story": "The flame-coloured bird: Provençal flamenc, from flama, 'flame', plus a Germanic ending meaning 'like'. Flamingos get their pink from pigments in the algae and tiny shrimp they eat.",
+    "usage": [[1565, 2], [1700, 10], [1850, 20], [1950, 40], [2000, 90], [2020, 100]],
+    "tags": ["animals", "colors"]
+  },
+  {
+    "id": "marmalade", "word": "marmalade", "pos": "noun", "gloss": "a preserve made from citrus fruit, especially oranges",
+    "origin": "frm", "first": 1500,
+    "path": [
+      { "lang": "grc", "form": "μελίμηλον (melimēlon)", "meaning": "honey-apple", "year": -300 },
+      { "lang": "la", "form": "melimēlum", "meaning": "sweet apple", "year": 50 },
+      { "lang": "pt", "form": "marmelo", "meaning": "quince", "year": 1300 },
+      { "lang": "pt", "form": "marmelada", "meaning": "quince paste", "year": 1450 },
+      { "lang": "frm", "form": "marmelade", "year": 1500 },
+      { "lang": "en", "form": "marmalade", "meaning": "quince jam", "year": 1500 }
+    ],
+    "story": "Portuguese marmelada was a stiff quince paste, from marmelo, quince, ultimately Greek melimēlon, 'honey-apple'. The tale that it comes from 'Marie malade', a remedy for an ailing Mary Queen of Scots, is invention: marmalade was in English decades before Mary was born in 1542. Oranges took over from quinces later.",
+    "usage": [[1500, 5], [1700, 20], [1850, 50], [1950, 100], [2020, 60]],
+    "tags": ["food"], "related": ["orange"]
+  },
+  {
+    "id": "mango", "word": "mango", "pos": "noun", "gloss": "a sweet, juicy tropical fruit with a large stone",
+    "origin": "pt", "first": 1582,
+    "path": [
+      { "lang": "ta", "form": "மாங்காய் (māṅkāy)", "meaning": "mango fruit", "year": 200 },
+      { "lang": "ml", "form": "മാങ്ങ (māṅṅa)", "year": 1400 },
+      { "lang": "pt", "form": "manga", "year": 1510 },
+      { "lang": "en", "form": "mango", "year": 1582 }
+    ],
+    "story": "Portuguese traders reaching Kerala, on India's south-west coast, picked up Malayalam māṅṅa, a sister of Tamil māṅkāy, 'mango fruit', and carried manga around their empire. English took it from them in the 1580s.",
+    "usage": [[1582, 2], [1750, 15], [1900, 30], [1980, 60], [2020, 100]],
+    "tags": ["food", "empire", "trade"]
+  },
+  {
+    "id": "buffalo", "word": "buffalo", "pos": "noun", "gloss": "a large wild ox; in North America, the bison",
+    "origin": "pt", "first": 1588, "root": "gwow-cow",
+    "path": [
+      { "lang": "ine-pro", "form": "*gʷṓws", "meaning": "cow", "year": -4000 },
+      { "lang": "grc", "form": "βούβαλος (boubalos)", "meaning": "antelope; wild ox", "year": -400 },
+      { "lang": "la-lat", "form": "būbalus, bufalus", "year": 400 },
+      { "lang": "pt", "form": "búfalo", "year": 1300 },
+      { "lang": "en", "form": "buffalo", "year": 1588 }
+    ],
+    "story": "Greek boubalos, probably built on bous (ox), named an African antelope; Latin and Portuguese moved it to the water buffalo of Asia. Then English settlers in North America gave it to the bison, which isn't a buffalo at all.",
+    "usage": [[1588, 2], [1700, 15], [1850, 60], [1900, 100], [2000, 70], [2020, 65]],
+    "tags": ["animals"], "related": ["beef", "cow"]
+  },
+
+  {
+    "id": "coffee", "word": "coffee", "pos": "noun", "gloss": "a hot drink made from roasted, ground coffee beans",
+    "origin": "nl", "first": 1598,
+    "path": [
+      { "lang": "ar", "form": "قهوة (qahwa)", "meaning": "a poetic word for wine; from the 1400s, coffee", "year": 1450 },
+      { "lang": "ota", "form": "قهوه (kahve)", "year": 1550 },
+      { "lang": "nl", "form": "koffie", "year": 1590 },
+      { "lang": "en", "form": "coffee", "year": 1598 }
+    ],
+    "story": "Arabic qahwa had been a word for wine before Sufis in Yemen gave it to the new drink in the 1400s. Turkish kahve carried it into Europe, as Italian caffè, French café and Dutch koffie, which most likely handed it to English around 1600. England's first coffeehouse opened in Oxford in 1650.",
+    "usage": [[1598, 2], [1700, 25], [1800, 50], [1900, 70], [2000, 95], [2020, 100]],
+    "tags": ["food", "trade"], "related": ["cafe", "tea"]
+  },
+  {
+    "id": "sugar", "word": "sugar", "pos": "noun", "gloss": "a sweet crystalline substance from cane or beet",
+    "origin": "fro", "first": 1300,
+    "path": [
+      { "lang": "sa", "form": "शर्करा (śarkarā)", "meaning": "grit, gravel; ground sugar", "year": -500 },
+      { "lang": "pal", "form": "šakar", "year": 500 },
+      { "lang": "ar", "form": "سكر (sukkar)", "year": 800 },
+      { "lang": "la-med", "form": "succarum", "year": 1100 },
+      { "lang": "fro", "form": "sucre", "year": 1200 },
+      { "lang": "enm", "form": "sugre", "year": 1300 },
+      { "lang": "en", "form": "sugar", "year": 1550 }
+    ],
+    "story": "Sanskrit śarkarā meant grit or gravel, a fair description of the coarse crystals Indians first boiled from cane juice. The word travelled west with the crop, through Persian and Arabic. Candy comes from India too: Sanskrit khaṇḍa, a lump of sugar.",
+    "usage": [[1300, 5], [1600, 30], [1800, 60], [1900, 80], [1980, 100], [2020, 90]],
+    "tags": ["food", "trade"], "related": ["candy"]
+  },
+  {
+    "id": "alcohol", "word": "alcohol", "pos": "noun", "gloss": "the intoxicating ingredient in wine, beer and spirits",
+    "origin": "la-med", "first": 1543, "featured": true,
+    "path": [
+      { "lang": "ar", "form": "الكحل (al-kuḥl)", "meaning": "kohl, finely ground antimony for lining the eyes", "year": 800 },
+      { "lang": "la-med", "form": "alcohol", "meaning": "any fine powder; then a refined essence", "year": 1500 },
+      { "lang": "en", "form": "alcohol", "meaning": "fine powder", "year": 1543 },
+      { "lang": "en", "form": "alcohol of wine", "meaning": "distilled spirit", "year": 1672 },
+      { "lang": "en", "form": "alcohol", "meaning": "the intoxicant in drinks", "year": 1753 }
+    ],
+    "story": "Al-kuḥl was kohl, the fine black powder that has lined eyes since ancient Egypt. Alchemists stretched it to mean any fine powder, then the purest essence of anything, until 'alcohol of wine' meant distilled spirit. By the 1750s the essence of the party had taken the whole word.",
+    "usage": [[1543, 1], [1700, 5], [1800, 20], [1900, 60], [1950, 80], [2000, 100], [2020, 95]],
+    "tags": ["science", "meaning-shift", "food"], "related": ["algebra", "kohl"]
+  },
+  {
+    "id": "zero", "word": "zero", "pos": "numeral", "gloss": "the number 0; nothing",
+    "origin": "fr", "first": 1604,
+    "path": [
+      { "lang": "sa", "form": "शून्य (śūnya)", "meaning": "empty, void", "year": 500 },
+      { "lang": "ar", "form": "صفر (ṣifr)", "meaning": "empty; zero", "year": 820 },
+      { "lang": "la-med", "form": "zephirum", "note": "used by Fibonacci", "year": 1202 },
+      { "lang": "it", "form": "zero", "note": "squeezed from zefiro", "year": 1400 },
+      { "lang": "fr", "form": "zéro", "year": 1600 },
+      { "lang": "en", "form": "zero", "year": 1604 }
+    ],
+    "story": "Indian mathematicians called the empty place śūnya, 'void', and Arabic translated it as ṣifr. Fibonacci latinised that as zephirum in 1202, Italians squeezed it to zero, and English borrowed it around 1600. Cipher is the same word, taken earlier.",
+    "usage": [[1604, 2], [1700, 10], [1850, 30], [1950, 70], [2000, 100], [2020, 95]],
+    "tags": ["math", "numbers", "science"], "related": ["cipher", "algebra", "algorithm"]
+  },
+  {
+    "id": "cipher", "word": "cipher", "pos": "noun", "gloss": "a secret code; also, a person of no importance",
+    "origin": "fro", "first": 1390,
+    "path": [
+      { "lang": "sa", "form": "शून्य (śūnya)", "meaning": "empty, void", "year": 500 },
+      { "lang": "ar", "form": "صفر (ṣifr)", "meaning": "empty; zero", "year": 820 },
+      { "lang": "la-med", "form": "cifra", "year": 1200 },
+      { "lang": "fro", "form": "cifre", "meaning": "nothing, zero", "year": 1300 },
+      { "lang": "enm", "form": "siphre", "meaning": "the figure 0", "year": 1390 },
+      { "lang": "en", "form": "cipher", "meaning": "secret writing", "year": 1528 }
+    ],
+    "story": "Before it meant a code, cipher meant zero: Arabic ṣifr, 'empty'. Hindu-Arabic numerals baffled medieval Europeans, so cipher spread to mean any figure and then a secret writing. A nobody is still 'a mere cipher'.",
+    "usage": [[1390, 5], [1600, 55], [1750, 100], [1850, 80], [1950, 55], [2020, 50]],
+    "tags": ["math", "numbers", "meaning-shift"], "related": ["zero"]
+  },
+  {
+    "id": "algorithm", "word": "algorithm", "pos": "noun", "gloss": "a step-by-step procedure for solving a problem, especially by computer",
+    "origin": "fro", "first": 1230,
+    "path": [
+      { "lang": "ar", "form": "الخوارزمي (al-Khwārizmī)", "meaning": "'the man from Khwarazm', a Baghdad mathematician", "year": 825 },
+      { "lang": "la-med", "form": "algorismus", "meaning": "the Hindu-Arabic numeral system", "year": 1150 },
+      { "lang": "fro", "form": "algorisme", "year": 1200 },
+      { "lang": "enm", "form": "algorisme, augrim", "meaning": "arithmetic with Arabic numerals", "year": 1230 },
+      { "lang": "en", "form": "algorithm", "note": "re-spelled after Greek arithmos, number", "year": 1699 }
+    ],
+    "story": "Muḥammad ibn Mūsā al-Khwārizmī, 'the man from Khwarazm' in Central Asia, wrote the Baghdad textbooks that taught Europe Hindu-Arabic numerals. Latin translators turned his name into algorismus; English later re-spelled it with -thm, wrongly linking it to Greek arithmos, number.",
+    "usage": [[1230, 2], [1700, 5], [1900, 5], [1960, 30], [2000, 80], [2020, 100]],
+    "tags": ["math", "science", "technology", "people"], "related": ["algebra", "zero"]
+  },
+  {
+    "id": "admiral", "word": "admiral", "pos": "noun", "gloss": "the commander of a fleet; a naval officer of the highest rank",
+    "origin": "fro", "first": 1205,
+    "path": [
+      { "lang": "ar", "form": "أمير البحر (amīr al-baḥr)", "meaning": "commander of the sea", "year": 900 },
+      { "lang": "la-med", "form": "admiralis", "year": 1100 },
+      { "lang": "fro", "form": "amiral", "year": 1150 },
+      { "lang": "enm", "form": "amiral", "meaning": "an emir; a Saracen commander", "year": 1205 },
+      { "lang": "en", "form": "admiral", "meaning": "commander of a fleet", "year": 1440 }
+    ],
+    "story": "Arabic amīr, commander, appeared in titles like amīr al-baḥr, 'commander of the sea'. Europeans took amīr-al for a single word, and Latin scribes slipped in a d from admirabilis, 'admirable'. Emir is the same word, borrowed again.",
+    "usage": [[1205, 2], [1500, 30], [1700, 70], [1800, 100], [1950, 50], [2020, 30]],
+    "tags": ["sea", "war", "people"], "related": ["emir"]
+  },
+  {
+    "id": "magazine", "word": "magazine", "pos": "noun", "gloss": "a periodical publication; also, a store for ammunition",
+    "origin": "frm", "first": 1583,
+    "path": [
+      { "lang": "ar", "form": "مخازن (makhāzin)", "meaning": "storehouses (plural of makhzan)", "year": 800 },
+      { "lang": "it", "form": "magazzino", "meaning": "warehouse", "year": 1300 },
+      { "lang": "frm", "form": "magasin", "year": 1400 },
+      { "lang": "en", "form": "magazine", "meaning": "storehouse; store of munitions", "year": 1583 },
+      { "lang": "en", "form": "magazine", "meaning": "a periodical", "year": 1731 }
+    ],
+    "story": "Arabic makhāzin were storehouses. When Edward Cave launched The Gentleman's Magazine in 1731, he meant a storehouse of articles; the military magazine of gunpowder or cartridges keeps the older sense. In French, magasin still means a shop.",
+    "usage": [[1583, 3], [1700, 20], [1800, 40], [1900, 70], [1970, 100], [2020, 80]],
+    "tags": ["trade", "war", "meaning-shift"]
+  },
+  {
+    "id": "giraffe", "word": "giraffe", "pos": "noun", "gloss": "a tall African animal with a very long neck and legs",
+    "origin": "it", "first": 1594,
+    "path": [
+      { "lang": "ar", "form": "زرافة (zarāfa)", "year": 900 },
+      { "lang": "it", "form": "giraffa", "year": 1300 },
+      { "lang": "en", "form": "giraffe", "year": 1594 }
+    ],
+    "story": "From Arabic zarāfa, via Italian. Before that, English called the animal a camelopard, a 'camel-leopard', for its camel's shape and leopard's spots, and the name survives in its scientific name, Giraffa camelopardalis.",
+    "usage": [[1594, 2], [1750, 10], [1850, 30], [1950, 50], [2000, 100], [2020, 95]],
+    "tags": ["animals"], "related": ["camel"]
+  },
+  {
+    "id": "cotton", "word": "cotton", "pos": "noun", "gloss": "soft white fibres from the seed pods of a plant, spun into cloth",
+    "origin": "fro", "first": 1300,
+    "path": [
+      { "lang": "ar", "form": "قطن (quṭn)", "year": 800 },
+      { "lang": "fro", "form": "coton", "year": 1150 },
+      { "lang": "enm", "form": "cotoun", "year": 1300 },
+      { "lang": "en", "form": "cotton", "year": 1500 }
+    ],
+    "story": "From Arabic quṭn. Medieval Europeans knew only wool and linen, and a wool that grew on plants seemed a marvel; German still calls cotton Baumwolle, 'tree wool'. Centuries later cotton powered the Industrial Revolution, and the Atlantic slave trade with it.",
+    "usage": [[1300, 5], [1600, 20], [1800, 70], [1860, 100], [1950, 70], [2020, 55]],
+    "tags": ["clothing", "trade"]
+  },
+  {
+    "id": "sofa", "word": "sofa", "pos": "noun", "gloss": "a long upholstered seat for several people",
+    "origin": "fr", "first": 1625,
+    "path": [
+      { "lang": "ar", "form": "صفة (ṣuffa)", "meaning": "a bench; a raised platform with cushions", "year": 800 },
+      { "lang": "ota", "form": "صوفه (sofa)", "year": 1500 },
+      { "lang": "fr", "form": "sofa", "year": 1600 },
+      { "lang": "en", "form": "sofa", "meaning": "a raised, cushioned dais in the East", "year": 1625 },
+      { "lang": "en", "form": "sofa", "meaning": "a long upholstered couch", "year": 1717 }
+    ],
+    "story": "Arabic ṣuffa was a raised bench or platform piled with carpets and cushions, where an Ottoman official might receive his visitors. Travellers brought the word back, and by 1717 Europeans were using it for their own cushioned couches.",
+    "usage": [[1625, 2], [1750, 30], [1850, 70], [1950, 80], [2000, 100], [2020, 95]],
+    "tags": ["home"]
+  },
+  {
+    "id": "jar", "word": "jar", "pos": "noun", "gloss": "a wide-mouthed container of glass or pottery",
+    "origin": "frm", "first": 1418,
+    "path": [
+      { "lang": "ar", "form": "جرة (jarra)", "meaning": "an earthenware water pot", "year": 900 },
+      { "lang": "pro", "form": "jarra", "year": 1300 },
+      { "lang": "frm", "form": "jarre", "year": 1400 },
+      { "lang": "en", "form": "jar", "year": 1418 }
+    ],
+    "story": "Arabic jarra was a large earthenware water pot. The word spread along Mediterranean trade routes into Provençal and French and reached English in the early 1400s; Spanish and Portuguese still call a jug a jarra.",
+    "usage": [[1418, 3], [1600, 20], [1800, 50], [1950, 80], [2000, 100], [2020, 95]],
+    "tags": ["home", "trade"]
+  },
+  {
+    "id": "lemon", "word": "lemon", "pos": "noun", "gloss": "a sour yellow citrus fruit",
+    "origin": "fro", "first": 1400,
+    "path": [
+      { "lang": "fa", "form": "لیمو (līmū)", "year": 1000 },
+      { "lang": "ar", "form": "ليمون (laymūn)", "year": 1000 },
+      { "lang": "fro", "form": "limon", "year": 1300 },
+      { "lang": "enm", "form": "lymon", "year": 1400 },
+      { "lang": "en", "form": "lemon", "year": 1600 }
+    ],
+    "story": "Persian līmū and Arabic laymūn travelled with the fruit itself, which Arab growers spread around the Mediterranean in the Middle Ages. Lime comes from the same source. Slang has called a dud a lemon since the early 1900s, and a bad car in particular since the 1960s.",
+    "usage": [[1400, 3], [1600, 20], [1800, 40], [1950, 70], [2000, 100], [2020, 95]],
+    "tags": ["food"], "related": ["lime", "orange"]
+  },
+  {
+    "id": "orange", "word": "orange", "pos": "noun", "gloss": "a round, juicy citrus fruit; the colour between red and yellow",
+    "origin": "fro", "first": 1300,
+    "path": [
+      { "lang": "sa", "form": "नारङ्ग (nāraṅga)", "meaning": "orange tree", "year": 600 },
+      { "lang": "fa", "form": "نارنگ (nārang)", "year": 900 },
+      { "lang": "ar", "form": "نارنج (nāranj)", "year": 900 },
+      { "lang": "pro", "form": "auranja", "year": 1200 },
+      { "lang": "fro", "form": "orenge", "year": 1250 },
+      { "lang": "enm", "form": "orenge", "meaning": "the fruit", "year": 1300 },
+      { "lang": "en", "form": "orange", "meaning": "the colour", "year": 1540 }
+    ],
+    "story": "The n wandered off in the Romance languages, not English: Italian una narancia became un'arancia, and French, perhaps nudged by or (gold) and the town of Orange, made it orenge. The fruit came first; before the 1500s the colour was simply 'yellow-red'.",
+    "usage": [[1300, 3], [1600, 25], [1800, 45], [1950, 85], [2000, 100], [2020, 98]],
+    "tags": ["food", "colors"], "related": ["lemon", "marmalade"]
+  },
+  {
+    "id": "amen", "word": "amen", "pos": "interjection", "gloss": "so be it; said at the end of a prayer",
+    "origin": "la-ecc", "first": 900,
+    "path": [
+      { "lang": "hbo", "form": "אָמֵן (āmēn)", "meaning": "truly, so be it", "year": -900 },
+      { "lang": "grc-koi", "form": "ἀμήν (amēn)", "year": 50 },
+      { "lang": "la-ecc", "form": "amen", "year": 400 },
+      { "lang": "ang", "form": "amen", "year": 900 },
+      { "lang": "en", "form": "amen", "year": 1500 }
+    ],
+    "story": "Hebrew āmēn, from a root meaning firm or certain, ends prayers in synagogue, church and mosque alike; Arabic has āmīn. It has passed through Greek and Latin into hundreds of languages almost unchanged, making it one of the most widely known words in the world.",
+    "usage": [[900, 80], [1200, 90], [1500, 100], [1700, 80], [1900, 50], [2020, 40]],
+    "tags": ["religion"], "related": ["hallelujah"]
+  },
+  {
+    "id": "hallelujah", "word": "hallelujah", "pos": "interjection", "gloss": "praise God; an exclamation of joy",
+    "origin": "hbo", "first": 1535,
+    "path": [
+      { "lang": "hbo", "form": "הַלְלוּ־יָהּ (halləlū-yāh)", "meaning": "praise ye Yah (God)", "year": -500 },
+      { "lang": "grc-koi", "form": "ἀλληλουϊά (allēlouia)", "year": -250 },
+      { "lang": "la-ecc", "form": "alleluia", "year": 400 },
+      { "lang": "en", "form": "hallelujah", "year": 1535 }
+    ],
+    "story": "Halləlū, 'praise ye', + Yāh, short for the name of God. Medieval English sang the Latin alleluia; Protestant Bible translators of the 1530s restored the Hebrew h. Handel's Messiah (1742) made its chorus world-famous.",
+    "usage": [[1535, 5], [1700, 20], [1800, 30], [1900, 40], [1990, 80], [2020, 100]],
+    "tags": ["religion", "music"], "related": ["amen"]
+  },
+  {
+    "id": "jubilee", "word": "jubilee", "pos": "noun", "gloss": "a special anniversary, or a celebration of one",
+    "origin": "fro", "first": 1382,
+    "path": [
+      { "lang": "hbo", "form": "יוֹבֵל (yōḇēl)", "meaning": "ram's horn", "year": -600 },
+      { "lang": "grc-koi", "form": "ἰωβηλαῖος (iōbēlaios)", "year": -250 },
+      { "lang": "la-lat", "form": "iubilaeus", "note": "spelling bent toward iubilare, to shout for joy", "year": 400 },
+      { "lang": "fro", "form": "jubilé", "year": 1300 },
+      { "lang": "enm", "form": "jubile", "year": 1382 },
+      { "lang": "en", "form": "jubilee", "year": 1600 }
+    ],
+    "story": "In the Hebrew Bible every fiftieth year was a year of release, when debts were forgiven and slaves freed, announced with a blast on the yōḇēl, the ram's horn. Latin bent the spelling toward iubilare, 'to shout for joy', and a jubilee became any grand anniversary.",
+    "usage": [[1382, 5], [1600, 20], [1800, 40], [1900, 60], [1977, 80], [2012, 100], [2020, 85]],
+    "tags": ["religion", "time"]
+  },
+  {
+    "id": "sabbath", "word": "sabbath", "pos": "noun", "gloss": "a day of religious rest each week",
+    "origin": "la-ecc", "first": 900,
+    "path": [
+      { "lang": "hbo", "form": "שַׁבָּת (šabbāṯ)", "meaning": "day of rest (from šāḇaṯ, to cease)", "year": -900 },
+      { "lang": "grc-koi", "form": "σάββατον (sabbaton)", "year": -250 },
+      { "lang": "la-ecc", "form": "sabbatum", "year": 400 },
+      { "lang": "ang", "form": "sabat", "year": 900 },
+      { "lang": "enm", "form": "sabat", "year": 1200 },
+      { "lang": "en", "form": "sabbath", "year": 1500 }
+    ],
+    "story": "Šabbāṯ, the seventh day, from a verb meaning 'to stop, to rest'. Many languages still name Saturday after it, like Spanish sábado, Italian sabato and Russian subbota, and a sabbatical is a rest from work.",
+    "usage": [[900, 40], [1200, 60], [1600, 100], [1800, 80], [1900, 50], [2020, 30]],
+    "tags": ["religion", "time"], "related": ["sabbatical"]
+  },
+  {
+    "id": "cherub", "word": "cherub", "pos": "noun", "gloss": "a winged angelic being, often shown as a chubby child",
+    "origin": "la-ecc", "first": 900,
+    "path": [
+      { "lang": "hbo", "form": "כְּרוּב (kərūḇ)", "meaning": "a winged guardian spirit (plural kərūḇīm)", "year": -900 },
+      { "lang": "grc-koi", "form": "χερούβ (kheroub)", "year": -250 },
+      { "lang": "la-ecc", "form": "cherub", "year": 400 },
+      { "lang": "ang", "form": "cherubin", "year": 900 },
+      { "lang": "en", "form": "cherub", "year": 1500 }
+    ],
+    "story": "The biblical cherubim were awe-inspiring winged guardians: cherubim and a flaming sword barred the way back into Eden. Renaissance painters blended them with the plump winged infants (putti) of classical art, and cherubs have been cute ever since. The Hebrew word may come from an Akkadian term for an intercessor.",
+    "usage": [[900, 10], [1500, 40], [1700, 60], [1850, 100], [1950, 60], [2020, 55]],
+    "tags": ["religion", "art", "meaning-shift"]
+  },
+  {
+    "id": "behemoth", "word": "behemoth", "pos": "noun", "gloss": "something enormous, especially a huge organisation or creature",
+    "origin": "la-ecc", "first": 1382,
+    "path": [
+      { "lang": "hbo", "form": "בְּהֵמוֹת (bəhēmōṯ)", "meaning": "beasts; the great beast", "year": -500 },
+      { "lang": "la-ecc", "form": "behemoth", "year": 400 },
+      { "lang": "enm", "form": "behemoth", "year": 1382 },
+      { "lang": "en", "form": "behemoth", "meaning": "anything huge", "year": 1600 }
+    ],
+    "story": "In the Book of Job, God points to Behemoth, a colossal creature that 'eateth grass as an ox'. The Hebrew is the plural of 'beast', perhaps meaning the beast of beasts. Readers have guessed at a hippopotamus or an elephant; English made it any monster of size.",
+    "usage": [[1382, 2], [1600, 10], [1800, 15], [1900, 20], [2000, 80], [2020, 100]],
+    "tags": ["religion", "animals", "mythology"], "related": ["hippopotamus"]
+  },
+  {
+    "id": "camel", "word": "camel", "pos": "noun", "gloss": "a large desert animal with one or two humps",
+    "origin": "la", "first": 950,
+    "path": [
+      { "lang": "hbo", "form": "גָּמָל (gāmāl)", "meaning": "camel (compare Arabic jamal)", "year": -900 },
+      { "lang": "grc", "form": "κάμηλος (kamēlos)", "year": -500 },
+      { "lang": "la", "form": "camēlus", "year": -50 },
+      { "lang": "ang", "form": "camel", "year": 950 },
+      { "lang": "en", "form": "camel", "year": 1500 }
+    ],
+    "story": "The Greeks borrowed the animal's Semitic name, kamēlos, from traders of the Levant; compare Hebrew gāmāl and Arabic jamal. The letter G may share its story: Phoenician gīml became Greek gamma, and its name is sometimes explained as 'camel', though 'throwing stick' is another guess.",
+    "usage": [[950, 10], [1400, 30], [1700, 45], [1900, 70], [2000, 100], [2020, 95]],
+    "tags": ["animals", "trade"], "related": ["giraffe", "alphabet"]
+  },
+  {
+    "id": "oasis", "word": "oasis", "pos": "noun", "gloss": "a fertile spot in a desert, where water is found",
+    "origin": "la-lat", "first": 1615,
+    "path": [
+      { "lang": "egy", "form": "wḥꜣt", "meaning": "a fertile hollow in the desert", "year": -1500 },
+      { "lang": "grc", "form": "ὄασις (oasis)", "year": -440 },
+      { "lang": "la-lat", "form": "oasis", "year": 300 },
+      { "lang": "en", "form": "oasis", "year": 1615 }
+    ],
+    "story": "Probably from an Egyptian word for the fertile hollows of the Western Desert, reaching Greek by way of Coptic. Herodotus wrote of a city called Oasis, seven days' journey across the sand from Thebes. In English it soon meant any refuge.",
+    "usage": [[1615, 2], [1750, 10], [1850, 35], [1950, 65], [2000, 100], [2020, 95]],
+    "tags": ["places", "nature"]
+  },
+  {
+    "id": "ebony", "word": "ebony", "pos": "noun", "gloss": "a very hard, dark wood from tropical trees",
+    "origin": "fro", "first": 1385,
+    "path": [
+      { "lang": "egy", "form": "hbnj", "meaning": "ebony wood", "year": -2500 },
+      { "lang": "grc", "form": "ἔβενος (ebenos)", "year": -450 },
+      { "lang": "la", "form": "hebenus", "year": -50 },
+      { "lang": "fro", "form": "eban", "year": 1250 },
+      { "lang": "enm", "form": "eban", "year": 1385 },
+      { "lang": "en", "form": "ebony", "year": 1590 }
+    ],
+    "story": "Egyptian hbnj was the black heartwood the pharaohs imported from the south, which makes ebony one of the oldest traceable words in English. Greek ebenos and Latin hebenus passed it to Old French eban; the -y ending was perhaps modelled on its pale partner, ivory.",
+    "usage": [[1385, 3], [1600, 40], [1800, 75], [1900, 100], [2000, 90], [2020, 85]],
+    "tags": ["nature", "trade", "colors"], "related": ["ivory"]
+  },
+  {
+    "id": "ghoul", "word": "ghoul", "pos": "noun", "gloss": "an evil spirit that robs graves and feeds on corpses; a morbid person",
+    "origin": "ar", "first": 1786,
+    "path": [
+      { "lang": "ar", "form": "غول (ghūl)", "meaning": "a desert demon that devours travellers and the dead", "year": 600 },
+      { "lang": "en", "form": "ghoul", "year": 1786 }
+    ],
+    "story": "In Arabian folklore a ghūl haunts the desert, luring travellers to their deaths and feeding on corpses. English met it in 1786 in the translation of William Beckford's Gothic tale Vathek. The winking star Algol takes its name from Arabic ra's al-ghūl, 'the demon's head'.",
+    "usage": [[1786, 1], [1850, 20], [1900, 40], [1950, 60], [2000, 100], [2020, 95]],
+    "tags": ["mythology"]
+  },
+  {
+    "id": "hummus", "word": "hummus", "pos": "noun", "gloss": "a dip of mashed chickpeas, tahini, lemon and garlic",
+    "origin": "ar", "first": 1955,
+    "path": [
+      { "lang": "ar", "form": "حمص (ḥummuṣ)", "meaning": "chickpeas", "year": 1200 },
+      { "lang": "en", "form": "hummus", "year": 1955 }
+    ],
+    "story": "Arabic ḥummuṣ simply means 'chickpeas'; the dip's full name is ḥummuṣ bi-ṭaḥīna, chickpeas with tahini. English cookbooks noticed it in the 1950s, and by the 2000s it had become a supermarket staple far from the eastern Mediterranean.",
+    "usage": [[1955, 1], [1980, 10], [2000, 40], [2010, 80], [2020, 100]],
+    "tags": ["food"]
+  },
+  {
+    "id": "hashish", "word": "hashish", "pos": "noun", "gloss": "a drug made from the resin of the cannabis plant",
+    "origin": "ar", "first": 1598,
+    "path": [
+      { "lang": "ar", "form": "حشيش (ḥashīsh)", "meaning": "dried herb, grass; cannabis", "year": 1100 },
+      { "lang": "en", "form": "hashish", "year": 1598 }
+    ],
+    "story": "Arabic ḥashīsh means dried herbage. Its derivative ḥashīshī, 'hashish user', was a hostile nickname for the Nizari Ismailis of medieval Syria and Persia, feared for killing their enemies' leaders, and it became English assassin. Whether they used the drug at all is doubtful: the tales come from their enemies and from Marco Polo.",
+    "usage": [[1598, 1], [1800, 10], [1900, 40], [1970, 100], [2000, 60], [2020, 45]],
+    "tags": ["medicine", "meaning-shift"], "related": ["assassin"]
+  },
+  {
+    "id": "sheikh", "word": "sheikh", "pos": "noun", "gloss": "an Arab leader, chief of a tribe or family; a Muslim religious scholar",
+    "origin": "ar", "first": 1577,
+    "path": [
+      { "lang": "ar", "form": "شيخ (shaykh)", "meaning": "old man, elder", "year": 600 },
+      { "lang": "en", "form": "sheikh", "year": 1577 }
+    ],
+    "story": "Arabic shaykh means 'old man', and so an elder whose age commands respect: the head of a tribe, a village or a school of learning. The same respect for age made Latin senex, old man, the root of senator.",
+    "usage": [[1577, 1], [1800, 15], [1900, 40], [1975, 100], [2000, 70], [2020, 60]],
+    "tags": ["people", "religion"]
+  },
+  {
+    "id": "shibboleth", "word": "shibboleth", "pos": "noun", "gloss": "a custom, phrase or belief that marks out members of a group",
+    "origin": "hbo", "first": 1535,
+    "path": [
+      { "lang": "hbo", "form": "שִׁבֹּלֶת (šibbōleṯ)", "meaning": "ear of grain; flowing stream", "year": -600 },
+      { "lang": "en", "form": "shibboleth", "meaning": "the test-word itself", "note": "in Coverdale's Bible", "year": 1535 },
+      { "lang": "en", "form": "shibboleth", "meaning": "a group's catchword or outdated belief", "year": 1638 }
+    ],
+    "story": "In the Book of Judges, the men of Gilead held the fords of the Jordan and made every fugitive say šibbōleṯ. Their Ephraimite enemies could not manage the sh and said 'sibboleth', giving themselves away. A test-word of life and death became any badge of belonging.",
+    "usage": [[1535, 2], [1700, 20], [1850, 50], [1950, 100], [2000, 75], [2020, 70]],
+    "tags": ["religion", "meaning-shift", "war"]
+  },
+  {
+    "id": "kibbutz", "word": "kibbutz", "pos": "noun", "gloss": "a collective farming community in Israel",
+    "origin": "he", "first": 1931,
+    "path": [
+      { "lang": "he", "form": "קיבוץ (kibbutz)", "meaning": "gathering, collective", "year": 1910 },
+      { "lang": "en", "form": "kibbutz", "year": 1931 }
+    ],
+    "story": "Modern Hebrew kibbutz, 'gathering', from a root meaning to collect. The first, Degania, was founded beside the Sea of Galilee in 1910 by young settlers who shared land, work and wages, part of the wider revival of Hebrew as an everyday language.",
+    "usage": [[1931, 2], [1950, 40], [1970, 100], [2000, 50], [2020, 35]],
+    "tags": ["places", "people", "home"]
+  },
+
+  {
+    "id": "paradise", "word": "paradise", "pos": "noun", "gloss": "heaven; an ideal place of perfect happiness",
+    "origin": "fro", "first": 1175, "root": "dheigh-form", "featured": true,
+    "path": [
+      { "lang": "ine-pro", "form": "*dʰeyǵʰ-", "meaning": "to knead clay; to build a wall", "year": -4000 },
+      { "lang": "ae", "form": "pairi-daēza", "meaning": "walled enclosure ('around-wall')", "note": "the Old Persian form that Greek borrowed is known only indirectly", "year": -500 },
+      { "lang": "grc", "form": "παράδεισος (paradeisos)", "meaning": "a Persian park, a pleasure garden", "year": -400 },
+      { "lang": "grc-koi", "form": "παράδεισος (paradeisos)", "meaning": "the Garden of Eden", "year": -250 },
+      { "lang": "la-ecc", "form": "paradisus", "year": 400 },
+      { "lang": "fro", "form": "paradis", "year": 1100 },
+      { "lang": "enm", "form": "paradis", "year": 1175 },
+      { "lang": "en", "form": "paradise", "year": 1500 }
+    ],
+    "story": "Persian kings kept vast walled parks of trees and game, called by a word meaning 'around-wall'. The Greek soldier Xenophon marvelled at them and wrote of paradeisoi; Jewish scholars translating Genesis then used the word for Eden, and a royal hunting ground became heaven.",
+    "usage": [[1175, 20], [1400, 50], [1600, 80], [1800, 70], [1900, 60], [2000, 100], [2020, 95]],
+    "tags": ["religion", "nature", "meaning-shift"], "related": ["dough", "lady", "figure"]
+  },
+  {
+    "id": "bazaar", "word": "bazaar", "pos": "noun", "gloss": "a market of small shops and stalls; a fund-raising sale",
+    "origin": "fa", "first": 1599,
+    "path": [
+      { "lang": "pal", "form": "wāzār", "meaning": "market", "year": 300 },
+      { "lang": "fa", "form": "بازار (bāzār)", "year": 900 },
+      { "lang": "en", "form": "bazaar", "year": 1599 }
+    ],
+    "story": "Persian bāzār, a market of covered stalls, reached English through travellers to the East around 1600. Victorians borrowed it for charity sales. Bizarre, from Italian, is only a sound-alike.",
+    "usage": [[1599, 2], [1750, 15], [1850, 60], [1900, 80], [2000, 100], [2020, 90]],
+    "tags": ["trade", "places"], "related": ["caravan"]
+  },
+  {
+    "id": "caravan", "word": "caravan", "pos": "noun", "gloss": "a group of travellers crossing a desert; a trailer for living in",
+    "origin": "frm", "first": 1588,
+    "path": [
+      { "lang": "fa", "form": "کاروان (kārvān)", "meaning": "a company of desert travellers", "year": 1000 },
+      { "lang": "fro", "form": "carvane", "year": 1200 },
+      { "lang": "frm", "form": "caravane", "year": 1500 },
+      { "lang": "en", "form": "caravan", "year": 1588 },
+      { "lang": "en", "form": "van", "note": "clipped from caravan", "year": 1829 }
+    ],
+    "story": "Crusaders learned kārvān, a company of merchants and camels crossing the desert together. In English it came to mean a covered wagon and later a trailer, and in 1829 Londoners clipped it to van.",
+    "usage": [[1588, 3], [1700, 15], [1850, 40], [1950, 80], [2000, 100], [2020, 85]],
+    "tags": ["trade"], "related": ["van", "bazaar"]
+  },
+  {
+    "id": "checkmate", "word": "checkmate", "pos": "noun", "gloss": "in chess, a position in which the king cannot escape; total defeat",
+    "origin": "fro", "first": 1350, "featured": true,
+    "path": [
+      { "lang": "fa", "form": "شاه مات (šāh māt)", "meaning": "the king is helpless", "year": 900 },
+      { "lang": "fro", "form": "eschec mat", "year": 1150 },
+      { "lang": "enm", "form": "chek mate", "year": 1350 },
+      { "lang": "en", "form": "checkmate", "year": 1500 }
+    ],
+    "story": "When Persian chess players trapped the enemy king they said šāh māt, 'the king is helpless'. It is often translated 'the king is dead', but in chess the king is never taken. From šāh come chess, check, the chequered table of the exchequer and the bank cheque.",
+    "usage": [[1350, 10], [1600, 30], [1800, 40], [1900, 50], [2000, 100], [2020, 95]],
+    "tags": ["war", "empire"], "related": ["chess", "check", "cheque", "exchequer"]
+  },
+  {
+    "id": "pajamas", "word": "pajamas", "pos": "noun", "gloss": "loose trousers and jacket for sleeping in (British: pyjamas)",
+    "origin": "hi", "first": 1800, "root": "ped-foot",
+    "path": [
+      { "lang": "ine-pro", "form": "*pṓds", "meaning": "foot", "year": -4000 },
+      { "lang": "fa", "form": "پای‌جامه (pāy-jāma)", "meaning": "leg garment", "year": 1500 },
+      { "lang": "hi", "form": "पाजामा (pājāmā)", "meaning": "loose drawstring trousers", "year": 1700 },
+      { "lang": "en", "form": "pyjamas", "year": 1800 }
+    ],
+    "story": "Persian pāy (leg) + jāma (garment): loose drawstring trousers worn across Mughal India. British colonists took them up as comfortable sleepwear in the 1800s. Persian pāy goes back to the same ancient root as English foot.",
+    "usage": [[1800, 1], [1880, 10], [1920, 40], [1960, 70], [2000, 100], [2020, 95]],
+    "tags": ["clothing", "empire"], "related": ["foot", "octopus", "podium"]
+  },
+  {
+    "id": "jungle", "word": "jungle", "pos": "noun", "gloss": "a dense tropical forest",
+    "origin": "hi", "first": 1776,
+    "path": [
+      { "lang": "sa", "form": "जङ्गल (jaṅgala)", "meaning": "arid, sparsely wooded land", "year": -500 },
+      { "lang": "hi", "form": "जंगल (jaṅgal)", "meaning": "wild, uncultivated land; forest", "year": 1600 },
+      { "lang": "en", "form": "jungle", "year": 1776 }
+    ],
+    "story": "Sanskrit jaṅgala meant dry, rough country. In Hindi jaṅgal became wild, uncultivated land of any kind, often overgrown, and the British turned it into the dense, steamy tropical forest of their imaginations. Kipling's Jungle Book (1894) fixed the image.",
+    "usage": [[1776, 2], [1850, 20], [1900, 60], [1950, 80], [2000, 100], [2020, 90]],
+    "tags": ["nature", "empire", "meaning-shift"]
+  },
+  {
+    "id": "bungalow", "word": "bungalow", "pos": "noun", "gloss": "a low house of a single storey",
+    "origin": "hi", "first": 1676,
+    "path": [
+      { "lang": "hi", "form": "बंगला (baṅglā)", "meaning": "(a house) in the Bengal style", "year": 1600 },
+      { "lang": "en", "form": "bungalow", "year": 1676 }
+    ],
+    "story": "Literally 'Bengali': a low, thatched, one-storey house of a kind common in Bengal. The British adopted it for country houses in India and then exported it, and the bungalow became a suburban favourite in Britain, America and Australia.",
+    "usage": [[1676, 2], [1800, 10], [1900, 50], [1950, 100], [2000, 70], [2020, 65]],
+    "tags": ["home", "empire"]
+  },
+  {
+    "id": "loot", "word": "loot", "pos": "noun", "gloss": "goods stolen, especially in war or riot",
+    "origin": "hi", "first": 1788,
+    "path": [
+      { "lang": "sa", "form": "लोप्त्र (loptra)", "meaning": "booty", "year": -300 },
+      { "lang": "hi", "form": "लूट (lūṭ)", "meaning": "plunder", "year": 1600 },
+      { "lang": "en", "form": "loot", "year": 1788 }
+    ],
+    "story": "Hindi lūṭ, plunder. It came home in the 1780s with soldiers and officials of the East India Company, one of a cluster of words, thug among them, that British India taught English.",
+    "usage": [[1788, 2], [1850, 20], [1900, 35], [1950, 50], [2000, 90], [2020, 100]],
+    "tags": ["war", "empire", "money"], "related": ["thug"]
+  },
+  {
+    "id": "thug", "word": "thug", "pos": "noun", "gloss": "a violent, brutal person",
+    "origin": "hi", "first": 1810,
+    "path": [
+      { "lang": "sa", "form": "स्थग (sthaga)", "meaning": "cunning, fraudulent", "year": -300 },
+      { "lang": "hi", "form": "ठग (ṭhag)", "meaning": "cheat, swindler", "year": 1600 },
+      { "lang": "en", "form": "thug", "meaning": "one of the Thuggee robber gangs", "year": 1810 },
+      { "lang": "en", "form": "thug", "meaning": "any violent ruffian", "year": 1839 }
+    ],
+    "story": "Hindi ṭhag means a cheat or swindler. In the 1830s British officials described the Thugs as a secret cult of travellers' stranglers and hunted them down; historians now think they exaggerated how organised it was. The word soon spread to any violent criminal.",
+    "usage": [[1810, 2], [1850, 20], [1900, 25], [1950, 40], [2000, 90], [2020, 100]],
+    "tags": ["people", "empire", "law"], "related": ["loot"]
+  },
+  {
+    "id": "avatar", "word": "avatar", "pos": "noun", "gloss": "an incarnation of a deity; a figure representing a person online",
+    "origin": "sa", "first": 1784,
+    "path": [
+      { "lang": "sa", "form": "अवतार (avatāra)", "meaning": "descent (of a god to earth)", "year": -200 },
+      { "lang": "en", "form": "avatar", "meaning": "an incarnation of a Hindu god", "year": 1784 },
+      { "lang": "en", "form": "avatar", "meaning": "a user's figure in a virtual world", "year": 1985 }
+    ],
+    "story": "Ava- (down) + tṛ (to cross): the descent of a god into the world, as when Vishnu becomes Krishna or Rama. In the mid-1980s the designers of Lucasfilm's online world Habitat borrowed it for the figure a player sends into virtual space, and James Cameron's 2009 film made it a household word.",
+    "usage": [[1784, 2], [1900, 10], [1980, 15], [2000, 40], [2010, 100], [2020, 90]],
+    "tags": ["religion", "technology", "meaning-shift"]
+  },
+  {
+    "id": "karma", "word": "karma", "pos": "noun", "gloss": "the idea that your actions shape your future; fate as payback",
+    "origin": "sa", "first": 1827,
+    "path": [
+      { "lang": "sa", "form": "कर्मन् (karman)", "meaning": "act, deed; its consequences", "year": -1000 },
+      { "lang": "en", "form": "karma", "year": 1827 }
+    ],
+    "story": "Karman simply means 'act' or 'deed', and in Hindu and Buddhist thought the consequences every deed carries into this life and the next. English took it up in the 1820s; by the late 20th century it was everyday slang for cosmic payback.",
+    "usage": [[1827, 1], [1900, 10], [1950, 20], [1980, 50], [2000, 90], [2020, 100]],
+    "tags": ["religion", "philosophy"]
+  },
+  {
+    "id": "guru", "word": "guru", "pos": "noun", "gloss": "a spiritual teacher; an influential expert",
+    "origin": "hi", "first": 1613, "root": "gwerh-heavy",
+    "path": [
+      { "lang": "ine-pro", "form": "*gʷréh₂us", "meaning": "heavy", "year": -4000 },
+      { "lang": "sa", "form": "गुरु (guru)", "meaning": "heavy; venerable; teacher", "year": -1000 },
+      { "lang": "hi", "form": "गुरु (guru)", "meaning": "spiritual teacher", "year": 1500 },
+      { "lang": "en", "form": "guru", "year": 1613 }
+    ],
+    "story": "Sanskrit guru means 'heavy', and so 'weighty, venerable': a teacher of real gravity. That is more than a pun, because guru comes from the same ancient root as Latin gravis, source of grave and gravity.",
+    "usage": [[1613, 1], [1800, 5], [1900, 10], [1970, 50], [2000, 100], [2020, 90]],
+    "tags": ["religion", "people"], "related": ["gravity", "grief"]
+  },
+  {
+    "id": "yoga", "word": "yoga", "pos": "noun", "gloss": "a Hindu discipline of breathing, meditation and bodily postures",
+    "origin": "sa", "first": 1820, "root": "yewg-join",
+    "path": [
+      { "lang": "ine-pro", "form": "*yewg-", "meaning": "to join, to yoke", "year": -4000 },
+      { "lang": "sa", "form": "योग (yoga)", "meaning": "yoking, union; discipline", "year": -500 },
+      { "lang": "en", "form": "yoga", "year": 1820 }
+    ],
+    "story": "Sanskrit yoga means 'yoking': harnessing mind and body as oxen are joined to a plough. Through the same ancient root it is a cousin of English yoke, and of join, junction and conjugal.",
+    "usage": [[1820, 1], [1900, 8], [1960, 20], [1990, 40], [2010, 90], [2020, 100]],
+    "tags": ["religion", "body", "philosophy"], "related": ["yoke", "join", "junction"]
+  },
+  {
+    "id": "mantra", "word": "mantra", "pos": "noun", "gloss": "a sacred word or sound repeated in meditation; a much-repeated slogan",
+    "origin": "sa", "first": 1808, "root": "men-think",
+    "path": [
+      { "lang": "ine-pro", "form": "*men-", "meaning": "to think", "year": -4000 },
+      { "lang": "sa", "form": "मन्त्र (mantra)", "meaning": "sacred formula; an 'instrument of thought'", "year": -1000 },
+      { "lang": "en", "form": "mantra", "year": 1808 }
+    ],
+    "story": "Man- (to think) + -tra (an instrument): a mantra is a tool for the mind, a sacred syllable or verse repeated in meditation. Mind, mental and mentor share its root. Lately it has come to mean any much-repeated slogan.",
+    "usage": [[1808, 1], [1900, 5], [1960, 15], [1990, 50], [2010, 100], [2020, 95]],
+    "tags": ["religion"], "related": ["mind", "mental", "mentor", "mania"]
+  },
+  {
+    "id": "juggernaut", "word": "juggernaut", "pos": "noun", "gloss": "a huge, unstoppable force; (British) a very large lorry",
+    "origin": "hi", "first": 1638,
+    "path": [
+      { "lang": "sa", "form": "जगन्नाथ (Jagannātha)", "meaning": "lord of the world", "year": 1100 },
+      { "lang": "hi", "form": "जगन्नाथ (Jagannāth)", "year": 1500 },
+      { "lang": "en", "form": "Juggernaut", "meaning": "the image of the god at Puri", "year": 1638 },
+      { "lang": "en", "form": "juggernaut", "meaning": "an unstoppable crushing force", "year": 1854 }
+    ],
+    "story": "Jagannātha, 'lord of the world', is the form of Krishna worshipped at Puri, whose image rides out each year on a colossal wooden chariot. European travellers from the 1300s on told lurid tales of devotees flinging themselves under its wheels, mostly exaggerations, and juggernaut came to mean any crushing, unstoppable force.",
+    "usage": [[1638, 2], [1800, 10], [1900, 25], [1950, 40], [2000, 100], [2020, 95]],
+    "tags": ["religion", "empire", "meaning-shift"]
+  },
+  {
+    "id": "cot", "word": "cot", "pos": "noun", "gloss": "a baby's bed with high sides (British); a folding camp bed (American)",
+    "origin": "hi", "first": 1634,
+    "path": [
+      { "lang": "sa", "form": "खट्वा (khaṭvā)", "meaning": "couch, bedstead", "year": -300 },
+      { "lang": "hi", "form": "खाट (khāṭ)", "meaning": "a light bed frame strung with rope", "year": 1600 },
+      { "lang": "en", "form": "cot", "meaning": "a light bedstead", "year": 1634 }
+    ],
+    "story": "Hindi khāṭ is a light wooden bed frame strung with rope. British sailors and soldiers in India adopted the word, and the furniture, in the 1600s. Today a cot is a baby's bed in Britain and a folding camp bed in America.",
+    "usage": [[1634, 2], [1800, 15], [1900, 40], [1950, 60], [2000, 100], [2020, 95]],
+    "tags": ["home", "empire"]
+  },
+  {
+    "id": "curry", "word": "curry", "pos": "noun", "gloss": "a dish of meat or vegetables in a spiced sauce",
+    "origin": "ta", "first": 1598,
+    "path": [
+      { "lang": "ta", "form": "கறி (kaṟi)", "meaning": "a sauce or relish eaten with rice", "year": 1000 },
+      { "lang": "en", "form": "curry", "year": 1598 }
+    ],
+    "story": "Tamil kaṟi was a spiced sauce eaten with rice, probably passed on by Portuguese traders, who wrote it caril. Britain's first curry house, the Hindoostane Coffee House, opened in London in 1810. To 'curry favour' is a different word entirely, from Old French, about grooming a horse.",
+    "usage": [[1598, 2], [1750, 10], [1850, 30], [1950, 50], [2000, 100], [2020, 95]],
+    "tags": ["food", "empire"], "related": ["shampoo"]
+  },
+  {
+    "id": "catamaran", "word": "catamaran", "pos": "noun", "gloss": "a boat with two parallel hulls",
+    "origin": "ta", "first": 1673,
+    "path": [
+      { "lang": "ta", "form": "கட்டுமரம் (kaṭṭumaram)", "meaning": "tied wood (kaṭṭu 'tie' + maram 'tree, wood')", "year": 1000 },
+      { "lang": "en", "form": "catamaran", "meaning": "a log raft", "year": 1673 },
+      { "lang": "en", "form": "catamaran", "meaning": "a twin-hulled boat" }
+    ],
+    "story": "Tamil kaṭṭumaram, 'tied wood': a raft of logs lashed together, still used by fishermen on India's Coromandel Coast. The name later passed to fast twin-hulled sailing boats.",
+    "usage": [[1673, 2], [1800, 10], [1900, 15], [1970, 60], [2000, 100], [2020, 90]],
+    "tags": ["sea", "technology"]
+  },
+  {
+    "id": "ketchup", "word": "ketchup", "pos": "noun", "gloss": "a thick, sweet tomato sauce",
+    "origin": "ms", "first": 1690,
+    "path": [
+      { "lang": "nan", "form": "膎汁 (kê-tsiap)", "meaning": "brine of pickled fish", "note": "probable source", "year": 1600 },
+      { "lang": "ms", "form": "kicap", "meaning": "fish or soy sauce", "year": 1650 },
+      { "lang": "en", "form": "catchup", "year": 1690 },
+      { "lang": "en", "form": "ketchup", "year": 1711 }
+    ],
+    "story": "Probably from Hokkien kê-tsiap, a fermented fish sauce that British traders met in Southeast Asia (Malay has kicap). English cooks tried to imitate it with mushrooms, walnuts and oysters; tomato ketchup didn't appear until the early 1800s.",
+    "usage": [[1690, 2], [1800, 15], [1900, 30], [1950, 60], [2000, 100], [2020, 95]],
+    "tags": ["food", "trade"], "related": ["tomato"]
+  },
+  {
+    "id": "tea", "word": "tea", "pos": "noun", "gloss": "a hot drink made by soaking dried tea leaves in boiling water",
+    "origin": "nl", "first": 1655, "featured": true,
+    "path": [
+      { "lang": "zh", "form": "茶", "meaning": "tea", "note": "read chá in Mandarin and Cantonese, tê in Hokkien", "year": 700 },
+      { "lang": "nan", "form": "茶 (tê)", "year": 1500 },
+      { "lang": "nl", "form": "thee", "year": 1610 },
+      { "lang": "en", "form": "tee, tea", "meaning": "pronounced 'tay'", "year": 1655 },
+      { "lang": "en", "form": "tea", "year": 1750 }
+    ],
+    "story": "Chinese reads 茶 two ways: chá in Mandarin and Cantonese, tê in Hokkien. Lands that got tea overland or through Portuguese Macau say something like chai or chá; those supplied by Dutch ships from Fujian say tea, thé or Tee. English said 'tay' at first (Alexander Pope rhymed it with obey), and Samuel Pepys drank his first 'cup of tee (a China drink)' in 1660.",
+    "usage": [[1655, 2], [1700, 25], [1800, 70], [1900, 100], [1950, 90], [2020, 80]],
+    "tags": ["food", "trade", "empire"], "related": ["chai", "coffee"]
+  },
+  {
+    "id": "kowtow", "word": "kowtow", "pos": "verb", "gloss": "to act with excessive deference; to grovel",
+    "origin": "zh", "first": 1804,
+    "path": [
+      { "lang": "zh", "form": "叩頭 (kòutóu)", "meaning": "to knock the head (on the ground)", "year": 1000 },
+      { "lang": "en", "form": "kowtow", "meaning": "the ritual bow", "year": 1804 },
+      { "lang": "en", "form": "kowtow", "meaning": "to grovel", "year": 1826 }
+    ],
+    "story": "To kòutóu was to kneel and knock your forehead on the ground before the emperor. In 1793 the British envoy Lord Macartney famously refused to do it for the Qianlong Emperor, offering a bow on one knee instead. English turned it into a verb for grovelling.",
+    "usage": [[1804, 2], [1850, 15], [1900, 30], [1950, 50], [2000, 100], [2020, 90]],
+    "tags": ["empire", "people"]
+  },
+  {
+    "id": "typhoon", "word": "typhoon", "pos": "noun", "gloss": "a tropical cyclone in the western Pacific",
+    "origin": "pt", "first": 1588,
+    "path": [
+      { "lang": "grc", "form": "Τυφῶν (Typhōn)", "meaning": "a monster of storms; whirlwind", "note": "perhaps the source of the Arabic", "year": -700 },
+      { "lang": "ar", "form": "طوفان (ṭūfān)", "meaning": "flood, deluge, storm", "year": 700 },
+      { "lang": "pt", "form": "tufão", "year": 1540 },
+      { "lang": "en", "form": "touffon", "year": 1588 },
+      { "lang": "yue", "form": "大風 (daai6 fung1)", "meaning": "big wind", "note": "reshaped the English word", "year": 1700 },
+      { "lang": "en", "form": "typhoon", "year": 1771 }
+    ],
+    "story": "Two words blew together. Portuguese sailors in the Indian Ocean called a great storm tufão, from Arabic ṭūfān (perhaps from Greek Typhōn, the monster of whirlwinds), while English traders in China heard Cantonese daai fung, 'big wind'. By the 1770s the two had merged into typhoon.",
+    "usage": [[1588, 1], [1700, 5], [1800, 15], [1900, 40], [1950, 100], [2020, 70]],
+    "tags": ["nature", "sea", "mythology"], "related": ["hurricane", "tornado"]
+  },
+  {
+    "id": "tycoon", "word": "tycoon", "pos": "noun", "gloss": "a wealthy, powerful person in business",
+    "origin": "ja", "first": 1857,
+    "path": [
+      { "lang": "ja", "form": "大君 (taikun)", "meaning": "great lord", "year": 1600 },
+      { "lang": "en", "form": "tycoon", "meaning": "the shogun of Japan", "year": 1857 },
+      { "lang": "en", "form": "tycoon", "meaning": "a business magnate", "year": 1920 }
+    ],
+    "story": "Taikun, 'great lord', was the title foreigners used for the Japanese shogun in the 1850s. Abraham Lincoln's secretaries took to calling him 'the Tycoon' behind his back, and after World War I the word settled on captains of industry.",
+    "usage": [[1857, 2], [1900, 10], [1930, 60], [1960, 100], [2000, 70], [2020, 60]],
+    "tags": ["people", "money"]
+  },
+  {
+    "id": "karaoke", "word": "karaoke", "pos": "noun", "gloss": "singing along to recorded backing music",
+    "origin": "ja", "first": 1979,
+    "path": [
+      { "lang": "grc", "form": "ὀρχήστρα (orkhēstra)", "meaning": "the dancing floor of a theatre", "year": -400 },
+      { "lang": "en", "form": "orchestra", "year": 1606 },
+      { "lang": "ja", "form": "オーケストラ (ōkesutora)", "meaning": "orchestra", "year": 1900 },
+      { "lang": "ja", "form": "カラオケ (karaoke)", "meaning": "empty orchestra", "year": 1970 },
+      { "lang": "en", "form": "karaoke", "year": 1979 }
+    ],
+    "story": "Kara (empty) + oke, short for ōkesutora: an 'empty orchestra', the band without the singer. The word is a round trip. Orchestra was the Greek dancing floor in front of the stage; it reached Japan through English and came back as karaoke in the late 1970s.",
+    "usage": [[1979, 1], [1990, 40], [2000, 100], [2010, 85], [2020, 80]],
+    "tags": ["music", "technology"], "related": ["orchestra"]
+  },
+  {
+    "id": "emoji", "word": "emoji", "pos": "noun", "gloss": "a small digital picture used to express an idea or emotion",
+    "origin": "ja", "first": 1997, "featured": true,
+    "path": [
+      { "lang": "ja", "form": "絵 (e) + 文字 (moji)", "meaning": "picture + written character", "year": 1990 },
+      { "lang": "ja", "form": "絵文字 (emoji)", "year": 1995 },
+      { "lang": "en", "form": "emoji", "year": 1997 }
+    ],
+    "story": "E (picture) + moji (written character). Its likeness to emotion and emoticon is pure coincidence. Japanese mobile phones of the late 1990s made them famous, notably Shigetaka Kurita's set of 176 for NTT Docomo in 1999, and in 2015 Oxford Dictionaries named one, 😂 'Face with Tears of Joy', its Word of the Year.",
+    "usage": [[1997, 1], [2010, 10], [2015, 80], [2020, 100]],
+    "tags": ["technology"], "related": ["selfie"]
+  },
+  {
+    "id": "tsunami", "word": "tsunami", "pos": "noun", "gloss": "a huge sea wave caused by an earthquake or eruption",
+    "origin": "ja", "first": 1897,
+    "path": [
+      { "lang": "ja", "form": "津波 (tsunami)", "meaning": "harbour wave (tsu 'harbour' + nami 'wave')", "year": 1600 },
+      { "lang": "en", "form": "tsunami", "year": 1897 }
+    ],
+    "story": "Tsu (harbour) + nami (wave): fishermen out at sea might barely notice the swell, then come home to find their harbour wrecked. Lafcadio Hearn introduced the word to English in 1897. Scientists prefer it to 'tidal wave', since tides have nothing to do with it, and the Indian Ocean disaster of 2004 made it universal.",
+    "usage": [[1897, 1], [1950, 5], [1990, 10], [2005, 100], [2011, 85], [2020, 45]],
+    "tags": ["nature", "sea", "science"]
+  },
+  {
+    "id": "honcho", "word": "honcho", "pos": "noun", "gloss": "the person in charge; a boss",
+    "origin": "ja", "first": 1947,
+    "path": [
+      { "lang": "ja", "form": "班長 (hanchō)", "meaning": "squad leader (han 'squad' + chō 'chief')", "year": 1900 },
+      { "lang": "en", "form": "honcho", "year": 1947 }
+    ],
+    "story": "Hanchō, 'squad leader', was picked up by American servicemen in occupied Japan and during the Korean War. Back home it became the head honcho. It sounds Spanish, but it isn't.",
+    "usage": [[1947, 1], [1960, 10], [1980, 50], [2000, 100], [2020, 90]],
+    "tags": ["people", "war"]
+  },
+  {
+    "id": "kiosk", "word": "kiosk", "pos": "noun", "gloss": "a small open booth selling newspapers or tickets; a public touchscreen",
+    "origin": "fr", "first": 1625,
+    "path": [
+      { "lang": "fa", "form": "کوشک (kušk)", "meaning": "palace, pavilion", "year": 1000 },
+      { "lang": "ota", "form": "كوشك (köşk)", "meaning": "garden pavilion", "year": 1400 },
+      { "lang": "it", "form": "chiosco", "year": 1550 },
+      { "lang": "fr", "form": "kiosque", "year": 1600 },
+      { "lang": "en", "form": "kiosk", "year": 1625 }
+    ],
+    "story": "In Persian and Ottoman Turkish a köşk was an elegant open pavilion in a palace garden. Western Europeans copied the airy structures in their own parks; shrunk down, the kiosk became a newsstand, a ticket booth and, now, a touchscreen.",
+    "usage": [[1625, 1], [1800, 10], [1900, 30], [1950, 40], [2000, 100], [2020, 90]],
+    "tags": ["home", "trade", "technology"]
+  },
+  {
+    "id": "yogurt", "word": "yogurt", "pos": "noun", "gloss": "a thick, slightly sour food made from fermented milk",
+    "origin": "ota", "first": 1625,
+    "path": [
+      { "lang": "ota", "form": "یوغورت (yoğurt)", "meaning": "thickened, curdled milk", "year": 1400 },
+      { "lang": "en", "form": "yoghurd", "year": 1625 },
+      { "lang": "en", "form": "yogurt", "year": 1900 }
+    ],
+    "story": "Turkish yoğurt, from a verb meaning to thicken or curdle. It appears in English travellers' accounts in the 1620s but stayed exotic for three centuries, filling Western supermarket fridges only in the 1960s and 70s. English still can't settle the spelling: yogurt, yoghurt, yoghourt.",
+    "usage": [[1625, 1], [1900, 5], [1950, 15], [1980, 60], [2000, 90], [2020, 100]],
+    "tags": ["food"]
+  },
+  {
+    "id": "tulip", "word": "tulip", "pos": "noun", "gloss": "a spring flower with a cup-shaped bloom",
+    "origin": "la-new", "first": 1578,
+    "path": [
+      { "lang": "fa", "form": "دلبند (dulband)", "meaning": "turban", "year": 1200 },
+      { "lang": "ota", "form": "تولبند (tülbend)", "meaning": "muslin; turban", "year": 1500 },
+      { "lang": "la-new", "form": "tulipa", "year": 1560 },
+      { "lang": "en", "form": "tulipa, tulipan", "year": 1578 },
+      { "lang": "en", "form": "tulip", "year": 1600 }
+    ],
+    "story": "Tulip and turban are the same word: Turkish tülbend, from Persian dulband. A European visitor to the Ottoman court in the 1550s seems to have mixed up the cloth with the flower it resembled (the Turks called the flower lâle). In 1637 Dutch tulip mania sent single bulbs to the price of a fine Amsterdam house.",
+    "usage": [[1578, 2], [1700, 20], [1850, 40], [1950, 50], [2000, 100], [2020, 95]],
+    "tags": ["nature", "clothing", "trade"], "related": ["turban"]
+  },
+  {
+    "id": "amok", "word": "amok", "pos": "adverb", "gloss": "in a wild, uncontrolled frenzy (run amok)",
+    "origin": "pt", "first": 1663,
+    "path": [
+      { "lang": "ms", "form": "amuk", "meaning": "attacking in a frenzy", "year": 1500 },
+      { "lang": "pt", "form": "amouco", "meaning": "a frenzied warrior", "year": 1516 },
+      { "lang": "en", "form": "a muck, amuck", "year": 1663 },
+      { "lang": "en", "form": "amok", "year": 1870 }
+    ],
+    "story": "Portuguese visitors to Malaya in the 1500s described warriors who, in a frenzy, attacked anyone in their path: in Malay, amuk. English at first heard it as 'a muck', as if it had something to do with dirt; Dryden wrote of a man who 'runs an Indian muck at all he meets'.",
+    "usage": [[1663, 1], [1800, 10], [1900, 30], [1950, 50], [2000, 100], [2020, 90]],
+    "tags": ["war", "feelings"]
+  },
+  {
+    "id": "orangutan", "word": "orangutan", "pos": "noun", "gloss": "a large red-haired ape of Borneo and Sumatra",
+    "origin": "ms", "first": 1699,
+    "path": [
+      { "lang": "ms", "form": "orang hutan", "meaning": "person of the forest", "year": 1600 },
+      { "lang": "la-new", "form": "Orang Outang", "year": 1631 },
+      { "lang": "en", "form": "orang-outang", "year": 1699 },
+      { "lang": "en", "form": "orangutan", "year": 1900 }
+    ],
+    "story": "Malay orang (person) + hutan (forest). European naturalists picked it up in the 1600s, and the English anatomist Edward Tyson published a famous study of an 'Orang-Outang' in 1699, which was actually a young chimpanzee. The spelling orangutang, with a final g, is an old European slip that never quite died.",
+    "usage": [[1699, 2], [1800, 20], [1900, 30], [2000, 100], [2020, 90]],
+    "tags": ["animals", "nature"]
+  },
+  {
+    "id": "boondocks", "word": "boondocks", "pos": "noun", "gloss": "remote, rough country far from towns",
+    "origin": "tl", "first": 1944,
+    "path": [
+      { "lang": "tl", "form": "bundók", "meaning": "mountain", "year": 1600 },
+      { "lang": "en", "form": "boondocks", "year": 1944 },
+      { "lang": "en", "form": "boonies", "year": 1964 }
+    ],
+    "story": "Tagalog bundók means mountain. American troops stationed in the Philippines picked it up for rough, remote back country; boondocks spread in World War II, and boonies in Vietnam.",
+    "usage": [[1944, 2], [1960, 30], [1980, 60], [2000, 100], [2020, 85]],
+    "tags": ["places", "war", "nature"]
+  },
+  {
+    "id": "yo-yo", "word": "yo-yo", "pos": "noun", "gloss": "a toy spool that spins down a string and climbs back up",
+    "origin": "ilo", "first": 1915,
+    "path": [
+      { "lang": "ilo", "form": "yóyo", "note": "probable source", "year": 1900 },
+      { "lang": "en", "form": "yo-yo", "year": 1915 }
+    ],
+    "story": "Probably from Ilocano, a language of the northern Philippines, where the spinning toy was popular. Pedro Flores, a Filipino immigrant, began making yo-yos in California in 1928; Donald F. Duncan bought his company and trademarked the name, until a 1965 court ruling declared it an ordinary word.",
+    "usage": [[1915, 1], [1930, 40], [1960, 50], [1990, 80], [2010, 100], [2020, 90]]
+  },
+
+  {
+    "id": "chocolate", "word": "chocolate", "pos": "noun", "gloss": "a food made from roasted, ground cacao seeds, usually sweetened",
+    "origin": "es", "first": 1604,
+    "path": [
+      { "lang": "nci", "form": "chocolātl", "meaning": "a cacao drink", "note": "not found in the earliest Nahuatl records; perhaps a blend", "year": 1550 },
+      { "lang": "es", "form": "chocolate", "year": 1580 },
+      { "lang": "en", "form": "chocolate", "year": 1604 }
+    ],
+    "story": "The Aztecs drank cacao frothy, bitter and often spiced with chili; Spanish colonists sweetened it. The exact Nahuatl source is a puzzle, since chocolātl doesn't appear in the earliest records and may be a blend, but its ending is probably ātl, water.",
+    "usage": [[1604, 2], [1700, 15], [1800, 25], [1900, 50], [2000, 100], [2020, 98]],
+    "tags": ["food", "trade"], "related": ["cocoa", "vanilla", "chili"]
+  },
+  {
+    "id": "tomato", "word": "tomato", "pos": "noun", "gloss": "a glossy red fruit eaten as a vegetable",
+    "origin": "es", "first": 1604,
+    "path": [
+      { "lang": "nci", "form": "tomatl", "year": 1500 },
+      { "lang": "es", "form": "tomate", "year": 1550 },
+      { "lang": "en", "form": "tomate", "year": 1604 },
+      { "lang": "en", "form": "tomato", "year": 1750 }
+    ],
+    "story": "Nahuatl tomatl named the tomatillo and its relatives. English borrowed Spanish tomate and then changed the ending to -o, probably on the model of potato. Many Europeans grew the plant as a curiosity long before they trusted it at the table.",
+    "usage": [[1604, 1], [1750, 5], [1850, 25], [1950, 70], [2000, 100], [2020, 95]],
+    "tags": ["food"], "related": ["potato", "ketchup"]
+  },
+  {
+    "id": "avocado", "word": "avocado", "pos": "noun", "gloss": "a pear-shaped tropical fruit with creamy green flesh",
+    "origin": "es", "first": 1763,
+    "path": [
+      { "lang": "nci", "form": "āhuacatl", "meaning": "avocado; also, testicle", "year": 1500 },
+      { "lang": "es", "form": "aguacate", "year": 1550 },
+      { "lang": "es", "form": "avocado", "note": "reshaped to look like the word for 'lawyer'", "year": 1600 },
+      { "lang": "en", "form": "avocado", "year": 1763 }
+    ],
+    "story": "Nahuatl āhuacatl meant the fruit, and it was also a word for testicle, presumably for the shape. Spanish speakers turned the strange word into aguacate, and then into avocado, which already meant 'lawyer'. Guacamole is āhuacamōlli, avocado sauce.",
+    "usage": [[1763, 1], [1900, 5], [1950, 15], [1990, 40], [2010, 80], [2020, 100]],
+    "tags": ["food", "body"], "related": ["guacamole"]
+  },
+  {
+    "id": "chili", "word": "chili", "pos": "noun", "gloss": "a small hot-tasting pod of a capsicum plant",
+    "origin": "es", "first": 1662,
+    "path": [
+      { "lang": "nci", "form": "chīlli", "year": 1500 },
+      { "lang": "es", "form": "chile", "year": 1550 },
+      { "lang": "en", "form": "chilli", "year": 1662 }
+    ],
+    "story": "Nahuatl chīlli. Columbus, hoping he had reached the spice lands of Asia, called the fiery pods pimientos, peppers, though they are no relation to black pepper. Both names stuck, and English still says chili pepper.",
+    "usage": [[1662, 1], [1800, 5], [1900, 15], [1950, 40], [2000, 90], [2020, 100]],
+    "tags": ["food"], "related": ["chocolate", "pepper", "paprika"]
+  },
+  {
+    "id": "coyote", "word": "coyote", "pos": "noun", "gloss": "a wild dog of North and Central America",
+    "origin": "es", "first": 1759,
+    "path": [
+      { "lang": "nci", "form": "coyōtl", "year": 1500 },
+      { "lang": "es", "form": "coyote", "year": 1550 },
+      { "lang": "en", "form": "coyote", "year": 1759 }
+    ],
+    "story": "Nahuatl coyōtl. In Aztec myth Huehuecoyotl, 'Old Coyote', was a trickster god of music and mischief, and Coyote plays the trickster in many Native American stories too, long before he started chasing a roadrunner.",
+    "usage": [[1759, 1], [1850, 15], [1900, 30], [1950, 50], [2000, 100], [2020, 95]],
+    "tags": ["animals", "mythology"]
+  },
+  {
+    "id": "llama", "word": "llama", "pos": "noun", "gloss": "a woolly South American animal related to the camel",
+    "origin": "es", "first": 1600,
+    "path": [
+      { "lang": "qu", "form": "llama", "year": 1500 },
+      { "lang": "es", "form": "llama", "year": 1550 },
+      { "lang": "en", "form": "llama", "year": 1600 }
+    ],
+    "story": "Quechua llama, the pack animal of the Inca empire. Spanish kept the double l, which most Spanish speakers pronounce like a y ('yama'), but English reads it as written. The Dalai Lama's title is an unrelated Tibetan word.",
+    "usage": [[1600, 1], [1800, 10], [1900, 25], [2000, 70], [2020, 100]],
+    "tags": ["animals"], "related": ["camel"]
+  },
+  {
+    "id": "jerky", "word": "jerky", "pos": "noun", "gloss": "meat cut into strips and dried",
+    "origin": "es", "first": 1850,
+    "path": [
+      { "lang": "qu", "form": "ch'arki", "meaning": "dried meat", "year": 1500 },
+      { "lang": "es", "form": "charqui", "year": 1550 },
+      { "lang": "en", "form": "jerky", "year": 1850 }
+    ],
+    "story": "Quechua ch'arki, strips of sun- and frost-dried meat, fed the armies and relay messengers of the Inca empire. Spanish charqui became American jerky, which, despite appearances, has nothing to do with jerking.",
+    "usage": [[1850, 1], [1900, 10], [1950, 20], [2000, 80], [2020, 100]],
+    "tags": ["food"]
+  },
+  {
+    "id": "puma", "word": "puma", "pos": "noun", "gloss": "a large wild cat of the Americas; the cougar",
+    "origin": "es", "first": 1777,
+    "path": [
+      { "lang": "qu", "form": "puma", "year": 1500 },
+      { "lang": "es", "form": "puma", "year": 1550 },
+      { "lang": "en", "form": "puma", "year": 1777 }
+    ],
+    "story": "Quechua puma. Few animals wear more names: cougar, panther, mountain lion and catamount are all the same cat, which Guinness World Records has listed as the animal with the most names in English.",
+    "usage": [[1777, 1], [1850, 15], [1900, 30], [1950, 50], [2000, 100], [2020, 90]],
+    "tags": ["animals"], "related": ["jaguar"]
+  },
+  {
+    "id": "jaguar", "word": "jaguar", "pos": "noun", "gloss": "a large spotted wild cat of Central and South America",
+    "origin": "pt", "first": 1604,
+    "path": [
+      { "lang": "tpw", "form": "îagûara", "year": 1550 },
+      { "lang": "pt", "form": "jaguar", "year": 1560 },
+      { "lang": "en", "form": "jaguar", "year": 1604 }
+    ],
+    "story": "From Old Tupi, the language of Brazil's coast, by way of Portuguese colonists. The Americas' biggest cat lent its name in 1935 to a British car, and British and American speakers still disagree on how to say it: JAG-yoo-ar or JAG-wahr.",
+    "usage": [[1604, 1], [1800, 10], [1900, 25], [1960, 70], [2000, 100], [2020, 90]],
+    "tags": ["animals"], "related": ["puma"]
+  },
+  {
+    "id": "piranha", "word": "piranha", "pos": "noun", "gloss": "a South American river fish with razor-sharp teeth",
+    "origin": "pt", "first": 1869,
+    "path": [
+      { "lang": "tpw", "form": "pirãîa", "meaning": "probably pirá 'fish' + ãîa 'tooth'", "year": 1550 },
+      { "lang": "pt", "form": "piranha", "year": 1600 },
+      { "lang": "en", "form": "piranha", "year": 1869 }
+    ],
+    "story": "Probably Old Tupi pirá (fish) + ãîa (tooth). Theodore Roosevelt, back from his 1913–14 Brazilian expedition, called them 'the most ferocious fish in the world'; in reality they rarely attack people.",
+    "usage": [[1869, 1], [1920, 15], [1960, 40], [1980, 80], [2000, 100], [2020, 90]],
+    "tags": ["animals", "nature"]
+  },
+  {
+    "id": "canoe", "word": "canoe", "pos": "noun", "gloss": "a narrow boat moved with paddles",
+    "origin": "es", "first": 1555,
+    "path": [
+      { "lang": "tnq", "form": "canoa", "year": 1492 },
+      { "lang": "es", "form": "canoa", "year": 1493 },
+      { "lang": "en", "form": "canoe", "year": 1555 }
+    ],
+    "story": "Among the very first American words Europe heard. Columbus noted canoa in his journal in October 1492, on meeting the Taíno of the Bahamas, who paddled dugouts big enough to carry forty men.",
+    "usage": [[1555, 2], [1700, 15], [1850, 50], [1950, 70], [2000, 100], [2020, 90]],
+    "tags": ["sea", "technology"]
+  },
+  {
+    "id": "hurricane", "word": "hurricane", "pos": "noun", "gloss": "a violent tropical storm with very strong winds",
+    "origin": "es", "first": 1555,
+    "path": [
+      { "lang": "tnq", "form": "hurakán", "year": 1500 },
+      { "lang": "es", "form": "huracán", "year": 1520 },
+      { "lang": "en", "form": "furacano", "year": 1555 },
+      { "lang": "en", "form": "hurricane", "year": 1650 }
+    ],
+    "story": "From Taíno, via Spanish. Early English writers couldn't settle on a spelling, trying furacano, haurachana, herycano and uracan, and Shakespeare's King Lear rages: 'You cataracts and hurricanoes, spout!' The modern form settled in the mid-1600s.",
+    "usage": [[1555, 2], [1700, 20], [1850, 40], [1950, 70], [2005, 100], [2020, 90]],
+    "tags": ["nature", "sea"], "related": ["typhoon", "tornado"]
+  },
+  {
+    "id": "barbecue", "word": "barbecue", "pos": "noun", "gloss": "a meal of food grilled outdoors; the grill itself",
+    "origin": "es", "first": 1661,
+    "path": [
+      { "lang": "tnq", "form": "barbacoa", "meaning": "a raised framework of sticks", "year": 1500 },
+      { "lang": "es", "form": "barbacoa", "year": 1520 },
+      { "lang": "en", "form": "barbecue", "year": 1661 }
+    ],
+    "story": "Taíno barbacoa was a raised wooden frame, for sleeping on or for slow-roasting meat over a fire. The tale that it comes from French barbe à queue, 'beard to tail', for roasting a whole beast, is a folk etymology with no evidence behind it.",
+    "usage": [[1661, 1], [1800, 10], [1900, 20], [1950, 60], [2000, 100], [2020, 95]],
+    "tags": ["food", "home"]
+  },
+  {
+    "id": "hammock", "word": "hammock", "pos": "noun", "gloss": "a hanging bed of canvas or netting",
+    "origin": "es", "first": 1555,
+    "path": [
+      { "lang": "tnq", "form": "hamaka", "year": 1500 },
+      { "lang": "es", "form": "hamaca", "year": 1520 },
+      { "lang": "en", "form": "hamaca", "year": 1555 },
+      { "lang": "en", "form": "hammock", "year": 1660 }
+    ],
+    "story": "Columbus saw the Taíno sleeping in hamacas, nets slung between trees. Sailors adopted them, and the word bent in every language that took it: English hammock, and Dutch hangmat, 'hang-mat', which looks Dutch but isn't.",
+    "usage": [[1555, 1], [1700, 15], [1850, 40], [1950, 50], [2000, 100], [2020, 95]],
+    "tags": ["home", "sea"]
+  },
+  {
+    "id": "tobacco", "word": "tobacco", "pos": "noun", "gloss": "the dried leaves of a plant, smoked or chewed",
+    "origin": "es", "first": 1588,
+    "path": [
+      { "lang": "tnq", "form": "tabaco", "note": "according to Spanish chroniclers; disputed", "year": 1500 },
+      { "lang": "es", "form": "tabaco", "year": 1530 },
+      { "lang": "en", "form": "tobacco", "year": 1588 }
+    ],
+    "story": "Spanish took tabaco from the Caribbean, where 16th-century chroniclers said the Taíno used it for the smoking pipe or the rolled leaf. But Spanish and Italian already had a similar word for medicinal herbs, from Arabic, before Columbus sailed, so the true origin is uncertain.",
+    "usage": [[1588, 2], [1700, 40], [1850, 90], [1900, 100], [1960, 80], [2020, 45]],
+    "tags": ["trade", "nature"]
+  },
+  {
+    "id": "moose", "word": "moose", "pos": "noun", "gloss": "the largest member of the deer family",
+    "origin": "alg", "first": 1613,
+    "path": [
+      { "lang": "alg", "form": "mos (Eastern Abenaki), moos (Narragansett)", "year": 1600 },
+      { "lang": "en", "form": "moose", "year": 1613 }
+    ],
+    "story": "From an Algonquian language of New England, possibly meaning 'it strips bark', after the animal's habit of browsing on trees. In Britain the same species is called an elk.",
+    "usage": [[1613, 1], [1800, 15], [1900, 40], [2000, 100], [2020, 95]],
+    "tags": ["animals"]
+  },
+  {
+    "id": "raccoon", "word": "raccoon", "pos": "noun", "gloss": "a grey North American mammal with a masked face and ringed tail",
+    "origin": "alg", "first": 1608,
+    "path": [
+      { "lang": "alg", "form": "aroughcun (Powhatan)", "year": 1608 },
+      { "lang": "en", "form": "raccoon", "year": 1672 }
+    ],
+    "story": "Captain John Smith recorded the Powhatan word aroughcun in Virginia in 1608. It is often said to mean 'one who scratches with its hands', a plausible but unproven guess. English trimmed it to rackoon and then raccoon.",
+    "usage": [[1608, 1], [1800, 10], [1900, 30], [2000, 100], [2020, 95]],
+    "tags": ["animals"]
+  },
+  {
+    "id": "skunk", "word": "skunk", "pos": "noun", "gloss": "a black-and-white American mammal that sprays a foul smell",
+    "origin": "alg", "first": 1634,
+    "path": [
+      { "lang": "alg", "form": "squnck", "note": "a southern New England Algonquian language", "year": 1630 },
+      { "lang": "en", "form": "skunk", "year": 1634 }
+    ],
+    "story": "From a southern New England Algonquian language. Linguists trace it to a Proto-Algonquian word built from roots meaning 'to urinate' and 'fox', a fair description of an animal that defends itself by spraying.",
+    "usage": [[1634, 1], [1800, 10], [1900, 30], [1950, 60], [2000, 100], [2020, 90]],
+    "tags": ["animals"]
+  },
+  {
+    "id": "caucus", "word": "caucus", "pos": "noun", "gloss": "a meeting of party members to choose candidates or policy",
+    "origin": "alg", "first": 1763,
+    "path": [
+      { "lang": "alg", "form": "caucauasu (Powhatan)", "meaning": "counsellor, elder", "note": "a possible source", "year": 1608 },
+      { "lang": "en", "form": "caucus", "year": 1763 }
+    ],
+    "story": "First recorded in John Adams's diary in 1763, describing a Boston political club that met to settle candidates in advance. Its source is uncertain: perhaps the Powhatan caucauasu, 'counsellor', recorded by John Smith, or perhaps something else entirely.",
+    "usage": [[1763, 2], [1850, 30], [1900, 60], [1950, 50], [2008, 100], [2020, 90]],
+    "tags": ["law", "people"]
+  },
+  {
+    "id": "kayak", "word": "kayak", "pos": "noun", "gloss": "a light, narrow canoe with a covered deck",
+    "origin": "da", "first": 1757,
+    "path": [
+      { "lang": "inu", "form": "qajaq", "year": 1700 },
+      { "lang": "da", "form": "kajak", "year": 1750 },
+      { "lang": "en", "form": "kayak", "year": 1757 }
+    ],
+    "story": "Greenlandic qajaq, a one-person sealskin hunting boat, so snug that a skilled paddler could roll it right over and come back up. English met it through Danish accounts of Greenland in the 1750s. Both qajaq and kayak read the same backwards.",
+    "usage": [[1757, 1], [1850, 5], [1900, 10], [1970, 40], [2000, 100], [2020, 95]],
+    "tags": ["sea", "technology"], "related": ["igloo", "anorak"]
+  },
+  {
+    "id": "igloo", "word": "igloo", "pos": "noun", "gloss": "a dome-shaped shelter built from blocks of snow",
+    "origin": "inu", "first": 1856,
+    "path": [
+      { "lang": "inu", "form": "iglu", "meaning": "house", "year": 1800 },
+      { "lang": "en", "form": "igloo", "meaning": "a snow house", "year": 1856 }
+    ],
+    "story": "In Inuktitut, iglu just means 'house', whether of stone, sod, driftwood or snow. English narrowed it to the domed snow-block shelters that so fascinated Arctic explorers.",
+    "usage": [[1856, 1], [1900, 15], [1950, 40], [2000, 100], [2020, 90]],
+    "tags": ["home", "nature", "meaning-shift"], "related": ["kayak", "anorak"]
+  },
+  {
+    "id": "anorak", "word": "anorak", "pos": "noun", "gloss": "a waterproof hooded jacket; (British slang) a nerdy obsessive",
+    "origin": "inu", "first": 1924,
+    "path": [
+      { "lang": "inu", "form": "annoraaq", "meaning": "a hooded outer garment of skin", "year": 1800 },
+      { "lang": "en", "form": "anorak", "year": 1924 }
+    ],
+    "story": "Greenlandic annoraaq, a hooded jacket of skin. In 1980s Britain it gained a second sense, a socially awkward obsessive, after the hooded waterproofs worn by trainspotters on chilly platforms.",
+    "usage": [[1924, 1], [1950, 20], [1980, 70], [2000, 100], [2020, 80]],
+    "tags": ["clothing", "meaning-shift"], "related": ["kayak", "igloo"]
+  },
+  {
+    "id": "kangaroo", "word": "kangaroo", "pos": "noun", "gloss": "a large Australian marsupial that moves by hopping",
+    "origin": "aus", "first": 1770, "featured": true,
+    "path": [
+      { "lang": "aus", "form": "gangurru (Guugu Yimidhirr)", "meaning": "a large grey kangaroo", "year": 1770 },
+      { "lang": "en", "form": "kangaroo", "year": 1770 }
+    ],
+    "story": "In 1770, while Captain Cook's Endeavour was being repaired on the Endeavour River in Queensland, the crew noted the local name for the animal. A popular myth says it meant 'I don't understand you', but in the 1970s the linguist John Haviland found that Guugu Yimidhirr speakers still call a large grey kangaroo gangurru.",
+    "usage": [[1770, 2], [1850, 30], [1900, 50], [1950, 60], [2000, 100], [2020, 90]],
+    "tags": ["animals"], "related": ["boomerang"]
+  },
+  {
+    "id": "boomerang", "word": "boomerang", "pos": "noun", "gloss": "a curved throwing stick, some kinds of which return to the thrower",
+    "origin": "aus", "first": 1827,
+    "path": [
+      { "lang": "aus", "form": "wo-mur-rang", "note": "recorded near Sydney; the exact source language is uncertain", "year": 1798 },
+      { "lang": "en", "form": "boomerang", "year": 1827 }
+    ],
+    "story": "From one of the Aboriginal languages around Sydney, recorded as wo-mur-rang in 1798 and as boomerang by 1827. Only some boomerangs are made to come back; heavier hunting ones fly straight. English soon used it for any scheme that rebounds on its maker.",
+    "usage": [[1827, 1], [1880, 20], [1950, 60], [2000, 100], [2020, 90]],
+    "tags": ["technology"], "related": ["kangaroo"]
+  },
+  {
+    "id": "ukulele", "word": "ukulele", "pos": "noun", "gloss": "a small four-stringed guitar from Hawaii",
+    "origin": "haw", "first": 1896,
+    "path": [
+      { "lang": "haw", "form": "ʻukulele", "meaning": "jumping flea (ʻuku 'flea' + lele 'jumping')", "year": 1880 },
+      { "lang": "en", "form": "ukulele", "year": 1896 }
+    ],
+    "story": "Portuguese immigrants from Madeira brought a small guitar, the machete, to Hawaii in 1879; Hawaiians renamed it ʻukulele, 'jumping flea', perhaps for the player's darting fingers. King Kalākaua championed it, and it swept the American mainland after 1915.",
+    "usage": [[1896, 1], [1925, 60], [1950, 40], [1980, 30], [2010, 100], [2020, 95]],
+    "tags": ["music"]
+  },
+  {
+    "id": "wiki", "word": "wiki", "pos": "noun", "gloss": "a website that its users can edit together",
+    "origin": "haw", "first": 1995,
+    "path": [
+      { "lang": "haw", "form": "wikiwiki", "meaning": "quick, very fast", "year": 1900 },
+      { "lang": "en", "form": "wiki", "year": 1995 }
+    ],
+    "story": "In 1995 the programmer Ward Cunningham named his editable website WikiWikiWeb after the Wiki Wiki Shuttle buses at Honolulu airport; wikiwiki is Hawaiian for 'very quick'. Six years later Wikipedia took the name around the world.",
+    "usage": [[1995, 1], [2002, 20], [2008, 100], [2020, 70]],
+    "tags": ["technology"], "related": ["emoji"]
+  },
+  {
+    "id": "safari", "word": "safari", "pos": "noun", "gloss": "an expedition to watch or hunt wild animals, especially in Africa",
+    "origin": "sw", "first": 1890,
+    "path": [
+      { "lang": "ar", "form": "سفر (safar)", "meaning": "journey", "year": 700 },
+      { "lang": "sw", "form": "safari", "meaning": "journey, expedition", "year": 1800 },
+      { "lang": "en", "form": "safari", "year": 1890 }
+    ],
+    "story": "Swahili safari, 'journey', from Arabic safar, a legacy of centuries of Indian Ocean trade along the East African coast. Victorian hunters made it mean an expedition to shoot game; today most safaris shoot only photographs.",
+    "usage": [[1890, 1], [1920, 20], [1960, 50], [2000, 100], [2020, 85]],
+    "tags": ["animals", "trade", "places"]
+  },
+  {
+    "id": "banjo", "word": "banjo", "pos": "noun", "gloss": "a stringed instrument with a round, drum-like body",
+    "origin": "bnt", "first": 1740,
+    "path": [
+      { "lang": "bnt", "form": "mbanza (Kimbundu)", "meaning": "a stringed instrument", "note": "probable source", "year": 1600 },
+      { "lang": "en", "form": "banjer, banjar", "year": 1740 },
+      { "lang": "en", "form": "banjo", "year": 1764 }
+    ],
+    "story": "Enslaved Africans built gourd-bodied lutes in the Caribbean and the American South; Thomas Jefferson wrote in 1781 that 'the instrument proper to them is the Banjar, which they brought hither from Africa'. The name is probably from Kimbundu mbanza, though some point to Portuguese bandurra.",
+    "usage": [[1740, 1], [1850, 40], [1900, 70], [1950, 50], [2000, 100], [2020, 90]],
+    "tags": ["music"]
+  },
+  {
+    "id": "zombie", "word": "zombie", "pos": "noun", "gloss": "a corpse said to be revived by magic; a person who seems lifeless",
+    "origin": "ht", "first": 1871,
+    "path": [
+      { "lang": "bnt", "form": "nzambi (Kimbundu)", "meaning": "god", "note": "probable source", "year": 1600 },
+      { "lang": "ht", "form": "zonbi", "meaning": "a corpse raised by sorcery", "year": 1750 },
+      { "lang": "en", "form": "zombie", "year": 1871 }
+    ],
+    "story": "From Haitian Creole zonbi, a corpse raised by sorcery to labour as a slave, probably from a Central African word such as Kimbundu nzambi, 'god'. Hollywood's White Zombie (1932) made it a movie monster; oddly, George Romero's Night of the Living Dead (1968) never uses the word, calling its walking dead 'ghouls'.",
+    "usage": [[1871, 1], [1930, 10], [1970, 25], [2000, 50], [2013, 100], [2020, 90]],
+    "tags": ["mythology", "religion"]
+  },
+  {
+    "id": "mammoth", "word": "mammoth", "pos": "noun", "gloss": "an extinct hairy elephant of the Ice Age; (adjective) huge",
+    "origin": "ru", "first": 1706,
+    "path": [
+      { "lang": "ru", "form": "мамонт (mamont)", "note": "probably from a Siberian language", "year": 1600 },
+      { "lang": "en", "form": "mammoth", "year": 1706 },
+      { "lang": "en", "form": "mammoth", "meaning": "huge (adjective)", "year": 1802 }
+    ],
+    "story": "Russian mamont, probably from a Siberian language, perhaps Mansi for 'earth horn', since frozen tusks kept turning up in the ground. In 1802 a half-ton 'Mammoth Cheese' was delivered to President Jefferson, helping turn the beast into an adjective for anything huge.",
+    "usage": [[1706, 1], [1800, 20], [1900, 50], [1950, 60], [2000, 100], [2020, 90]],
+    "tags": ["animals", "science"]
+  },
+  {
+    "id": "vodka", "word": "vodka", "pos": "noun", "gloss": "a clear spirit distilled from grain or potatoes",
+    "origin": "ru", "first": 1802, "root": "wed-water",
+    "path": [
+      { "lang": "ine-pro", "form": "*wódr̥", "meaning": "water", "year": -4000 },
+      { "lang": "ru", "form": "вода (voda)", "meaning": "water", "year": 1000 },
+      { "lang": "ru", "form": "водка (vodka)", "meaning": "little water", "year": 1500 },
+      { "lang": "en", "form": "vodka", "year": 1802 }
+    ],
+    "story": "Vodka is Russian for 'little water': voda plus a diminutive ending, from the same ancient root as English water. Whisky, Gaelic for 'water of life', shares that very root, and aquavit and eau-de-vie say 'water of life' in Latin and French.",
+    "usage": [[1802, 1], [1900, 10], [1950, 30], [1990, 80], [2010, 100], [2020, 95]],
+    "tags": ["food"], "related": ["water", "whisky", "hydrogen"]
+  },
+  {
+    "id": "sputnik", "word": "sputnik", "pos": "noun", "gloss": "a Soviet artificial satellite, especially the first one",
+    "origin": "ru", "first": 1957,
+    "path": [
+      { "lang": "ru", "form": "спутник (sputnik)", "meaning": "fellow traveller (s- 'with' + put' 'way')", "year": 1800 },
+      { "lang": "ru", "form": "Спутник-1 (Sputnik 1)", "meaning": "the first artificial satellite", "year": 1957 },
+      { "lang": "en", "form": "sputnik", "year": 1957 }
+    ],
+    "story": "Russian s- (with) + put' (way) + -nik: a 'fellow traveller', and so a satellite. When the Soviet Union launched Sputnik 1 on 4 October 1957, the shock started the Space Race, and a fad for -nik words such as beatnik and peacenik.",
+    "usage": [[1957, 100], [1960, 70], [1980, 25], [2000, 15], [2020, 12]],
+    "tags": ["technology", "science"]
+  },
+  {
+    "id": "coach", "word": "coach", "pos": "noun", "gloss": "a horse-drawn carriage or long-distance bus; a sports trainer",
+    "origin": "frm", "first": 1556,
+    "path": [
+      { "lang": "hu", "form": "kocsi (szekér)", "meaning": "(wagon) of Kocs", "year": 1500 },
+      { "lang": "de", "form": "Kutsche", "year": 1540 },
+      { "lang": "frm", "form": "coche", "year": 1550 },
+      { "lang": "en", "form": "coche, coach", "meaning": "a carriage", "year": 1556 },
+      { "lang": "en", "form": "coach", "meaning": "a private tutor", "year": 1830 },
+      { "lang": "en", "form": "coach", "meaning": "a sports trainer", "year": 1861 }
+    ],
+    "story": "Named after Kocs, a Hungarian village on the road between Vienna and Buda, famous for its light, fast carriages: a kocsi szekér was a 'Kocs wagon'. Oxford students of the 1830s joked that a tutor 'carried' them through exams, and the coach became a trainer.",
+    "usage": [[1556, 3], [1700, 40], [1850, 80], [1900, 70], [1950, 60], [2000, 100], [2020, 95]],
+    "tags": ["technology", "places"]
+  },
+  {
+    "id": "paprika", "word": "paprika", "pos": "noun", "gloss": "a red powdered spice made from dried sweet peppers",
+    "origin": "hu", "first": 1896,
+    "path": [
+      { "lang": "sa", "form": "पिप्पली (pippalī)", "meaning": "long pepper", "year": -500 },
+      { "lang": "grc", "form": "πέπερι (peperi)", "year": -400 },
+      { "lang": "la", "form": "piper", "year": -50 },
+      { "lang": "sh", "form": "papar → paprika", "meaning": "pepper → little pepper", "year": 1700 },
+      { "lang": "hu", "form": "paprika", "year": 1750 },
+      { "lang": "en", "form": "paprika", "year": 1896 }
+    ],
+    "story": "Hungarian paprika came from Serbo-Croatian, a diminutive of papar, pepper: the same word as English pepper, which goes back through Latin and Greek to Sanskrit pippalī. Yet paprika is made from capsicum, a New World plant that is no relation to pepper at all.",
+    "usage": [[1896, 1], [1920, 20], [1950, 50], [2000, 100], [2020, 95]],
+    "tags": ["food"], "related": ["pepper", "chili"]
+  },
+  {
+    "id": "sauna", "word": "sauna", "pos": "noun", "gloss": "a small room heated to high temperatures for sweat bathing",
+    "origin": "fi", "first": 1881,
+    "path": [
+      { "lang": "fi", "form": "sauna", "year": 1500 },
+      { "lang": "en", "form": "sauna", "year": 1881 }
+    ],
+    "story": "Perhaps the best-known Finnish word in the world. Finland has roughly three million saunas for five and a half million people, and Finnish emigrants carried the custom, and its name, around the globe.",
+    "usage": [[1881, 1], [1930, 10], [1960, 40], [2000, 100], [2020, 95]],
+    "tags": ["home", "body"]
+  },
+  {
+    "id": "kiwi", "word": "kiwi", "pos": "noun", "gloss": "a flightless New Zealand bird; a fuzzy green-fleshed fruit; a New Zealander",
+    "origin": "mi", "first": 1835,
+    "path": [
+      { "lang": "mi", "form": "kiwi", "meaning": "the bird, probably named for its call", "year": 1300 },
+      { "lang": "en", "form": "kiwi", "meaning": "the bird", "year": 1835 },
+      { "lang": "en", "form": "Kiwi", "meaning": "a New Zealander", "year": 1917 },
+      { "lang": "en", "form": "kiwifruit", "year": 1959 }
+    ],
+    "story": "Māori kiwi, probably imitating the bird's call. New Zealand soldiers became 'Kiwis' around World War I, and in 1959 exporters renamed the 'Chinese gooseberry' kiwifruit, a marketing masterstroke.",
+    "usage": [[1835, 1], [1900, 10], [1950, 25], [1980, 60], [2000, 100], [2020, 95]],
+    "tags": ["animals", "food", "places"]
+  },
+  {
+    "id": "tattoo", "word": "tattoo", "pos": "noun", "gloss": "a permanent design made on the skin with ink and needles",
+    "origin": "ty", "first": 1769,
+    "path": [
+      { "lang": "ty", "form": "tatau", "meaning": "a marking on the skin", "year": 1700 },
+      { "lang": "en", "form": "tattow", "year": 1769 },
+      { "lang": "en", "form": "tattoo", "year": 1800 }
+    ],
+    "story": "Captain Cook wrote in Tahiti in 1769 that 'both sexes paint their bodys, Tattow as it is called in their language'. Sailors took up the practice with gusto. The military tattoo, a drum signal, is an unrelated word from Dutch doe den tap toe, 'turn off the tap'.",
+    "usage": [[1769, 1], [1850, 15], [1950, 30], [1990, 60], [2010, 100], [2020, 95]],
+    "tags": ["body", "art", "sea"], "related": ["taboo"]
+  },
+  {
+    "id": "taboo", "word": "taboo", "pos": "noun", "gloss": "a social or religious ban on something",
+    "origin": "to", "first": 1777,
+    "path": [
+      { "lang": "to", "form": "tapu", "meaning": "sacred, set apart, forbidden", "year": 1700 },
+      { "lang": "en", "form": "taboo", "year": 1777 }
+    ],
+    "story": "Captain Cook met the word in Tonga in 1777: things that were tapu were sacred and set apart, not to be touched. He noted that it had 'a very comprehensive meaning'. Within decades English used it for anything socially forbidden.",
+    "usage": [[1777, 1], [1850, 15], [1900, 30], [1950, 60], [2000, 100], [2020, 90]],
+    "tags": ["religion", "law"], "related": ["tattoo"]
+  }
+]

@@ -1,0 +1,1126 @@
+[
+  {
+    "id": "street", "word": "street", "pos": "noun", "gloss": "a public road in a town or village, usually with buildings along it", "origin": "la", "first": 700, "root": "stere-spread",
+    "path": [
+      {"lang": "ine-pro", "form": "*sterh₃-", "meaning": "to spread", "year": -4000},
+      {"lang": "la", "form": "strāta (via)", "meaning": "a paved road", "year": -100},
+      {"lang": "gmw-pro", "form": "*strātu", "year": 300},
+      {"lang": "ang", "form": "strǣt", "year": 700},
+      {"lang": "enm", "form": "strete", "year": 1200},
+      {"lang": "en", "form": "street", "year": 1500}
+    ],
+    "story": "Roman roads were viae strātae, “paved ways”. Germanic tribes borrowed strāta before they ever reached Britain — hence German Straße and Dutch straat — and the Anglo-Saxons gave the name to the old Roman roads they found, like Watling Street.",
+    "usage": [[700, 40], [1200, 50], [1500, 60], [1700, 70], [1900, 100], [2020, 85]],
+    "tags": ["places", "core"], "related": ["destroy", "strew"]
+  },
+  {
+    "id": "wine", "word": "wine", "pos": "noun", "gloss": "an alcoholic drink made from fermented grape juice", "origin": "la", "first": 700,
+    "path": [
+      {"lang": "la", "form": "vīnum", "year": -200},
+      {"lang": "gmw-pro", "form": "*wīn", "year": 100},
+      {"lang": "ang", "form": "wīn", "year": 700},
+      {"lang": "enm", "form": "wyn", "year": 1200},
+      {"lang": "en", "form": "wine", "year": 1500}
+    ],
+    "story": "Germanic peoples learned about wine from Roman traders, and the word came with the amphorae: German Wein, Dutch wijn and Old English wīn were all borrowed from Latin vīnum before the Anglo-Saxons crossed to Britain. Vine, vintage and vinegar (“sour wine”) arrived much later, through French.",
+    "usage": [[700, 45], [1200, 55], [1500, 65], [1800, 75], [1950, 85], [2020, 100]],
+    "tags": ["food"], "related": ["vinegar", "vine"]
+  },
+  {
+    "id": "cheese", "word": "cheese", "pos": "noun", "gloss": "a food made from pressed milk curds", "origin": "la", "first": 800,
+    "path": [
+      {"lang": "la", "form": "cāseus", "year": -100},
+      {"lang": "gmw-pro", "form": "*kāsī", "year": 300},
+      {"lang": "ang", "form": "ċīese", "year": 800},
+      {"lang": "enm", "form": "chese", "year": 1200},
+      {"lang": "en", "form": "cheese", "year": 1500}
+    ],
+    "story": "Germanic farmers borrowed Latin cāseus in Roman times, which is why cheese, German Käse and Dutch kaas match. French and Italian took another road: fromage and formaggio come from Latin formāticus, cheese “shaped in a mould”.",
+    "usage": [[800, 30], [1200, 40], [1500, 50], [1800, 60], [1950, 85], [2020, 100]],
+    "tags": ["food"], "related": ["butter"]
+  },
+  {
+    "id": "mile", "word": "mile", "pos": "noun", "gloss": "a unit of distance equal to 1,760 yards (about 1.6 km)", "origin": "la", "first": 800,
+    "path": [
+      {"lang": "la", "form": "mīlia (passuum)", "meaning": "a thousand paces", "year": -100},
+      {"lang": "gmw-pro", "form": "*mīlijā", "year": 300},
+      {"lang": "ang", "form": "mīl", "year": 800},
+      {"lang": "enm", "form": "mile", "year": 1200},
+      {"lang": "en", "form": "mile", "year": 1500}
+    ],
+    "story": "A Roman mile was mīlle passūs, a thousand double steps of a marching legion, about 1,480 metres. English kept the name while the length crept up: an Act of Parliament fixed the statute mile at 5,280 feet in 1593.",
+    "usage": [[800, 30], [1200, 40], [1500, 55], [1800, 85], [1900, 100], [2020, 70]],
+    "tags": ["numbers"], "related": ["million"]
+  },
+  {
+    "id": "kitchen", "word": "kitchen", "pos": "noun", "gloss": "a room where food is prepared and cooked", "origin": "la-lat", "first": 900, "root": "pekw-cook",
+    "path": [
+      {"lang": "ine-pro", "form": "*pekʷ-", "meaning": "to cook, to ripen", "year": -4000},
+      {"lang": "la-lat", "form": "coquīna", "year": 300},
+      {"lang": "gmw-pro", "form": "*kukīnā", "year": 400},
+      {"lang": "ang", "form": "cyċene", "year": 900},
+      {"lang": "enm", "form": "kichene", "year": 1200},
+      {"lang": "en", "form": "kitchen", "year": 1500}
+    ],
+    "story": "The same Latin word reached English twice: once through early Germanic contact, becoming the Anglo-Saxon cyċene, and again some 900 years later as French cuisine. Cook and biscuit (“twice cooked”) simmer from the same root.",
+    "usage": [[900, 30], [1200, 35], [1500, 45], [1800, 60], [1950, 90], [2020, 100]],
+    "tags": ["food", "home"], "related": ["cuisine", "cook", "biscuit"]
+  },
+  {
+    "id": "cook", "word": "cook", "pos": "noun", "gloss": "a person who prepares food", "origin": "la", "first": 900, "root": "pekw-cook",
+    "path": [
+      {"lang": "ine-pro", "form": "*pekʷ-", "meaning": "to cook, to ripen", "year": -4000},
+      {"lang": "la", "form": "coquus", "year": -100},
+      {"lang": "gmw-pro", "form": "*kok", "year": 400},
+      {"lang": "ang", "form": "cōc", "year": 900},
+      {"lang": "enm", "form": "cok", "year": 1200},
+      {"lang": "en", "form": "cook", "year": 1500}
+    ],
+    "story": "Anglo-Saxon households had a cōc, borrowed from Latin coquus; the verb “to cook” was only made from the noun around 1400. The same ancient root ripened into Greek peptein, “to cook, digest”, which gave us peptic.",
+    "usage": [[900, 35], [1200, 40], [1500, 50], [1800, 65], [1950, 85], [2020, 100]],
+    "tags": ["food", "people"], "related": ["kitchen", "cuisine", "biscuit"]
+  },
+  {
+    "id": "candle", "word": "candle", "pos": "noun", "gloss": "a stick of wax with a wick that is burned for light", "origin": "la", "first": 700, "root": "kand-shine",
+    "path": [
+      {"lang": "ine-pro", "form": "*(s)kand-", "meaning": "to shine", "year": -4000},
+      {"lang": "la", "form": "candēla", "year": -100},
+      {"lang": "ang", "form": "candel", "year": 700},
+      {"lang": "enm", "form": "candel", "year": 1200},
+      {"lang": "en", "form": "candle", "year": 1500}
+    ],
+    "story": "One of the first words the missionaries brought: Latin candēla, from candēre, “to shine white”, lit the altars of Anglo-Saxon churches. Its glowing cousins include candid, incandescent — and candidate, from the dazzling white togas worn by Romans running for office.",
+    "usage": [[700, 50], [1200, 60], [1500, 75], [1800, 100], [1900, 70], [2020, 55]],
+    "tags": ["home", "religion"], "related": ["candidate", "altar"]
+  },
+  {
+    "id": "altar", "word": "altar", "pos": "noun", "gloss": "a table used for religious rites and offerings", "origin": "la", "first": 900,
+    "path": [
+      {"lang": "la", "form": "altāre", "meaning": "altar (probably from adolēre, to burn offerings)", "year": -100},
+      {"lang": "ang", "form": "altar", "year": 900},
+      {"lang": "enm", "form": "alter", "year": 1200},
+      {"lang": "en", "form": "altar", "year": 1500}
+    ],
+    "story": "Old English already had a word, wēofod, from wīg-bed, “idol table”, but the Church’s Latin altāre won out. The Latin word probably comes from adolēre, “to burn sacrifices”.",
+    "usage": [[900, 60], [1200, 75], [1500, 90], [1700, 100], [1900, 70], [2020, 45]],
+    "tags": ["religion"], "related": ["candle", "offer"]
+  },
+  {
+    "id": "offer", "word": "offer", "pos": "verb", "gloss": "to hold out something for someone to accept or refuse", "origin": "la-ecc", "first": 900, "root": "bher-carry",
+    "path": [
+      {"lang": "ine-pro", "form": "*bʰer-", "meaning": "to carry", "year": -4000},
+      {"lang": "la-ecc", "form": "offerre", "meaning": "to present (to God)", "year": 400},
+      {"lang": "ang", "form": "offrian", "meaning": "to make a sacrifice", "year": 900},
+      {"lang": "enm", "form": "offren", "year": 1300, "note": "reinforced by Old French offrir"},
+      {"lang": "en", "form": "offer", "meaning": "to present for acceptance", "year": 1500}
+    ],
+    "story": "An early church borrowing: Old English offrian meant to make an offering at the altar. French offrir later widened it to holding out anything at all — a gift, a price, a hand. Same root as suffer, transfer and the native bear.",
+    "usage": [[900, 20], [1200, 30], [1500, 50], [1800, 75], [1950, 100], [2020, 95]],
+    "tags": ["religion", "trade"], "related": ["suffer", "transfer", "bear"]
+  },
+  {
+    "id": "verse", "word": "verse", "pos": "noun", "gloss": "writing arranged in lines with a rhythm; poetry", "origin": "la", "first": 900, "root": "wert-turn",
+    "path": [
+      {"lang": "ine-pro", "form": "*wert-", "meaning": "to turn", "year": -4000},
+      {"lang": "la", "form": "versus", "meaning": "a turning of the plough; a furrow; a line of writing", "year": -50},
+      {"lang": "ang", "form": "fers", "year": 900},
+      {"lang": "enm", "form": "vers", "year": 1300, "note": "reinforced by Old French vers"},
+      {"lang": "en", "form": "verse", "year": 1500}
+    ],
+    "story": "A Latin versus was the turn a ploughman made at the end of a furrow — and then a line of writing, which also turns back at its end. Prose, by contrast, is prōsa ōrātiō: “straightforward speech”.",
+    "usage": [[900, 30], [1200, 40], [1500, 60], [1700, 90], [1850, 100], [2020, 55]],
+    "tags": ["art"], "related": ["prose", "version", "convert"]
+  },
+  {
+    "id": "wall", "word": "wall", "pos": "noun", "gloss": "an upright structure of stone, brick or other material that encloses or divides", "origin": "la", "first": 750,
+    "path": [
+      {"lang": "la", "form": "vallum", "meaning": "a palisade, rampart (from vallus, a stake)", "year": -100},
+      {"lang": "gmw-pro", "form": "*wall", "year": 300},
+      {"lang": "ang", "form": "weall", "year": 750},
+      {"lang": "enm", "form": "wal", "year": 1200},
+      {"lang": "en", "form": "wall", "year": 1500}
+    ],
+    "story": "A Roman vallum was an earthwork topped with a fence of stakes. Germanic peoples borrowed the word for the Roman frontier defences they met, and Old English weall came to mean any wall. Archaeologists still call the great ditch behind Hadrian’s Wall the Vallum.",
+    "usage": [[750, 40], [1200, 50], [1500, 60], [1800, 80], [1900, 100], [2020, 85]],
+    "tags": ["home", "war"]
+  },
+  {
+    "id": "port", "word": "port", "pos": "noun", "gloss": "a harbour town where ships load and unload", "origin": "la", "first": 900, "root": "per-pass",
+    "path": [
+      {"lang": "ine-pro", "form": "*per-", "meaning": "to lead across, to pass over", "year": -4000},
+      {"lang": "la", "form": "portus", "meaning": "harbour", "year": -100},
+      {"lang": "ang", "form": "port", "year": 900},
+      {"lang": "enm", "form": "port", "year": 1200},
+      {"lang": "en", "form": "port", "year": 1500}
+    ],
+    "story": "Latin portus, a harbour, and porta, a gate, are both places you pass through. The root gave opportunity — a wind blowing ob portum, “toward the harbour” — and, on the Germanic side, ford and fare. Port wine comes full circle: it is named after Porto, “the harbour”, in Portugal.",
+    "usage": [[900, 30], [1200, 35], [1500, 50], [1800, 80], [1900, 100], [2020, 80]],
+    "tags": ["sea", "places"], "related": ["opportunity", "ford"]
+  },
+  {
+    "id": "mint", "word": "mint", "pos": "noun", "gloss": "a place where coins are made", "origin": "la", "first": 800,
+    "path": [
+      {"lang": "la", "form": "monēta", "meaning": "a mint; coined money (from Monēta, a title of Juno)", "year": -100},
+      {"lang": "gmw-pro", "form": "*munita", "year": 300},
+      {"lang": "ang", "form": "mynet", "meaning": "a coin", "year": 800},
+      {"lang": "enm", "form": "mynt", "meaning": "money", "year": 1300},
+      {"lang": "en", "form": "mint", "meaning": "a place where money is coined", "year": 1500}
+    ],
+    "story": "Rome struck its coins at the temple of Juno Monēta, so monēta came to mean both mint and money. English got the word twice: as mynet with the Anglo-Saxons, now mint, and as moneie with the Normans, now money. (The herb mint is unrelated.)",
+    "usage": [[800, 40], [1200, 45], [1500, 55], [1800, 70], [1950, 100], [2020, 80]],
+    "tags": ["money"], "related": ["money"]
+  },
+  {
+    "id": "inch", "word": "inch", "pos": "noun", "gloss": "a unit of length equal to one twelfth of a foot (2.54 cm)", "origin": "la", "first": 1000,
+    "path": [
+      {"lang": "la", "form": "uncia", "meaning": "a twelfth part", "year": -100},
+      {"lang": "ang", "form": "ynċe", "year": 1000},
+      {"lang": "enm", "form": "inche", "year": 1300},
+      {"lang": "en", "form": "inch", "year": 1500}
+    ],
+    "story": "An inch is literally a twelfth — of a foot. The same Latin uncia, arriving later through French, became ounce, a twelfth of the Roman pound. Troy pounds still have twelve ounces.",
+    "usage": [[1000, 30], [1300, 45], [1500, 55], [1800, 85], [1900, 100], [2020, 70]],
+    "tags": ["numbers"], "related": ["ounce"]
+  },
+  {
+    "id": "pound", "word": "pound", "pos": "noun", "gloss": "a unit of weight (about 454 g); the British unit of money", "origin": "la", "first": 800,
+    "path": [
+      {"lang": "la", "form": "(lībra) pondō", "meaning": "(a pound) by weight", "year": -100},
+      {"lang": "gmw-pro", "form": "*pund", "year": 300},
+      {"lang": "ang", "form": "pund", "year": 800},
+      {"lang": "enm", "form": "pund", "year": 1200},
+      {"lang": "en", "form": "pound", "year": 1500}
+    ],
+    "story": "Romans measured a lībra pondō, “a pound by weight”. Germanic peoples borrowed the pondō half — German Pfund, English pound — while the abbreviations lb and £ still stand for lībra. Ponder, to weigh something in the mind, comes from the same pondus.",
+    "usage": [[800, 40], [1200, 50], [1500, 60], [1800, 90], [1900, 100], [2020, 75]],
+    "tags": ["money", "numbers"], "related": ["ponder"]
+  },
+  {
+    "id": "chalk", "word": "chalk", "pos": "noun", "gloss": "soft white limestone; a stick of it for writing", "origin": "la", "first": 800,
+    "path": [
+      {"lang": "la", "form": "calx", "meaning": "limestone, lime", "year": -100},
+      {"lang": "ang", "form": "cealc", "year": 800},
+      {"lang": "enm", "form": "chalke", "year": 1300},
+      {"lang": "en", "form": "chalk", "year": 1500}
+    ],
+    "story": "Latin calx meant limestone. Its diminutive calculus, a little pebble, was used for reckoning on a counting board, hence calculate. Chalk, calcium and a dentist’s calculus (tartar) are all chips off the same stone.",
+    "usage": [[800, 30], [1200, 35], [1500, 45], [1800, 70], [1900, 100], [2020, 60]],
+    "tags": ["nature", "education"], "related": ["calculate"]
+  },
+  {
+    "id": "noon", "word": "noon", "pos": "noun", "gloss": "twelve o'clock in the middle of the day", "origin": "la", "first": 900,
+    "path": [
+      {"lang": "la", "form": "nōna (hōra)", "meaning": "the ninth hour, about 3 p.m.", "year": -100},
+      {"lang": "ang", "form": "nōn", "meaning": "the ninth hour after sunrise, about 3 p.m.", "year": 900},
+      {"lang": "enm", "form": "none", "meaning": "midday", "year": 1300},
+      {"lang": "en", "form": "noon", "year": 1500}
+    ],
+    "story": "Counting from sunrise, the Romans’ ninth hour fell at about 3 p.m., and for centuries noon meant mid-afternoon, the hour of the monks’ service of None. By about 1300 it had drifted back to midday, probably because that service or the meal after it was moved earlier.",
+    "usage": [[900, 40], [1200, 50], [1500, 70], [1800, 100], [1900, 90], [2020, 70]],
+    "tags": ["time", "meaning-shift"], "related": ["nine"]
+  },
+  {
+    "id": "fork", "word": "fork", "pos": "noun", "gloss": "a pronged tool for eating, or for lifting hay", "origin": "la", "first": 1000,
+    "path": [
+      {"lang": "la", "form": "furca", "meaning": "a pitchfork", "year": -100},
+      {"lang": "ang", "form": "forca", "year": 1000},
+      {"lang": "enm", "form": "forke", "year": 1300},
+      {"lang": "en", "form": "fork", "year": 1500}
+    ],
+    "story": "For centuries a fork was a farm tool. Table forks spread to England from Italy only in the 1600s and were mocked as affected; the traveller Thomas Coryat, who praised them in 1611, was teased as “Furcifer” — Latin for “fork-bearer”, and also for “rascal”.",
+    "usage": [[1000, 20], [1300, 30], [1500, 40], [1800, 65], [1950, 90], [2020, 100]],
+    "tags": ["home", "food"]
+  },
+  {
+    "id": "sickle", "word": "sickle", "pos": "noun", "gloss": "a short-handled farm tool with a curved blade, for cutting grain", "origin": "la", "first": 900, "root": "sek-cut",
+    "path": [
+      {"lang": "ine-pro", "form": "*sek-", "meaning": "to cut", "year": -4000},
+      {"lang": "la", "form": "secula", "meaning": "sickle (from secāre, to cut)", "year": -100},
+      {"lang": "gmw-pro", "form": "*sikil", "year": 300},
+      {"lang": "ang", "form": "sicol", "year": 900},
+      {"lang": "enm", "form": "sikel", "year": 1200},
+      {"lang": "en", "form": "sickle", "year": 1500}
+    ],
+    "story": "Roman farmers lent the Germanic world a better harvesting tool and its name: Latin secula, from secāre, “to cut”. The same root slices through insect, section and segment, and natively through saw.",
+    "usage": [[900, 60], [1200, 70], [1500, 80], [1800, 100], [1950, 60], [2020, 35]],
+    "tags": ["nature", "home"], "related": ["insect", "saw"]
+  },
+  {
+    "id": "genius", "word": "genius", "pos": "noun", "gloss": "exceptional intellectual or creative power; a person who has it", "origin": "la", "first": 1390, "root": "gene-beget",
+    "path": [
+      {"lang": "ine-pro", "form": "*ǵenh₁-", "meaning": "to give birth, to beget", "year": -4000},
+      {"lang": "la", "form": "genius", "meaning": "the guardian spirit of a person or place", "year": -100},
+      {"lang": "enm", "form": "genius", "meaning": "a guardian spirit", "year": 1390},
+      {"lang": "en", "form": "genius", "meaning": "natural ability", "year": 1640},
+      {"lang": "en", "form": "genius", "meaning": "an exceptionally gifted person", "year": 1711}
+    ],
+    "story": "Every Roman was born with a genius, a guardian spirit that shaped their character, so for centuries a person had genius rather than being one. The sense of an exceptional mind arrived in the 1700s. Genie is the same word, picked by French translators of the Arabian Nights because it sounded like Arabic jinnī.",
+    "usage": [[1390, 3], [1600, 15], [1750, 45], [1850, 85], [1900, 100], [2020, 80]],
+    "tags": ["people", "meaning-shift"], "related": ["genie", "gene", "native"]
+  },
+  {
+    "id": "species", "word": "species", "pos": "noun", "gloss": "a group of living things that can breed together; a kind or sort", "origin": "la", "first": 1550, "root": "spek-observe",
+    "path": [
+      {"lang": "ine-pro", "form": "*speḱ-", "meaning": "to look, to observe", "year": -4000},
+      {"lang": "la", "form": "speciēs", "meaning": "a sight, an appearance; a kind", "year": -50},
+      {"lang": "en", "form": "species", "meaning": "a class (in logic)", "year": 1550},
+      {"lang": "en", "form": "species", "meaning": "a kind of living thing", "year": 1608}
+    ],
+    "story": "Species is literally “a look”: things that look alike are the same kind. In medieval Latin speciēs also meant goods, especially costly spices, which is how the same word, travelling through French, gave English spice.",
+    "usage": [[1550, 5], [1700, 20], [1859, 55], [1950, 80], [2020, 100]],
+    "tags": ["science", "nature"], "related": ["spice", "spectacle", "inspect"]
+  },
+  {
+    "id": "exit", "word": "exit", "pos": "noun", "gloss": "a way out; the act of leaving", "origin": "la", "first": 1538, "root": "ei-go",
+    "path": [
+      {"lang": "ine-pro", "form": "*h₁ey-", "meaning": "to go", "year": -4000},
+      {"lang": "la", "form": "exit", "meaning": "he or she goes out", "year": -100},
+      {"lang": "en", "form": "exit", "meaning": "stage direction: (an actor) leaves", "year": 1538},
+      {"lang": "en", "form": "exit", "meaning": "a departure", "year": 1588},
+      {"lang": "en", "form": "exit", "meaning": "a way out", "year": 1696}
+    ],
+    "story": "Exit is a Latin verb, “he goes out”, printed in the margins of Renaissance plays; exeunt means “they go out”. Shakespeare’s most famous one is “Exit, pursued by a bear”. Only later did the word become the way out itself.",
+    "usage": [[1538, 10], [1700, 20], [1850, 25], [1950, 60], [2020, 100]],
+    "tags": ["art"], "related": ["issue", "ambition"]
+  },
+  {
+    "id": "ambition", "word": "ambition", "pos": "noun", "gloss": "a strong desire to achieve something", "origin": "la", "first": 1340, "root": "ei-go",
+    "path": [
+      {"lang": "ine-pro", "form": "*h₁ey-", "meaning": "to go", "year": -4000},
+      {"lang": "la", "form": "ambitiō", "meaning": "a going around (canvassing for votes)", "year": -100},
+      {"lang": "enm", "form": "ambicioun", "meaning": "an excessive desire for honour", "year": 1340},
+      {"lang": "en", "form": "ambition", "year": 1500}
+    ],
+    "story": "Roman politicians seeking office went around the Forum shaking hands, which in Latin was ambīre, “to go around”. Ambitiō was electioneering, and in English the word long kept a whiff of disapproval: an excessive hunger for honour.",
+    "usage": [[1340, 10], [1600, 50], [1800, 90], [1900, 100], [2020, 75]],
+    "tags": ["feelings", "power"], "related": ["exit", "issue"]
+  },
+  {
+    "id": "vacuum", "word": "vacuum", "pos": "noun", "gloss": "a space empty of matter; a vacuum cleaner", "origin": "la", "first": 1550, "root": "eue-empty",
+    "path": [
+      {"lang": "ine-pro", "form": "*h₁weh₂-", "meaning": "to leave, to abandon", "year": -4000},
+      {"lang": "la", "form": "vacuum", "meaning": "an empty space (from vacuus, empty)", "year": -50},
+      {"lang": "en", "form": "vacuum", "meaning": "empty space", "year": 1550},
+      {"lang": "en", "form": "vacuum", "meaning": "to clean with a vacuum cleaner", "year": 1922}
+    ],
+    "story": "Latin for “an empty thing”. Aristotle argued a true void could not exist, and philosophers agreed for centuries, until Evangelista Torricelli made one at the top of a tube of mercury in 1643. By 1903 vacuums were cleaning carpets.",
+    "usage": [[1550, 5], [1700, 20], [1850, 40], [1950, 85], [2020, 100]],
+    "tags": ["science", "technology"], "related": ["vacation"]
+  },
+  {
+    "id": "focus", "word": "focus", "pos": "noun", "gloss": "the centre of interest; the point where rays of light meet", "origin": "la-new", "first": 1644,
+    "path": [
+      {"lang": "la", "form": "focus", "meaning": "hearth, fireplace", "year": -100},
+      {"lang": "la-new", "form": "focus", "meaning": "the burning point of a lens (Kepler)", "year": 1604},
+      {"lang": "en", "form": "focus", "year": 1644},
+      {"lang": "en", "form": "focus", "meaning": "centre of attention", "year": 1796}
+    ],
+    "story": "To Romans a focus was the household hearth. In 1604 Johannes Kepler used it for the point where a lens gathers sunlight, which gets hot enough to start a fire. The same hearth gave French feu, “fire”, which still smoulders in curfew.",
+    "usage": [[1644, 3], [1800, 15], [1900, 30], [1980, 80], [2020, 100]],
+    "tags": ["science", "home"], "related": ["curfew"]
+  },
+  {
+    "id": "agenda", "word": "agenda", "pos": "noun", "gloss": "a list of items to be discussed at a meeting", "origin": "la", "first": 1650, "root": "ag-drive",
+    "path": [
+      {"lang": "ine-pro", "form": "*h₂eǵ-", "meaning": "to drive", "year": -4000},
+      {"lang": "la", "form": "agenda", "meaning": "things to be done (from agere, to do)", "year": -50},
+      {"lang": "en", "form": "agenda", "meaning": "matters of practice", "year": 1650},
+      {"lang": "en", "form": "agenda", "meaning": "a list of business for a meeting", "year": 1882}
+    ],
+    "story": "In Latin agenda are “things that must be done”. In 17th-century English they were matters of conduct, as opposed to credenda, “things to be believed”. The meeting-room list dates from the 1880s.",
+    "usage": [[1650, 2], [1850, 5], [1900, 15], [1970, 80], [2000, 100], [2020, 90]],
+    "tags": ["power"], "related": ["data"]
+  },
+  {
+    "id": "data", "word": "data", "pos": "noun", "gloss": "facts and figures collected for reference or analysis", "origin": "la", "first": 1646, "root": "deh-give",
+    "path": [
+      {"lang": "ine-pro", "form": "*deh₃-", "meaning": "to give", "year": -4000},
+      {"lang": "la", "form": "data", "meaning": "things given (plural of datum)", "year": -50},
+      {"lang": "en", "form": "data", "meaning": "facts given as a basis for reasoning", "year": 1646},
+      {"lang": "en", "form": "data", "meaning": "information stored and processed by computers", "year": 1946}
+    ],
+    "story": "Data are “givens”: the facts handed to you at the start of a geometry problem. Whether data is plural or singular has been argued for a century; as a mass noun like “information” it has quietly won. Its sibling date comes from the word data, “given”, written on Roman letters.",
+    "usage": [[1646, 1], [1850, 5], [1950, 25], [1990, 70], [2020, 100]],
+    "tags": ["science", "technology"], "related": ["date", "tradition"]
+  },
+  {
+    "id": "virus", "word": "virus", "pos": "noun", "gloss": "a tiny infectious agent that multiplies inside living cells; a harmful computer program", "origin": "la", "first": 1400,
+    "path": [
+      {"lang": "la", "form": "vīrus", "meaning": "poison, venom; slime", "year": -50},
+      {"lang": "enm", "form": "virus", "meaning": "a venomous substance", "year": 1400},
+      {"lang": "en", "form": "virus", "meaning": "an infectious agent smaller than bacteria", "year": 1898},
+      {"lang": "en", "form": "virus", "meaning": "a self-copying computer program", "year": 1972}
+    ],
+    "story": "To Romans vīrus was venom, slime or a rank smell. Doctors used it loosely for any cause of disease until Martinus Beijerinck showed in 1898 that tobacco mosaic disease came from something small enough to pass through filters that trap bacteria. The computer sense first appeared in a 1972 science-fiction novel.",
+    "usage": [[1400, 5], [1700, 8], [1900, 15], [1950, 40], [2000, 85], [2020, 100]],
+    "tags": ["medicine", "technology", "science"]
+  },
+  {
+    "id": "alibi", "word": "alibi", "pos": "noun", "gloss": "proof that one was elsewhere when a crime happened; an excuse", "origin": "la", "first": 1727, "root": "al-beyond",
+    "path": [
+      {"lang": "ine-pro", "form": "*h₂el-", "meaning": "beyond, other", "year": -4000},
+      {"lang": "la", "form": "alibī", "meaning": "elsewhere", "year": -50},
+      {"lang": "en", "form": "alibi", "meaning": "the plea of having been elsewhere", "year": 1727},
+      {"lang": "en", "form": "alibi", "meaning": "an excuse", "year": 1912}
+    ],
+    "story": "In Latin it is only an adverb, “elsewhere”. Eighteenth-century courts used it for the defence that the accused was somewhere else at the time. By 1912 Americans were using it for any excuse at all.",
+    "usage": [[1727, 5], [1850, 20], [1930, 80], [1960, 100], [2020, 70]],
+    "tags": ["law"], "related": ["alien", "ultimate", "else"]
+  },
+  {
+    "id": "bonus", "word": "bonus", "pos": "noun", "gloss": "an extra payment or benefit", "origin": "la", "first": 1773,
+    "path": [
+      {"lang": "la", "form": "bonus", "meaning": "good (masculine)", "year": -100},
+      {"lang": "en", "form": "bonus", "meaning": "an extra payment (Stock Exchange slang)", "year": 1773}
+    ],
+    "story": "Probably 18th-century London stockbrokers’ joke Latin, and not very good Latin: the “good thing” they handed out should have been the neuter bonum. The schoolboy error stuck.",
+    "usage": [[1773, 2], [1850, 10], [1920, 40], [1980, 85], [2020, 100]],
+    "tags": ["money"]
+  },
+  {
+    "id": "status", "word": "status", "pos": "noun", "gloss": "a person's social or legal position; the state of affairs", "origin": "la", "first": 1671, "root": "sta-stand",
+    "path": [
+      {"lang": "ine-pro", "form": "*steh₂-", "meaning": "to stand", "year": -4000},
+      {"lang": "la", "form": "status", "meaning": "a standing; condition (from stāre, to stand)", "year": -50},
+      {"lang": "en", "form": "status", "meaning": "the crisis of a disease", "year": 1671},
+      {"lang": "en", "form": "status", "meaning": "legal standing", "year": 1791},
+      {"lang": "en", "form": "status", "meaning": "social rank", "year": 1820}
+    ],
+    "story": "Latin for “a standing”: how you stand. English used it first in medicine and law, and after the 1950s coinage status symbol, for social rank. State and estate are the same word, worn down on its way through French.",
+    "usage": [[1671, 1], [1800, 5], [1900, 20], [1970, 85], [2020, 100]],
+    "tags": ["people", "power"], "related": ["state", "station", "obstacle"]
+  },
+  {
+    "id": "ego", "word": "ego", "pos": "noun", "gloss": "a person's sense of self-esteem; the conscious self", "origin": "la", "first": 1789,
+    "path": [
+      {"lang": "ine-pro", "form": "*éǵh₂", "meaning": "I", "year": -4000},
+      {"lang": "la", "form": "ego", "meaning": "I", "year": -50},
+      {"lang": "en", "form": "ego", "meaning": "the conscious thinking self (philosophy)", "year": 1789},
+      {"lang": "en", "form": "ego", "meaning": "the self in psychoanalysis, translating Freud's das Ich", "year": 1920}
+    ],
+    "story": "Freud wrote of das Ich, plain German for “the I”. His English translators dressed it in Latin as the ego (and das Es, “the It”, as the id), and soon everyone had an ego to bruise.",
+    "usage": [[1789, 2], [1900, 10], [1950, 50], [1990, 90], [2020, 100]],
+    "tags": ["people", "feelings"]
+  },
+  {
+    "id": "ultimate", "word": "ultimate", "pos": "adjective", "gloss": "final; best or most extreme of its kind", "origin": "la-lat", "first": 1654, "root": "al-beyond",
+    "path": [
+      {"lang": "ine-pro", "form": "*h₂el-", "meaning": "beyond", "year": -4000},
+      {"lang": "la", "form": "ultimus", "meaning": "last, farthest", "year": -50},
+      {"lang": "la-lat", "form": "ultimātus", "meaning": "final", "year": 400},
+      {"lang": "en", "form": "ultimate", "year": 1654}
+    ],
+    "story": "From ultimus, “farthest”, the superlative of a word meaning “beyond”: the ultimate is as far as you can go. Its cousins include ultra and ulterior and, through French, outrage, which has nothing to do with “out” or “rage”.",
+    "usage": [[1654, 10], [1800, 40], [1900, 60], [1990, 95], [2020, 100]],
+    "tags": ["core"], "related": ["outrage", "alibi", "alien"]
+  },
+  {
+    "id": "educate", "word": "educate", "pos": "verb", "gloss": "to teach and train, especially at school", "origin": "la", "first": 1588, "root": "deuk-lead",
+    "path": [
+      {"lang": "ine-pro", "form": "*dewk-", "meaning": "to lead", "year": -4000},
+      {"lang": "la", "form": "ēducāre", "meaning": "to bring up, rear", "year": -50},
+      {"lang": "en", "form": "educate", "meaning": "to bring up a child", "year": 1588},
+      {"lang": "en", "form": "educate", "meaning": "to train the mind", "year": 1650}
+    ],
+    "story": "It is often said that to educate is to “lead out” a pupil’s talents. That is only half right: Latin ēducāre meant to bring up, rear or nourish, and was used of children, animals and even plants. It is related to dūcere, “to lead”, which gave duke.",
+    "usage": [[1588, 5], [1700, 20], [1850, 60], [1950, 100], [2020, 80]],
+    "tags": ["education"], "related": ["duke"]
+  },
+  {
+    "id": "tradition", "word": "tradition", "pos": "noun", "gloss": "customs or beliefs handed down from generation to generation", "origin": "la", "first": 1380, "root": "deh-give",
+    "path": [
+      {"lang": "ine-pro", "form": "*deh₃-", "meaning": "to give", "year": -4000},
+      {"lang": "la", "form": "trāditiō", "meaning": "a handing over; a surrender; teaching handed down", "year": -50},
+      {"lang": "enm", "form": "tradicioun", "year": 1380},
+      {"lang": "en", "form": "tradition", "year": 1500}
+    ],
+    "story": "A tradition is something handed over, from trādere (trāns + dare, “give across”). The same verb could mean handing over to an enemy: Christians who surrendered scripture during the Roman persecutions were called trāditōrēs. So tradition and traitor, and treason, are one word that went two ways.",
+    "usage": [[1380, 10], [1600, 35], [1800, 55], [1900, 80], [1980, 100], [2020, 90]],
+    "tags": ["religion", "people"], "related": ["treason", "data", "date"]
+  },
+  {
+    "id": "veto", "word": "veto", "pos": "noun", "gloss": "the right to reject a decision or proposal", "origin": "la", "first": 1629,
+    "path": [
+      {"lang": "la", "form": "vetō", "meaning": "I forbid", "year": -100},
+      {"lang": "en", "form": "veto", "year": 1629}
+    ],
+    "story": "One Latin word with enormous power. Roman tribunes of the people could halt a law or a magistrate’s act simply by declaring vetō, “I forbid”. English borrowed it in the 1620s for the same kind of blocking power.",
+    "usage": [[1629, 5], [1800, 40], [1900, 60], [1950, 100], [2020, 70]],
+    "tags": ["law", "power"]
+  },
+  {
+    "id": "quorum", "word": "quorum", "pos": "noun", "gloss": "the minimum number of members needed for a meeting to make valid decisions", "origin": "la", "first": 1430,
+    "path": [
+      {"lang": "la", "form": "quōrum", "meaning": "of whom", "year": -50},
+      {"lang": "enm", "form": "quorum", "meaning": "justices whose presence was required", "year": 1430},
+      {"lang": "en", "form": "quorum", "meaning": "the minimum number of members present", "year": 1616}
+    ],
+    "story": "Medieval commissions appointing justices of the peace said, in Latin, that certain named men were among those “of whom” (quōrum) the court must include at least one. Those essential justices were “the quorum”, and the word came to mean the minimum attendance needed to do business.",
+    "usage": [[1430, 5], [1700, 30], [1850, 70], [1950, 100], [2020, 70]],
+    "tags": ["law", "power"]
+  },
+  {
+    "id": "subpoena", "word": "subpoena", "pos": "noun", "gloss": "a written order to attend a court of law", "origin": "la-med", "first": 1430,
+    "path": [
+      {"lang": "la-med", "form": "sub poenā", "meaning": "under penalty", "year": 1300},
+      {"lang": "enm", "form": "sub pena", "year": 1430},
+      {"lang": "en", "form": "subpoena", "year": 1600}
+    ],
+    "story": "A subpoena is named for its own threat. The writ commanded you to appear sub poenā, “under penalty”, and those first two words became its name. Poena, from Greek poinē, also gave pain, penalty and punish.",
+    "usage": [[1430, 5], [1700, 25], [1900, 50], [1990, 100], [2020, 85]],
+    "tags": ["law"]
+  },
+  {
+    "id": "ignoramus", "word": "ignoramus", "pos": "noun", "gloss": "an ignorant or stupid person", "origin": "la", "first": 1577, "root": "gno-know",
+    "path": [
+      {"lang": "ine-pro", "form": "*ǵneh₃-", "meaning": "to know", "year": -4000},
+      {"lang": "la", "form": "ignōrāmus", "meaning": "we do not know", "year": -50},
+      {"lang": "en", "form": "ignoramus", "meaning": "a grand jury's endorsement rejecting an indictment", "year": 1577},
+      {"lang": "en", "form": "ignoramus", "meaning": "an ignorant person", "year": 1616}
+    ],
+    "story": "A grand jury that found the evidence too thin wrote Ignōrāmus, “we do not know”, on the back of the bill of indictment. George Ruggle’s 1615 comedy Ignoramus, which mocked a bumbling lawyer of that name, turned the legal formula into an insult.",
+    "usage": [[1577, 10], [1650, 40], [1800, 70], [1900, 100], [2020, 60]],
+    "tags": ["law", "meaning-shift"], "related": ["ignore", "noble", "know"]
+  },
+  {
+    "id": "formula", "word": "formula", "pos": "noun", "gloss": "a rule or fact written in symbols; a fixed method or recipe", "origin": "la", "first": 1638,
+    "path": [
+      {"lang": "la", "form": "fōrmula", "meaning": "a little form; a set legal form of words", "year": -50},
+      {"lang": "en", "form": "formula", "meaning": "a set form of words", "year": 1638},
+      {"lang": "en", "form": "formula", "meaning": "a rule expressed in symbols"}
+    ],
+    "story": "Latin for “a little form”. Roman lawyers used fōrmulae, set forms of words for lawsuits, and English first used the word for fixed phrases before mathematicians and chemists took it for rules written in symbols, like H₂O.",
+    "usage": [[1638, 3], [1800, 25], [1900, 60], [1970, 100], [2020, 80]],
+    "tags": ["science", "math"]
+  },
+  {
+    "id": "nucleus", "word": "nucleus", "pos": "noun", "gloss": "the central part of an atom or cell; a core", "origin": "la", "first": 1704,
+    "path": [
+      {"lang": "la", "form": "nucleus", "meaning": "a kernel (from nux, nut)", "year": -50},
+      {"lang": "en", "form": "nucleus", "meaning": "the head of a comet", "year": 1704},
+      {"lang": "en", "form": "nucleus", "meaning": "the core of a living cell", "year": 1831},
+      {"lang": "en", "form": "nucleus", "meaning": "the core of an atom", "year": 1912}
+    ],
+    "story": "A nucleus is a little nut, the kernel inside the shell. Astronomers used it for the bright head of a comet, the botanist Robert Brown for the core of a cell in 1831, and Ernest Rutherford for the heart of the atom in 1912. Every age finds its own kernel.",
+    "usage": [[1704, 2], [1850, 15], [1912, 40], [1960, 100], [2020, 70]],
+    "tags": ["science"]
+  },
+  {
+    "id": "larva", "word": "larva", "pos": "noun", "gloss": "the young wingless form of an insect, such as a caterpillar or grub", "origin": "la", "first": 1651,
+    "path": [
+      {"lang": "la", "form": "lārva", "meaning": "a ghost; a mask", "year": -50},
+      {"lang": "en", "form": "larva", "meaning": "a ghost, a spectre", "year": 1651},
+      {"lang": "la-new", "form": "larva", "meaning": "an immature insect (Linnaeus)", "year": 1750},
+      {"lang": "en", "form": "larva", "meaning": "an insect grub", "year": 1768}
+    ],
+    "story": "Roman lārvae were restless ghosts, and a larva was also a mask. Linnaeus gave the word to caterpillars and grubs because he thought the young insect masked the adult it would become.",
+    "usage": [[1651, 2], [1768, 10], [1850, 50], [1950, 100], [2020, 80]],
+    "tags": ["science", "animals"]
+  },
+  {
+    "id": "insect", "word": "insect", "pos": "noun", "gloss": "a small animal with six legs and a body in three parts", "origin": "la", "first": 1601, "root": "sek-cut",
+    "path": [
+      {"lang": "ine-pro", "form": "*sek-", "meaning": "to cut", "year": -4000},
+      {"lang": "grc", "form": "ἔντομον (éntomon)", "meaning": "cut into", "year": -350},
+      {"lang": "la", "form": "īnsectum", "meaning": "(an animal) cut into", "year": 77, "note": "Pliny's translation of the Greek"},
+      {"lang": "en", "form": "insect", "year": 1601}
+    ],
+    "story": "Aristotle called insects entoma, “cut-up ones”, for their notched, segmented bodies, and Pliny translated that into Latin as īnsecta. English borrowed it in 1601 in a translation of Pliny. The Greek original lives on in entomology.",
+    "usage": [[1601, 5], [1700, 25], [1850, 70], [1950, 100], [2020, 85]],
+    "tags": ["animals", "science"], "related": ["sickle", "entomology"]
+  },
+  {
+    "id": "momentum", "word": "momentum", "pos": "noun", "gloss": "the force a moving object has; driving force or speed of progress", "origin": "la-new", "first": 1699, "root": "meue-push",
+    "path": [
+      {"lang": "ine-pro", "form": "*mew-", "meaning": "to push away", "year": -4000},
+      {"lang": "la", "form": "mōmentum", "meaning": "movement; moving power (for movimentum)", "year": -50},
+      {"lang": "la-new", "form": "momentum", "meaning": "quantity of motion (in physics)", "year": 1650},
+      {"lang": "en", "form": "momentum", "year": 1699}
+    ],
+    "story": "Latin mōmentum, from movēre, “to move”, meant a movement — even the slight dip of a balance that decides a weighing, which is how moment came to mean an instant and importance. Newtonian physics kept the original sense: momentum is mass in motion.",
+    "usage": [[1699, 3], [1800, 15], [1900, 35], [1980, 75], [2020, 100]],
+    "tags": ["science"], "related": ["moment", "mob"]
+  },
+  {
+    "id": "mob", "word": "mob", "pos": "noun", "gloss": "a large disorderly crowd", "origin": "la", "first": 1688, "root": "meue-push",
+    "path": [
+      {"lang": "ine-pro", "form": "*mew-", "meaning": "to push away, to move", "year": -4000},
+      {"lang": "la", "form": "mōbile vulgus", "meaning": "the fickle common people", "year": -50},
+      {"lang": "en", "form": "mobile", "meaning": "the rabble", "year": 1676},
+      {"lang": "en", "form": "mob", "year": 1688}
+    ],
+    "story": "Restoration wits called the restless London crowd the mōbile vulgus, “the fickle common people”, then just “the mobile”, then mob. In 1710 Jonathan Swift complained that such clipped words were ruining English. The mob took no notice.",
+    "usage": [[1688, 15], [1800, 60], [1900, 80], [1930, 100], [2020, 60]],
+    "tags": ["people", "power"], "related": ["momentum", "moment"]
+  },
+  {
+    "id": "veteran", "word": "veteran", "pos": "noun", "gloss": "a person with long experience, especially a former member of the armed forces", "origin": "la", "first": 1509, "root": "wet-year",
+    "path": [
+      {"lang": "ine-pro", "form": "*wet-", "meaning": "year", "year": -4000},
+      {"lang": "la", "form": "veterānus", "meaning": "old; (a soldier) of long service (from vetus, old)", "year": -50},
+      {"lang": "en", "form": "veteran", "year": 1509}
+    ],
+    "story": "Latin vetus, “old”, is thought to come from a root meaning “year”: a veteran has many years behind them. The same root gave Old English wether, a yearling ram, and probably veal, from vitulus, a calf.",
+    "usage": [[1509, 5], [1700, 20], [1865, 50], [1950, 100], [2020, 90]],
+    "tags": ["war", "people"], "related": ["veal"]
+  },
+  {
+    "id": "pauper", "word": "pauper", "pos": "noun", "gloss": "a very poor person", "origin": "la", "first": 1516, "root": "pau-little",
+    "path": [
+      {"lang": "ine-pro", "form": "*peh₂w-", "meaning": "few, little", "year": -4000},
+      {"lang": "la", "form": "pauper", "meaning": "poor", "year": -50},
+      {"lang": "en", "form": "pauper", "meaning": "a poor person (in law)", "year": 1516}
+    ],
+    "story": "Straight from a legal phrase: a litigant too poor to pay could sue in formā pauperis, “in the manner of a pauper”, and have the fees waived. The same Latin word, worn down in French, had already given English poor and poverty.",
+    "usage": [[1516, 10], [1700, 40], [1850, 100], [1950, 35], [2020, 20]],
+    "tags": ["money", "law", "people"], "related": ["poor", "poultry"]
+  },
+  {
+    "id": "peculiar", "word": "peculiar", "pos": "adjective", "gloss": "strange or odd; belonging only to one person or thing", "origin": "la", "first": 1450, "root": "peku-cattle",
+    "path": [
+      {"lang": "ine-pro", "form": "*peḱu-", "meaning": "cattle", "year": -4000},
+      {"lang": "la", "form": "pecūlium", "meaning": "private property (first counted in cattle)", "year": -100},
+      {"lang": "la", "form": "pecūliāris", "meaning": "of one's own property", "year": -50},
+      {"lang": "enm", "form": "peculier", "meaning": "belonging to oneself alone", "year": 1450},
+      {"lang": "en", "form": "peculiar", "meaning": "strange, odd", "year": 1610}
+    ],
+    "story": "Wealth was once counted in cattle. Latin pecū, “cattle”, gave pecūlium, a person’s own private property, so something peculiar was originally your very own. “Strange” is a 17th-century twist; pecuniary kept the money.",
+    "usage": [[1450, 10], [1600, 30], [1800, 70], [1900, 100], [2020, 60]],
+    "tags": ["meaning-shift", "money"], "related": ["pecuniary", "fee"]
+  },
+  {
+    "id": "pecuniary", "word": "pecuniary", "pos": "adjective", "gloss": "relating to money", "origin": "la", "first": 1502, "root": "peku-cattle",
+    "path": [
+      {"lang": "ine-pro", "form": "*peḱu-", "meaning": "cattle", "year": -4000},
+      {"lang": "la", "form": "pecūnia", "meaning": "money, property (from pecū, cattle)", "year": -100},
+      {"lang": "la", "form": "pecūniārius", "meaning": "of money", "year": -50},
+      {"lang": "en", "form": "pecuniary", "year": 1502}
+    ],
+    "story": "From pecūnia, money, which comes from pecū, cattle: the walking wealth of early Rome. Impecunious, “having no money”, followed in the 1590s.",
+    "usage": [[1502, 10], [1700, 50], [1850, 100], [1950, 60], [2020, 40]],
+    "tags": ["money"], "related": ["peculiar", "fee"]
+  },
+  {
+    "id": "navigate", "word": "navigate", "pos": "verb", "gloss": "to plan and direct the route of a ship, plane or person; to find one's way", "origin": "la", "first": 1588, "root": "nau-boat",
+    "path": [
+      {"lang": "ine-pro", "form": "*neh₂u-", "meaning": "boat", "year": -4000},
+      {"lang": "la", "form": "nāvigāre", "meaning": "to sail (nāvis, ship + agere, to drive)", "year": -50},
+      {"lang": "en", "form": "navigate", "year": 1588},
+      {"lang": "en", "form": "navigate", "meaning": "to find one's way around a website"}
+    ],
+    "story": "To navigate is literally to drive a ship (nāvis + agere). The same ancient boat word gave navy and, through Greek, nausea (seasickness) and astronaut, a “star sailor”.",
+    "usage": [[1588, 5], [1700, 15], [1850, 25], [1950, 40], [2020, 100]],
+    "tags": ["sea", "technology"], "related": ["navy", "nausea", "astronaut"]
+  },
+  {
+    "id": "calculate", "word": "calculate", "pos": "verb", "gloss": "to work out a number or amount mathematically", "origin": "la-lat", "first": 1565,
+    "path": [
+      {"lang": "la", "form": "calx", "meaning": "limestone; a pebble", "year": -100},
+      {"lang": "la", "form": "calculus", "meaning": "a small pebble used for counting", "year": -50},
+      {"lang": "la-lat", "form": "calculāre", "meaning": "to reckon", "year": 400},
+      {"lang": "en", "form": "calculate", "year": 1565}
+    ],
+    "story": "Romans did their sums by moving calculī, little pebbles, on a counting board, so to calculate is to push pebbles about. In medicine a calculus is still a stone, in the kidney or on the teeth. The pebbles were chips of calx, limestone, which also gave English chalk.",
+    "usage": [[1565, 5], [1700, 30], [1850, 60], [1950, 100], [2020, 85]],
+    "tags": ["math", "numbers"], "related": ["chalk", "compute"]
+  },
+  {
+    "id": "candidate", "word": "candidate", "pos": "noun", "gloss": "a person who applies for a job or stands for election", "origin": "la", "first": 1612, "root": "kand-shine",
+    "path": [
+      {"lang": "ine-pro", "form": "*(s)kand-", "meaning": "to shine", "year": -4000},
+      {"lang": "la", "form": "candidus", "meaning": "brilliant white", "year": -50},
+      {"lang": "la", "form": "candidātus", "meaning": "clothed in white; a candidate for office", "year": -50},
+      {"lang": "en", "form": "candidate", "year": 1612}
+    ],
+    "story": "Romans seeking office whitened their togas with chalk to stand out in the Forum, and were called candidātī, “the white-robed ones”. The same word gave candid, which meant white, then pure, then frank.",
+    "usage": [[1612, 10], [1750, 40], [1850, 70], [1960, 100], [2020, 90]],
+    "tags": ["power", "people"], "related": ["candle"]
+  },
+  {
+    "id": "dictionary", "word": "dictionary", "pos": "noun", "gloss": "a book that lists the words of a language with their meanings", "origin": "la-med", "first": 1526, "root": "deik-show",
+    "path": [
+      {"lang": "ine-pro", "form": "*deyḱ-", "meaning": "to show, to point out", "year": -4000},
+      {"lang": "la", "form": "dictiō", "meaning": "a saying; a word", "year": -50},
+      {"lang": "la-med", "form": "dictiōnārius", "meaning": "a book of words", "year": 1220, "note": "coined by John of Garland"},
+      {"lang": "en", "form": "dictionary", "year": 1526}
+    ],
+    "story": "Around 1220 the Paris teacher John of Garland titled his word list Dictionarius. Early English dictionaries were Latin glossaries; the first English-only one, Robert Cawdrey’s Table Alphabeticall of 1604, explained about 2,500 “hard words”.",
+    "usage": [[1526, 5], [1700, 30], [1850, 70], [1950, 100], [2020, 80]],
+    "tags": ["education"], "related": ["verdict", "judge"]
+  },
+  {
+    "id": "fragile", "word": "fragile", "pos": "adjective", "gloss": "easily broken or damaged", "origin": "la", "first": 1513, "root": "bhreg-break",
+    "path": [
+      {"lang": "ine-pro", "form": "*bʰreg-", "meaning": "to break", "year": -4000},
+      {"lang": "la", "form": "fragilis", "meaning": "breakable (from frangere, to break)", "year": -50},
+      {"lang": "en", "form": "fragile", "meaning": "morally weak, liable to sin", "year": 1513},
+      {"lang": "en", "form": "fragile", "meaning": "easily broken", "year": 1600}
+    ],
+    "story": "A word borrowed twice. Old French had already worn Latin fragilis down to fraile, which English took as frail around 1300. Two centuries later scholars borrowed the Latin form fresh, giving fragile. One word, two doors.",
+    "usage": [[1513, 5], [1700, 20], [1850, 40], [1950, 70], [2020, 100]],
+    "tags": ["meaning-shift"], "related": ["frail", "fraction", "break"]
+  },
+  {
+    "id": "regal", "word": "regal", "pos": "adjective", "gloss": "fit for a king or queen; magnificent", "origin": "la", "first": 1380, "root": "hreg-straight",
+    "path": [
+      {"lang": "ine-pro", "form": "*h₃reǵ-", "meaning": "to move in a straight line; to rule", "year": -4000},
+      {"lang": "la", "form": "rēgālis", "meaning": "kingly (from rēx, king)", "year": -50},
+      {"lang": "enm", "form": "regal", "year": 1380},
+      {"lang": "en", "form": "regal", "year": 1500}
+    ],
+    "story": "Latin rēgālis reached English twice: as regal, almost straight from Latin, and as royal, worn smooth on the road through French. The root first meant to move in a straight line, so a ruler is the one who keeps things straight. It also gave right, rule and Sanskrit rāja.",
+    "usage": [[1380, 20], [1600, 50], [1800, 90], [1900, 100], [2020, 60]],
+    "tags": ["power"], "related": ["royal", "reign", "realm", "rule"]
+  },
+  {
+    "id": "equine", "word": "equine", "pos": "adjective", "gloss": "of or like a horse", "origin": "la", "first": 1778, "root": "ekwo-horse",
+    "path": [
+      {"lang": "ine-pro", "form": "*h₁éḱwos", "meaning": "horse", "year": -4000},
+      {"lang": "la", "form": "equus", "meaning": "horse", "year": -50},
+      {"lang": "la", "form": "equīnus", "meaning": "of horses", "year": -50},
+      {"lang": "en", "form": "equine", "year": 1778}
+    ],
+    "story": "Old English had its own descendant of the ancient horse word, eoh, but it died out and left horse to gallop alone. The old word survives only in borrowed finery: Latin equine and equestrian, and Greek hippo-, as in hippopotamus, “river horse”.",
+    "usage": [[1778, 10], [1850, 30], [1950, 70], [2020, 100]],
+    "tags": ["animals"], "related": ["hippopotamus", "horse"]
+  },
+  {
+    "id": "lunar", "word": "lunar", "pos": "adjective", "gloss": "of or relating to the moon", "origin": "la", "first": 1626, "root": "leuk-light",
+    "path": [
+      {"lang": "ine-pro", "form": "*lewk-", "meaning": "light, brightness", "year": -4000},
+      {"lang": "la", "form": "lūna", "meaning": "the moon (the bright one)", "year": -50},
+      {"lang": "la", "form": "lūnāris", "meaning": "of the moon", "year": -50},
+      {"lang": "en", "form": "lunar", "year": 1626}
+    ],
+    "story": "The Roman moon, lūna, was “the luminous one”, from the same root as light and lucid. Lunatic comes from the old belief that madness waxed and waned with the moon.",
+    "usage": [[1626, 10], [1800, 35], [1900, 50], [1969, 100], [2020, 80]],
+    "tags": ["nature", "science"], "related": ["lunatic", "lucid", "light"]
+  },
+  {
+    "id": "lucid", "word": "lucid", "pos": "adjective", "gloss": "clear and easy to understand; thinking clearly", "origin": "la", "first": 1591, "root": "leuk-light",
+    "path": [
+      {"lang": "ine-pro", "form": "*lewk-", "meaning": "light", "year": -4000},
+      {"lang": "la", "form": "lūcidus", "meaning": "bright, shining (from lūx, light)", "year": -50},
+      {"lang": "en", "form": "lucid", "meaning": "bright, shining", "year": 1591},
+      {"lang": "en", "form": "lucid", "meaning": "clear in thought", "year": 1650}
+    ],
+    "story": "Lucid first meant shining. Lawyers spoke of a madman’s “lucid intervals”, bright spells of sanity between bouts of lunacy, and the brightness moved into the mind. Lucid dreaming was named in 1913 by the Dutch psychiatrist Frederik van Eeden.",
+    "usage": [[1591, 10], [1700, 30], [1850, 70], [1950, 100], [2020, 90]],
+    "tags": ["feelings"], "related": ["lunar", "lunatic"]
+  },
+  {
+    "id": "stellar", "word": "stellar", "pos": "adjective", "gloss": "of the stars; outstanding", "origin": "la-lat", "first": 1650, "root": "ster-star",
+    "path": [
+      {"lang": "ine-pro", "form": "*h₂stḗr", "meaning": "star", "year": -4000},
+      {"lang": "la", "form": "stēlla", "meaning": "star", "year": -50},
+      {"lang": "la-lat", "form": "stellāris", "meaning": "of the stars", "year": 400},
+      {"lang": "en", "form": "stellar", "year": 1650},
+      {"lang": "en", "form": "stellar", "meaning": "brilliant, outstanding", "year": 1883}
+    ],
+    "story": "Latin stēlla comes from the same ancient star as English star and Greek astēr. Stellar meant only “of the stars” until the 1880s, by which time the theatre was calling its leading performers stars, and a stellar performance was one that outshone the rest.",
+    "usage": [[1650, 5], [1800, 15], [1900, 30], [1990, 80], [2020, 100]],
+    "tags": ["science", "nature"], "related": ["constellation", "disaster", "star"]
+  },
+  {
+    "id": "diary", "word": "diary", "pos": "noun", "gloss": "a book in which one writes daily events and thoughts", "origin": "la", "first": 1581, "root": "dyew-sky",
+    "path": [
+      {"lang": "ine-pro", "form": "*dyew-", "meaning": "to shine; sky, day", "year": -4000},
+      {"lang": "la", "form": "diēs", "meaning": "day", "year": -50},
+      {"lang": "la", "form": "diārium", "meaning": "a daily allowance; a daily record", "year": -50},
+      {"lang": "en", "form": "diary", "year": 1581}
+    ],
+    "story": "A Roman diārium could be a soldier’s daily ration as well as a daily record: both were measured out a day at a time. The most famous diary in English is the one Samuel Pepys kept from 1660 to 1669.",
+    "usage": [[1581, 5], [1700, 25], [1850, 60], [1950, 100], [2020, 80]],
+    "tags": ["time"], "related": ["journal", "divine"]
+  },
+  {
+    "id": "matrix", "word": "matrix", "pos": "noun", "gloss": "an environment in which something develops; a grid of numbers", "origin": "la", "first": 1400, "root": "mehter-mother",
+    "path": [
+      {"lang": "ine-pro", "form": "*méh₂tēr", "meaning": "mother", "year": -4000},
+      {"lang": "la", "form": "mātrīx", "meaning": "a breeding animal; the womb (from māter, mother)", "year": -50},
+      {"lang": "enm", "form": "matrix", "meaning": "the womb", "year": 1400},
+      {"lang": "en", "form": "matrix", "meaning": "a mould", "year": 1640},
+      {"lang": "en", "form": "matrix", "meaning": "a rectangular array of numbers", "year": 1850}
+    ],
+    "story": "Matrix meant “womb”, from māter, mother: the place where something takes shape. Printers used it for a mould, and in 1850 the mathematician James Sylvester for a grid of numbers out of which determinants are born. The 1999 film turned it into a simulated world.",
+    "usage": [[1400, 2], [1700, 8], [1850, 15], [1950, 60], [2000, 100], [2020, 90]],
+    "tags": ["science", "math", "family"], "related": ["matter", "mother"]
+  },
+  {
+    "id": "paternal", "word": "paternal", "pos": "adjective", "gloss": "of or like a father; related through the father", "origin": "la-med", "first": 1425, "root": "pehter-father",
+    "path": [
+      {"lang": "ine-pro", "form": "*ph₂tḗr", "meaning": "father", "year": -4000},
+      {"lang": "la", "form": "pater", "meaning": "father", "year": -50},
+      {"lang": "la-med", "form": "paternālis", "meaning": "fatherly", "year": 1100},
+      {"lang": "enm", "form": "paternal", "year": 1425},
+      {"lang": "en", "form": "paternal", "year": 1500}
+    ],
+    "story": "From pater, the Latin father, a cousin of English father, Greek patēr and Sanskrit pitṛ. Its Latin offspring include patron, pattern and patriot.",
+    "usage": [[1425, 10], [1650, 40], [1850, 80], [1950, 100], [2020, 80]],
+    "tags": ["family"], "related": ["patron", "pattern", "father"]
+  },
+  {
+    "id": "dual", "word": "dual", "pos": "adjective", "gloss": "consisting of two parts; double", "origin": "la", "first": 1607, "root": "dwoh-two",
+    "path": [
+      {"lang": "ine-pro", "form": "*dwóh₁", "meaning": "two", "year": -4000},
+      {"lang": "la", "form": "duālis", "meaning": "containing two", "year": -50},
+      {"lang": "en", "form": "dual", "meaning": "grammar: referring to exactly two", "year": 1607},
+      {"lang": "en", "form": "dual", "meaning": "twofold", "year": 1650}
+    ],
+    "story": "Dual entered English as a grammar term for word forms that mean exactly two. Old English had them (wit meant “we two”, git “you two”), but they had vanished by about 1300. The word is a learned cousin of two, twin and double.",
+    "usage": [[1607, 5], [1800, 15], [1900, 35], [1980, 90], [2020, 100]],
+    "tags": ["numbers"], "related": ["double", "dozen", "two"]
+  },
+  {
+    "id": "nocturnal", "word": "nocturnal", "pos": "adjective", "gloss": "active or happening at night", "origin": "la-lat", "first": 1485, "root": "nekwt-night",
+    "path": [
+      {"lang": "ine-pro", "form": "*nókʷts", "meaning": "night", "year": -4000},
+      {"lang": "la", "form": "nox, noctis", "meaning": "night", "year": -50},
+      {"lang": "la-lat", "form": "nocturnālis", "meaning": "of the night", "year": 400},
+      {"lang": "en", "form": "nocturnal", "year": 1485}
+    ],
+    "story": "From Latin nox, night, the same ancient word as English night, German Nacht and Greek nyx. The nocturne, a dreamy night piece for piano, was named in the 19th century.",
+    "usage": [[1485, 5], [1700, 25], [1850, 55], [1950, 80], [2020, 100]],
+    "tags": ["time", "nature", "animals"], "related": ["equinox", "night"]
+  },
+  {
+    "id": "equinox", "word": "equinox", "pos": "noun", "gloss": "either of the two days each year when day and night are of equal length", "origin": "la-med", "first": 1391, "root": "nekwt-night",
+    "path": [
+      {"lang": "ine-pro", "form": "*nókʷts", "meaning": "night", "year": -4000},
+      {"lang": "la", "form": "aequinoctium", "meaning": "equal night (aequus + nox)", "year": -50},
+      {"lang": "la-med", "form": "aequinoxium", "year": 900},
+      {"lang": "enm", "form": "equinox", "year": 1391},
+      {"lang": "en", "form": "equinox", "year": 1500}
+    ],
+    "story": "Twice a year day and night are about equal, and the Romans named the moment aequinoctium, “equal night”. Chaucer used the word in 1391 in his Treatise on the Astrolabe, which he wrote to teach astronomy to his young son Lewis.",
+    "usage": [[1391, 10], [1600, 40], [1800, 70], [1900, 100], [2020, 75]],
+    "tags": ["time", "science"], "related": ["nocturnal", "night"]
+  },
+  {
+    "id": "canine", "word": "canine", "pos": "adjective", "gloss": "of or relating to dogs; (of a tooth) pointed, between the incisors and molars", "origin": "la", "first": 1400, "root": "kwon-dog",
+    "path": [
+      {"lang": "ine-pro", "form": "*ḱwṓ", "meaning": "dog", "year": -4000},
+      {"lang": "la", "form": "canis", "meaning": "dog", "year": -50},
+      {"lang": "la", "form": "canīnus", "meaning": "of dogs", "year": -50},
+      {"lang": "enm", "form": "canyne", "meaning": "a canine tooth", "year": 1400},
+      {"lang": "en", "form": "canine", "meaning": "of dogs", "year": 1623}
+    ],
+    "story": "Your pointed canine teeth have been named after dogs since about 1400. Latin canis comes from the same ancient word as English hound; through French it gave kennel, and through Spanish the Canary Islands, Pliny’s “islands of dogs”.",
+    "usage": [[1400, 5], [1650, 15], [1850, 40], [1950, 80], [2020, 100]],
+    "tags": ["animals", "body"], "related": ["hound", "kennel", "canary"]
+  },
+  {
+    "id": "bovine", "word": "bovine", "pos": "adjective", "gloss": "of or relating to cattle; dull and slow", "origin": "la-lat", "first": 1817, "root": "gwow-cow",
+    "path": [
+      {"lang": "ine-pro", "form": "*gʷṓws", "meaning": "cow", "year": -4000},
+      {"lang": "la", "form": "bōs, bovis", "meaning": "ox, cow", "year": -50},
+      {"lang": "la-lat", "form": "bovīnus", "meaning": "of cattle", "year": 400},
+      {"lang": "en", "form": "bovine", "year": 1817}
+    ],
+    "story": "Cow, beef and bovine are three descendants of one ancient word, *gʷṓws: the first native, the second French, the third straight from Latin. By the 1850s bovine also meant dull and stolid, which is rather unfair to cows.",
+    "usage": [[1817, 10], [1900, 40], [1996, 100], [2020, 70]],
+    "tags": ["animals"], "related": ["cow", "beef"]
+  },
+  {
+    "id": "auction", "word": "auction", "pos": "noun", "gloss": "a public sale where goods go to the highest bidder", "origin": "la", "first": 1595, "root": "hewg-increase",
+    "path": [
+      {"lang": "ine-pro", "form": "*h₂ewg-", "meaning": "to increase", "year": -4000},
+      {"lang": "la", "form": "augēre", "meaning": "to increase", "year": -50},
+      {"lang": "la", "form": "auctiō", "meaning": "an increase; a public sale", "year": -50},
+      {"lang": "en", "form": "auction", "year": 1595}
+    ],
+    "story": "A Roman auctiō was a sale “by increase”, with the bids rising until one was left. From the same root: augment, author (originally an originator, one who makes something grow) and August, named for Augustus, “the venerable, increased one”.",
+    "usage": [[1595, 5], [1700, 30], [1850, 70], [1950, 85], [2020, 100]],
+    "tags": ["trade", "money"], "related": ["author"]
+  },
+  {
+    "id": "century", "word": "century", "pos": "noun", "gloss": "a period of one hundred years", "origin": "la", "first": 1533, "root": "kmtom-hundred",
+    "path": [
+      {"lang": "ine-pro", "form": "*ḱm̥tóm", "meaning": "hundred", "year": -4000},
+      {"lang": "la", "form": "centuria", "meaning": "a group of a hundred (soldiers or citizens)", "year": -50},
+      {"lang": "en", "form": "century", "meaning": "a group of a hundred", "year": 1533},
+      {"lang": "en", "form": "century", "meaning": "a hundred years", "year": 1626}
+    ],
+    "story": "A Roman centuria was a company of a hundred soldiers, commanded by a centurion. In English a century could be a hundred of anything until it settled on a hundred years in the 1620s. Cricketers kept the old sense: a century is a hundred runs.",
+    "usage": [[1533, 5], [1700, 35], [1850, 75], [1950, 100], [2020, 95]],
+    "tags": ["numbers", "time"], "related": ["cent", "hundred"]
+  },
+  {
+    "id": "nominate", "word": "nominate", "pos": "verb", "gloss": "to propose someone for a job, office or award", "origin": "la", "first": 1540, "root": "nomn-name",
+    "path": [
+      {"lang": "ine-pro", "form": "*h₁nómn̥", "meaning": "name", "year": -4000},
+      {"lang": "la", "form": "nōmināre", "meaning": "to name (from nōmen)", "year": -50},
+      {"lang": "en", "form": "nominate", "meaning": "to call by name", "year": 1540},
+      {"lang": "en", "form": "nominate", "meaning": "to propose for office", "year": 1600}
+    ],
+    "story": "To nominate is simply to name. Latin nōmen shares an ancestor with English name and Greek onoma (anonymous, synonym), and with noun, which in Norman French was the everyday word for “name”.",
+    "usage": [[1540, 5], [1700, 25], [1850, 55], [1950, 100], [2020, 90]],
+    "tags": ["power"], "related": ["noun", "renown", "name", "anonymous"]
+  },
+  {
+    "id": "monitor", "word": "monitor", "pos": "noun", "gloss": "a screen that displays images; a person or device that watches over something", "origin": "la", "first": 1546, "root": "men-think",
+    "path": [
+      {"lang": "ine-pro", "form": "*men-", "meaning": "to think", "year": -4000},
+      {"lang": "la", "form": "monēre", "meaning": "to remind, to warn", "year": -50},
+      {"lang": "la", "form": "monitor", "meaning": "one who reminds; an adviser", "year": -50},
+      {"lang": "en", "form": "monitor", "meaning": "one who advises or warns", "year": 1546},
+      {"lang": "en", "form": "monitor", "meaning": "a monitor lizard", "year": 1826},
+      {"lang": "en", "form": "monitor", "meaning": "a display screen"}
+    ],
+    "story": "A Roman monitor reminded and warned. At school it was the pupil chosen to keep order. Monitor lizards got the name from a belief that they warned of crocodiles, and screens got it in the 20th century for watching over broadcasts and machines.",
+    "usage": [[1546, 5], [1800, 20], [1900, 25], [1990, 85], [2020, 100]],
+    "tags": ["technology", "education"], "related": ["mental", "mind"]
+  },
+  {
+    "id": "mental", "word": "mental", "pos": "adjective", "gloss": "of or relating to the mind", "origin": "la-lat", "first": 1425, "root": "men-think",
+    "path": [
+      {"lang": "ine-pro", "form": "*men-", "meaning": "to think", "year": -4000},
+      {"lang": "la", "form": "mēns, mentis", "meaning": "mind", "year": -50},
+      {"lang": "la-lat", "form": "mentālis", "meaning": "of the mind", "year": 400},
+      {"lang": "enm", "form": "mental", "year": 1425},
+      {"lang": "en", "form": "mental", "year": 1500}
+    ],
+    "story": "From mēns, the mind, a cousin of English mind, Greek menos (spirit) and Sanskrit mantra. The slang “you’re mental”, meaning mad, dates from the 1920s.",
+    "usage": [[1425, 5], [1700, 30], [1850, 70], [1950, 90], [2020, 100]],
+    "tags": ["feelings", "medicine"], "related": ["monitor", "mind", "mania"]
+  },
+  {
+    "id": "inspect", "word": "inspect", "pos": "verb", "gloss": "to look at something closely, especially to check it", "origin": "la", "first": 1623, "root": "spek-observe",
+    "path": [
+      {"lang": "ine-pro", "form": "*speḱ-", "meaning": "to look, to observe", "year": -4000},
+      {"lang": "la", "form": "īnspicere, īnspectāre", "meaning": "to look into", "year": -50},
+      {"lang": "en", "form": "inspect", "year": 1623}
+    ],
+    "story": "To inspect is to look in, from Latin specere, “to look”. The same root gives spectacle, species and despise, and through Greek skopos, telescope and bishop (episkopos, “overseer”).",
+    "usage": [[1623, 5], [1750, 30], [1850, 60], [1950, 100], [2020, 85]],
+    "tags": ["core"], "related": ["spectacle", "despise", "species", "bishop"]
+  },
+  {
+    "id": "transfer", "word": "transfer", "pos": "verb", "gloss": "to move something or someone from one place to another", "origin": "la", "first": 1380, "root": "bher-carry",
+    "path": [
+      {"lang": "ine-pro", "form": "*bʰer-", "meaning": "to carry", "year": -4000},
+      {"lang": "la", "form": "trānsferre", "meaning": "to carry across", "year": -50},
+      {"lang": "enm", "form": "transferren", "year": 1380},
+      {"lang": "en", "form": "transfer", "year": 1500}
+    ],
+    "story": "Latin ferre, “to carry”, sits inside a whole family of English verbs: transfer (carry across), offer (carry towards), suffer (carry from below), refer, defer and prefer. Its Germanic twin is bear.",
+    "usage": [[1380, 5], [1600, 20], [1800, 40], [1950, 85], [2020, 100]],
+    "tags": ["trade"], "related": ["offer", "suffer", "bear"]
+  },
+  {
+    "id": "fact", "word": "fact", "pos": "noun", "gloss": "a thing that is known to be true", "origin": "la", "first": 1539, "root": "dhe-put",
+    "path": [
+      {"lang": "ine-pro", "form": "*dʰeh₁-", "meaning": "to set, to put, to do", "year": -4000},
+      {"lang": "la", "form": "factum", "meaning": "a deed, a thing done (from facere, to do)", "year": -50},
+      {"lang": "en", "form": "fact", "meaning": "a deed; an evil deed", "year": 1539},
+      {"lang": "en", "form": "fact", "meaning": "a thing known to be true", "year": 1632}
+    ],
+    "story": "A fact was first a deed, usually a bad one, which is why lawyers still speak of an accessory “after the fact”. Only in the 1600s did it come to mean something known to be true. The same Latin factum, worn down by French, became feat.",
+    "usage": [[1539, 5], [1700, 35], [1850, 80], [1950, 100], [2020, 95]],
+    "tags": ["law", "meaning-shift"], "related": ["fashion", "perfect"]
+  },
+  {
+    "id": "dental", "word": "dental", "pos": "adjective", "gloss": "of or relating to the teeth", "origin": "la-med", "first": 1594, "root": "dent-tooth",
+    "path": [
+      {"lang": "ine-pro", "form": "*h₃dónts", "meaning": "tooth", "year": -4000},
+      {"lang": "la", "form": "dēns, dentis", "meaning": "tooth", "year": -50},
+      {"lang": "la-med", "form": "dentālis", "meaning": "of the teeth", "year": 1300},
+      {"lang": "en", "form": "dental", "year": 1594}
+    ],
+    "story": "Latin dēns and English tooth grew from the same ancient root. The English word lost its n long ago, though Gothic tunþus kept it. A dandelion is a lion’s tooth, dent de lion.",
+    "usage": [[1594, 3], [1750, 10], [1900, 45], [1980, 100], [2020, 90]],
+    "tags": ["body", "medicine"], "related": ["dentist", "dandelion", "tooth"]
+  },
+  {
+    "id": "native", "word": "native", "pos": "adjective", "gloss": "belonging to a place by birth", "origin": "la", "first": 1380, "root": "gene-beget",
+    "path": [
+      {"lang": "ine-pro", "form": "*ǵenh₁-", "meaning": "to give birth, to beget", "year": -4000},
+      {"lang": "la", "form": "nātīvus", "meaning": "born; innate (from nāscī, to be born)", "year": -50},
+      {"lang": "enm", "form": "natif", "meaning": "natural, inborn", "year": 1380},
+      {"lang": "enm", "form": "native", "meaning": "a person born into serfdom", "year": 1450},
+      {"lang": "en", "form": "native", "meaning": "born in a particular place", "year": 1535}
+    ],
+    "story": "In medieval England a native (Latin nātīvus) was someone born unfree, a serf bound to the land of their birth. The word later came to mean anyone born in a place. It is kin to nation, nature and naïve, all from nāscī, “to be born”.",
+    "usage": [[1380, 10], [1600, 40], [1800, 80], [1900, 100], [2020, 85]],
+    "tags": ["people"], "related": ["nation", "nature", "genius"]
+  },
+  {
+    "id": "video", "word": "video", "pos": "noun", "gloss": "recorded moving pictures; the visual part of a broadcast", "origin": "la", "first": 1935, "root": "weid-see",
+    "path": [
+      {"lang": "ine-pro", "form": "*weyd-", "meaning": "to see; to know", "year": -4000},
+      {"lang": "la", "form": "videō", "meaning": "I see", "year": -50},
+      {"lang": "en", "form": "video", "meaning": "the picture part of a television signal", "year": 1935},
+      {"lang": "en", "form": "video", "meaning": "a recording of moving images", "year": 1968}
+    ],
+    "story": "Engineers coined video in the 1930s as the partner of audio (“I hear”), from the Latin for “I see”. Its ancient root also gave English wit and wise (to know is to have seen) and Greek idea and history.",
+    "usage": [[1935, 1], [1960, 10], [1985, 60], [2005, 90], [2020, 100]],
+    "tags": ["technology"], "related": ["vision", "envy", "idea", "history"]
+  },
+  {
+    "id": "album", "word": "album", "pos": "noun", "gloss": "a blank book for photos or stamps; a collection of recorded music", "origin": "la", "first": 1651,
+    "path": [
+      {"lang": "la", "form": "album", "meaning": "a white tablet for public notices (from albus, white)", "year": -50},
+      {"lang": "en", "form": "album", "meaning": "a blank book for autographs and keepsakes", "year": 1651},
+      {"lang": "en", "form": "album", "meaning": "a collection of recordings", "year": 1951}
+    ],
+    "story": "A Roman album was a whitened board on which officials posted public notices. German students carried an album amicōrum for their friends’ signatures, and English borrowed the idea in the 1650s. Early records were sold in book-like albums of sleeves, so when one long-playing disc held a whole collection, it inherited the name.",
+    "usage": [[1651, 2], [1800, 10], [1900, 30], [1975, 100], [2020, 80]],
+    "tags": ["art", "music"]
+  },
+  {
+    "id": "tandem", "word": "tandem", "pos": "noun", "gloss": "a bicycle for two riders, one behind the other", "origin": "la", "first": 1785,
+    "path": [
+      {"lang": "la", "form": "tandem", "meaning": "at length, at last", "year": -50},
+      {"lang": "en", "form": "tandem", "meaning": "a carriage with horses harnessed one behind the other", "year": 1785},
+      {"lang": "en", "form": "tandem", "meaning": "a bicycle for two", "year": 1884}
+    ],
+    "story": "Probably a university joke. Latin tandem means “at length”, of time rather than distance, but some 18th-century wit applied it to a carriage pulled by horses harnessed one behind the other, and the pun stuck. Bicycles built for two followed in the 1880s.",
+    "usage": [[1785, 10], [1850, 30], [1900, 50], [1980, 100], [2020, 90]],
+    "tags": ["technology", "meaning-shift"]
+  },
+  {
+    "id": "requiem", "word": "requiem", "pos": "noun", "gloss": "a Mass for the dead; a musical setting of it", "origin": "la-ecc", "first": 1300, "root": "kweie-rest",
+    "path": [
+      {"lang": "ine-pro", "form": "*kʷyeh₁-", "meaning": "to rest, to be quiet", "year": -4000},
+      {"lang": "la", "form": "requiēs", "meaning": "rest", "year": -50},
+      {"lang": "la-ecc", "form": "requiem", "meaning": "(eternal) rest — first word of the Mass for the dead", "year": 900},
+      {"lang": "enm", "form": "requiem", "year": 1300},
+      {"lang": "en", "form": "requiem", "meaning": "a musical setting of the Mass for the dead", "year": 1600}
+    ],
+    "story": "The Mass for the dead begins “Requiem aeternam dona eis, Domine”, “Grant them eternal rest, O Lord”, and its first word became its name. Mozart died in 1791 leaving his Requiem unfinished.",
+    "usage": [[1300, 10], [1600, 25], [1800, 45], [1900, 70], [2000, 100], [2020, 90]],
+    "tags": ["religion", "music"], "related": ["quit"]
+  },
+  {
+    "id": "senior", "word": "senior", "pos": "adjective", "gloss": "older; higher in rank", "origin": "la", "first": 1380, "root": "sen-old",
+    "path": [
+      {"lang": "ine-pro", "form": "*sen-", "meaning": "old", "year": -4000},
+      {"lang": "la", "form": "senex", "meaning": "old; an old man", "year": -50},
+      {"lang": "la", "form": "senior", "meaning": "older", "year": -50},
+      {"lang": "enm", "form": "senior", "year": 1380},
+      {"lang": "en", "form": "senior", "year": 1500}
+    ],
+    "story": "Latin senior, “older”, is the comparative of senex, “old”, the root of senate (a council of elders) and senile. Worn down by French it became sire and sir, and in Spanish señor.",
+    "usage": [[1380, 5], [1600, 20], [1800, 40], [1950, 85], [2020, 100]],
+    "tags": ["people", "family"], "related": ["sir"]
+  },
+  {
+    "id": "domestic", "word": "domestic", "pos": "adjective", "gloss": "of the home or family; of one's own country", "origin": "la", "first": 1450, "root": "dem-house",
+    "path": [
+      {"lang": "ine-pro", "form": "*dem-", "meaning": "house", "year": -4000},
+      {"lang": "la", "form": "domus", "meaning": "house", "year": -50},
+      {"lang": "la", "form": "domesticus", "meaning": "of the household", "year": -50},
+      {"lang": "enm", "form": "domestik", "year": 1450},
+      {"lang": "en", "form": "domestic", "year": 1500}
+    ],
+    "story": "From Latin domus, “house”, which also gave dome (originally a house, then the Italian duomo, God’s house) and domicile. Through dominus, the master of the house, came dominate and dominion, and through French, danger and dungeon.",
+    "usage": [[1450, 10], [1650, 35], [1850, 65], [1950, 100], [2020, 90]],
+    "tags": ["home", "family"], "related": ["danger", "dungeon"]
+  },
+  {
+    "id": "compute", "word": "compute", "pos": "verb", "gloss": "to calculate", "origin": "la", "first": 1631,
+    "path": [
+      {"lang": "la", "form": "computāre", "meaning": "to reckon together (com- + putāre, to reckon)", "year": -50},
+      {"lang": "en", "form": "compute", "year": 1631}
+    ],
+    "story": "Compute and count are doublets: count came through Norman French around 1300, compute straight from Latin in the 1630s. For three centuries a computer was a person who did calculations; machines took over the job, and the word, in the 1940s.",
+    "usage": [[1631, 10], [1750, 30], [1850, 40], [1960, 80], [2020, 100]],
+    "tags": ["math", "technology"], "related": ["count", "calculate"]
+  },
+  {
+    "id": "secure", "word": "secure", "pos": "adjective", "gloss": "safe and protected; fixed firmly", "origin": "la", "first": 1533,
+    "path": [
+      {"lang": "la", "form": "sēcūrus", "meaning": "free from care (sē-, without + cūra, care)", "year": -50},
+      {"lang": "en", "form": "secure", "meaning": "free from care; overconfident", "year": 1533},
+      {"lang": "en", "form": "secure", "meaning": "safe, protected", "year": 1600}
+    ],
+    "story": "To the Elizabethans secure often meant careless: feeling safe when you are not. In Macbeth, Hecate warns that “security / Is mortals’ chiefest enemy”. Its twin sure, worn down by French, had arrived two centuries earlier.",
+    "usage": [[1533, 10], [1700, 35], [1850, 55], [1950, 75], [2020, 100]],
+    "tags": ["core", "meaning-shift"], "related": ["sure"]
+  },
+  {
+    "id": "legal", "word": "legal", "pos": "adjective", "gloss": "permitted by law; relating to law", "origin": "la", "first": 1460,
+    "path": [
+      {"lang": "la", "form": "lēgālis", "meaning": "of the law (from lēx, law)", "year": -50},
+      {"lang": "enm", "form": "legal", "year": 1460},
+      {"lang": "en", "form": "legal", "year": 1500}
+    ],
+    "story": "Legal and loyal are one Latin word, lēgālis. Loyal came through French, where keeping the law shaded into keeping faith; legal was borrowed straight from Latin and stayed in the courtroom. Regal and royal are a matching pair.",
+    "usage": [[1460, 5], [1650, 25], [1850, 60], [1950, 90], [2020, 100]],
+    "tags": ["law"], "related": ["loyal", "regal", "royal"]
+  },
+  {
+    "id": "decimate", "word": "decimate", "pos": "verb", "gloss": "to kill or destroy a large part of", "origin": "la", "first": 1600, "root": "dekm-ten",
+    "path": [
+      {"lang": "ine-pro", "form": "*déḱm̥", "meaning": "ten", "year": -4000},
+      {"lang": "la", "form": "decimāre", "meaning": "to execute every tenth man (from decem, ten)", "year": -50},
+      {"lang": "en", "form": "decimate", "meaning": "to kill one in every ten", "year": 1600},
+      {"lang": "en", "form": "decimate", "meaning": "to destroy a large part of", "year": 1660}
+    ],
+    "story": "A Roman army punishment: a mutinous unit was divided into groups of ten, and each group killed one of its own, chosen by lot. Since the 1660s decimate has meant destroying a large part of something, a shift that pedants still grumble about.",
+    "usage": [[1600, 5], [1750, 15], [1900, 40], [1990, 100], [2020, 90]],
+    "tags": ["war", "numbers", "meaning-shift"], "related": ["dean", "ten"]
+  },
+  {
+    "id": "ignore", "word": "ignore", "pos": "verb", "gloss": "to refuse to take notice of", "origin": "la", "first": 1611, "root": "gno-know",
+    "path": [
+      {"lang": "ine-pro", "form": "*ǵneh₃-", "meaning": "to know", "year": -4000},
+      {"lang": "la", "form": "ignōrāre", "meaning": "not to know (in- + gnō-)", "year": -50},
+      {"lang": "en", "form": "ignore", "meaning": "to be ignorant of", "year": 1611},
+      {"lang": "en", "form": "ignore", "meaning": "to refuse to notice", "year": 1801}
+    ],
+    "story": "To ignore was simply not to know, as Latin ignōrāre meant. Choosing not to notice, deliberately not knowing, is a sense from around 1800. Ignorant, from the same verb, kept the older meaning.",
+    "usage": [[1611, 3], [1800, 15], [1900, 50], [1980, 90], [2020, 100]],
+    "tags": ["feelings"], "related": ["ignoramus", "noble", "know"]
+  },
+  {
+    "id": "cordial", "word": "cordial", "pos": "adjective", "gloss": "warm and friendly", "origin": "la-med", "first": 1386, "root": "kerd-heart",
+    "path": [
+      {"lang": "ine-pro", "form": "*ḱḗr", "meaning": "heart", "year": -4000},
+      {"lang": "la", "form": "cor, cordis", "meaning": "heart", "year": -50},
+      {"lang": "la-med", "form": "cordiālis", "meaning": "of the heart", "year": 1200},
+      {"lang": "enm", "form": "cordial", "meaning": "of the heart; a heart medicine", "year": 1386},
+      {"lang": "en", "form": "cordial", "meaning": "warm, friendly", "year": 1600}
+    ],
+    "story": "A cordial was first a medicine to stimulate the heart, and sweet cordials were drunk as tonics. The heartfelt warmth of a “cordial welcome” grew from that. Its cousins include courage, record and, through Greek kardia, cardiac.",
+    "usage": [[1386, 10], [1600, 40], [1850, 100], [1950, 60], [2020, 40]],
+    "tags": ["feelings", "food", "medicine"], "related": ["courage", "record", "cardiac", "heart"]
+  },
+  {
+    "id": "prevent", "word": "prevent", "pos": "verb", "gloss": "to stop something from happening", "origin": "la", "first": 1425, "root": "gwem-come",
+    "path": [
+      {"lang": "ine-pro", "form": "*gʷem-", "meaning": "to come", "year": -4000},
+      {"lang": "la", "form": "praevenīre", "meaning": "to come before; to anticipate", "year": -50},
+      {"lang": "enm", "form": "preventen", "meaning": "to act in anticipation", "year": 1425},
+      {"lang": "en", "form": "prevent", "meaning": "to stop from happening", "year": 1550}
+    ],
+    "story": "To prevent was to come before, to anticipate. The old Book of Common Prayer asks God to “prevent us, O Lord, in all our doings”, meaning go before and guide us, not stop us. Stopping something by getting there first came later.",
+    "usage": [[1425, 5], [1600, 30], [1800, 55], [1950, 90], [2020, 100]],
+    "tags": ["meaning-shift", "religion"], "related": ["souvenir", "adventure"]
+  },
+  {
+    "id": "concrete", "word": "concrete", "pos": "noun", "gloss": "a building material of cement, sand, gravel and water; (adj.) real, solid", "origin": "la", "first": 1400, "root": "ker-grow",
+    "path": [
+      {"lang": "ine-pro", "form": "*ḱreh₁-", "meaning": "to grow", "year": -4000},
+      {"lang": "la", "form": "concrētus", "meaning": "grown together, hardened (from concrēscere)", "year": -50},
+      {"lang": "enm", "form": "concrete", "meaning": "solidified", "year": 1400},
+      {"lang": "en", "form": "concrete", "meaning": "real, not abstract", "year": 1550},
+      {"lang": "en", "form": "concrete", "meaning": "a building material", "year": 1834}
+    ],
+    "story": "Concrete means “grown together”: Latin con- + crēscere, “to grow”. It described anything solidified, then things real rather than abstract. The building material, gravel and cement grown into stone, took the name in the 1830s, though the Romans had already used concrete to build the dome of the Pantheon.",
+    "usage": [[1400, 3], [1700, 15], [1850, 30], [1950, 80], [2020, 100]],
+    "tags": ["science", "technology"], "related": ["croissant", "crescent"]
+  },
+  {
+    "id": "vicinity", "word": "vicinity", "pos": "noun", "gloss": "the area near or surrounding a place", "origin": "la", "first": 1560, "root": "weik-settlement",
+    "path": [
+      {"lang": "ine-pro", "form": "*weyḱ-", "meaning": "clan, settlement", "year": -4000},
+      {"lang": "la", "form": "vīcus", "meaning": "a village, a neighbourhood", "year": -50},
+      {"lang": "la", "form": "vīcīnitās", "meaning": "neighbourhood", "year": -50},
+      {"lang": "en", "form": "vicinity", "year": 1560}
+    ],
+    "story": "Your vicinity is your neighbourhood: Latin vīcīnus, “neighbour”, from vīcus, a village. The same root gave Greek oikos, “house” (economy, ecology), and through Old English wīc, borrowed from vīcus, the -wich of Norwich and Greenwich.",
+    "usage": [[1560, 5], [1700, 30], [1850, 80], [1950, 100], [2020, 70]],
+    "tags": ["places"], "related": ["villain", "economy", "ecology"]
+  }
+]

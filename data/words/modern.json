@@ -1,0 +1,880 @@
+[
+  {
+    "id": "bedroom", "word": "bedroom", "pos": "noun", "gloss": "a room for sleeping in",
+    "origin": "en", "first": 1595, "featured": true,
+    "path": [
+      {"lang": "ang", "form": "bedd + rūm", "meaning": "bed + space", "year": 900},
+      {"lang": "en", "form": "bed-room", "meaning": "room in a bed", "year": 1595},
+      {"lang": "en", "form": "bedroom", "meaning": "a sleeping chamber", "year": 1616}
+    ],
+    "story": "First recorded in A Midsummer Night's Dream, when Lysander pleads with Hermia: ‘Then by your side no bed-room me deny’. He means room in the bed, not a chamber; within a generation the word meant the room itself.",
+    "usage": [[1595, 2], [1700, 10], [1800, 30], [1900, 70], [1970, 100], [2020, 90]],
+    "tags": ["home", "shakespeare"]
+  },
+  {
+    "id": "swagger", "word": "swagger", "pos": "verb", "gloss": "to walk or behave with arrogant confidence",
+    "origin": "en", "first": 1595,
+    "path": [
+      {"lang": "en", "form": "swag", "meaning": "to sway, lurch", "year": 1530},
+      {"lang": "en", "form": "swagger", "year": 1595}
+    ],
+    "story": "First recorded in A Midsummer Night's Dream, as Puck spies the amateur actors: ‘What hempen home-spuns have we swaggering here?’ It comes from swag, to sway or lurch. Today you can have swagger — or just swag.",
+    "usage": [[1595, 10], [1700, 40], [1800, 50], [1900, 60], [2000, 80], [2020, 100]],
+    "tags": ["shakespeare", "slang"]
+  },
+  {
+    "id": "eyeball", "word": "eyeball", "pos": "noun", "gloss": "the round ball of the eye",
+    "origin": "en", "first": 1595,
+    "path": [
+      {"lang": "ang", "form": "ēage", "meaning": "eye", "year": 800},
+      {"lang": "en", "form": "eyeball", "year": 1595}
+    ],
+    "story": "Shakespeare is the first writer known to use it: Oberon's magic will make Lysander's ‘eyeballs roll with wonted sight’ in A Midsummer Night's Dream, and in The Tempest Prospero makes Ariel ‘invisible to every eyeball else’.",
+    "usage": [[1595, 10], [1700, 20], [1800, 30], [1900, 50], [1980, 85], [2020, 100]],
+    "tags": ["body", "shakespeare"]
+  },
+  {
+    "id": "lonely", "word": "lonely", "pos": "adjective", "gloss": "sad from being alone; solitary",
+    "origin": "en", "first": 1607,
+    "path": [
+      {"lang": "enm", "form": "al one", "meaning": "all one, alone", "year": 1300},
+      {"lang": "enm", "form": "lone", "year": 1400},
+      {"lang": "en", "form": "lonely", "year": 1607}
+    ],
+    "story": "Coriolanus, heading into exile, compares himself to ‘a lonely dragon’ — the earliest record of the word. It is alone (originally ‘all one’) with its first letter trimmed off, plus -ly.",
+    "usage": [[1607, 5], [1700, 15], [1800, 35], [1900, 60], [1950, 80], [2020, 100]],
+    "tags": ["feelings", "shakespeare"]
+  },
+  {
+    "id": "gloomy", "word": "gloomy", "pos": "adjective", "gloss": "dark; sad and without hope",
+    "origin": "en", "first": 1590,
+    "path": [
+      {"lang": "enm", "form": "gloumen", "meaning": "to look sullen, frown", "year": 1380},
+      {"lang": "en", "form": "gloomy", "meaning": "dark, shadowy", "year": 1590}
+    ],
+    "story": "First recorded in Shakespeare — in Titus Andronicus, which recalls a crime done in ‘the ruthless, vast, and gloomy woods’. It grew from gloom, which began as a verb meaning to frown or look sullen.",
+    "usage": [[1590, 5], [1700, 30], [1800, 70], [1850, 100], [1950, 70], [2020, 60]],
+    "tags": ["feelings", "shakespeare", "weather"]
+  },
+  {
+    "id": "assassination", "word": "assassination", "pos": "noun", "gloss": "the murder of an important person, usually for political reasons",
+    "origin": "en", "first": 1605,
+    "path": [
+      {"lang": "ar", "form": "حشاشين (ḥaššāšīn)", "meaning": "hashish-users (an insult)", "year": 1100},
+      {"lang": "la-med", "form": "assassinus", "year": 1200},
+      {"lang": "it", "form": "assassino", "meaning": "murderer", "year": 1500},
+      {"lang": "en", "form": "assassination", "year": 1605}
+    ],
+    "story": "Macbeth's ‘If th' assassination / Could trammel up the consequence’ is among the earliest known uses. Assassin goes back, through Italian and Medieval Latin, to an Arabic insult for the medieval Nizari sect — ‘hashish-users’ — who were feared for killing their enemies' leaders.",
+    "usage": [[1605, 5], [1700, 20], [1800, 40], [1900, 60], [1965, 100], [2020, 80]],
+    "tags": ["shakespeare", "war"]
+  },
+  {
+    "id": "bedazzled", "word": "bedazzled", "pos": "adjective", "gloss": "dazzled; overwhelmed by brightness or splendour",
+    "origin": "en", "first": 1594,
+    "path": [
+      {"lang": "en", "form": "dazzle", "year": 1480},
+      {"lang": "en", "form": "bedazzle", "year": 1594}
+    ],
+    "story": "In The Taming of the Shrew, Kate — humouring Petruchio — apologises to an old man for her ‘mistaking eyes, / That have been so bedazzled with the sun’. It is the first known bedazzle: dazzle with an intensifying be-.",
+    "usage": [[1594, 5], [1700, 15], [1850, 20], [1950, 40], [2000, 80], [2020, 100]],
+    "tags": ["shakespeare"]
+  },
+  {
+    "id": "fashionable", "word": "fashionable", "pos": "adjective", "gloss": "popular or stylish at a particular time",
+    "origin": "en", "first": 1602,
+    "path": [
+      {"lang": "la", "form": "factiō", "meaning": "a making", "year": -50},
+      {"lang": "fro", "form": "façon", "meaning": "shape, manner", "year": 1150},
+      {"lang": "enm", "form": "fasoun", "year": 1300},
+      {"lang": "en", "form": "fashionable", "year": 1602}
+    ],
+    "story": "First recorded in Troilus and Cressida, where Ulysses warns that ‘time is like a fashionable host / That slightly shakes his parting guest by the hand’. Fashion itself goes back to Latin factiō, a making.",
+    "usage": [[1602, 5], [1700, 40], [1800, 80], [1850, 100], [1950, 70], [2020, 65]],
+    "tags": ["clothing", "shakespeare"]
+  },
+  {
+    "id": "puke", "word": "puke", "pos": "verb", "gloss": "to vomit",
+    "origin": "en", "first": 1600,
+    "path": [
+      {"lang": "en", "form": "puke", "year": 1600}
+    ],
+    "story": "Jaques's ‘Seven Ages of Man’ speech in As You Like It begins with ‘the infant, / Mewling and puking in the nurse's arms’ — the first known appearance of puke. Where it came from is uncertain; it may simply imitate the sound.",
+    "usage": [[1600, 10], [1700, 20], [1800, 15], [1900, 25], [1970, 70], [2020, 100]],
+    "tags": ["body", "shakespeare"]
+  },
+  {
+    "id": "serendipity", "word": "serendipity", "pos": "noun", "gloss": "the knack of making happy discoveries by accident",
+    "origin": "en", "first": 1754, "featured": true,
+    "path": [
+      {"lang": "fa", "form": "سرندیپ (Sarandīp)", "meaning": "Sri Lanka", "year": 1000},
+      {"lang": "en", "form": "Serendip", "meaning": "as in The Three Princes of Serendip", "year": 1754},
+      {"lang": "en", "form": "serendipity", "year": 1754}
+    ],
+    "story": "Horace Walpole coined it in a 1754 letter, after a Persian fairy tale, The Three Princes of Serendip (an old name for Sri Lanka), whose heroes were ‘always making discoveries, by accidents and sagacity, of things which they were not in quest of’. It stayed a rarity until 20th-century scientists adopted it.",
+    "usage": [[1754, 1], [1850, 2], [1900, 4], [1950, 20], [2000, 80], [2020, 100]],
+    "tags": ["places", "science"]
+  },
+  {
+    "id": "nerd", "word": "nerd", "pos": "noun", "gloss": "a person devoted to an intellectual or technical pursuit; once, a dull, socially awkward person",
+    "origin": "en", "first": 1950, "featured": true,
+    "path": [
+      {"lang": "en", "form": "nerd", "meaning": "a creature in Dr. Seuss's If I Ran the Zoo", "year": 1950},
+      {"lang": "en", "form": "nerd", "meaning": "a square, a drip", "year": 1951},
+      {"lang": "en", "form": "nerd", "meaning": "a tech enthusiast", "year": 1980}
+    ],
+    "story": "The first known nerd is a small, cross-looking creature in Dr. Seuss's If I Ran the Zoo (1950). A year later Newsweek reported that in Detroit someone who once would be called a drip or a square was now ‘a nerd’. Whether the slang grew from Seuss nobody knows — but by the 1980s the nerds were running Silicon Valley.",
+    "usage": [[1950, 1], [1960, 8], [1980, 45], [2000, 85], [2020, 100]],
+    "tags": ["slang", "people", "technology"]
+  },
+  {
+    "id": "chortle", "word": "chortle", "pos": "verb", "gloss": "to laugh in a breathy, gleeful way",
+    "origin": "en", "first": 1871,
+    "path": [
+      {"lang": "en", "form": "chuckle + snort", "year": 1871},
+      {"lang": "en", "form": "chortle", "year": 1871}
+    ],
+    "story": "From Lewis Carroll's ‘Jabberwocky’ in Through the Looking-Glass (1871): ‘O frabjous day! Callooh! Callay! / He chortled in his joy.’ A blend of chuckle and snort — and Humpty Dumpty's explanation of such words, ‘two meanings packed up into one word’, gave us the term portmanteau word.",
+    "usage": [[1871, 5], [1900, 40], [1950, 80], [2000, 100], [2020, 90]],
+    "tags": ["portmanteau", "feelings"], "related": ["galumph"]
+  },
+  {
+    "id": "galumph", "word": "galumph", "pos": "verb", "gloss": "to move in a heavy, clumsy, noisy way",
+    "origin": "en", "first": 1871,
+    "path": [
+      {"lang": "en", "form": "gallop + triumphant", "year": 1871},
+      {"lang": "en", "form": "galumph", "year": 1871}
+    ],
+    "story": "Also from ‘Jabberwocky’: having slain the beast, the hero ‘went galumphing back’. Probably gallop + triumphant — though today it means lumbering clumsily, which is rather unfair to the triumph.",
+    "usage": [[1871, 5], [1900, 40], [1950, 70], [2000, 100], [2020, 90]],
+    "tags": ["portmanteau"], "related": ["chortle"]
+  },
+  {
+    "id": "boycott", "word": "boycott", "pos": "verb", "gloss": "to refuse to deal with a person, company or country as a protest",
+    "origin": "en", "first": 1880, "featured": true,
+    "path": [
+      {"lang": "en", "form": "Boycott", "meaning": "Captain Charles Boycott", "year": 1880},
+      {"lang": "en", "form": "boycott", "year": 1880}
+    ],
+    "story": "In 1880 tenants in County Mayo, urged on by the Irish Land League, refused to work for, serve or even speak to Captain Charles Boycott, an English land agent who had tried to evict them. Within weeks his name was a verb, and it has since travelled into French, German, Japanese and dozens of other languages.",
+    "usage": [[1880, 30], [1900, 60], [1950, 70], [1980, 100], [2020, 90]],
+    "tags": ["eponym", "people"]
+  },
+  {
+    "id": "sandwich", "word": "sandwich", "pos": "noun", "gloss": "slices of bread with a filling between them",
+    "origin": "en", "first": 1762,
+    "path": [
+      {"lang": "ang", "form": "Sandwīc", "meaning": "sandy harbour (a town in Kent)", "year": 900},
+      {"lang": "en", "form": "Earl of Sandwich", "year": 1660},
+      {"lang": "en", "form": "sandwich", "year": 1762}
+    ],
+    "story": "Named after John Montagu, 4th Earl of Sandwich. In 1762 the historian Edward Gibbon saw gentlemen supping on ‘a bit of cold meat, or a Sandwich’. A French travel writer claimed the earl ate them so he need not leave the gaming table; his biographer thinks long hours at his desk more likely.",
+    "usage": [[1762, 5], [1850, 30], [1900, 55], [1950, 80], [2000, 100], [2020, 95]],
+    "tags": ["food", "eponym"]
+  },
+  {
+    "id": "cardigan", "word": "cardigan", "pos": "noun", "gloss": "a knitted jumper that fastens down the front",
+    "origin": "en", "first": 1868,
+    "path": [
+      {"lang": "en", "form": "Earl of Cardigan", "year": 1854},
+      {"lang": "en", "form": "cardigan", "year": 1868}
+    ],
+    "story": "James Brudenell, 7th Earl of Cardigan, led the doomed Charge of the Light Brigade in 1854, and the knitted wool waistcoat worn against the Crimean cold took his name. His commander, Lord Raglan, gave his to the raglan sleeve.",
+    "usage": [[1868, 5], [1900, 20], [1950, 70], [1980, 100], [2020, 85]],
+    "tags": ["clothing", "eponym"]
+  },
+  {
+    "id": "silhouette", "word": "silhouette", "pos": "noun", "gloss": "a dark shape or outline seen against a lighter background",
+    "origin": "fr", "first": 1798,
+    "path": [
+      {"lang": "fr", "form": "Silhouette", "meaning": "Étienne de Silhouette, finance minister", "year": 1759},
+      {"lang": "fr", "form": "silhouette", "meaning": "a cut-paper profile", "year": 1760},
+      {"lang": "en", "form": "silhouette", "year": 1798}
+    ],
+    "story": "Étienne de Silhouette was France's finance minister for a few months in 1759, and his harsh economies made ‘à la Silhouette’ mean ‘on the cheap’. Cheap black paper profiles, cut rather than painted, probably took his name from that joke; English borrowed the word in 1798.",
+    "usage": [[1798, 5], [1850, 30], [1900, 50], [1950, 70], [2000, 100], [2020, 95]],
+    "tags": ["eponym", "art"]
+  },
+  {
+    "id": "quiz", "word": "quiz", "pos": "noun", "gloss": "a test of knowledge, often as a game",
+    "origin": "en", "first": 1782, "featured": true,
+    "path": [
+      {"lang": "en", "form": "quiz", "meaning": "an odd or eccentric person", "year": 1782},
+      {"lang": "en", "form": "quiz", "meaning": "to mock, make fun of", "year": 1796},
+      {"lang": "en", "form": "quiz", "meaning": "a test", "year": 1867}
+    ],
+    "story": "Legend says a Dublin theatre manager, Richard Daly, bet in 1791 that he could make a nonsense word famous in two days, and had urchins chalk QUIZ on walls all over the city. A lovely tale — but quiz is recorded years before 1791, and the story surfaces only decades later. It first meant an odd person, then a mockery, and in 1860s America a test.",
+    "usage": [[1782, 5], [1850, 15], [1900, 30], [1950, 60], [2000, 100], [2020, 95]],
+    "tags": ["meaning-shift", "slang"]
+  },
+  {
+    "id": "ok", "word": "OK", "pos": "adjective", "gloss": "all right; acceptable",
+    "origin": "en", "first": 1839, "featured": true,
+    "path": [
+      {"lang": "en", "form": "oll korrect", "meaning": "a joke spelling of ‘all correct’", "year": 1839},
+      {"lang": "en", "form": "o.k.", "year": 1839},
+      {"lang": "en", "form": "OK", "year": 1840}
+    ],
+    "story": "Boston newspapers of the 1830s had a craze for jokey abbreviations of misspellings — O.W. for ‘oll wright’, K.Y. for ‘know yuse’. On 23 March 1839 the Boston Morning Post printed ‘o.k. — all correct’, and in 1840 supporters of President Martin Van Buren, ‘Old Kinderhook’, formed O.K. Clubs. The other jokes died; OK conquered the planet.",
+    "usage": [[1839, 5], [1880, 20], [1920, 40], [1950, 65], [1990, 95], [2020, 100]],
+    "tags": ["slang", "acronym"]
+  },
+  {
+    "id": "googol", "word": "googol", "pos": "noun", "gloss": "the number 1 followed by 100 zeros",
+    "origin": "en", "first": 1938,
+    "path": [
+      {"lang": "en", "form": "googol", "year": 1938}
+    ],
+    "story": "The mathematician Edward Kasner asked his nine-year-old nephew, Milton Sirotta, to name the number 1 followed by a hundred zeros; ‘googol’, said Milton. Kasner popularised it in his 1940 book Mathematics and the Imagination — and in 1997 two Stanford students named their search engine after a misspelling of it.",
+    "usage": [[1938, 5], [1960, 30], [1990, 60], [2000, 100], [2020, 80]],
+    "tags": ["math", "numbers"], "related": ["google"]
+  },
+  {
+    "id": "google", "word": "google", "pos": "verb", "gloss": "to search for something on the internet",
+    "origin": "en", "first": 1998,
+    "path": [
+      {"lang": "en", "form": "googol", "meaning": "a huge number", "year": 1938},
+      {"lang": "en", "form": "Google", "meaning": "a search engine", "year": 1997},
+      {"lang": "en", "form": "google", "meaning": "to search the web", "year": 1998}
+    ],
+    "story": "Google's founders named their company after the number googol, and within a year or so people were ‘googling’. The American Dialect Society voted it the most useful word of 2002, and both Merriam-Webster and the Oxford English Dictionary added the verb in 2006.",
+    "usage": [[1998, 5], [2002, 40], [2006, 70], [2012, 100], [2020, 95]],
+    "tags": ["internet", "technology", "eponym"], "related": ["googol"]
+  },
+  {
+    "id": "scientist", "word": "scientist", "pos": "noun", "gloss": "a person who studies the natural or physical world",
+    "origin": "en", "first": 1834,
+    "path": [
+      {"lang": "la", "form": "scientia", "meaning": "knowledge", "year": -50},
+      {"lang": "fro", "form": "science", "year": 1150},
+      {"lang": "en", "form": "scientist", "year": 1834}
+    ],
+    "story": "Until the 1830s people who studied nature were ‘natural philosophers’ or ‘men of science’. At the 1833 meeting of the British Association, after Samuel Taylor Coleridge objected to ‘philosopher’, William Whewell suggested scientist, by analogy with artist; he put it in print in 1834. Many hated it for decades.",
+    "usage": [[1834, 2], [1870, 15], [1900, 35], [1950, 70], [2000, 95], [2020, 100]],
+    "tags": ["science", "people"]
+  },
+  {
+    "id": "smog", "word": "smog", "pos": "noun", "gloss": "fog mixed with smoke or polluted air",
+    "origin": "en", "first": 1905,
+    "path": [
+      {"lang": "en", "form": "smoke + fog", "year": 1905},
+      {"lang": "en", "form": "smog", "year": 1905}
+    ],
+    "story": "Smoke + fog. The London doctor Henry Antoine Des Voeux used it in 1905 to describe the city's choking pea-soupers. After the Great Smog of December 1952 killed thousands of Londoners, and with Los Angeles wheezing on car exhaust, it became the word for polluted air.",
+    "usage": [[1905, 3], [1930, 10], [1955, 60], [1970, 100], [2000, 70], [2020, 60]],
+    "tags": ["portmanteau", "weather", "nature"]
+  },
+  {
+    "id": "brunch", "word": "brunch", "pos": "noun", "gloss": "a late-morning meal combining breakfast and lunch",
+    "origin": "en", "first": 1895,
+    "path": [
+      {"lang": "en", "form": "breakfast", "year": 1460},
+      {"lang": "en", "form": "lunch", "year": 1786},
+      {"lang": "en", "form": "brunch", "year": 1895}
+    ],
+    "story": "Breakfast + lunch, credited to an 1895 essay, ‘Brunch: A Plea’, by the British writer Guy Beringer, who proposed a lazy Sunday meal for Saturday-night carousers. Punch magazine soon declared: ‘To be fashionable nowadays we must “brunch”.’",
+    "usage": [[1895, 2], [1930, 10], [1960, 25], [1990, 60], [2010, 90], [2020, 100]],
+    "tags": ["food", "portmanteau"]
+  },
+  {
+    "id": "motel", "word": "motel", "pos": "noun", "gloss": "a roadside hotel for motorists",
+    "origin": "en", "first": 1925, "root": "ghosti-guest",
+    "path": [
+      {"lang": "la", "form": "hospes", "meaning": "host, guest", "year": -50},
+      {"lang": "fr", "form": "hôtel", "year": 1600},
+      {"lang": "en", "form": "hotel", "year": 1765},
+      {"lang": "en", "form": "motor + hotel", "year": 1925},
+      {"lang": "en", "form": "motel", "year": 1925}
+    ],
+    "story": "Motor + hotel. In 1925 the Milestone Mo-Tel opened in San Luis Obispo, California, halfway between Los Angeles and San Francisco, offering drivers a room right beside their car — and its name launched the word.",
+    "usage": [[1925, 2], [1940, 20], [1960, 80], [1980, 100], [2020, 70]],
+    "tags": ["portmanteau", "places", "home"]
+  },
+  {
+    "id": "blurb", "word": "blurb", "pos": "noun", "gloss": "a short promotional description, especially on a book cover",
+    "origin": "en", "first": 1907,
+    "path": [
+      {"lang": "en", "form": "Miss Belinda Blurb", "year": 1907},
+      {"lang": "en", "form": "blurb", "year": 1907}
+    ],
+    "story": "In 1907 the American humorist Gelett Burgess gave out copies of his book Are You a Bromide? with a jacket showing a gushing young woman, ‘Miss Belinda Blurb’, praising it. Her surname became the word for every breathless puff on a book cover.",
+    "usage": [[1907, 3], [1930, 20], [1960, 50], [1990, 85], [2020, 100]],
+    "tags": ["art", "slang"]
+  },
+  {
+    "id": "gerrymander", "word": "gerrymander", "pos": "verb", "gloss": "to redraw electoral boundaries to favour one party",
+    "origin": "en", "first": 1812,
+    "path": [
+      {"lang": "en", "form": "Gerry + salamander", "year": 1812},
+      {"lang": "en", "form": "gerrymander", "year": 1812}
+    ],
+    "story": "In 1812 Massachusetts Governor Elbridge Gerry signed a bill redrawing state senate districts to help his party. One district north of Boston was so contorted that a cartoon in the Boston Gazette gave it claws and wings — the ‘Gerry-mander’, half Gerry, half salamander. (Gerry said his name with a hard G.)",
+    "usage": [[1812, 10], [1850, 20], [1900, 25], [1960, 50], [2000, 80], [2020, 100]],
+    "tags": ["eponym", "portmanteau", "law"]
+  },
+  {
+    "id": "laser", "word": "laser", "pos": "noun", "gloss": "a device that produces an intense, narrow beam of light",
+    "origin": "en", "first": 1960,
+    "path": [
+      {"lang": "en", "form": "light amplification by stimulated emission of radiation", "year": 1957},
+      {"lang": "en", "form": "laser", "year": 1960}
+    ],
+    "story": "Light Amplification by Stimulated Emission of Radiation: the physicist Gordon Gould wrote the acronym in his notebook in 1957, and it reached print in 1960, the year Theodore Maiman built the first working laser. It followed maser (M for microwave) and became an everyday word — even laser-focused.",
+    "usage": [[1960, 5], [1970, 40], [1990, 90], [2000, 100], [2020, 90]],
+    "tags": ["acronym", "science", "technology"]
+  },
+  {
+    "id": "radar", "word": "radar", "pos": "noun", "gloss": "a system that detects objects using radio waves",
+    "origin": "en", "first": 1941,
+    "path": [
+      {"lang": "en", "form": "radio detection and ranging", "year": 1940},
+      {"lang": "en", "form": "radar", "year": 1941}
+    ],
+    "story": "RAdio Detection And Ranging, coined in 1940 by US Navy officers Samuel Tucker and F. R. Furth. The British, who had developed the technology in secret, called it RDF, but adopted the American word in 1943. It reads the same backwards — fitting for a signal that bounces back.",
+    "usage": [[1941, 10], [1945, 60], [1960, 100], [1990, 80], [2020, 70]],
+    "tags": ["acronym", "technology", "war"]
+  },
+  {
+    "id": "scuba", "word": "scuba", "pos": "noun", "gloss": "equipment for breathing underwater",
+    "origin": "en", "first": 1952,
+    "path": [
+      {"lang": "en", "form": "self-contained underwater breathing apparatus", "year": 1952},
+      {"lang": "en", "form": "scuba", "year": 1952}
+    ],
+    "story": "Self-Contained Underwater Breathing Apparatus — the name the American physician Christian Lambertsen gave his diving rebreather in the early 1950s. Like radar and laser, it soon shed its capital letters.",
+    "usage": [[1952, 5], [1970, 50], [1990, 90], [2005, 100], [2020, 85]],
+    "tags": ["acronym", "sea", "technology"]
+  },
+  {
+    "id": "meme", "word": "meme", "pos": "noun", "gloss": "an idea or behaviour that spreads by imitation; a viral internet joke",
+    "origin": "en", "first": 1976,
+    "path": [
+      {"lang": "grc", "form": "μίμημα (mímēma)", "meaning": "something imitated", "year": -400},
+      {"lang": "en", "form": "meme", "meaning": "a unit of culture", "year": 1976},
+      {"lang": "en", "form": "meme", "meaning": "a viral internet joke", "year": 1998}
+    ],
+    "story": "Richard Dawkins coined it in The Selfish Gene (1976) for a unit of culture that spreads by imitation, as genes spread by reproduction, clipping Greek mimēma to rhyme with gene. The internet took him at his word: a meme is now a joke that copies itself around the world.",
+    "usage": [[1976, 2], [1990, 10], [2000, 20], [2010, 60], [2020, 100]],
+    "tags": ["internet", "science"]
+  },
+  {
+    "id": "cyberspace", "word": "cyberspace", "pos": "noun", "gloss": "the notional world of computer networks",
+    "origin": "en", "first": 1982,
+    "path": [
+      {"lang": "grc", "form": "κυβερνήτης (kybernḗtēs)", "meaning": "steersman", "year": -400},
+      {"lang": "en", "form": "cybernetics", "year": 1948},
+      {"lang": "en", "form": "cyberspace", "year": 1982}
+    ],
+    "story": "The science-fiction writer William Gibson coined it in his 1982 story ‘Burning Chrome’ and made it famous in Neuromancer (1984): ‘a consensual hallucination experienced daily by billions’. He later admitted he liked it because it sounded evocative yet essentially meaningless.",
+    "usage": [[1982, 2], [1990, 20], [1997, 100], [2005, 60], [2020, 35]],
+    "tags": ["internet", "technology"]
+  },
+  {
+    "id": "spam", "word": "spam", "pos": "noun", "gloss": "unwanted bulk messages sent over the internet",
+    "origin": "en", "first": 1937,
+    "path": [
+      {"lang": "en", "form": "Spam", "meaning": "a brand of canned pork", "year": 1937},
+      {"lang": "en", "form": "spam", "meaning": "junk messages", "year": 1993}
+    ],
+    "story": "Hormel's canned meat got its name in 1937 from a naming contest won by Ken Daigneau; the company has never officially said what it stands for. A 1970 Monty Python sketch, in which a café chorus drowns out all conversation with ‘Spam, spam, spam’, inspired early internet users to call floods of unwanted messages spam.",
+    "usage": [[1937, 5], [1950, 20], [1990, 20], [2000, 100], [2020, 70]],
+    "tags": ["internet", "food", "technology"]
+  },
+  {
+    "id": "blog", "word": "blog", "pos": "noun", "gloss": "a regularly updated personal website or online journal",
+    "origin": "en", "first": 1999,
+    "path": [
+      {"lang": "en", "form": "weblog", "year": 1997},
+      {"lang": "en", "form": "we blog", "year": 1999},
+      {"lang": "en", "form": "blog", "year": 1999}
+    ],
+    "story": "In 1997 Jorn Barger called his online diary of links a ‘weblog’. In 1999 Peter Merholz jokingly split it into ‘wee-blog’, ‘or blog for short’ — and the clipped form took off. Merriam-Webster named blog its Word of the Year for 2004.",
+    "usage": [[1999, 5], [2004, 60], [2010, 100], [2015, 70], [2020, 50]],
+    "tags": ["internet"]
+  },
+  {
+    "id": "podcast", "word": "podcast", "pos": "noun", "gloss": "a series of audio episodes for downloading or streaming",
+    "origin": "en", "first": 2004,
+    "path": [
+      {"lang": "en", "form": "iPod + broadcast", "year": 2004},
+      {"lang": "en", "form": "podcast", "year": 2004}
+    ],
+    "story": "iPod + broadcast. The journalist Ben Hammersley floated it in The Guardian in February 2004 while wondering what to call the new downloadable radio shows, and the New Oxford American Dictionary named it Word of the Year for 2005. It long outlived the iPod.",
+    "usage": [[2004, 5], [2006, 40], [2010, 45], [2015, 70], [2020, 100]],
+    "tags": ["portmanteau", "internet", "technology"]
+  },
+  {
+    "id": "hashtag", "word": "hashtag", "pos": "noun", "gloss": "a word or phrase marked with # to group social-media posts",
+    "origin": "en", "first": 2007,
+    "path": [
+      {"lang": "en", "form": "hash + tag", "year": 2007},
+      {"lang": "en", "form": "hashtag", "year": 2007}
+    ],
+    "story": "On 23 August 2007 the designer Chris Messina tweeted, ‘how do you feel about using # (pound) for groups?’ Twitter users ran with it, and the name hashtag — hash being the British name for the # sign — followed within days. Twitter only began linking them in 2009.",
+    "usage": [[2007, 2], [2010, 30], [2013, 90], [2015, 100], [2020, 80]],
+    "tags": ["internet"]
+  },
+  {
+    "id": "emoticon", "word": "emoticon", "pos": "noun", "gloss": "a face made of keyboard characters, like :-)",
+    "origin": "en", "first": 1990,
+    "path": [
+      {"lang": "en", "form": "emotion + icon", "year": 1990},
+      {"lang": "en", "form": "emoticon", "year": 1990}
+    ],
+    "story": "In 1982 the computer scientist Scott Fahlman proposed typing :-) on a Carnegie Mellon message board to mark jokes, after one had been taken seriously. The word emoticon, emotion + icon, followed by about 1990 — and was later eclipsed by Japanese emoji, which only looks related.",
+    "usage": [[1990, 5], [2000, 60], [2008, 100], [2015, 60], [2020, 40]],
+    "tags": ["portmanteau", "internet"], "related": ["emoji"]
+  },
+  {
+    "id": "unfriend", "word": "unfriend", "pos": "verb", "gloss": "to remove someone from your friends on a social network",
+    "origin": "en", "first": 1659,
+    "path": [
+      {"lang": "en", "form": "un-friend", "meaning": "to end a friendship", "year": 1659},
+      {"lang": "en", "form": "unfriend", "meaning": "to remove from a friends list", "year": 2007}
+    ],
+    "story": "Facebook made it famous, and the New Oxford American Dictionary chose it as Word of the Year for 2009. But it is old: in 1659 the historian Thomas Fuller wrote to a rival, ‘I hope, Sir, that we are not mutually Un-friended by this Difference.’",
+    "usage": [[1659, 5], [1700, 2], [1900, 1], [2007, 10], [2009, 100], [2020, 60]],
+    "tags": ["internet", "meaning-shift"]
+  },
+  {
+    "id": "binge-watch", "word": "binge-watch", "pos": "verb", "gloss": "to watch many episodes of a series in one sitting",
+    "origin": "en", "first": 2003,
+    "path": [
+      {"lang": "en", "form": "binge", "meaning": "to soak (dialect); then a drinking spree", "year": 1854},
+      {"lang": "en", "form": "binge-watch", "year": 2003}
+    ],
+    "story": "Binge began as an English dialect word for soaking something, then meant a drinking spree. DVD box sets and then streaming made binge-watching a national pastime, and Collins named it Word of the Year for 2015.",
+    "usage": [[2003, 2], [2010, 8], [2013, 40], [2015, 90], [2020, 100]],
+    "tags": ["technology", "slang"]
+  },
+  {
+    "id": "doomscrolling", "word": "doomscrolling", "pos": "noun", "gloss": "endlessly scrolling through bad news online",
+    "origin": "en", "first": 2018,
+    "path": [
+      {"lang": "en", "form": "doom + scrolling", "year": 2018},
+      {"lang": "en", "form": "doomscrolling", "year": 2018}
+    ],
+    "story": "Doom + scrolling: the compulsion to keep swiping through grim news. It was circulating on Twitter by 2018 and exploded in spring 2020 as pandemic headlines piled up; dictionaries rushed to record it.",
+    "usage": [[2018, 3], [2019, 8], [2020, 100], [2022, 60], [2024, 45]],
+    "tags": ["internet", "feelings"]
+  },
+  {
+    "id": "rizz", "word": "rizz", "pos": "noun", "gloss": "charm or attractiveness; the ability to woo someone",
+    "origin": "en", "first": 2021, "featured": true,
+    "path": [
+      {"lang": "grc", "form": "χάρισμα (khárisma)", "meaning": "gift of grace", "year": 50},
+      {"lang": "en", "form": "charisma", "year": 1641},
+      {"lang": "en", "form": "rizz", "year": 2021}
+    ],
+    "story": "Short for charisma — unusually, clipped from the middle of the word — and popularised by the streamer Kai Cenat. Oxford University Press made it Word of the Year for 2023, the year a clip of actor Tom Holland admitting ‘I have no rizz whatsoever’ went viral.",
+    "usage": [[2021, 5], [2022, 30], [2023, 100], [2024, 85]],
+    "tags": ["slang", "internet"]
+  },
+  {
+    "id": "vape", "word": "vape", "pos": "verb", "gloss": "to inhale vapour from an electronic cigarette",
+    "origin": "en", "first": 1983,
+    "path": [
+      {"lang": "la", "form": "vapor", "meaning": "steam", "year": -50},
+      {"lang": "en", "form": "vapour", "year": 1400},
+      {"lang": "en", "form": "vape", "year": 1983}
+    ],
+    "story": "In 1983 the writer Rob Stimpson, imagining a smokeless cigarette in the magazine New Society, coined vape from vapour. Real e-cigarettes arrived two decades later, and Oxford Dictionaries made vape its Word of the Year for 2014.",
+    "usage": [[1983, 1], [2008, 5], [2012, 30], [2014, 80], [2019, 100], [2020, 95]],
+    "tags": ["technology", "slang"]
+  },
+  {
+    "id": "mansplain", "word": "mansplain", "pos": "verb", "gloss": "(of a man) to explain something condescendingly to a woman",
+    "origin": "en", "first": 2008,
+    "path": [
+      {"lang": "en", "form": "man + explain", "year": 2008},
+      {"lang": "en", "form": "mansplain", "year": 2008}
+    ],
+    "story": "It surfaced online in 2008, soon after Rebecca Solnit's essay ‘Men Explain Things to Me’, in which a man at a party lectured her about an important new book — which she had written. Solnit didn't coin the word, but her essay gave it its spark.",
+    "usage": [[2008, 2], [2010, 10], [2014, 60], [2018, 100], [2020, 90]],
+    "tags": ["portmanteau", "internet", "people"]
+  },
+  {
+    "id": "photobomb", "word": "photobomb", "pos": "verb", "gloss": "to sneak into the background of someone else's photo",
+    "origin": "en", "first": 2008,
+    "path": [
+      {"lang": "en", "form": "photo + bomb", "year": 2008},
+      {"lang": "en", "form": "photobomb", "year": 2008}
+    ],
+    "story": "A child of camera phones and social media in the late 2000s. Animals became its stars: a curious ground squirrel that popped up in front of a couple's camera in Banff in 2009 became a worldwide hit.",
+    "usage": [[2008, 2], [2010, 20], [2013, 80], [2015, 100], [2020, 55]],
+    "tags": ["internet", "technology"]
+  },
+  {
+    "id": "glamping", "word": "glamping", "pos": "noun", "gloss": "camping with the comforts of a hotel",
+    "origin": "en", "first": 2005,
+    "path": [
+      {"lang": "en", "form": "glamorous + camping", "year": 2005},
+      {"lang": "en", "form": "glamping", "year": 2005}
+    ],
+    "story": "Glamorous + camping: yurts with feather beds, first recorded in Britain in the mid-2000s. Glamour itself has a magical past — it was Scots for an enchantment, an alteration of grammar, since book-learning was suspected of sorcery.",
+    "usage": [[2005, 2], [2008, 20], [2012, 60], [2016, 100], [2020, 95]],
+    "tags": ["portmanteau", "places"]
+  },
+  {
+    "id": "hangry", "word": "hangry", "pos": "adjective", "gloss": "irritable because of hunger",
+    "origin": "en", "first": 1956,
+    "path": [
+      {"lang": "en", "form": "hungry + angry", "year": 1956},
+      {"lang": "en", "form": "hangry", "year": 1956}
+    ],
+    "story": "Hungry + angry. The Oxford English Dictionary's earliest example comes from a 1956 psychoanalytic journal, but the word only boomed on social media in the 2010s; the OED formally added it in 2018.",
+    "usage": [[1956, 1], [2000, 3], [2012, 30], [2016, 80], [2020, 100]],
+    "tags": ["portmanteau", "feelings", "food"]
+  },
+  {
+    "id": "yolo", "word": "YOLO", "pos": "interjection", "gloss": "‘you only live once’ — a justification for doing something risky",
+    "origin": "en", "first": 2011,
+    "path": [
+      {"lang": "en", "form": "you only live once", "year": 1937},
+      {"lang": "en", "form": "YOLO", "year": 2011}
+    ],
+    "story": "An acronym for a motto at least as old as Fritz Lang's 1937 film You Only Live Once. Drake's 2011 song ‘The Motto’ made the four letters a teenage battle cry — and within about two years, mostly a punchline.",
+    "usage": [[2011, 30], [2012, 100], [2013, 80], [2016, 30], [2020, 15]],
+    "tags": ["acronym", "slang", "internet"]
+  },
+  {
+    "id": "yesteryear", "word": "yesteryear", "pos": "noun", "gloss": "the past; last year or years gone by",
+    "origin": "en", "first": 1870,
+    "path": [
+      {"lang": "ang", "form": "ġeostran", "meaning": "yesterday", "year": 900},
+      {"lang": "en", "form": "yester-year", "year": 1870}
+    ],
+    "story": "The poet Dante Gabriel Rossetti built it in 1870 to translate François Villon's refrain ‘Mais où sont les neiges d'antan?’ — ‘But where are the snows of yester-year?’ French antan had no English equivalent, so Rossetti made one on the model of yesterday.",
+    "usage": [[1870, 5], [1900, 30], [1950, 80], [1990, 100], [2020, 80]],
+    "tags": ["time", "art"]
+  },
+  {
+    "id": "pandemonium", "word": "pandemonium", "pos": "noun", "gloss": "wild and noisy disorder",
+    "origin": "en", "first": 1667,
+    "path": [
+      {"lang": "grc", "form": "πᾶν + δαίμων (pân + daímōn)", "meaning": "all + spirit", "year": -400},
+      {"lang": "en", "form": "Pandæmonium", "meaning": "the capital of Hell", "year": 1667},
+      {"lang": "en", "form": "pandemonium", "meaning": "uproar", "year": 1865}
+    ],
+    "story": "John Milton named the capital of Hell Pandæmonium in Paradise Lost (1667) — ‘the high capital of Satan and his peers’ — from Greek for ‘all the demons’. By the late 1700s any place of uproar could be a pandemonium, and by the 1860s the uproar itself.",
+    "usage": [[1667, 5], [1750, 15], [1850, 40], [1950, 80], [2000, 100], [2020, 90]],
+    "tags": ["religion", "art", "meaning-shift"]
+  },
+  {
+    "id": "utopia", "word": "utopia", "pos": "noun", "gloss": "an imagined perfect place or society",
+    "origin": "la-new", "first": 1551,
+    "path": [
+      {"lang": "grc", "form": "οὐ + τόπος (ou + tópos)", "meaning": "not + place", "year": -400},
+      {"lang": "la-new", "form": "Utopia", "year": 1516},
+      {"lang": "en", "form": "utopia", "year": 1551}
+    ],
+    "story": "Thomas More named his imaginary island republic Utopia in a Latin book of 1516 — Greek ou (not) + topos (place): ‘no-place’, with a sly pun on eu-topos, ‘good place’. Its dark twin, dystopia, was popularised by John Stuart Mill in a speech to Parliament in 1868.",
+    "usage": [[1551, 5], [1700, 15], [1850, 40], [1950, 80], [2000, 100], [2020, 90]],
+    "tags": ["places", "art"]
+  },
+  {
+    "id": "gobbledygook", "word": "gobbledygook", "pos": "noun", "gloss": "pompous, unintelligible jargon",
+    "origin": "en", "first": 1944,
+    "path": [
+      {"lang": "en", "form": "gobbledygook", "year": 1944}
+    ],
+    "story": "Coined in 1944 by the Texas congressman Maury Maverick, fed up with bureaucratic jargon; he said it was inspired by a turkey, always gobbling and strutting with ludicrous pomposity. His grandfather, the rancher Samuel Maverick, had already given English the word maverick.",
+    "usage": [[1944, 10], [1960, 50], [1980, 90], [2000, 100], [2020, 80]],
+    "tags": ["slang", "eponym"], "related": ["maverick"]
+  },
+  {
+    "id": "gaslighting", "word": "gaslighting", "pos": "noun", "gloss": "manipulating someone into doubting their own memory or sanity",
+    "origin": "en", "first": 1960,
+    "path": [
+      {"lang": "en", "form": "Gas Light", "meaning": "a play by Patrick Hamilton", "year": 1938},
+      {"lang": "en", "form": "Gaslight", "meaning": "the film", "year": 1944},
+      {"lang": "en", "form": "gaslighting", "year": 1960}
+    ],
+    "story": "From Patrick Hamilton's 1938 play Gas Light and its 1944 film Gaslight, in which a husband secretly dims the gas lamps and then insists his wife is imagining it, to make her doubt her own mind. Merriam-Webster named it Word of the Year for 2022.",
+    "usage": [[1960, 2], [1990, 5], [2010, 20], [2016, 60], [2022, 100]],
+    "tags": ["meaning-shift", "art", "feelings"]
+  },
+  {
+    "id": "truthiness", "word": "truthiness", "pos": "noun", "gloss": "the quality of feeling true in your gut, regardless of the facts",
+    "origin": "en", "first": 2005,
+    "path": [
+      {"lang": "en", "form": "truth + -iness", "year": 2005},
+      {"lang": "en", "form": "truthiness", "year": 2005}
+    ],
+    "story": "Stephen Colbert introduced it on the very first episode of The Colbert Report in October 2005, mocking politics by gut feeling. The American Dialect Society made it Word of the Year for 2005, and Merriam-Webster followed for 2006.",
+    "usage": [[2005, 30], [2006, 100], [2010, 40], [2016, 60], [2020, 45]],
+    "tags": ["slang"]
+  },
+  {
+    "id": "spoonerism", "word": "spoonerism", "pos": "noun", "gloss": "a slip that swaps the first sounds of two words",
+    "origin": "en", "first": 1900,
+    "path": [
+      {"lang": "en", "form": "Spooner", "meaning": "William Archibald Spooner", "year": 1885},
+      {"lang": "en", "form": "spoonerism", "year": 1900}
+    ],
+    "story": "Named after William Archibald Spooner, warden of New College, Oxford, famed for tangles like ‘a well-boiled icicle’ for ‘a well-oiled bicycle’. Most of the gems pinned on him were probably invented by his students; he owned up to very few.",
+    "usage": [[1900, 5], [1930, 40], [1960, 80], [1990, 100], [2020, 70]],
+    "tags": ["eponym", "people"]
+  },
+  {
+    "id": "malapropism", "word": "malapropism", "pos": "noun", "gloss": "the comic misuse of a word that sounds like the right one",
+    "origin": "en", "first": 1849,
+    "path": [
+      {"lang": "fr", "form": "mal à propos", "meaning": "inappropriately", "year": 1600},
+      {"lang": "en", "form": "Mrs Malaprop", "year": 1775},
+      {"lang": "en", "form": "malapropism", "year": 1849}
+    ],
+    "story": "Mrs Malaprop, in Richard Brinsley Sheridan's 1775 comedy The Rivals, reaches for grand words and grabs the wrong ones: ‘as headstrong as an allegory on the banks of the Nile’. Sheridan built her name from French mal à propos, ‘inappropriate’.",
+    "usage": [[1849, 5], [1900, 25], [1950, 60], [1990, 100], [2020, 85]],
+    "tags": ["eponym", "art"]
+  },
+  {
+    "id": "bowdlerize", "word": "bowdlerize", "pos": "verb", "gloss": "to censor a text by removing anything thought improper",
+    "origin": "en", "first": 1836,
+    "path": [
+      {"lang": "en", "form": "Bowdler", "meaning": "Thomas Bowdler", "year": 1818},
+      {"lang": "en", "form": "bowdlerize", "year": 1836}
+    ],
+    "story": "Thomas Bowdler's Family Shakespeare (1818, building on an 1807 edition largely by his sister Henrietta) cut every word ‘which cannot with propriety be read aloud in a family’. By 1836 his surname was a verb for prudish censorship.",
+    "usage": [[1836, 5], [1880, 30], [1930, 60], [1970, 100], [2020, 70]],
+    "tags": ["eponym", "art"]
+  },
+  {
+    "id": "mesmerize", "word": "mesmerize", "pos": "verb", "gloss": "to hold someone's attention completely; to hypnotise",
+    "origin": "en", "first": 1829,
+    "path": [
+      {"lang": "de", "form": "Mesmer", "meaning": "Franz Anton Mesmer", "year": 1775},
+      {"lang": "en", "form": "mesmerize", "year": 1829}
+    ],
+    "story": "Franz Anton Mesmer, a German doctor working in Vienna and Paris, claimed to cure patients through an invisible ‘animal magnetism’. A royal commission including Benjamin Franklin found no evidence for it in 1784, but his name stuck: to mesmerize is to hold someone spellbound.",
+    "usage": [[1829, 5], [1860, 40], [1900, 30], [1950, 50], [2000, 90], [2020, 100]],
+    "tags": ["eponym", "science"]
+  },
+  {
+    "id": "teddy-bear", "word": "teddy bear", "pos": "noun", "gloss": "a soft toy bear",
+    "origin": "en", "first": 1906,
+    "path": [
+      {"lang": "en", "form": "Teddy", "meaning": "President Theodore Roosevelt", "year": 1902},
+      {"lang": "en", "form": "teddy bear", "year": 1906}
+    ],
+    "story": "On a 1902 hunting trip in Mississippi, President Theodore ‘Teddy’ Roosevelt refused to shoot a bear that had been tied to a tree. A Washington Post cartoon of the scene inspired the Brooklyn shopkeeper Morris Michtom to sell stuffed ‘Teddy's bears’, and by 1906 the name was everywhere.",
+    "usage": [[1906, 20], [1930, 50], [1960, 80], [1990, 100], [2020, 90]],
+    "tags": ["eponym", "home", "animals"]
+  },
+  {
+    "id": "workaholic", "word": "workaholic", "pos": "noun", "gloss": "a person who compulsively works too hard",
+    "origin": "en", "first": 1968,
+    "path": [
+      {"lang": "en", "form": "work + -aholic", "year": 1968},
+      {"lang": "en", "form": "workaholic", "year": 1968}
+    ],
+    "story": "Coined in 1968 by the American pastor and psychologist Wayne Oates, and made famous by his 1971 book Confessions of a Workaholic. It launched the suffix -aholic (shopaholic, chocoholic) — though alcoholic itself is really alcohol + -ic.",
+    "usage": [[1968, 2], [1975, 30], [1990, 70], [2005, 100], [2020, 90]],
+    "tags": ["people", "feelings"]
+  },
+  {
+    "id": "brainwashing", "word": "brainwashing", "pos": "noun", "gloss": "forcing someone to adopt beliefs through intense pressure",
+    "origin": "en", "first": 1950,
+    "path": [
+      {"lang": "cmn", "form": "洗腦 (xǐnǎo)", "meaning": "wash brain", "year": 1949},
+      {"lang": "en", "form": "brainwashing", "year": 1950}
+    ],
+    "story": "A translation of Chinese xǐnǎo, ‘wash brain’, introduced by the journalist Edward Hunter in 1950 to describe indoctrination in Mao's China. Reports of ‘brainwashed’ prisoners in the Korean War carried it around the world.",
+    "usage": [[1950, 10], [1955, 60], [1965, 100], [1990, 70], [2020, 60]],
+    "tags": ["war", "people"]
+  },
+  {
+    "id": "quark", "word": "quark", "pos": "noun", "gloss": "a fundamental particle; protons and neutrons are made of three each",
+    "origin": "en", "first": 1939, "featured": true,
+    "path": [
+      {"lang": "en", "form": "quark", "meaning": "a nonsense word in Finnegans Wake", "year": 1939},
+      {"lang": "en", "form": "quark", "meaning": "a subatomic particle", "year": 1964}
+    ],
+    "story": "In 1963 the physicist Murray Gell-Mann had a sound in mind for a new kind of particle — ‘kwork’ — but no spelling. Then he came across ‘Three quarks for Muster Mark!’ in James Joyce's Finnegans Wake (1939), and the number three was perfect: protons and neutrons are each made of three quarks.",
+    "usage": [[1939, 2], [1964, 10], [1975, 60], [2000, 100], [2020, 90]],
+    "tags": ["science", "art"]
+  },
+  {
+    "id": "factoid", "word": "factoid", "pos": "noun", "gloss": "a small piece of trivia; originally, an invented ‘fact’ repeated until believed",
+    "origin": "en", "first": 1973,
+    "path": [
+      {"lang": "en", "form": "fact + -oid", "meaning": "something like a fact", "year": 1973},
+      {"lang": "en", "form": "factoid", "meaning": "a trivial fact", "year": 1985}
+    ],
+    "story": "Norman Mailer coined it in his 1973 book Marilyn for ‘facts which have no existence before appearing in a magazine or newspaper’ — things shaped like facts that aren't. Cable news's bite-size ‘factoids’ flipped it: to most people it now means a small, true fact.",
+    "usage": [[1973, 2], [1985, 20], [1995, 60], [2010, 100], [2020, 90]],
+    "tags": ["meaning-shift"]
+  },
+  {
+    "id": "catch-22", "word": "catch-22", "pos": "noun", "gloss": "a no-win situation trapped by contradictory rules",
+    "origin": "en", "first": 1961,
+    "path": [
+      {"lang": "en", "form": "Catch-18", "meaning": "the draft title", "year": 1955},
+      {"lang": "en", "form": "Catch-22", "year": 1961}
+    ],
+    "story": "From Joseph Heller's 1961 novel: a bomber pilot can be grounded for insanity, but asking to be grounded proves you're sane — ‘That's some catch, that Catch-22.’ Heller first called it Catch-18, but changed the number because Leon Uris's Mila 18 was coming out at the same time.",
+    "usage": [[1961, 5], [1970, 60], [1990, 90], [2005, 100], [2020, 90]],
+    "tags": ["art"]
+  },
+  {
+    "id": "scofflaw", "word": "scofflaw", "pos": "noun", "gloss": "a person who flouts the law, especially minor laws",
+    "origin": "en", "first": 1924,
+    "path": [
+      {"lang": "en", "form": "scoff + law", "year": 1924},
+      {"lang": "en", "form": "scofflaw", "year": 1924}
+    ],
+    "story": "During Prohibition the Massachusetts banker Delcevare King offered $200 for a word to shame lawless drinkers. From some 25,000 entries the judges chose scofflaw, sent in separately by Henry Irving Dale and Kate L. Butler, in January 1924.",
+    "usage": [[1924, 30], [1930, 60], [1960, 40], [2000, 80], [2020, 100]],
+    "tags": ["law", "people"]
+  },
+  {
+    "id": "muggle", "word": "muggle", "pos": "noun", "gloss": "a person without magical powers; an outsider to a hobby or skill",
+    "origin": "en", "first": 1997,
+    "path": [
+      {"lang": "en", "form": "mug", "meaning": "a gullible person", "year": 1850},
+      {"lang": "en", "form": "Muggle", "year": 1997}
+    ],
+    "story": "J. K. Rowling's word for people without magic, from Harry Potter and the Philosopher's Stone (1997); she has said she built it on mug, a gullible person. It entered the Oxford English Dictionary in 2003. (An unrelated muggles was 1920s jazz slang for marijuana.)",
+    "usage": [[1997, 5], [2000, 50], [2007, 100], [2015, 60], [2020, 55]],
+    "tags": ["slang", "art"]
+  },
+  {
+    "id": "bling", "word": "bling", "pos": "noun", "gloss": "flashy jewellery and showy wealth",
+    "origin": "en", "first": 1999,
+    "path": [
+      {"lang": "en", "form": "bling bling", "year": 1999},
+      {"lang": "en", "form": "bling", "year": 1999}
+    ],
+    "story": "From ‘Bling Bling’, a 1999 hit by the New Orleans rapper B.G. with the Cash Money Millionaires, imitating the imagined flash of light off diamonds. Within four years it was in the Oxford English Dictionary.",
+    "usage": [[1999, 10], [2003, 70], [2006, 100], [2012, 50], [2020, 30]],
+    "tags": ["slang", "money", "music"]
+  },
+  {
+    "id": "zipper", "word": "zipper", "pos": "noun", "gloss": "a fastener of interlocking teeth closed with a slider",
+    "origin": "en", "first": 1925,
+    "path": [
+      {"lang": "en", "form": "zip", "meaning": "a whizzing sound", "year": 1875},
+      {"lang": "en", "form": "Zipper", "meaning": "a brand of rubber boots", "year": 1925},
+      {"lang": "en", "form": "zipper", "year": 1928}
+    ],
+    "story": "The B. F. Goodrich company trademarked Zipper in 1925 for rubber galoshes closed with a ‘hookless fastener’ — zip! being the sound it made. The name slid off the boots and onto the fastener itself.",
+    "usage": [[1925, 5], [1940, 40], [1970, 90], [2000, 100], [2020, 90]],
+    "tags": ["clothing", "technology"]
+  },
+  {
+    "id": "groovy", "word": "groovy", "pos": "adjective", "gloss": "fashionable and exciting; excellent",
+    "origin": "en", "first": 1937,
+    "path": [
+      {"lang": "en", "form": "in the groove", "meaning": "playing well (jazz)", "year": 1932},
+      {"lang": "en", "form": "groovy", "year": 1937}
+    ],
+    "story": "Jazz musicians of the 1930s said a band playing well was ‘in the groove’, like a needle running true in a record. Groovy peaked with the hippies of the late 1960s and was a period piece by the late '70s; now it is mostly said with a wink.",
+    "usage": [[1937, 5], [1955, 15], [1968, 100], [1980, 40], [2000, 30], [2020, 25]],
+    "tags": ["slang", "music"]
+  },
+  {
+    "id": "swell", "word": "swell", "pos": "adjective", "gloss": "excellent, first-rate (dated slang)",
+    "origin": "en", "first": 1810,
+    "path": [
+      {"lang": "ang", "form": "swellan", "meaning": "to grow larger", "year": 900},
+      {"lang": "en", "form": "swell", "meaning": "a fashionable gent", "year": 1786},
+      {"lang": "en", "form": "swell", "meaning": "stylish", "year": 1810},
+      {"lang": "en", "form": "swell", "meaning": "excellent", "year": 1897}
+    ],
+    "story": "In the late 1700s a swell was a fashionably dressed gentleman — someone swelling with importance — and the adjective first meant stylish. By about 1900 Americans used it for anything excellent, and ‘Swell!’ was everywhere in the 1930s and '40s before turning retro.",
+    "usage": [[1810, 10], [1900, 40], [1935, 100], [1960, 50], [1990, 25], [2020, 20]],
+    "tags": ["slang", "meaning-shift"]
+  },
+  {
+    "id": "gnarly", "word": "gnarly", "pos": "adjective", "gloss": "(slang) extreme — dangerous, impressive or disgusting",
+    "origin": "en", "first": 1829,
+    "path": [
+      {"lang": "en", "form": "gnarly", "meaning": "gnarled, knotty", "year": 1829},
+      {"lang": "en", "form": "gnarly", "meaning": "(of waves) big and dangerous", "year": 1977},
+      {"lang": "en", "form": "gnarly", "meaning": "awesome, or gross", "year": 1982}
+    ],
+    "story": "Gnarly once just meant gnarled, knotty like an old tree. Californian surfers of the 1970s used it for huge, treacherous waves, and in 1980s teen slang it stretched to cover anything extreme — awesome or disgusting.",
+    "usage": [[1829, 5], [1900, 8], [1977, 30], [1988, 100], [2000, 50], [2020, 40]],
+    "tags": ["slang", "sea"]
+  },
+  {
+    "id": "bodacious", "word": "bodacious", "pos": "adjective", "gloss": "excellent, admirable; remarkably bold",
+    "origin": "en", "first": 1845,
+    "path": [
+      {"lang": "en", "form": "bold + audacious?", "year": 1845},
+      {"lang": "en", "form": "bodacious", "year": 1845}
+    ],
+    "story": "A word of the American South first recorded in the 1840s, probably a blend of bold and audacious (or a dialect boldacious). After a century in the backwoods it came roaring back in 1980s slang, before settling into retro charm.",
+    "usage": [[1845, 10], [1900, 15], [1950, 10], [1985, 100], [2000, 50], [2020, 30]],
+    "tags": ["slang", "portmanteau"]
+  },
+  {
+    "id": "bees-knees", "word": "the bee's knees", "pos": "phrase", "gloss": "an excellent person or thing",
+    "origin": "en", "first": 1922,
+    "path": [
+      {"lang": "en", "form": "the bee's knee", "meaning": "something tiny", "year": 1797},
+      {"lang": "en", "form": "the bee's knees", "meaning": "the very best", "year": 1922}
+    ],
+    "story": "In the 1920s Americans competed to invent nonsense phrases for ‘the best’: the cat's pyjamas, the snake's hips, the flea's eyebrows, the bee's knees. Earlier, a bee's knee had meant something tiny. Only the bee's knees survives in everyday use.",
+    "usage": [[1922, 40], [1928, 100], [1950, 40], [1980, 30], [2000, 35], [2020, 30]],
+    "tags": ["slang", "animals"], "related": ["cats-pyjamas"]
+  },
+  {
+    "id": "cats-pyjamas", "word": "the cat's pyjamas", "pos": "phrase", "gloss": "an excellent person or thing",
+    "origin": "en", "first": 1920, "status": "archaic", "died": 1940,
+    "path": [
+      {"lang": "fa", "form": "پایجامه (pāy-jāma)", "meaning": "leg garment", "year": 1500},
+      {"lang": "en", "form": "pyjamas", "year": 1800},
+      {"lang": "en", "form": "the cat's pyjamas", "year": 1920}
+    ],
+    "story": "Another 1920s flapper superlative, alongside the cat's whiskers and the bee's knees. Pyjamas were themselves still a fashionable novelty, brought from India: pāy-jāma, Persian for a ‘leg garment’.",
+    "usage": [[1920, 50], [1926, 100], [1940, 30], [1970, 10], [2020, 8]],
+    "tags": ["slang", "animals", "clothing"], "related": ["bees-knees", "pajamas"]
+  },
+  {
+    "id": "phat", "word": "phat", "pos": "adjective", "gloss": "(slang) excellent, cool",
+    "origin": "en", "first": 1963,
+    "path": [
+      {"lang": "en", "form": "phat", "meaning": "attractive (of a woman)", "year": 1963},
+      {"lang": "en", "form": "phat", "meaning": "excellent", "year": 1990}
+    ],
+    "story": "Spelled with a ph for flavour, phat surfaced in African American slang in the 1960s for an attractive woman and peaked in 1990s hip-hop as ‘excellent’. The acronyms later claimed for it, like ‘pretty hot and tempting’, were invented after the fact.",
+    "usage": [[1963, 5], [1980, 10], [1993, 60], [1998, 100], [2005, 40], [2020, 15]],
+    "tags": ["slang", "music"]
+  },
+  {
+    "id": "rad", "word": "rad", "pos": "adjective", "gloss": "(slang) excellent, impressive",
+    "origin": "en", "first": 1982,
+    "path": [
+      {"lang": "la", "form": "rādīx", "meaning": "root", "year": -50},
+      {"lang": "en", "form": "radical", "meaning": "extreme, daring", "year": 1970},
+      {"lang": "en", "form": "rad", "year": 1982}
+    ],
+    "story": "Short for radical, which surfers and skateboarders of the 1970s used for a daring move. Rad was peak 1980s Californian slang, from Valley girls to BMX riders — and radical itself goes back to Latin rādīx, root, the same word as radish.",
+    "usage": [[1982, 20], [1986, 100], [1995, 45], [2005, 30], [2020, 25]],
+    "tags": ["slang"]
+  },
+  {
+    "id": "far-out", "word": "far out", "pos": "adjective", "gloss": "unconventional, mind-bending; excellent",
+    "origin": "en", "first": 1954,
+    "path": [
+      {"lang": "en", "form": "far out", "meaning": "too advanced (of jazz)", "year": 1954},
+      {"lang": "en", "form": "far out", "meaning": "excellent, mind-blowing", "year": 1965}
+    ],
+    "story": "Jazz slang of the 1950s for music too advanced for square ears; the hippies of the 1960s used it for anything mind-bending. ‘Far out, man’ became the catchphrase of a generation — and of every later parody of one.",
+    "usage": [[1954, 10], [1962, 40], [1970, 100], [1985, 40], [2000, 30], [2020, 25]],
+    "tags": ["slang", "music"]
+  },
+  {
+    "id": "fab", "word": "fab", "pos": "adjective", "gloss": "(informal) fabulous, wonderful",
+    "origin": "en", "first": 1957,
+    "path": [
+      {"lang": "la", "form": "fābulōsus", "meaning": "celebrated in fable", "year": -50},
+      {"lang": "en", "form": "fabulous", "meaning": "of fables; astonishing", "year": 1450},
+      {"lang": "en", "form": "fab", "year": 1957}
+    ],
+    "story": "Short for fabulous, which first meant ‘belonging to fables’. Fab was British slang by the late 1950s and exploded with the Beatles — the ‘Fab Four’ — in 1963–64, before fading into a fond period piece.",
+    "usage": [[1957, 10], [1964, 100], [1975, 40], [1995, 50], [2020, 40]],
+    "tags": ["slang", "music"]
+  }
+]

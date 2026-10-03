@@ -1,0 +1,10 @@
+[
+  {"id": "ae", "name": "Avestan", "stream": "asia", "parent": "ira-pro", "start": -1200, "end": -400, "region": [62, 36], "blurb": "Sacred language of the Zoroastrian scriptures, close kin of Old Persian. Its pairi-daēza, a walled garden, is the Iranian word behind paradise."},
+  {"id": "nan", "name": "Min Nan (Hokkien)", "stream": "asia", "parent": "zh", "start": 900, "region": [118.1, 24.5], "blurb": "Language of Fujian's seafaring traders. Its tê gave English tea, and its kê-tsiap probably gave ketchup."},
+  {"id": "ml", "name": "Malayalam", "stream": "asia", "start": 900, "region": [76.3, 10], "blurb": "Language of Kerala on India's spice coast, where Portuguese traders first picked up the word mango."},
+  {"id": "ilo", "name": "Ilocano", "stream": "asia", "start": 1500, "region": [120.6, 17.6], "blurb": "Language of northern Luzon in the Philippines; probably the source of yo-yo."},
+  {"id": "ht", "name": "Haitian Creole", "stream": "world", "start": 1700, "region": [-72.3, 18.5], "blurb": "A French-based creole with deep West and Central African roots; gave English zombie."},
+  {"id": "sh", "name": "Serbo-Croatian", "stream": "world", "start": 1100, "region": [20.5, 44.8], "blurb": "South Slavic language; its papar, pepper, became Hungarian paprika."},
+  {"id": "ty", "name": "Tahitian", "stream": "world", "start": 1000, "region": [-149.6, -17.6], "blurb": "Polynesian language of Tahiti; Captain Cook's crew brought home its tatau as tattoo."},
+  {"id": "to", "name": "Tongan", "stream": "world", "start": 1000, "region": [-175.2, -21.1], "blurb": "Polynesian language of Tonga; gave English taboo (tapu)."}
+]

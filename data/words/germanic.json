@@ -1,0 +1,2308 @@
+[
+  {
+    "id": "mother", "word": "mother", "pos": "noun", "gloss": "a female parent",
+    "origin": "ang", "first": 700, "root": "mehter-mother",
+    "path": [
+      { "lang": "ine-pro", "form": "*méh₂tēr", "year": -4000 },
+      { "lang": "gem-pro", "form": "*mōdēr", "year": -500 },
+      { "lang": "ang", "form": "mōdor", "year": 700 },
+      { "lang": "enm", "form": "moder", "year": 1200 },
+      { "lang": "en", "form": "mother", "year": 1500 }
+    ],
+    "story": "Old English said mōdor and Middle English moder; the th spelling only appears in the 1500s, matching father and brother. The family resemblance runs across the Indo-European world: Latin māter, Greek mḗtēr, Sanskrit mātṛ, Irish máthair.",
+    "usage": [[700, 88], [1200, 88], [1500, 90], [1800, 92], [1900, 100], [2020, 92]],
+    "tags": ["family", "core"], "related": ["father", "maternal", "matrix", "matter", "metropolis"]
+  },
+  {
+    "id": "father", "word": "father", "pos": "noun", "gloss": "a male parent",
+    "origin": "ang", "first": 700, "root": "pehter-father",
+    "path": [
+      { "lang": "ine-pro", "form": "*ph₂tḗr", "year": -4000 },
+      { "lang": "gem-pro", "form": "*fadēr", "year": -500 },
+      { "lang": "ang", "form": "fæder", "year": 700 },
+      { "lang": "enm", "form": "fader", "year": 1200 },
+      { "lang": "en", "form": "father", "year": 1500 }
+    ],
+    "story": "The textbook case of Grimm's Law, the sound shift that turned PIE p into Germanic f: Latin pater, English father. It was worked out by Jacob Grimm, the elder of the fairy-tale brothers. Like mother, it only gained its th around 1500.",
+    "usage": [[700, 90], [1200, 92], [1500, 95], [1800, 100], [1900, 95], [2020, 82]],
+    "tags": ["family", "core"], "related": ["mother", "paternal", "patron", "pattern", "patriot"]
+  },
+  {
+    "id": "brother", "word": "brother", "pos": "noun", "gloss": "a son of the same parents as another person",
+    "origin": "ang", "first": 700, "root": "bhrater-brother",
+    "path": [
+      { "lang": "ine-pro", "form": "*bʰréh₂tēr", "year": -4000 },
+      { "lang": "gem-pro", "form": "*brōþēr", "year": -500 },
+      { "lang": "ang", "form": "brōþor", "year": 700 },
+      { "lang": "enm", "form": "brother", "year": 1200 },
+      { "lang": "en", "form": "brother", "year": 1500 }
+    ],
+    "story": "One of the steadiest words in the family: Sanskrit bhrā́tṛ, Latin frāter, Old Irish bráthair. Latin's branch gave fraternity and, through French frère, friar, so a friar is word for word a brother.",
+    "usage": [[700, 85], [1200, 88], [1500, 92], [1800, 100], [1900, 90], [2020, 78]],
+    "tags": ["family", "core"], "related": ["sister", "fraternal", "fraternity", "friar"]
+  },
+  {
+    "id": "sister", "word": "sister", "pos": "noun", "gloss": "a daughter of the same parents as another person",
+    "origin": "ang", "first": 700, "root": "swesor-sister",
+    "path": [
+      { "lang": "ine-pro", "form": "*swésōr", "year": -4000 },
+      { "lang": "gem-pro", "form": "*swestēr", "year": -500 },
+      { "lang": "ang", "form": "sweostor", "year": 700 },
+      { "lang": "non", "form": "systir", "year": 900, "note": "Norse neighbours' form that reshaped the English word" },
+      { "lang": "enm", "form": "sister", "year": 1200 },
+      { "lang": "en", "form": "sister", "year": 1500 }
+    ],
+    "story": "Old English said sweostor; the modern shape sister owes a lot to the Vikings' Old Norse systir. The Latin cousin soror gave sorority, and also cousin, from consobrīnus, originally the child of your mother's sister.",
+    "usage": [[700, 80], [1200, 82], [1500, 88], [1800, 100], [1900, 92], [2020, 80]],
+    "tags": ["family", "core", "vikings"], "related": ["brother", "sorority", "cousin"]
+  },
+  {
+    "id": "daughter", "word": "daughter", "pos": "noun", "gloss": "a girl or woman in relation to her parents",
+    "origin": "ang", "first": 700,
+    "path": [
+      { "lang": "ine-pro", "form": "*dʰugh₂tḗr", "year": -4000 },
+      { "lang": "gem-pro", "form": "*duhtēr", "year": -500 },
+      { "lang": "ang", "form": "dohtor", "year": 700 },
+      { "lang": "enm", "form": "doughter", "year": 1300 },
+      { "lang": "en", "form": "daughter", "year": 1500 }
+    ],
+    "story": "The silent gh was once a real throaty sound, like the ch in German Tochter. The word is old enough that Greek thugátēr and Sanskrit duhitṛ́ are its cousins, yet Latin dropped it and said fīlia instead.",
+    "usage": [[700, 80], [1200, 82], [1500, 88], [1800, 100], [1900, 90], [2020, 80]],
+    "tags": ["family", "core"], "related": ["son"]
+  },
+  {
+    "id": "son", "word": "son", "pos": "noun", "gloss": "a boy or man in relation to his parents",
+    "origin": "ang", "first": 700,
+    "path": [
+      { "lang": "ine-pro", "form": "*suHnús", "year": -4000 },
+      { "lang": "gem-pro", "form": "*sunuz", "year": -500 },
+      { "lang": "ang", "form": "sunu", "year": 700 },
+      { "lang": "enm", "form": "sone", "year": 1200 },
+      { "lang": "en", "form": "son", "year": 1500 }
+    ],
+    "story": "No relation to sun: Old English kept sunu and sunne apart, and they only came to sound alike later. The o is a scribes' trick: medieval copyists wrote o for u next to n, m and v, whose strokes blurred into a picket fence. That is also why we write love, come and monk.",
+    "usage": [[700, 90], [1200, 90], [1500, 92], [1800, 100], [1900, 88], [2020, 78]],
+    "tags": ["family", "core"], "related": ["daughter", "sun"]
+  },
+  {
+    "id": "woman", "word": "woman", "pos": "noun", "gloss": "an adult female human being",
+    "origin": "ang", "first": 700,
+    "path": [
+      { "lang": "ang", "form": "wīfmann", "meaning": "female person", "year": 700 },
+      { "lang": "ang", "form": "wimman", "year": 1000 },
+      { "lang": "enm", "form": "womman", "year": 1250 },
+      { "lang": "en", "form": "woman", "year": 1500 }
+    ],
+    "story": "Literally a 'wife-person'. In Old English mann meant a human of either sex, and wīf meant a woman, married or not, as midwife and fishwife still show. Wīfmann wore down to wimman and then woman, and the plural women is still pronounced 'wimmin'.",
+    "usage": [[700, 60], [1200, 70], [1500, 75], [1800, 80], [1900, 85], [2020, 100]],
+    "tags": ["people", "family", "meaning-shift"], "related": ["wife", "man", "hussy"]
+  },
+  {
+    "id": "heart", "word": "heart", "pos": "noun", "gloss": "the organ that pumps blood; the centre of feeling",
+    "origin": "ang", "first": 700, "root": "kerd-heart",
+    "path": [
+      { "lang": "ine-pro", "form": "*ḱḗr", "year": -4000 },
+      { "lang": "gem-pro", "form": "*hertô", "year": -500 },
+      { "lang": "ang", "form": "heorte", "year": 700 },
+      { "lang": "enm", "form": "herte", "year": 1200 },
+      { "lang": "en", "form": "heart", "year": 1500 }
+    ],
+    "story": "Grimm's Law turned the k of PIE *ḱḗr into an h in Germanic, but it stayed hard in Greek kardía (cardiac) and Latin cor, cordis. From cor came courage, cordial and record, which first meant to learn by heart.",
+    "usage": [[700, 80], [1200, 85], [1600, 95], [1800, 100], [1900, 90], [2020, 88]],
+    "tags": ["body", "feelings", "core"], "related": ["cardiac", "courage", "cordial", "record"]
+  },
+  {
+    "id": "hand", "word": "hand", "pos": "noun", "gloss": "the end of the arm, with fingers and thumb",
+    "origin": "ang", "first": 700,
+    "path": [
+      { "lang": "gem-pro", "form": "*handuz", "year": -500 },
+      { "lang": "ang", "form": "hand, hond", "meaning": "hand; side, direction", "year": 700 },
+      { "lang": "enm", "form": "hond, hand", "year": 1200 },
+      { "lang": "en", "form": "hand", "year": 1500 }
+    ],
+    "story": "For a word we use all day, hand is oddly mysterious: it runs through every Germanic language (German Hand, Gothic handus) but has no sure relatives beyond them. Old English also used it for a side or direction, which is why we still say 'on the other hand'.",
+    "usage": [[700, 85], [1200, 88], [1500, 92], [1800, 100], [1900, 95], [2020, 88]],
+    "tags": ["body", "core"]
+  },
+  {
+    "id": "foot", "word": "foot", "pos": "noun", "gloss": "the part of the leg you stand on; a unit of length",
+    "origin": "ang", "first": 700, "root": "ped-foot",
+    "path": [
+      { "lang": "ine-pro", "form": "*pṓds", "year": -4000 },
+      { "lang": "gem-pro", "form": "*fōts", "year": -500 },
+      { "lang": "ang", "form": "fōt", "year": 700 },
+      { "lang": "enm", "form": "fot", "year": 1200 },
+      { "lang": "en", "form": "foot", "year": 1500 }
+    ],
+    "story": "Feet, like teeth, geese and mice, keeps a vowel change from before Old English was written down: the prehistoric plural *fōtiz had an i that pulled the vowel forward, then vanished. Latin pēs, pedis gave pedal and pedestrian, and Greek poús gave octopus, the 'eight-foot'.",
+    "usage": [[700, 80], [1200, 82], [1500, 88], [1800, 100], [1900, 95], [2020, 80]],
+    "tags": ["body", "core"], "related": ["pedal", "pedestrian", "octopus", "podium", "tooth", "mouse"]
+  },
+  {
+    "id": "tooth", "word": "tooth", "pos": "noun", "gloss": "one of the hard white structures in the mouth used for biting",
+    "origin": "ang", "first": 700, "root": "dent-tooth",
+    "path": [
+      { "lang": "ine-pro", "form": "*h₃dónts", "year": -4000 },
+      { "lang": "gem-pro", "form": "*tanþs", "year": -500 },
+      { "lang": "ang", "form": "tōþ", "year": 700 },
+      { "lang": "enm", "form": "toth", "year": 1200 },
+      { "lang": "en", "form": "tooth", "year": 1500 }
+    ],
+    "story": "English swallowed the n that German Zahn kept, and that Latin dēns, dentis still shows. So the dentist, the orthodontist and the dandelion (French dent de lion, 'lion's tooth') are all cousins of your tooth.",
+    "usage": [[700, 70], [1200, 72], [1500, 78], [1800, 85], [1900, 95], [2020, 100]],
+    "tags": ["body", "core"], "related": ["dental", "dentist", "dandelion", "foot"]
+  },
+  {
+    "id": "head", "word": "head", "pos": "noun", "gloss": "the top part of the body, holding the brain, eyes and mouth",
+    "origin": "ang", "first": 700, "root": "kaput-head",
+    "path": [
+      { "lang": "ine-pro", "form": "*káput, *kauput-", "meaning": "head; bowl", "year": -4000 },
+      { "lang": "gem-pro", "form": "*haubudą", "year": -500 },
+      { "lang": "ang", "form": "hēafod", "year": 700 },
+      { "lang": "enm", "form": "heved, hed", "year": 1300 },
+      { "lang": "en", "form": "head", "year": 1500 }
+    ],
+    "story": "Old English hēafod had two syllables and slowly wore down, through heved, to head. Its siblings German Haupt and Old Norse hǫfuð are certain. It is probably also a cousin of Latin caput (capital, chief, captain), although the sounds don't line up perfectly.",
+    "usage": [[700, 82], [1200, 85], [1500, 90], [1800, 95], [1900, 100], [2020, 95]],
+    "tags": ["body", "core"]
+  },
+  {
+    "id": "nose", "word": "nose", "pos": "noun", "gloss": "the part of the face used for breathing and smelling",
+    "origin": "ang", "first": 900, "root": "nas-nose",
+    "path": [
+      { "lang": "ine-pro", "form": "*néh₂s", "year": -4000 },
+      { "lang": "gem-pro", "form": "*nusō", "year": -500 },
+      { "lang": "ang", "form": "nosu", "year": 900 },
+      { "lang": "enm", "form": "nose", "year": 1200 },
+      { "lang": "en", "form": "nose", "year": 1500 }
+    ],
+    "story": "Its Latin cousin nāsus gave nasal, and also nasturtium, 'nose-twister', a flower named for its peppery sting. Old English joined nosu to þyrel, 'hole', to make the nostril.",
+    "usage": [[900, 70], [1200, 72], [1500, 78], [1800, 85], [1900, 95], [2020, 100]],
+    "tags": ["body", "core"], "related": ["nostril", "nasal", "nasturtium"]
+  },
+  {
+    "id": "nostril", "word": "nostril", "pos": "noun", "gloss": "either of the two openings of the nose",
+    "origin": "ang", "first": 1000, "root": "nas-nose",
+    "path": [
+      { "lang": "ang", "form": "nosþyrel", "meaning": "nose-hole", "year": 1000 },
+      { "lang": "enm", "form": "nosethirl", "year": 1300 },
+      { "lang": "en", "form": "nostril", "year": 1500 }
+    ],
+    "story": "A 'nose-hole': Old English nosu + þyrel, 'hole', a relative of through. Þyrel also gave the verb thirl, 'to pierce', which became thrill: to be thrilled was once to be pierced through.",
+    "usage": [[1000, 40], [1300, 50], [1600, 70], [1800, 90], [1900, 100], [2020, 80]],
+    "tags": ["body"], "related": ["nose", "thrill"]
+  },
+  {
+    "id": "sun", "word": "sun", "pos": "noun", "gloss": "the star that the earth goes around, giving light and heat",
+    "origin": "ang", "first": 700, "root": "sehwl-sun",
+    "path": [
+      { "lang": "ine-pro", "form": "*sóh₂wl̥, *sh₂wén-", "year": -4000 },
+      { "lang": "gem-pro", "form": "*sunnǭ", "year": -500 },
+      { "lang": "ang", "form": "sunne", "year": 700 },
+      { "lang": "enm", "form": "sonne", "year": 1200 },
+      { "lang": "en", "form": "sun", "year": 1500 }
+    ],
+    "story": "In Old English the sun was feminine and the moon masculine, the reverse of Latin and French (and still the case in German: die Sonne, der Mond). The same PIE word, in its l-form, gave Latin sōl (solar, solstice) and Greek hḗlios, which named helium after it was detected in sunlight in 1868.",
+    "usage": [[700, 80], [1200, 82], [1500, 85], [1800, 95], [1900, 100], [2020, 92]],
+    "tags": ["nature", "core"], "related": ["sunday", "solar", "helium", "son"]
+  },
+  {
+    "id": "moon", "word": "moon", "pos": "noun", "gloss": "the natural satellite that circles the earth",
+    "origin": "ang", "first": 700, "root": "me-measure",
+    "path": [
+      { "lang": "ine-pro", "form": "*mḗh₁n̥s", "meaning": "moon, month", "year": -4000 },
+      { "lang": "gem-pro", "form": "*mēnô", "year": -500 },
+      { "lang": "ang", "form": "mōna", "year": 700 },
+      { "lang": "enm", "form": "mone", "year": 1200 },
+      { "lang": "en", "form": "moon", "year": 1500 }
+    ],
+    "story": "The moon was humanity's first clock, and its name probably comes from a root meaning 'to measure'. Month (Old English mōnaþ) is its offspring, and so is Monday.",
+    "usage": [[700, 65], [1200, 68], [1500, 72], [1800, 80], [1900, 85], [1969, 100], [2020, 88]],
+    "tags": ["nature", "time", "core"], "related": ["month", "monday", "measure"]
+  },
+  {
+    "id": "star", "word": "star", "pos": "noun", "gloss": "a point of light in the night sky; a famous performer",
+    "origin": "ang", "first": 700, "root": "ster-star",
+    "path": [
+      { "lang": "ine-pro", "form": "*h₂stḗr", "year": -4000 },
+      { "lang": "gem-pro", "form": "*sternǭ", "year": -500 },
+      { "lang": "ang", "form": "steorra", "year": 700 },
+      { "lang": "enm", "form": "sterre", "year": 1200 },
+      { "lang": "en", "form": "star", "year": 1500 }
+    ],
+    "story": "A sky-word older than any of its descendants: Greek astḗr (asterisk, the 'little star', and astronomy), Latin stella (stellar), Persian setāre and English star all come from it. A disaster is literally a 'bad star'.",
+    "usage": [[700, 50], [1200, 55], [1600, 70], [1800, 75], [1950, 100], [2020, 95]],
+    "tags": ["nature", "core"], "related": ["disaster", "asterisk", "astronomy", "stellar"]
+  },
+  {
+    "id": "night", "word": "night", "pos": "noun", "gloss": "the time of darkness between sunset and sunrise",
+    "origin": "ang", "first": 700, "root": "nekwt-night",
+    "path": [
+      { "lang": "ine-pro", "form": "*nókʷts", "year": -4000 },
+      { "lang": "gem-pro", "form": "*nahts", "year": -500 },
+      { "lang": "ang", "form": "niht", "year": 700 },
+      { "lang": "enm", "form": "night", "year": 1200 },
+      { "lang": "en", "form": "night", "year": 1500 }
+    ],
+    "story": "The gh was once a throaty sound, still heard in German Nacht. The Roman historian Tacitus noted that the Germanic peoples counted time in nights rather than days, and English still does: a fortnight is 'fourteen nights'.",
+    "usage": [[700, 80], [1200, 82], [1500, 85], [1800, 95], [1900, 100], [2020, 92]],
+    "tags": ["nature", "time", "core"], "related": ["nocturnal", "equinox", "nightmare"]
+  },
+  {
+    "id": "day", "word": "day", "pos": "noun", "gloss": "a period of 24 hours; the time of light between sunrise and sunset",
+    "origin": "ang", "first": 700,
+    "path": [
+      { "lang": "gem-pro", "form": "*dagaz", "year": -500 },
+      { "lang": "ang", "form": "dæġ", "year": 700 },
+      { "lang": "enm", "form": "day", "year": 1200 },
+      { "lang": "en", "form": "day", "year": 1500 }
+    ],
+    "story": "It looks like Latin diēs, but the resemblance is pure coincidence: the two come from different roots, and day's may have meant 'to burn', as in the heat of the day. The ġ of Old English dæġ was already pronounced like a y.",
+    "usage": [[700, 85], [1200, 88], [1500, 90], [1800, 95], [1900, 100], [2020, 95]],
+    "tags": ["time", "core"], "related": ["daisy", "sunday"]
+  },
+  {
+    "id": "earth", "word": "earth", "pos": "noun", "gloss": "the planet we live on; soil, ground",
+    "origin": "ang", "first": 700,
+    "path": [
+      { "lang": "ine-pro", "form": "*h₁er-", "meaning": "earth, ground", "year": -4000 },
+      { "lang": "gem-pro", "form": "*erþō", "year": -500 },
+      { "lang": "ang", "form": "eorþe", "meaning": "ground, soil, the world", "year": 700 },
+      { "lang": "enm", "form": "erthe", "year": 1200 },
+      { "lang": "en", "form": "earth", "year": 1500 }
+    ],
+    "story": "Earth is the only planet whose English name doesn't come from a Greek or Roman god. It simply means the ground under your feet, like its siblings German Erde and Dutch aarde.",
+    "usage": [[700, 75], [1200, 78], [1500, 85], [1800, 95], [1900, 100], [2020, 90]],
+    "tags": ["nature", "core"]
+  },
+  {
+    "id": "tree", "word": "tree", "pos": "noun", "gloss": "a tall plant with a wooden trunk and branches",
+    "origin": "ang", "first": 700, "root": "deru-tree",
+    "path": [
+      { "lang": "ine-pro", "form": "*dóru", "meaning": "tree, wood", "year": -4000 },
+      { "lang": "gem-pro", "form": "*trewą", "year": -500 },
+      { "lang": "ang", "form": "trēow", "meaning": "tree; timber", "year": 700 },
+      { "lang": "enm", "form": "tre", "year": 1200 },
+      { "lang": "en", "form": "tree", "year": 1500 }
+    ],
+    "story": "Probably from the same ancient root as true and trust, the idea being 'firm as an oak'. That root also gave Greek drûs, 'oak', whose nymphs were the dryads, and probably the druids, Celtic 'oak-knowers'.",
+    "usage": [[700, 65], [1200, 68], [1500, 75], [1800, 90], [1900, 100], [2020, 95]],
+    "tags": ["nature", "core"], "related": ["true", "trust", "druid", "dryad"]
+  },
+  {
+    "id": "wood", "word": "wood", "pos": "noun", "gloss": "the hard material of trees; a small forest",
+    "origin": "ang", "first": 700,
+    "path": [
+      { "lang": "ine-pro", "form": "*widʰu-", "meaning": "tree, wood", "year": -4000 },
+      { "lang": "gem-pro", "form": "*widuz", "year": -500 },
+      { "lang": "ang", "form": "wudu", "meaning": "forest; timber", "year": 700 },
+      { "lang": "enm", "form": "wode", "year": 1200 },
+      { "lang": "en", "form": "wood", "year": 1500 }
+    ],
+    "story": "Old English wudu meant a forest as much as timber, a sense we keep in 'the woods'. A separate word, wōd, meant mad, and Shakespeare punned on the pair in A Midsummer Night's Dream: 'And here am I, and wood within this wood.'",
+    "usage": [[700, 75], [1200, 78], [1500, 82], [1800, 92], [1900, 100], [2020, 85]],
+    "tags": ["nature", "core"], "related": ["tree", "wednesday"]
+  },
+  {
+    "id": "stone", "word": "stone", "pos": "noun", "gloss": "hard mineral matter; a small piece of rock",
+    "origin": "ang", "first": 700,
+    "path": [
+      { "lang": "ine-pro", "form": "*stoyh₂-", "meaning": "to thicken, stiffen", "year": -4000 },
+      { "lang": "gem-pro", "form": "*stainaz", "year": -500 },
+      { "lang": "ang", "form": "stān", "year": 700 },
+      { "lang": "enm", "form": "ston", "year": 1200 },
+      { "lang": "en", "form": "stone", "year": 1500 }
+    ],
+    "story": "In southern English the long ā of stān rounded into a long o, so stān became stone, just as hām became home and bān became bone. Scots kept the old vowel: stane, hame, bane.",
+    "usage": [[700, 80], [1200, 82], [1500, 88], [1800, 100], [1900, 92], [2020, 78]],
+    "tags": ["nature", "core"], "related": ["home"]
+  },
+  {
+    "id": "fire", "word": "fire", "pos": "noun", "gloss": "burning that gives out light, heat and flame",
+    "origin": "ang", "first": 700, "root": "pehwr-fire",
+    "path": [
+      { "lang": "ine-pro", "form": "*péh₂wr̥", "year": -4000 },
+      { "lang": "gem-pro", "form": "*fōr", "year": -500 },
+      { "lang": "ang", "form": "fȳr", "year": 700 },
+      { "lang": "enm", "form": "fir, fyre", "year": 1200 },
+      { "lang": "en", "form": "fire", "year": 1500 }
+    ],
+    "story": "PIE seems to have had two words for fire: a 'living' one, which survives in the Hindu fire-god Agni and Latin ignis (ignite), and this 'thing' word, *péh₂wr̥. The second gave Greek pûr (pyre, pyrotechnics) and English fire.",
+    "usage": [[700, 75], [1200, 78], [1500, 85], [1800, 95], [1900, 100], [2020, 92]],
+    "tags": ["nature", "core"], "related": ["bonfire", "pyre", "pyrotechnics", "ignite"]
+  },
+  {
+    "id": "snow", "word": "snow", "pos": "noun", "gloss": "frozen water vapour that falls as white flakes",
+    "origin": "ang", "first": 800,
+    "path": [
+      { "lang": "ine-pro", "form": "*snóygʷʰos", "year": -4000 },
+      { "lang": "gem-pro", "form": "*snaiwaz", "year": -500 },
+      { "lang": "ang", "form": "snāw", "year": 800 },
+      { "lang": "enm", "form": "snow", "year": 1200 },
+      { "lang": "en", "form": "snow", "year": 1500 }
+    ],
+    "story": "Latin nix, nivis comes from the same root (minus the s), and gave Spanish nieve and the Sierra Nevada, the 'snowy range'. Old English snāw went through the same ā-to-o change as stone and home.",
+    "usage": [[800, 55], [1200, 58], [1500, 65], [1800, 80], [1900, 95], [2020, 100]],
+    "tags": ["nature"], "related": ["stone"]
+  },
+  {
+    "id": "wind", "word": "wind", "pos": "noun", "gloss": "air moving naturally across the earth",
+    "origin": "ang", "first": 700, "root": "hweh-blow",
+    "path": [
+      { "lang": "ine-pro", "form": "*h₂wéh₁n̥ts", "meaning": "blowing", "year": -4000 },
+      { "lang": "gem-pro", "form": "*windaz", "year": -500 },
+      { "lang": "ang", "form": "wind", "year": 700 },
+      { "lang": "enm", "form": "wind", "year": 1200 },
+      { "lang": "en", "form": "wind", "year": 1500 }
+    ],
+    "story": "Literally 'the blowing one'. The same root gave Latin ventus (vent, ventilate) and Sanskrit nirvāṇa, the 'blowing out' of a flame. The Vikings put the wind in window, their 'wind-eye'.",
+    "usage": [[700, 70], [1200, 72], [1500, 80], [1800, 95], [1900, 100], [2020, 85]],
+    "tags": ["nature", "core"], "related": ["weather", "window", "ventilate", "nirvana"]
+  },
+  {
+    "id": "weather", "word": "weather", "pos": "noun", "gloss": "the state of the air: sun, rain, wind, cold or heat",
+    "origin": "ang", "first": 800, "root": "hweh-blow",
+    "path": [
+      { "lang": "ine-pro", "form": "*h₂weh₁-", "meaning": "to blow", "year": -4000 },
+      { "lang": "gem-pro", "form": "*wedrą", "year": -500 },
+      { "lang": "ang", "form": "weder", "year": 800 },
+      { "lang": "enm", "form": "weder", "year": 1200 },
+      { "lang": "en", "form": "weather", "year": 1500 }
+    ],
+    "story": "Weather comes from the same breath as wind: it is what the air is doing. Its d turned to th in the 1400s and 1500s, in the same change that gave us father and mother.",
+    "usage": [[800, 50], [1200, 55], [1500, 65], [1800, 80], [1900, 90], [2020, 100]],
+    "tags": ["nature"], "related": ["wind", "father", "mother"]
+  },
+  {
+    "id": "wolf", "word": "wolf", "pos": "noun", "gloss": "a wild animal of the dog family that hunts in packs",
+    "origin": "ang", "first": 700, "root": "wlkwo-wolf",
+    "path": [
+      { "lang": "ine-pro", "form": "*wĺ̥kʷos", "year": -4000 },
+      { "lang": "gem-pro", "form": "*wulfaz", "year": -500 },
+      { "lang": "ang", "form": "wulf", "year": 700 },
+      { "lang": "enm", "form": "wolf", "year": 1200 },
+      { "lang": "en", "form": "wolf", "year": 1500 }
+    ],
+    "story": "Greek lúkos and Latin lupus are the same word, which is why a Greek werewolf is a lycanthrope. Wolves prowl through Germanic names too: Rudolf is 'fame-wolf', Wolfgang 'wolf-path', and Beowulf may be 'bee-wolf', a riddling name for a bear.",
+    "usage": [[700, 80], [1200, 75], [1500, 70], [1800, 80], [1900, 90], [2020, 100]],
+    "tags": ["animals", "nature"], "related": ["werewolf", "lupine", "lycanthrope"]
+  },
+  {
+    "id": "fox", "word": "fox", "pos": "noun", "gloss": "a wild animal of the dog family with a bushy tail and red fur",
+    "origin": "ang", "first": 800,
+    "path": [
+      { "lang": "ine-pro", "form": "*puḱ-", "meaning": "tail", "year": -4000 },
+      { "lang": "gem-pro", "form": "*fuhsaz", "year": -500 },
+      { "lang": "ang", "form": "fox", "year": 800 },
+      { "lang": "enm", "form": "fox", "year": 1200 },
+      { "lang": "en", "form": "fox", "year": 1500 }
+    ],
+    "story": "Probably 'the tailed one', from the root of Sanskrit púccha, 'tail'. The female, vixen, keeps two fossils: the old feminine ending -en, and the southern English habit of saying v for f (as in Somerset 'vather').",
+    "usage": [[800, 60], [1200, 62], [1500, 65], [1800, 75], [1900, 85], [2020, 100]],
+    "tags": ["animals"], "related": ["vixen"]
+  },
+  {
+    "id": "deer", "word": "deer", "pos": "noun", "gloss": "a hoofed animal, the males of which usually have antlers",
+    "origin": "ang", "first": 700, "featured": true,
+    "path": [
+      { "lang": "ine-pro", "form": "*dʰews-", "meaning": "to breathe", "year": -4000 },
+      { "lang": "gem-pro", "form": "*deuzą", "meaning": "animal", "year": -500 },
+      { "lang": "ang", "form": "dēor", "meaning": "any wild animal", "year": 700 },
+      { "lang": "enm", "form": "der", "meaning": "animal; deer", "year": 1200 },
+      { "lang": "en", "form": "deer", "year": 1500 }
+    ],
+    "story": "In Old English dēor meant any wild beast, probably 'a breathing thing'. Shakespeare could still write of 'mice and rats and such small deer' in King Lear. German Tier, 'animal', kept the old meaning, while English narrowed it to the animal its hunters prized most.",
+    "usage": [[700, 70], [1200, 75], [1500, 65], [1800, 70], [1900, 85], [2020, 100]],
+    "tags": ["animals", "meaning-shift"], "related": ["hound", "bird", "meat"]
+  },
+  {
+    "id": "bird", "word": "bird", "pos": "noun", "gloss": "a feathered animal with wings that lays eggs",
+    "origin": "ang", "first": 800,
+    "path": [
+      { "lang": "ang", "form": "bridd", "meaning": "young bird, chick", "year": 800 },
+      { "lang": "enm", "form": "brid, bird", "year": 1300 },
+      { "lang": "en", "form": "bird", "year": 1500 }
+    ],
+    "story": "Old English bridd meant a chick; any grown bird was a fugol, which survives as fowl. Over time the r and the i swapped places, a slip called metathesis, and the fledgling took over the whole flock.",
+    "usage": [[800, 30], [1300, 50], [1500, 65], [1800, 80], [1900, 95], [2020, 100]],
+    "tags": ["animals", "meaning-shift"], "related": ["fowl", "deer", "horse"]
+  },
+  {
+    "id": "fish", "word": "fish", "pos": "noun", "gloss": "a cold-blooded animal that lives in water and breathes through gills",
+    "origin": "ang", "first": 700, "root": "peisk-fish",
+    "path": [
+      { "lang": "ine-pro", "form": "*peysḱ-", "year": -4000 },
+      { "lang": "gem-pro", "form": "*fiskaz", "year": -500 },
+      { "lang": "ang", "form": "fisc", "year": 700 },
+      { "lang": "enm", "form": "fish", "year": 1200 },
+      { "lang": "en", "form": "fish", "year": 1500 }
+    ],
+    "story": "Latin piscis is the same word before Grimm's Law turned p into f. It gave Pisces and, via French, the porpoise, a 'pig-fish'. In late Old English the sc of fisc was already sliding towards sh.",
+    "usage": [[700, 75], [1200, 78], [1500, 82], [1800, 90], [1900, 100], [2020, 95]],
+    "tags": ["animals", "food", "core"], "related": ["pisces", "porpoise"]
+  },
+  {
+    "id": "horse", "word": "horse", "pos": "noun", "gloss": "a large hoofed animal used for riding and pulling loads",
+    "origin": "ang", "first": 700,
+    "path": [
+      { "lang": "gem-pro", "form": "*hrussą", "year": -500 },
+      { "lang": "ang", "form": "hors, hros", "year": 700 },
+      { "lang": "enm", "form": "hors", "year": 1200 },
+      { "lang": "en", "form": "horse", "year": 1500 }
+    ],
+    "story": "English lost the ancient horse-word, Old English eoh (cousin of Latin equus), and kept this one, which may first have meant 'runner'. Old English had both hros and hors: the r and the vowel swapped places, as they did in bird.",
+    "usage": [[700, 75], [1200, 80], [1500, 85], [1800, 95], [1900, 100], [2020, 65]],
+    "tags": ["animals"], "related": ["equine", "walrus", "bird"]
+  },
+  {
+    "id": "sheep", "word": "sheep", "pos": "noun", "gloss": "a woolly farm animal kept for its fleece and meat",
+    "origin": "ang", "first": 700,
+    "path": [
+      { "lang": "gem-pro", "form": "*skēpą", "year": -500 },
+      { "lang": "ang", "form": "scēap", "year": 700 },
+      { "lang": "enm", "form": "shep", "year": 1200 },
+      { "lang": "en", "form": "sheep", "year": 1500 }
+    ],
+    "story": "The plural sheep, with no -s, is a grammatical fossil: Old English neuter nouns with a long syllable took no plural ending, and deer and swine kept the habit too. Out in the field it stayed sheep; on the Norman table it became French mutton.",
+    "usage": [[700, 75], [1200, 80], [1500, 85], [1800, 100], [1900, 80], [2020, 50]],
+    "tags": ["animals"], "related": ["mutton", "deer", "swine"]
+  },
+  {
+    "id": "swine", "word": "swine", "pos": "noun", "gloss": "pigs; a contemptible person",
+    "origin": "ang", "first": 700,
+    "path": [
+      { "lang": "ine-pro", "form": "*suH-", "meaning": "pig", "year": -4000 },
+      { "lang": "gem-pro", "form": "*swīną", "meaning": "of the pig", "year": -500 },
+      { "lang": "ang", "form": "swīn", "year": 700 },
+      { "lang": "enm", "form": "swin", "year": 1200 },
+      { "lang": "en", "form": "swine", "year": 1500 }
+    ],
+    "story": "It began as an adjective, 'of the sow', the way golden comes from gold. Its cousins are Latin sūs and Greek hûs, whose feminine form gave the hyena, the 'sow-like' beast. After 1066 the animal on the plate became French pork.",
+    "usage": [[700, 90], [1200, 100], [1500, 80], [1800, 50], [1900, 35], [2020, 20]],
+    "tags": ["animals"], "related": ["sow", "pork", "hyena", "sheep"]
+  },
+  {
+    "id": "cow", "word": "cow", "pos": "noun", "gloss": "a fully grown female of cattle",
+    "origin": "ang", "first": 700, "root": "gwow-cow",
+    "path": [
+      { "lang": "ine-pro", "form": "*gʷṓws", "year": -4000 },
+      { "lang": "gem-pro", "form": "*kūz", "year": -500 },
+      { "lang": "ang", "form": "cū", "year": 700 },
+      { "lang": "enm", "form": "cou", "year": 1200 },
+      { "lang": "en", "form": "cow", "year": 1500 }
+    ],
+    "story": "The Old English plural was cȳ, later kine; cows only arrived around 1600. The same PIE word gave Latin bōs (bovine), French bœuf (beef) and Greek boûs, which probably hides in butter, 'cow-cheese'.",
+    "usage": [[700, 65], [1200, 70], [1500, 72], [1800, 85], [1900, 100], [2020, 85]],
+    "tags": ["animals"], "related": ["beef", "bovine", "butter", "buffalo"]
+  },
+  {
+    "id": "mouse", "word": "mouse", "pos": "noun", "gloss": "a small rodent with a long tail; a hand-held computer pointer",
+    "origin": "ang", "first": 700, "root": "mus-mouse",
+    "path": [
+      { "lang": "ine-pro", "form": "*múh₂s", "year": -4000 },
+      { "lang": "gem-pro", "form": "*mūs", "year": -500 },
+      { "lang": "ang", "form": "mūs", "year": 700 },
+      { "lang": "enm", "form": "mous", "year": 1200 },
+      { "lang": "en", "form": "mouse", "year": 1500 }
+    ],
+    "story": "To the Romans a rippling muscle looked like a little mouse under the skin, mūsculus, so muscle is a mouse in disguise. Mice keeps the same ancient vowel change as feet and teeth, and the computer mouse scurried into print in 1965.",
+    "usage": [[700, 40], [1200, 42], [1500, 45], [1800, 50], [1900, 60], [1990, 100], [2020, 90]],
+    "tags": ["animals", "technology"], "related": ["muscle", "mussel", "foot"]
+  },
+  {
+    "id": "bread", "word": "bread", "pos": "noun", "gloss": "food made of flour, water and yeast, baked",
+    "origin": "ang", "first": 900,
+    "path": [
+      { "lang": "gem-pro", "form": "*braudą", "year": -500 },
+      { "lang": "ang", "form": "brēad", "meaning": "piece, morsel; bread", "year": 900 },
+      { "lang": "enm", "form": "breed", "year": 1200 },
+      { "lang": "en", "form": "bread", "year": 1500 }
+    ],
+    "story": "In Old English the everyday word for bread was hlāf, our loaf, while brēad seems to have meant a bit or morsel. Around 1200 bread took over the stuff itself and left loaf the shaped lump. The old word lives on in lord and lady, the 'loaf-keeper' and the 'loaf-kneader'.",
+    "usage": [[900, 40], [1200, 70], [1500, 85], [1800, 100], [1900, 90], [2020, 75]],
+    "tags": ["food", "home", "core"], "related": ["loaf", "lord", "lady"]
+  },
+  {
+    "id": "house", "word": "house", "pos": "noun", "gloss": "a building for people to live in",
+    "origin": "ang", "first": 700,
+    "path": [
+      { "lang": "gem-pro", "form": "*hūsą", "year": -500 },
+      { "lang": "ang", "form": "hūs", "year": 700 },
+      { "lang": "enm", "form": "hous", "year": 1200 },
+      { "lang": "en", "form": "house", "year": 1500 }
+    ],
+    "story": "Old English hūs sounded like 'hoose', as it still does in Scots. The Great Vowel Shift of about 1400–1700 opened the vowel into house. Husband and hussy both grew from it.",
+    "usage": [[700, 75], [1200, 80], [1500, 85], [1800, 95], [1900, 100], [2020, 90]],
+    "tags": ["home", "core"], "related": ["husband", "hussy", "home"]
+  },
+  {
+    "id": "home", "word": "home", "pos": "noun", "gloss": "the place where one lives",
+    "origin": "ang", "first": 700,
+    "path": [
+      { "lang": "gem-pro", "form": "*haimaz", "year": -500 },
+      { "lang": "ang", "form": "hām", "meaning": "dwelling; village, estate", "year": 700 },
+      { "lang": "enm", "form": "hom, hoom", "year": 1200 },
+      { "lang": "en", "form": "home", "year": 1500 }
+    ],
+    "story": "Old English hām meant a village or estate as well as a dwelling, and it lives on in hundreds of place-names: Birmingham, Fulham, Nottingham. Nottingham was Snotingahām, 'the home of Snot's people', until Norman tongues dropped the S.",
+    "usage": [[700, 60], [1200, 65], [1500, 72], [1800, 82], [1900, 90], [2020, 100]],
+    "tags": ["home", "places", "core"], "related": ["house", "stone"]
+  },
+  {
+    "id": "love", "word": "love", "pos": "noun", "gloss": "deep affection; romantic attachment",
+    "origin": "ang", "first": 700, "root": "leubh-love",
+    "path": [
+      { "lang": "ine-pro", "form": "*lewbʰ-", "meaning": "to love, to care for", "year": -4000 },
+      { "lang": "gem-pro", "form": "*lubō", "year": -500 },
+      { "lang": "ang", "form": "lufu", "year": 700 },
+      { "lang": "enm", "form": "luve, love", "year": 1200 },
+      { "lang": "en", "form": "love", "year": 1500 }
+    ],
+    "story": "Its root also gave Latin libīdō and English believe, once 'to hold dear'. Love meaning nil in tennis probably comes from playing 'for love', for nothing; the popular idea that it comes from French l'œuf, 'the egg', has no evidence behind it.",
+    "usage": [[700, 75], [1200, 80], [1500, 88], [1800, 95], [1900, 92], [2020, 100]],
+    "tags": ["feelings", "core"], "related": ["believe", "libido", "friend"]
+  },
+  {
+    "id": "friend", "word": "friend", "pos": "noun", "gloss": "a person you know well and like",
+    "origin": "ang", "first": 700, "root": "preyh-dear",
+    "path": [
+      { "lang": "ine-pro", "form": "*preyH-", "meaning": "to love; dear", "year": -4000 },
+      { "lang": "gem-pro", "form": "*frijōndz", "meaning": "one who loves", "year": -500 },
+      { "lang": "ang", "form": "frēond", "year": 700 },
+      { "lang": "enm", "form": "frend", "year": 1200 },
+      { "lang": "en", "form": "friend", "year": 1500 }
+    ],
+    "story": "A friend is literally 'one who loves': frēond was the present participle of frēon, 'to love'. The same root gave free, first meaning 'beloved, one of the family' as opposed to a slave, and Frigg, the goddess of Friday.",
+    "usage": [[700, 70], [1200, 75], [1500, 82], [1800, 90], [1900, 88], [2020, 100]],
+    "tags": ["people", "feelings", "core"], "related": ["fiend", "free", "friday"]
+  },
+  {
+    "id": "fiend", "word": "fiend", "pos": "noun", "gloss": "an evil spirit; a cruel person; an enthusiast",
+    "origin": "ang", "first": 700,
+    "path": [
+      { "lang": "gem-pro", "form": "*fijandz", "meaning": "one who hates", "year": -500 },
+      { "lang": "ang", "form": "fēond", "meaning": "enemy; the devil", "year": 700 },
+      { "lang": "enm", "form": "feend", "meaning": "devil, demon", "year": 1200 },
+      { "lang": "en", "form": "fiend", "year": 1500 }
+    ],
+    "story": "Friend's dark twin: fēond was 'one who hates', from fēogan, 'to hate', and simply meant an enemy, as German Feind still does. Christian writers made it the Enemy, the devil, and in the 1800s it softened again into the fresh-air fiend.",
+    "usage": [[700, 80], [1200, 100], [1500, 70], [1800, 45], [1900, 40], [2020, 30]],
+    "tags": ["people", "religion", "meaning-shift"], "related": ["friend"]
+  },
+  {
+    "id": "lord", "word": "lord", "pos": "noun", "gloss": "a man of high rank; a master or ruler",
+    "origin": "ang", "first": 700, "featured": true,
+    "path": [
+      { "lang": "ang", "form": "hlāfweard", "meaning": "loaf-keeper", "year": 700 },
+      { "lang": "ang", "form": "hlāford", "meaning": "master, lord", "year": 900 },
+      { "lang": "enm", "form": "loverd, lord", "year": 1200 },
+      { "lang": "en", "form": "lord", "year": 1500 }
+    ],
+    "story": "A lord was a 'loaf-keeper', hlāf (loaf) + weard (guardian): the head of a household who fed its people. Over the centuries hlāfweard wore down to hlāford, then loverd, then lord. His lady was the 'loaf-kneader'.",
+    "usage": [[700, 70], [1200, 85], [1500, 95], [1700, 100], [1900, 70], [2020, 50]],
+    "tags": ["people", "food"], "related": ["lady", "loaf", "ward", "bread"]
+  },
+  {
+    "id": "lady", "word": "lady", "pos": "noun", "gloss": "a polite word for a woman; a woman of high rank",
+    "origin": "ang", "first": 800, "root": "dheigh-form",
+    "path": [
+      { "lang": "ine-pro", "form": "*dʰeyǵʰ-", "meaning": "to knead, to shape", "year": -4000 },
+      { "lang": "ang", "form": "hlǣfdīġe", "meaning": "loaf-kneader; mistress of a household", "year": 800 },
+      { "lang": "enm", "form": "lavedi", "year": 1200 },
+      { "lang": "enm", "form": "ladi", "year": 1300 },
+      { "lang": "en", "form": "lady", "year": 1500 }
+    ],
+    "story": "Literally the 'loaf-kneader': hlǣf (loaf) + -dīġe, a relative of dough. The lady of the house made the bread that her lord kept. Hlǣfdīġe wore down to lavedi and then lady.",
+    "usage": [[800, 60], [1200, 75], [1500, 85], [1800, 100], [1900, 85], [2020, 70]],
+    "tags": ["people", "food"], "related": ["lord", "dough", "loaf"]
+  },
+  {
+    "id": "king", "word": "king", "pos": "noun", "gloss": "the male ruler of a country",
+    "origin": "ang", "first": 700, "root": "gene-beget",
+    "path": [
+      { "lang": "ine-pro", "form": "*ǵenh₁-", "meaning": "to beget", "year": -4000 },
+      { "lang": "gem-pro", "form": "*kuningaz", "meaning": "son of the kin", "year": -500 },
+      { "lang": "ang", "form": "cyning", "year": 700 },
+      { "lang": "enm", "form": "king", "year": 1200 },
+      { "lang": "en", "form": "king", "year": 1500 }
+    ],
+    "story": "Probably 'man of the kin', from Germanic *kunją, 'family, clan', plus -ing, 'descended from'. Finnish borrowed the word from early Germanic and still says kuningas, an almost perfect fossil of the original.",
+    "usage": [[700, 85], [1200, 90], [1500, 100], [1800, 85], [1900, 70], [2020, 60]],
+    "tags": ["people", "law"], "related": ["kin", "kind", "queen"]
+  },
+  {
+    "id": "queen", "word": "queen", "pos": "noun", "gloss": "the female ruler of a country, or the wife of a king",
+    "origin": "ang", "first": 800, "root": "gwen-woman",
+    "path": [
+      { "lang": "ine-pro", "form": "*gʷḗn", "meaning": "woman", "year": -4000 },
+      { "lang": "gem-pro", "form": "*kwēniz", "meaning": "woman, wife", "year": -500 },
+      { "lang": "ang", "form": "cwēn", "meaning": "woman, wife; queen", "year": 800 },
+      { "lang": "enm", "form": "quene", "year": 1200 },
+      { "lang": "en", "form": "queen", "year": 1500 }
+    ],
+    "story": "At root a queen is simply a woman: the same PIE word gave Greek gunḗ (gynaecology, misogyny) and Irish bean, as in banshee. Its humbler twin quean, a word for a hussy, faded away, perhaps because the two came to sound alike.",
+    "usage": [[800, 70], [1200, 75], [1500, 90], [1600, 100], [1900, 80], [2020, 70]],
+    "tags": ["people"], "related": ["king", "banshee", "gynecology"]
+  },
+  {
+    "id": "knight", "word": "knight", "pos": "noun", "gloss": "an armoured mounted soldier of the Middle Ages; a man given an honorary title",
+    "origin": "ang", "first": 800,
+    "path": [
+      { "lang": "gem-pro", "form": "*knehtaz", "meaning": "boy, servant", "year": -500 },
+      { "lang": "ang", "form": "cniht", "meaning": "boy, servant, attendant", "year": 800 },
+      { "lang": "enm", "form": "knight", "meaning": "mounted warrior", "year": 1300 },
+      { "lang": "en", "form": "knight", "year": 1500 }
+    ],
+    "story": "Old English cniht was a boy or a servant, and German Knecht still means a farmhand. Serving their lords in war, the boys rose into armoured nobility, while knave (cnafa, 'boy') sank to mean a rogue. Both k's were once pronounced.",
+    "usage": [[800, 40], [1300, 80], [1500, 100], [1800, 60], [1900, 55], [2020, 45]],
+    "tags": ["people", "war", "meaning-shift"], "related": ["knave"]
+  },
+  {
+    "id": "world", "word": "world", "pos": "noun", "gloss": "the earth and all the people and things on it",
+    "origin": "ang", "first": 800, "root": "wihro-man", "featured": true,
+    "path": [
+      { "lang": "ine-pro", "form": "*wiHrós", "meaning": "man", "year": -4000 },
+      { "lang": "gem-pro", "form": "*weraldiz", "meaning": "age of man, lifetime", "year": -500 },
+      { "lang": "ang", "form": "weorold", "meaning": "human existence, the world of men", "year": 800 },
+      { "lang": "enm", "form": "world", "year": 1200 },
+      { "lang": "en", "form": "world", "year": 1500 }
+    ],
+    "story": "Literally 'the age of man': wer, 'man' (as in werewolf), joined to eald, 'age'. It first meant human life on earth, this world as opposed to the next, before it grew to mean the planet and everything on it.",
+    "usage": [[800, 60], [1200, 70], [1500, 80], [1800, 85], [1900, 90], [2020, 100]],
+    "tags": ["people", "core"], "related": ["werewolf", "virile", "virtue", "old"]
+  },
+  {
+    "id": "good", "word": "good", "pos": "adjective", "gloss": "having the right qualities; pleasing, kind",
+    "origin": "ang", "first": 700,
+    "path": [
+      { "lang": "ine-pro", "form": "*gʰedʰ-", "meaning": "to unite, to fit together", "year": -4000 },
+      { "lang": "gem-pro", "form": "*gōdaz", "meaning": "suitable, fitting", "year": -500 },
+      { "lang": "ang", "form": "gōd", "year": 700 },
+      { "lang": "enm", "form": "good", "year": 1200 },
+      { "lang": "en", "form": "good", "year": 1500 }
+    ],
+    "story": "Probably 'fitting' at root, related to gather and together. It has nothing to do with God, despite a thousand years of sermon puns. Goodbye is a different story: it really is 'God be with ye', reshaped to match good day and good night.",
+    "usage": [[700, 85], [1200, 88], [1500, 92], [1800, 100], [1900, 95], [2020, 90]],
+    "tags": ["core"], "related": ["goodbye", "god", "gospel", "gather"]
+  },
+  {
+    "id": "god", "word": "God", "pos": "noun", "gloss": "the creator and ruler of the universe; a deity",
+    "origin": "ang", "first": 700,
+    "path": [
+      { "lang": "ine-pro", "form": "*ǵʰutóm", "meaning": "that which is invoked (or poured to)", "year": -4000 },
+      { "lang": "gem-pro", "form": "*gudą", "year": -500 },
+      { "lang": "ang", "form": "god", "year": 700 },
+      { "lang": "enm", "form": "god", "year": 1200 },
+      { "lang": "en", "form": "God", "year": 1500 }
+    ],
+    "story": "Probably 'the one invoked' or 'the one poured to', though scholars still argue over which PIE root lies beneath. In pagan times the Germanic word was neuter, used for the many gods; the Christian mission made it masculine, singular and capitalised.",
+    "usage": [[700, 90], [1200, 95], [1600, 100], [1800, 90], [1900, 75], [2020, 55]],
+    "tags": ["religion"], "related": ["good", "gospel"]
+  },
+  {
+    "id": "word", "word": "word", "pos": "noun", "gloss": "a single unit of language with a meaning",
+    "origin": "ang", "first": 700, "root": "werdh-word",
+    "path": [
+      { "lang": "ine-pro", "form": "*werdʰh₁om", "year": -4000 },
+      { "lang": "gem-pro", "form": "*wurdą", "year": -500 },
+      { "lang": "ang", "form": "word", "meaning": "word; speech, news, command", "year": 700 },
+      { "lang": "enm", "form": "word", "year": 1200 },
+      { "lang": "en", "form": "word", "year": 1500 }
+    ],
+    "story": "Latin verbum is the same word, which gave verb, verbose and proverb. In Old English word could also mean news or a command, senses still alive in 'send word' and 'his word is law'.",
+    "usage": [[700, 80], [1200, 82], [1500, 88], [1800, 100], [1900, 95], [2020, 92]],
+    "tags": ["core"], "related": ["verb", "proverb", "verbose"]
+  },
+  {
+    "id": "write", "word": "write", "pos": "verb", "gloss": "to mark letters or words on a surface",
+    "origin": "ang", "first": 700,
+    "path": [
+      { "lang": "gem-pro", "form": "*wrītaną", "meaning": "to scratch, to carve", "year": -500 },
+      { "lang": "ang", "form": "wrītan", "meaning": "to score, to engrave; to write", "year": 700 },
+      { "lang": "enm", "form": "writen", "year": 1200 },
+      { "lang": "en", "form": "write", "year": 1500 }
+    ],
+    "story": "Writing began as scratching: wrītan meant to score or carve, the way runes were cut into wood, bone and stone. Its German cousin reißen means 'to tear', and the w of write was pronounced until about 1600.",
+    "usage": [[700, 55], [1200, 60], [1500, 70], [1800, 85], [1900, 90], [2020, 100]],
+    "tags": ["core"], "related": ["read", "rune"]
+  },
+  {
+    "id": "read", "word": "read", "pos": "verb", "gloss": "to look at written words and understand them",
+    "origin": "ang", "first": 700, "root": "reh-reason",
+    "path": [
+      { "lang": "ine-pro", "form": "*reh₁-", "meaning": "to reason, to count", "year": -4000 },
+      { "lang": "gem-pro", "form": "*rēdaną", "meaning": "to advise, to interpret", "year": -500 },
+      { "lang": "ang", "form": "rǣdan", "meaning": "to advise; to interpret; to read", "year": 700 },
+      { "lang": "enm", "form": "reden", "year": 1200 },
+      { "lang": "en", "form": "read", "year": 1500 }
+    ],
+    "story": "Before it meant reading, rǣdan meant to advise or to work something out, and a riddle (rǣdels) is something to be read. King Æthelred the Unready was really 'Unrǣd', 'ill-advised', a cruel pun on his name, which means 'noble counsel'.",
+    "usage": [[700, 55], [1200, 60], [1500, 70], [1800, 85], [1900, 92], [2020, 100]],
+    "tags": ["core"], "related": ["riddle", "reason", "ratio", "write"]
+  },
+  {
+    "id": "sing", "word": "sing", "pos": "verb", "gloss": "to make musical sounds with the voice",
+    "origin": "ang", "first": 700,
+    "path": [
+      { "lang": "ine-pro", "form": "*sengʷʰ-", "meaning": "to sing, to chant", "year": -4000 },
+      { "lang": "gem-pro", "form": "*singwaną", "year": -500 },
+      { "lang": "ang", "form": "singan", "year": 700 },
+      { "lang": "enm", "form": "singen", "year": 1200 },
+      { "lang": "en", "form": "sing", "year": 1500 }
+    ],
+    "story": "Sing, sang, sung is the same vowel dance it did 1,300 years ago (singan, sang, sungon), inherited from PIE. Its noun, song, is the same root in yet another vowel.",
+    "usage": [[700, 65], [1200, 68], [1500, 75], [1800, 90], [1900, 95], [2020, 100]],
+    "tags": ["music", "core"], "related": ["song"]
+  },
+  {
+    "id": "meat", "word": "meat", "pos": "noun", "gloss": "the flesh of animals eaten as food",
+    "origin": "ang", "first": 700,
+    "path": [
+      { "lang": "gem-pro", "form": "*matiz", "meaning": "food", "year": -500 },
+      { "lang": "ang", "form": "mete", "meaning": "food of any kind", "year": 700 },
+      { "lang": "enm", "form": "mete", "meaning": "food; flesh", "year": 1300 },
+      { "lang": "en", "form": "meat", "meaning": "animal flesh", "year": 1500 }
+    ],
+    "story": "In Old English mete meant any food, as in 'meat and drink'. The narrow sense 'animal flesh' only won out after the Middle Ages, leaving fossils like sweetmeat, a sweet, and mincemeat, which often contains no meat at all.",
+    "usage": [[700, 70], [1200, 75], [1500, 80], [1800, 85], [1900, 90], [2020, 100]],
+    "tags": ["food", "meaning-shift"], "related": ["deer", "starve"]
+  },
+  {
+    "id": "starve", "word": "starve", "pos": "verb", "gloss": "to suffer or die from lack of food",
+    "origin": "ang", "first": 900,
+    "path": [
+      { "lang": "gem-pro", "form": "*sterbaną", "meaning": "to die", "year": -500 },
+      { "lang": "ang", "form": "steorfan", "meaning": "to die", "year": 900 },
+      { "lang": "enm", "form": "sterven", "meaning": "to die (often of hunger or cold)", "year": 1200 },
+      { "lang": "en", "form": "starve", "meaning": "to suffer from hunger", "year": 1580 }
+    ],
+    "story": "To starve once meant simply to die, by any means, and German sterben still does. Middle English began to say 'starve of hunger' or 'of cold' (in northern England you can still be 'starved' with cold), until hunger won.",
+    "usage": [[900, 50], [1200, 60], [1500, 70], [1800, 100], [1900, 85], [2020, 70]],
+    "tags": ["meaning-shift", "food"], "related": ["die", "meat"]
+  },
+  {
+    "id": "daisy", "word": "daisy", "pos": "noun", "gloss": "a small flower with white petals and a yellow centre",
+    "origin": "ang", "first": 1000,
+    "path": [
+      { "lang": "ang", "form": "dæġes ēage", "meaning": "day's eye", "year": 1000 },
+      { "lang": "enm", "form": "dayesye", "year": 1300 },
+      { "lang": "en", "form": "daisy", "year": 1500 }
+    ],
+    "story": "The 'day's eye': the flower opens at dawn and closes at dusk, like an eye waking and sleeping. Chaucer spelled it out around 1386: men may call it 'the dayesye, or elles the ye of day'.",
+    "usage": [[1000, 20], [1300, 35], [1600, 45], [1800, 60], [1900, 100], [2020, 80]],
+    "tags": ["nature"], "related": ["day"]
+  },
+  {
+    "id": "bonfire", "word": "bonfire", "pos": "noun", "gloss": "a large open-air fire, often for a celebration",
+    "origin": "enm", "first": 1483, "root": "pehwr-fire",
+    "path": [
+      { "lang": "ang", "form": "bān + fȳr", "meaning": "bone + fire", "year": 900 },
+      { "lang": "enm", "form": "banefyre", "meaning": "a fire of bones", "year": 1483 },
+      { "lang": "en", "form": "bonfire", "year": 1550 }
+    ],
+    "story": "Not a French 'good fire' but literally a bone fire. A 1483 English–Latin word list glosses banefyre as ignis ossium, 'a fire of bones', the kind burned at midsummer festivals.",
+    "usage": [[1483, 20], [1600, 50], [1700, 60], [1800, 75], [1900, 85], [2020, 100]],
+    "tags": ["home"], "related": ["fire"]
+  },
+  {
+    "id": "gospel", "word": "gospel", "pos": "noun", "gloss": "the teaching of Christ; something accepted as true",
+    "origin": "ang", "first": 900,
+    "path": [
+      { "lang": "grc-koi", "form": "εὐαγγέλιον (euangélion)", "meaning": "good news", "year": 50 },
+      { "lang": "ang", "form": "gōdspel", "meaning": "good news", "year": 900 },
+      { "lang": "enm", "form": "gospel", "year": 1200 },
+      { "lang": "en", "form": "gospel", "year": 1500 }
+    ],
+    "story": "A word-for-word translation of Greek euangélion, 'good news': gōd + spel, 'story, message' (the spell of a magic spell). When the vowel shortened, people heard it as God-spel, 'God's story', and missionaries carried that version to Germany and Scandinavia.",
+    "usage": [[900, 70], [1200, 80], [1600, 100], [1800, 75], [1900, 60], [2020, 45]],
+    "tags": ["religion"], "related": ["good", "god", "spell"]
+  },
+  {
+    "id": "sunday", "word": "Sunday", "pos": "noun", "gloss": "the day of the week before Monday",
+    "origin": "ang", "first": 900, "root": "sehwl-sun",
+    "path": [
+      { "lang": "la", "form": "diēs Sōlis", "meaning": "day of the Sun", "year": 200 },
+      { "lang": "ang", "form": "sunnandæġ", "year": 900 },
+      { "lang": "enm", "form": "sonenday", "year": 1200 },
+      { "lang": "en", "form": "Sunday", "year": 1500 }
+    ],
+    "story": "Germanic peoples copied the Roman week of planetary gods and translated its names. Christian Rome later renamed this one 'the Lord's day' (Spanish domingo, French dimanche), but English kept the sun.",
+    "usage": [[900, 60], [1200, 65], [1600, 80], [1800, 90], [1900, 100], [2020, 85]],
+    "tags": ["days", "time"], "related": ["sun", "monday", "saturday"]
+  },
+  {
+    "id": "monday", "word": "Monday", "pos": "noun", "gloss": "the day of the week after Sunday",
+    "origin": "ang", "first": 900, "root": "me-measure",
+    "path": [
+      { "lang": "la", "form": "diēs Lūnae", "meaning": "day of the Moon", "year": 200 },
+      { "lang": "ang", "form": "mōnandæġ", "year": 900 },
+      { "lang": "enm", "form": "monenday", "year": 1200 },
+      { "lang": "en", "form": "Monday", "year": 1500 }
+    ],
+    "story": "The moon's day, a straight translation of Latin diēs Lūnae, which you can still see in French lundi and Spanish lunes.",
+    "usage": [[900, 50], [1200, 55], [1600, 65], [1800, 80], [1900, 90], [2020, 100]],
+    "tags": ["days", "time"], "related": ["moon", "sunday", "tuesday"]
+  },
+  {
+    "id": "tuesday", "word": "Tuesday", "pos": "noun", "gloss": "the day of the week after Monday",
+    "origin": "ang", "first": 900, "root": "dyew-sky",
+    "path": [
+      { "lang": "ine-pro", "form": "*deywós", "meaning": "god", "year": -4000 },
+      { "lang": "gem-pro", "form": "*Tīwaz", "meaning": "a sky-god, later god of war", "year": -500 },
+      { "lang": "ang", "form": "Tīwesdæġ", "year": 900 },
+      { "lang": "enm", "form": "Tewesday", "year": 1200 },
+      { "lang": "en", "form": "Tuesday", "year": 1500 }
+    ],
+    "story": "The day of Tīw (Norse Týr), the one-handed god of war and law, chosen to stand in for Mars (Latin diēs Martis, French mardi). His name comes from PIE *deywós, 'god', the same word as Latin deus and kin to Zeus.",
+    "usage": [[900, 50], [1200, 55], [1600, 65], [1800, 80], [1900, 90], [2020, 100]],
+    "tags": ["days", "time", "religion"], "related": ["wednesday", "zeus", "divine"]
+  },
+  {
+    "id": "wednesday", "word": "Wednesday", "pos": "noun", "gloss": "the day of the week after Tuesday",
+    "origin": "ang", "first": 900,
+    "path": [
+      { "lang": "gem-pro", "form": "*Wōdanaz", "meaning": "the frenzied one", "year": -500 },
+      { "lang": "ang", "form": "Wōdnesdæġ", "meaning": "Woden's day", "year": 900 },
+      { "lang": "enm", "form": "Wednesday", "year": 1200 },
+      { "lang": "en", "form": "Wednesday", "year": 1500 }
+    ],
+    "story": "Woden's day: the Old English name of Odin, chief of the gods, matched with Mercury (Latin diēs Mercuriī, French mercredi). His name is related to Old English wōd, 'frenzied, inspired', and the spelling still keeps a d we stopped saying centuries ago.",
+    "usage": [[900, 50], [1200, 55], [1600, 65], [1800, 80], [1900, 90], [2020, 100]],
+    "tags": ["days", "time", "religion"], "related": ["thursday", "wood", "tuesday"]
+  },
+  {
+    "id": "thursday", "word": "Thursday", "pos": "noun", "gloss": "the day of the week after Wednesday",
+    "origin": "ang", "first": 900,
+    "path": [
+      { "lang": "la", "form": "diēs Iovis", "meaning": "day of Jupiter", "year": 200 },
+      { "lang": "ang", "form": "Þunresdæġ", "meaning": "Thunor's (thunder's) day", "year": 900 },
+      { "lang": "non", "form": "Þórsdagr", "meaning": "Thor's day", "year": 950, "note": "the Norse form reshaped the English word" },
+      { "lang": "enm", "form": "Thoresday", "year": 1200 },
+      { "lang": "en", "form": "Thursday", "year": 1500 }
+    ],
+    "story": "Thunder's day: Old English Þunresdæġ honoured Þunor, the thunder-god, matched with the Roman sky-god Jupiter (French jeudi). The modern shape owes a debt to the Vikings' Þórsdagr, since Thor and thunder are the same word.",
+    "usage": [[900, 50], [1200, 55], [1600, 65], [1800, 80], [1900, 90], [2020, 100]],
+    "tags": ["days", "time", "religion", "vikings"], "related": ["thunder", "wednesday", "friday"]
+  },
+  {
+    "id": "friday", "word": "Friday", "pos": "noun", "gloss": "the day of the week after Thursday",
+    "origin": "ang", "first": 900, "root": "preyh-dear",
+    "path": [
+      { "lang": "gem-pro", "form": "*Frijjō", "meaning": "the beloved (a goddess)", "year": -500 },
+      { "lang": "ang", "form": "Frīġedæġ", "meaning": "Frigg's day", "year": 900 },
+      { "lang": "enm", "form": "Fridai", "year": 1200 },
+      { "lang": "en", "form": "Friday", "year": 1500 }
+    ],
+    "story": "The day of Frigg, Odin's wife, chosen to translate diēs Veneris, the day of Venus (French vendredi). Her name means 'beloved', from the same root as friend and free.",
+    "usage": [[900, 50], [1200, 55], [1600, 65], [1800, 80], [1900, 90], [2020, 100]],
+    "tags": ["days", "time", "religion"], "related": ["friend", "free", "thursday"]
+  },
+  {
+    "id": "saturday", "word": "Saturday", "pos": "noun", "gloss": "the day of the week after Friday",
+    "origin": "ang", "first": 900,
+    "path": [
+      { "lang": "la", "form": "diēs Sāturnī", "meaning": "day of Saturn", "year": 200 },
+      { "lang": "ang", "form": "Sæternesdæġ", "year": 900 },
+      { "lang": "enm", "form": "Saterday", "year": 1200 },
+      { "lang": "en", "form": "Saturday", "year": 1500 }
+    ],
+    "story": "The only day the Anglo-Saxons didn't translate: they simply kept the Roman god Saturn. In most Romance languages the Sabbath took over instead (Spanish sábado, Italian sabato).",
+    "usage": [[900, 50], [1200, 55], [1600, 65], [1800, 80], [1900, 90], [2020, 100]],
+    "tags": ["days", "time"], "related": ["sunday", "sabbath"]
+  },
+  {
+    "id": "silly", "word": "silly", "pos": "adjective", "gloss": "foolish, lacking good sense",
+    "origin": "ang", "first": 900,
+    "path": [
+      { "lang": "gem-pro", "form": "*sēligaz", "meaning": "blessed, happy", "year": -500 },
+      { "lang": "ang", "form": "sǣliġ", "meaning": "happy, blessed, lucky", "year": 900 },
+      { "lang": "enm", "form": "seli, sely", "meaning": "innocent; pitiable", "year": 1300 },
+      { "lang": "en", "form": "silly", "meaning": "feeble; foolish", "year": 1570 }
+    ],
+    "story": "Few words have fallen so far: Old English sǣliġ meant happy and blessed, as German selig still does. It slid to innocent, then to pitiable, then to feeble-minded, and by Shakespeare's day silly meant foolish.",
+    "usage": [[900, 30], [1300, 40], [1600, 55], [1800, 60], [1900, 75], [2020, 100]],
+    "tags": ["meaning-shift", "feelings"], "related": ["nice", "naughty"]
+  },
+  {
+    "id": "hussy", "word": "hussy", "pos": "noun", "gloss": "an impudent or immoral girl or woman (dated, insulting)",
+    "origin": "en", "first": 1530,
+    "path": [
+      { "lang": "ang", "form": "hūs + wīf", "meaning": "house + woman", "year": 900 },
+      { "lang": "enm", "form": "huswif", "meaning": "housewife", "year": 1225 },
+      { "lang": "en", "form": "hussy", "meaning": "mistress of a household", "year": 1530 },
+      { "lang": "en", "form": "hussy", "meaning": "a pert or shameless girl", "year": 1650 }
+    ],
+    "story": "A worn-down housewife: huswif was clipped to hussif and hussy. At first it was a neutral word for the woman running a household; by the mid-1600s it had come to mean a brazen girl, and the full form housewife was left for the respectable.",
+    "usage": [[1530, 30], [1650, 70], [1800, 100], [1900, 70], [2020, 30]],
+    "tags": ["people", "meaning-shift"], "related": ["house", "woman"]
+  },
+  {
+    "id": "werewolf", "word": "werewolf", "pos": "noun", "gloss": "in folklore, a person who turns into a wolf",
+    "origin": "ang", "first": 1020, "root": "wihro-man",
+    "path": [
+      { "lang": "ine-pro", "form": "*wiHrós", "meaning": "man", "year": -4000 },
+      { "lang": "ang", "form": "werwulf", "meaning": "man-wolf", "year": 1020 },
+      { "lang": "enm", "form": "werwolf", "year": 1300 },
+      { "lang": "en", "form": "werewolf", "year": 1500 }
+    ],
+    "story": "Literally 'man-wolf'. Wer, the Old English word for a man, has almost vanished, surviving only here and in world, 'the age of man'. Its first appearance is in the laws of King Cnut, which call the Devil a ravening werewulf preying on Christian souls.",
+    "usage": [[1020, 20], [1300, 30], [1600, 25], [1800, 30], [1900, 50], [2020, 100]],
+    "tags": ["animals", "religion"], "related": ["world", "wolf", "virile"]
+  },
+  {
+    "id": "nightmare", "word": "nightmare", "pos": "noun", "gloss": "a frightening dream; a terrible experience",
+    "origin": "enm", "first": 1300, "root": "nekwt-night",
+    "path": [
+      { "lang": "ang", "form": "niht + mære", "meaning": "night + goblin", "year": 900 },
+      { "lang": "enm", "form": "nihtmare", "meaning": "a spirit that sits on sleepers", "year": 1300 },
+      { "lang": "en", "form": "nightmare", "meaning": "a bad dream", "year": 1829 }
+    ],
+    "story": "The mare in nightmare isn't a horse: Old English mære was a goblin believed to sit on sleepers' chests and smother them. Only in the 1800s did nightmare come to mean any frightening dream.",
+    "usage": [[1300, 10], [1600, 20], [1800, 35], [1900, 60], [2000, 100], [2020, 98]],
+    "tags": ["meaning-shift", "feelings"], "related": ["night"]
+  },
+  {
+    "id": "gossip", "word": "gossip", "pos": "noun", "gloss": "casual talk about other people's private lives",
+    "origin": "ang", "first": 1000,
+    "path": [
+      { "lang": "ang", "form": "godsibb", "meaning": "godparent ('related in God')", "year": 1000 },
+      { "lang": "enm", "form": "godsib, gossib", "meaning": "close friend", "year": 1300 },
+      { "lang": "en", "form": "gossip", "meaning": "an idle talker", "year": 1560 },
+      { "lang": "en", "form": "gossip", "meaning": "idle talk", "year": 1811 }
+    ],
+    "story": "A gossip was a godparent, godsibb, 'related in God' (sib as in sibling). Godparents were close friends, especially the women who came to keep a new mother company at a birth, and their chatter turned the word into idle talk.",
+    "usage": [[1000, 10], [1300, 20], [1600, 40], [1800, 50], [1900, 60], [2020, 100]],
+    "tags": ["people", "meaning-shift", "religion"], "related": ["sibling", "god"]
+  },
+  {
+    "id": "bead", "word": "bead", "pos": "noun", "gloss": "a small ball with a hole, threaded on a string",
+    "origin": "ang", "first": 900,
+    "path": [
+      { "lang": "gem-pro", "form": "*bidą", "meaning": "prayer, request", "year": -500 },
+      { "lang": "ang", "form": "ġebed", "meaning": "prayer", "year": 900 },
+      { "lang": "enm", "form": "bede", "meaning": "prayer; prayer-bead", "year": 1300 },
+      { "lang": "en", "form": "bead", "meaning": "small ball", "year": 1500 }
+    ],
+    "story": "A bead was a prayer. Counting prayers on a rosary was 'telling your beads', and the word slid from the prayer to the little ball that kept count. Its cousin is bid, from Old English biddan, 'to ask, to pray'.",
+    "usage": [[900, 30], [1300, 50], [1600, 60], [1800, 70], [1900, 85], [2020, 100]],
+    "tags": ["religion", "meaning-shift"], "related": ["bid"]
+  },
+  {
+    "id": "clue", "word": "clue", "pos": "noun", "gloss": "a piece of evidence that helps solve a problem or mystery",
+    "origin": "ang", "first": 900,
+    "path": [
+      { "lang": "ang", "form": "cliewen", "meaning": "ball of thread or yarn", "year": 900 },
+      { "lang": "enm", "form": "clewe", "meaning": "ball of thread", "year": 1300 },
+      { "lang": "en", "form": "clue", "meaning": "guiding thread", "year": 1590 },
+      { "lang": "en", "form": "clue", "meaning": "hint that solves a puzzle", "year": 1620 }
+    ],
+    "story": "A clue was a ball of yarn. In the Greek myth, Theseus found his way out of the Minotaur's labyrinth by unwinding Ariadne's thread behind him, so a clew came to mean whatever guides you through a puzzle. Detective stories did the rest.",
+    "usage": [[900, 5], [1300, 10], [1600, 15], [1800, 30], [1900, 55], [2020, 100]],
+    "tags": ["meaning-shift"]
+  },
+  {
+    "id": "doom", "word": "doom", "pos": "noun", "gloss": "death, ruin or another terrible fate",
+    "origin": "ang", "first": 700, "root": "dhe-put",
+    "path": [
+      { "lang": "ine-pro", "form": "*dʰeh₁-", "meaning": "to set, to put", "year": -4000 },
+      { "lang": "gem-pro", "form": "*dōmaz", "meaning": "judgement", "year": -500 },
+      { "lang": "ang", "form": "dōm", "meaning": "judgement, law, decree", "year": 700 },
+      { "lang": "enm", "form": "dom, doom", "meaning": "judgement; the Last Judgement", "year": 1200 },
+      { "lang": "en", "form": "doom", "meaning": "fate, ruin", "year": 1600 }
+    ],
+    "story": "Doom was a judgement or law, something 'set down'. The Domesday Book of 1086 got its name because its verdicts were as final as Doomsday, the Last Judgement. The old word also hides in -dom: kingdom, freedom, wisdom.",
+    "usage": [[700, 70], [1200, 80], [1500, 60], [1800, 50], [1900, 55], [2020, 100]],
+    "tags": ["law", "meaning-shift"], "related": ["deem", "deed", "do"]
+  },
+  {
+    "id": "weird", "word": "weird", "pos": "adjective", "gloss": "strange, unusual, uncanny",
+    "origin": "ang", "first": 800, "root": "wert-turn",
+    "path": [
+      { "lang": "ine-pro", "form": "*wert-", "meaning": "to turn", "year": -4000 },
+      { "lang": "gem-pro", "form": "*wurþiz", "meaning": "fate", "year": -500 },
+      { "lang": "ang", "form": "wyrd", "meaning": "fate, destiny", "year": 800 },
+      { "lang": "enm", "form": "werd, wird", "meaning": "fate", "year": 1300 },
+      { "lang": "en", "form": "weird", "meaning": "having power over fate (Macbeth's weird sisters)", "year": 1606 },
+      { "lang": "en", "form": "weird", "meaning": "odd, strange", "year": 1815 }
+    ],
+    "story": "Wyrd was fate, literally 'what turns out'. Shakespeare's weird sisters in Macbeth were the sisters of fate, and from them, by the early 1800s, weird drifted to 'uncanny' and then to merely 'odd'.",
+    "usage": [[800, 25], [1300, 15], [1606, 10], [1800, 15], [1900, 30], [2020, 100]],
+    "tags": ["meaning-shift"], "related": ["worth"]
+  },
+  {
+    "id": "nickname", "word": "nickname", "pos": "noun", "gloss": "an informal extra name for a person or thing",
+    "origin": "enm", "first": 1303, "root": "hewg-increase", "featured": true,
+    "path": [
+      { "lang": "ine-pro", "form": "*h₂ewg-", "meaning": "to increase", "year": -4000 },
+      { "lang": "ang", "form": "ēaca + nama", "meaning": "addition + name", "year": 1000 },
+      { "lang": "enm", "form": "ekename", "meaning": "an extra name", "year": 1303 },
+      { "lang": "enm", "form": "a nekename", "year": 1440 },
+      { "lang": "en", "form": "nickname", "year": 1500 }
+    ],
+    "story": "An 'eke-name', an extra name, from eke, 'to add'. Said aloud, 'an ekename' was heard as 'a nekename'. The same slip in reverse turned 'a napron' into 'an apron' and 'a nadder' into 'an adder'.",
+    "usage": [[1303, 10], [1500, 25], [1700, 40], [1900, 70], [2020, 100]],
+    "tags": ["people"], "related": ["name", "apron", "adder", "auction"]
+  },
+  {
+    "id": "bridegroom", "word": "bridegroom", "pos": "noun", "gloss": "a man on his wedding day",
+    "origin": "ang", "first": 900, "root": "dhghem-earth",
+    "path": [
+      { "lang": "ine-pro", "form": "*dʰǵʰmṓ", "meaning": "earthling, human", "year": -4000 },
+      { "lang": "gem-pro", "form": "*gumô", "meaning": "man", "year": -500 },
+      { "lang": "ang", "form": "brȳdguma", "meaning": "bride-man", "year": 900 },
+      { "lang": "enm", "form": "bridegome", "year": 1300 },
+      { "lang": "en", "form": "bridegroom", "year": 1530 }
+    ],
+    "story": "No grooming involved. Old English guma meant 'man', from the same 'earthling' root as Latin homo and human. When guma died out, people reshaped bridegome to match groom, a serving lad, in the 1500s.",
+    "usage": [[900, 40], [1300, 55], [1600, 100], [1800, 70], [1900, 45], [2020, 25]],
+    "tags": ["people", "family"], "related": ["human", "humble", "groom"]
+  },
+  {
+    "id": "bless", "word": "bless", "pos": "verb", "gloss": "to make holy; to ask God's favour for",
+    "origin": "ang", "first": 900,
+    "path": [
+      { "lang": "gem-pro", "form": "*blōþą", "meaning": "blood", "year": -500 },
+      { "lang": "ang", "form": "blētsian", "meaning": "to consecrate (perhaps 'mark with blood')", "year": 900 },
+      { "lang": "enm", "form": "blessen", "year": 1200 },
+      { "lang": "en", "form": "bless", "year": 1500 }
+    ],
+    "story": "Probably first 'to mark with blood': Old English blētsian is built on blōd, recalling pagan sacrifice. Christian translators used it for Latin benedīcere, and the look-alike (but unrelated) bliss helped sweeten its meaning.",
+    "usage": [[900, 70], [1200, 80], [1600, 100], [1800, 85], [1900, 70], [2020, 60]],
+    "tags": ["religion"], "related": ["blood", "bliss"]
+  },
+  {
+    "id": "easter", "word": "Easter", "pos": "noun", "gloss": "the Christian festival celebrating the resurrection of Christ",
+    "origin": "ang", "first": 900, "root": "hews-dawn",
+    "path": [
+      { "lang": "ine-pro", "form": "*h₂ews-", "meaning": "dawn", "year": -4000 },
+      { "lang": "gem-pro", "form": "*austrǭ", "meaning": "dawn; a spring festival", "year": -500 },
+      { "lang": "ang", "form": "Ēastre", "year": 900 },
+      { "lang": "enm", "form": "Ester", "year": 1200 },
+      { "lang": "en", "form": "Easter", "year": 1500 }
+    ],
+    "story": "The monk Bede wrote in 725 that April was called Ēosturmōnaþ, after a goddess Ēostre whose festival the Christian feast replaced. She is known only from Bede, but her name shares the ancient root for dawn with east and Latin aurōra. Most other European languages took their word from Hebrew Pesach, Passover (French Pâques).",
+    "usage": [[900, 50], [1200, 60], [1600, 75], [1800, 80], [1900, 100], [2020, 85]],
+    "tags": ["religion", "time"], "related": ["east", "aurora"]
+  },
+  {
+    "id": "hell", "word": "hell", "pos": "noun", "gloss": "the place of punishment for the wicked after death",
+    "origin": "ang", "first": 700, "root": "kel-cover",
+    "path": [
+      { "lang": "ine-pro", "form": "*ḱel-", "meaning": "to cover, to hide", "year": -4000 },
+      { "lang": "gem-pro", "form": "*haljō", "meaning": "the underworld, the hidden place", "year": -500 },
+      { "lang": "ang", "form": "hel", "year": 700 },
+      { "lang": "enm", "form": "helle", "year": 1200 },
+      { "lang": "en", "form": "hell", "year": 1500 }
+    ],
+    "story": "Hell is 'the hidden place', from the root that also gave hall, hole and helmet, and via Latin cell and conceal. In Norse myth Hel was both the underworld and the grim goddess who ruled it.",
+    "usage": [[700, 70], [1200, 80], [1600, 90], [1800, 75], [1900, 80], [2020, 100]],
+    "tags": ["religion"], "related": ["hall", "helmet", "conceal", "cell"]
+  },
+  {
+    "id": "orchard", "word": "orchard", "pos": "noun", "gloss": "a piece of land planted with fruit trees",
+    "origin": "ang", "first": 900, "root": "gher-enclose",
+    "path": [
+      { "lang": "ine-pro", "form": "*gʰer-", "meaning": "to grasp, to enclose", "year": -4000 },
+      { "lang": "la", "form": "hortus", "meaning": "garden", "year": -200 },
+      { "lang": "ang", "form": "ortġeard", "meaning": "garden-yard", "year": 900 },
+      { "lang": "enm", "form": "orchard", "year": 1300 },
+      { "lang": "en", "form": "orchard", "year": 1500 }
+    ],
+    "story": "The second half is Old English ġeard, 'yard'; the first is probably Latin hortus, 'garden'. If so, orchard says 'enclosure' twice, once in Latin and once in English, and the two halves are themselves distant cousins.",
+    "usage": [[900, 40], [1300, 50], [1600, 70], [1800, 90], [1900, 100], [2020, 70]],
+    "tags": ["nature", "food"], "related": ["garden", "yard", "horticulture"]
+  },
+  {
+    "id": "tide", "word": "tide", "pos": "noun", "gloss": "the regular rise and fall of the sea",
+    "origin": "ang", "first": 800,
+    "path": [
+      { "lang": "gem-pro", "form": "*tīdiz", "meaning": "time", "year": -500 },
+      { "lang": "ang", "form": "tīd", "meaning": "time, season, hour", "year": 800 },
+      { "lang": "enm", "form": "tide", "meaning": "time; rise and fall of the sea", "year": 1350 },
+      { "lang": "en", "form": "tide", "year": 1500 }
+    ],
+    "story": "Tide meant time: Christmastide, Eastertide and eventide still use it, and German Zeit is its cousin. The sea sense arrived in the 1300s, from the set times of high and low water, so 'time and tide wait for no man' may first have said the same thing twice.",
+    "usage": [[800, 70], [1200, 75], [1500, 80], [1800, 90], [1900, 100], [2020, 75]],
+    "tags": ["time", "sea", "meaning-shift"], "related": ["zeitgeist", "time"]
+  },
+  {
+    "id": "two", "word": "two", "pos": "numeral", "gloss": "the number 2",
+    "origin": "ang", "first": 700, "root": "dwoh-two",
+    "path": [
+      { "lang": "ine-pro", "form": "*dwóh₁", "year": -4000 },
+      { "lang": "gem-pro", "form": "*twai", "year": -500 },
+      { "lang": "ang", "form": "twā", "year": 700 },
+      { "lang": "enm", "form": "two", "year": 1200 },
+      { "lang": "en", "form": "two", "year": 1500 }
+    ],
+    "story": "The w in two was pronounced in Old English twā, and you still hear it in its relatives twin, twice, twelve, between and twilight, the 'half-light'. Latin duo gave dual, double and dozen; Greek gave diploma, a document folded in two.",
+    "usage": [[700, 85], [1200, 88], [1500, 90], [1800, 95], [1900, 100], [2020, 95]],
+    "tags": ["numbers", "core"], "related": ["twelve", "twin", "dual", "double", "dozen", "diploma"]
+  },
+  {
+    "id": "three", "word": "three", "pos": "numeral", "gloss": "the number 3",
+    "origin": "ang", "first": 700, "root": "tre-three",
+    "path": [
+      { "lang": "ine-pro", "form": "*tréyes", "year": -4000 },
+      { "lang": "gem-pro", "form": "*þrīz", "year": -500 },
+      { "lang": "ang", "form": "þrēo", "year": 700 },
+      { "lang": "enm", "form": "thre", "year": 1200 },
+      { "lang": "en", "form": "three", "year": 1500 }
+    ],
+    "story": "Latin trēs, Greek treîs, Sanskrit tráyas, Old English þrēo: Grimm's Law turned the t into th. Its English children include thrice and third (once thridde, until the r and i swapped); Latin gave trio, trinity and trivial, from trivium, the place where three roads meet.",
+    "usage": [[700, 85], [1200, 88], [1500, 90], [1800, 95], [1900, 100], [2020, 92]],
+    "tags": ["numbers", "core"], "related": ["trio", "trinity", "trivial", "third"]
+  },
+  {
+    "id": "eleven", "word": "eleven", "pos": "numeral", "gloss": "the number 11",
+    "origin": "ang", "first": 900,
+    "path": [
+      { "lang": "gem-pro", "form": "*ainalif", "meaning": "one left over", "year": -500 },
+      { "lang": "ang", "form": "endleofan", "year": 900 },
+      { "lang": "enm", "form": "elleven", "year": 1200 },
+      { "lang": "en", "form": "eleven", "year": 1500 }
+    ],
+    "story": "Eleven means 'one left over', after you have counted ten on your fingers. Germanic *ainalif joined 'one' to *-lif, from the root of leave; twelve is 'two left over'.",
+    "usage": [[900, 60], [1200, 65], [1500, 72], [1800, 85], [1900, 100], [2020, 90]],
+    "tags": ["numbers"], "related": ["twelve", "leave"]
+  },
+  {
+    "id": "twelve", "word": "twelve", "pos": "numeral", "gloss": "the number 12",
+    "origin": "ang", "first": 900, "root": "dwoh-two",
+    "path": [
+      { "lang": "ine-pro", "form": "*dwóh₁", "meaning": "two", "year": -4000 },
+      { "lang": "gem-pro", "form": "*twalif", "meaning": "two left over", "year": -500 },
+      { "lang": "ang", "form": "twelf", "year": 900 },
+      { "lang": "enm", "form": "twelve", "year": 1200 },
+      { "lang": "en", "form": "twelve", "year": 1500 }
+    ],
+    "story": "'Two left over' once ten fingers are used up. That is why English and German have special words for 11 and 12 and only start the -teen pattern at 13. Lithuanian carries the same trick all the way to 19.",
+    "usage": [[900, 60], [1200, 65], [1500, 72], [1800, 85], [1900, 100], [2020, 85]],
+    "tags": ["numbers"], "related": ["eleven", "two", "dozen"]
+  },
+  {
+    "id": "hundred", "word": "hundred", "pos": "numeral", "gloss": "the number 100",
+    "origin": "ang", "first": 900, "root": "kmtom-hundred",
+    "path": [
+      { "lang": "ine-pro", "form": "*ḱm̥tóm", "year": -4000 },
+      { "lang": "gem-pro", "form": "*hundą", "year": -500 },
+      { "lang": "ang", "form": "hund, hundred", "year": 900 },
+      { "lang": "enm", "form": "hundred", "year": 1200 },
+      { "lang": "en", "form": "hundred", "year": 1500 }
+    ],
+    "story": "Old English hund already meant a hundred; -red, 'reckoning', was added on top. The ancient form *ḱm̥tóm gave Latin centum (cent, century, percent), and linguists use the word itself to split the Indo-European family into 'centum' and 'satem' languages.",
+    "usage": [[900, 70], [1200, 75], [1500, 82], [1800, 95], [1900, 100], [2020, 85]],
+    "tags": ["numbers"], "related": ["cent", "century", "percent"]
+  },
+  {
+    "id": "new", "word": "new", "pos": "adjective", "gloss": "recently made, found or begun",
+    "origin": "ang", "first": 700, "root": "newo-new",
+    "path": [
+      { "lang": "ine-pro", "form": "*néwos", "year": -4000 },
+      { "lang": "gem-pro", "form": "*neujaz", "year": -500 },
+      { "lang": "ang", "form": "nīwe, nēowe", "year": 700 },
+      { "lang": "enm", "form": "newe", "year": 1200 },
+      { "lang": "en", "form": "new", "year": 1500 }
+    ],
+    "story": "Its meaning hasn't budged in six thousand years. Its cousins include Latin novus (novel, novice, renovate), Sanskrit náva and Greek néos, which named neon, 'the new one', when the gas was discovered in 1898.",
+    "usage": [[700, 70], [1200, 72], [1500, 78], [1800, 85], [1900, 95], [2020, 100]],
+    "tags": ["core"], "related": ["novel", "novice", "neon"]
+  },
+  {
+    "id": "know", "word": "know", "pos": "verb", "gloss": "to have information or understanding in your mind",
+    "origin": "ang", "first": 800, "root": "gno-know",
+    "path": [
+      { "lang": "ine-pro", "form": "*ǵneh₃-", "year": -4000 },
+      { "lang": "gem-pro", "form": "*knēaną", "year": -500 },
+      { "lang": "ang", "form": "cnāwan", "meaning": "to recognise, perceive", "year": 800 },
+      { "lang": "enm", "form": "knowen", "year": 1200 },
+      { "lang": "en", "form": "know", "year": 1500 }
+    ],
+    "story": "The k was spoken until the 1600s. The same root gave can (first 'to know how') and cunning, and through Latin and Greek, noble, ignore, diagnosis and agnostic.",
+    "usage": [[800, 70], [1200, 75], [1500, 82], [1800, 92], [1900, 95], [2020, 100]],
+    "tags": ["core"], "related": ["can", "cunning", "noble", "ignore", "diagnosis"]
+  },
+  {
+    "id": "bear", "word": "bear", "pos": "verb", "gloss": "to carry; to put up with; to give birth to",
+    "origin": "ang", "first": 700, "root": "bher-carry",
+    "path": [
+      { "lang": "ine-pro", "form": "*bʰer-", "meaning": "to carry", "year": -4000 },
+      { "lang": "gem-pro", "form": "*beraną", "year": -500 },
+      { "lang": "ang", "form": "beran", "year": 700 },
+      { "lang": "enm", "form": "beren", "year": 1200 },
+      { "lang": "en", "form": "bear", "year": 1500 }
+    ],
+    "story": "To bear is to carry, whether a load, a grudge or a child. Birth and burden share the root, and so, through Latin ferre, do transfer, fertile and offer; Greek phérein gave metaphor, a 'carrying across'. The animal is a different word, probably a taboo nickname meaning 'the brown one'.",
+    "usage": [[700, 80], [1200, 85], [1600, 100], [1800, 90], [1900, 75], [2020, 55]],
+    "tags": ["core"], "related": ["birth", "burden", "transfer", "fertile", "metaphor"]
+  },
+  {
+    "id": "salt", "word": "salt", "pos": "noun", "gloss": "a white mineral used to season and preserve food",
+    "origin": "ang", "first": 800, "root": "sal-salt",
+    "path": [
+      { "lang": "ine-pro", "form": "*seh₂l-", "year": -4000 },
+      { "lang": "gem-pro", "form": "*saltą", "year": -500 },
+      { "lang": "ang", "form": "sealt", "year": 800 },
+      { "lang": "enm", "form": "salt", "year": 1200 },
+      { "lang": "en", "form": "salt", "year": 1500 }
+    ],
+    "story": "Germanic added a t to the ancient root behind Latin sāl, and from sāl came salary, salad (salted greens), sauce and sausage. Salt was precious enough that one of Rome's oldest roads, the Via Salaria, was named for carrying it.",
+    "usage": [[800, 60], [1200, 65], [1500, 72], [1800, 100], [1900, 90], [2020, 80]],
+    "tags": ["food"], "related": ["salary", "salad", "sauce", "sausage"]
+  },
+  {
+    "id": "horn", "word": "horn", "pos": "noun", "gloss": "a hard pointed growth on an animal's head; a brass instrument",
+    "origin": "ang", "first": 700, "root": "ker-horn",
+    "path": [
+      { "lang": "ine-pro", "form": "*ḱr̥-nó-", "year": -4000 },
+      { "lang": "gem-pro", "form": "*hurną", "year": -500 },
+      { "lang": "ang", "form": "horn", "year": 700 },
+      { "lang": "enm", "form": "horn", "year": 1200 },
+      { "lang": "en", "form": "horn", "year": 1500 }
+    ],
+    "story": "Grimm's Law turned the k into an h, but Latin kept it in cornū, giving unicorn and cornucopia, the 'horn of plenty'. Greek kept it too in kéras, which put the horn on the rhinoceros, 'nose-horn'.",
+    "usage": [[700, 70], [1200, 72], [1500, 78], [1800, 90], [1900, 100], [2020, 80]],
+    "tags": ["animals", "music"], "related": ["unicorn", "cornucopia", "rhinoceros"]
+  },
+  {
+    "id": "stand", "word": "stand", "pos": "verb", "gloss": "to be upright on your feet",
+    "origin": "ang", "first": 700, "root": "sta-stand",
+    "path": [
+      { "lang": "ine-pro", "form": "*steh₂-", "year": -4000 },
+      { "lang": "gem-pro", "form": "*standaną", "year": -500 },
+      { "lang": "ang", "form": "standan", "year": 700 },
+      { "lang": "enm", "form": "stonden, standen", "year": 1200 },
+      { "lang": "en", "form": "stand", "year": 1500 }
+    ],
+    "story": "One of the busiest roots in English. Stand, stead and stool are the Germanic branch; state, station, statue and obstacle came from Latin stāre; system and ecstasy (ek-stasis, 'standing outside yourself') came from Greek.",
+    "usage": [[700, 75], [1200, 78], [1500, 85], [1800, 100], [1900, 95], [2020, 85]],
+    "tags": ["core"], "related": ["state", "station", "ecstasy", "system"]
+  },
+  {
+    "id": "right", "word": "right", "pos": "adjective", "gloss": "correct, just; on the side of the body away from the heart",
+    "origin": "ang", "first": 700, "root": "hreg-straight",
+    "path": [
+      { "lang": "ine-pro", "form": "*h₃reǵ-", "meaning": "to move in a straight line", "year": -4000 },
+      { "lang": "gem-pro", "form": "*rehtaz", "meaning": "straight", "year": -500 },
+      { "lang": "ang", "form": "riht", "meaning": "straight; just, proper", "year": 700 },
+      { "lang": "enm", "form": "right", "year": 1200 },
+      { "lang": "en", "form": "right", "year": 1500 }
+    ],
+    "story": "Right meant straight: geometers' 'right lines' were straight lines. The same root ruled through Latin rēx (regal, reign) and Sanskrit rājā. Its opposite, wrong, is from an Old Norse word for crooked.",
+    "usage": [[700, 75], [1200, 78], [1500, 85], [1800, 92], [1900, 95], [2020, 100]],
+    "tags": ["law", "core"], "related": ["wrong", "regal", "reign", "raja"]
+  },
+  {
+    "id": "yellow", "word": "yellow", "pos": "adjective", "gloss": "the colour of lemons, egg yolks and butter",
+    "origin": "ang", "first": 800, "root": "ghel-shine",
+    "path": [
+      { "lang": "ine-pro", "form": "*ǵʰelh₃-", "meaning": "to shine; yellow, green", "year": -4000 },
+      { "lang": "gem-pro", "form": "*gelwaz", "year": -500 },
+      { "lang": "ang", "form": "ġeolu", "year": 800 },
+      { "lang": "enm", "form": "yelwe", "year": 1200 },
+      { "lang": "en", "form": "yellow", "year": 1500 }
+    ],
+    "story": "Old English ġ was already pronounced as a y, so ġeolu sounded close to yellow. The same shining root gave gold, glow, gleam and glass, and through Greek khlōrós, 'pale green', chlorine and chlorophyll.",
+    "usage": [[800, 40], [1200, 45], [1500, 55], [1800, 70], [1900, 90], [2020, 100]],
+    "tags": ["colors"], "related": ["gold", "glass", "chlorine"]
+  },
+  {
+    "id": "name", "word": "name", "pos": "noun", "gloss": "the word by which a person or thing is known",
+    "origin": "ang", "first": 700, "root": "nomn-name",
+    "path": [
+      { "lang": "ine-pro", "form": "*h₁nómn̥", "year": -4000 },
+      { "lang": "gem-pro", "form": "*namô", "year": -500 },
+      { "lang": "ang", "form": "nama", "year": 700 },
+      { "lang": "enm", "form": "name", "year": 1200 },
+      { "lang": "en", "form": "name", "year": 1500 }
+    ],
+    "story": "Recognisable right across the family: Latin nōmen (noun, nominate, renown), Greek ónoma (anonymous, synonym), Sanskrit nā́man. A nickname is just 'an ekename', an added name.",
+    "usage": [[700, 75], [1200, 78], [1500, 85], [1800, 92], [1900, 95], [2020, 100]],
+    "tags": ["core"], "related": ["noun", "anonymous", "synonym", "nickname"]
+  },
+  {
+    "id": "mind", "word": "mind", "pos": "noun", "gloss": "the part of a person that thinks, feels and remembers",
+    "origin": "ang", "first": 800, "root": "men-think",
+    "path": [
+      { "lang": "ine-pro", "form": "*men-", "meaning": "to think", "year": -4000 },
+      { "lang": "gem-pro", "form": "*gamundiz", "meaning": "memory", "year": -500 },
+      { "lang": "ang", "form": "ġemynd", "meaning": "memory, remembrance, thought", "year": 800 },
+      { "lang": "enm", "form": "mynde", "year": 1200 },
+      { "lang": "en", "form": "mind", "year": 1500 }
+    ],
+    "story": "Old English ġemynd meant memory, a sense kept in 'bear in mind' and 'to remind'. The root also gave Latin mēns (mental) and monēre, 'to remind' (monitor, monument), Greek manía and Sanskrit mantra.",
+    "usage": [[800, 60], [1200, 65], [1500, 75], [1800, 90], [1900, 95], [2020, 100]],
+    "tags": ["feelings", "core"], "related": ["mental", "monument", "mania", "mantra"]
+  },
+  {
+    "id": "year", "word": "year", "pos": "noun", "gloss": "the time it takes the earth to go once around the sun",
+    "origin": "ang", "first": 700, "root": "yeher-year",
+    "path": [
+      { "lang": "ine-pro", "form": "*yóh₁r̥", "meaning": "year, season", "year": -4000 },
+      { "lang": "gem-pro", "form": "*jērą", "year": -500 },
+      { "lang": "ang", "form": "ġēar", "year": 700 },
+      { "lang": "enm", "form": "yeer", "year": 1200 },
+      { "lang": "en", "form": "year", "year": 1500 }
+    ],
+    "story": "Its Greek cousin hṓrā meant 'season' and then 'hour', so year, hour and horoscope, the 'hour-watcher' that reads your hour of birth, are all kin.",
+    "usage": [[700, 75], [1200, 78], [1500, 82], [1800, 90], [1900, 95], [2020, 100]],
+    "tags": ["time", "core"], "related": ["hour", "horoscope"]
+  },
+  {
+    "id": "red", "word": "red", "pos": "adjective", "gloss": "the colour of blood or a ripe tomato",
+    "origin": "ang", "first": 700, "root": "hrewdh-red",
+    "path": [
+      { "lang": "ine-pro", "form": "*h₁rewdʰ-", "year": -4000 },
+      { "lang": "gem-pro", "form": "*raudaz", "year": -500 },
+      { "lang": "ang", "form": "rēad", "year": 700 },
+      { "lang": "enm", "form": "red, reed", "year": 1200 },
+      { "lang": "en", "form": "red", "year": 1500 }
+    ],
+    "story": "One of the very few colour words that can be traced all the way back to PIE. Its cousins include Latin ruber (ruby, rubric, a heading written in red), French rouge, Greek eruthrós (erythrocyte, a red blood cell) and English rust, 'the red stuff'.",
+    "usage": [[700, 55], [1200, 60], [1500, 68], [1800, 80], [1900, 95], [2020, 100]],
+    "tags": ["colors"], "related": ["ruby", "rouge", "rubric", "rust"]
+  },
+  {
+    "id": "egg", "word": "egg", "pos": "noun", "gloss": "the oval object laid by a bird, containing a developing chick",
+    "origin": "non", "first": 1340, "featured": true,
+    "path": [
+      { "lang": "ine-pro", "form": "*h₂ōwyóm", "year": -4000 },
+      { "lang": "gem-pro", "form": "*ajją", "year": -500 },
+      { "lang": "non", "form": "egg", "year": 900 },
+      { "lang": "enm", "form": "egge", "year": 1340 },
+      { "lang": "en", "form": "egg", "year": 1500 }
+    ],
+    "story": "English already had its own word, ǣġ (plural ǣġru, later eyren), and for two centuries the two fought it out. In 1490 the printer William Caxton told of a London merchant who asked a Kentish woman for 'eggys' and was told she spoke no French: she only knew 'eyren'. Latin ōvum (oval) is a distant cousin.",
+    "usage": [[1340, 20], [1500, 50], [1700, 65], [1800, 75], [1900, 90], [2020, 100]],
+    "tags": ["food", "vikings"], "related": ["oval", "ovum"]
+  },
+  {
+    "id": "knife", "word": "knife", "pos": "noun", "gloss": "a tool with a blade for cutting",
+    "origin": "non", "first": 1100,
+    "path": [
+      { "lang": "gem-pro", "form": "*knībaz", "year": -500 },
+      { "lang": "non", "form": "knífr", "year": 900 },
+      { "lang": "ang", "form": "cnīf", "year": 1100 },
+      { "lang": "enm", "form": "knif", "year": 1200 },
+      { "lang": "en", "form": "knife", "year": 1500 }
+    ],
+    "story": "Late Old English took knife from the Vikings' knífr, and the k was pronounced until the 1600s. French then borrowed a Germanic form of it as canif, a penknife.",
+    "usage": [[1100, 30], [1300, 50], [1600, 70], [1800, 85], [1900, 100], [2020, 90]],
+    "tags": ["home", "vikings"]
+  },
+  {
+    "id": "window", "word": "window", "pos": "noun", "gloss": "an opening in a wall, usually filled with glass, to let in light and air",
+    "origin": "non", "first": 1225, "root": "hweh-blow", "featured": true,
+    "path": [
+      { "lang": "non", "form": "vindauga", "meaning": "wind-eye", "year": 900 },
+      { "lang": "enm", "form": "windoge", "year": 1225 },
+      { "lang": "enm", "form": "windowe", "year": 1300 },
+      { "lang": "en", "form": "window", "year": 1500 }
+    ],
+    "story": "A 'wind-eye': Old Norse vindauga, from vindr (wind) + auga (eye), a hole in the roof that let smoke out and air in. It replaced the native ēagþyrel, 'eye-hole', and then saw off French fenestre, which hung on in English until the 1500s.",
+    "usage": [[1225, 15], [1400, 40], [1600, 60], [1800, 80], [1900, 100], [2020, 95]],
+    "tags": ["home", "vikings"], "related": ["wind", "eye", "nostril"]
+  },
+  {
+    "id": "skin", "word": "skin", "pos": "noun", "gloss": "the outer covering of a body",
+    "origin": "non", "first": 1200,
+    "path": [
+      { "lang": "gem-pro", "form": "*skinþą", "year": -500 },
+      { "lang": "non", "form": "skinn", "meaning": "animal hide, pelt", "year": 900 },
+      { "lang": "enm", "form": "skin", "year": 1200 },
+      { "lang": "en", "form": "skin", "year": 1500 }
+    ],
+    "story": "Old English had hȳd (hide) and fell; Norse skinn, an animal's pelt, gradually took over for human skin too. Sk- is a Viking fingerprint: English softened its own sc- to sh-, which is why shirt and skirt are the same word, split by accent.",
+    "usage": [[1200, 40], [1400, 55], [1600, 70], [1800, 85], [1900, 95], [2020, 100]],
+    "tags": ["body", "vikings"], "related": ["hide", "skirt", "shirt"]
+  },
+  {
+    "id": "skull", "word": "skull", "pos": "noun", "gloss": "the bony frame of the head",
+    "origin": "non", "first": 1300,
+    "path": [
+      { "lang": "non", "form": "skalli", "meaning": "bald head", "year": 900 },
+      { "lang": "enm", "form": "scolle, sculle", "year": 1300 },
+      { "lang": "en", "form": "skull", "year": 1500 }
+    ],
+    "story": "Probably from Old Norse skalli, 'bald head'. The tale that Vikings drank from their enemies' skulls, and that the toast skål means skull, is a myth: skål means bowl, and the story grew from a 1636 mistranslation of a poem about drinking from 'curved branches of skulls', meaning horns.",
+    "usage": [[1300, 25], [1500, 40], [1700, 55], [1800, 70], [1900, 85], [2020, 100]],
+    "tags": ["body", "vikings"]
+  },
+  {
+    "id": "law", "word": "law", "pos": "noun", "gloss": "the system of rules a community recognises and enforces",
+    "origin": "non", "first": 1000,
+    "path": [
+      { "lang": "gem-pro", "form": "*lagą", "meaning": "something laid down", "year": -500 },
+      { "lang": "non", "form": "lǫg", "meaning": "law (plural of lag, 'layer')", "year": 900 },
+      { "lang": "ang", "form": "lagu", "year": 1000 },
+      { "lang": "enm", "form": "lawe", "year": 1200 },
+      { "lang": "en", "form": "law", "year": 1500 }
+    ],
+    "story": "Law is literally 'what is laid down', from Old Norse lag, 'layer', whose plural lǫg meant law. The Danelaw was the part of England where Danish law held sway, and the native English word, ǣ, vanished.",
+    "usage": [[1000, 50], [1200, 65], [1500, 80], [1800, 100], [1900, 90], [2020, 80]],
+    "tags": ["law", "vikings"], "related": ["lay", "outlaw"]
+  },
+  {
+    "id": "husband", "word": "husband", "pos": "noun", "gloss": "a married man in relation to his spouse",
+    "origin": "non", "first": 1000,
+    "path": [
+      { "lang": "non", "form": "húsbóndi", "meaning": "master of a household", "year": 900 },
+      { "lang": "ang", "form": "hūsbōnda", "meaning": "householder", "year": 1000 },
+      { "lang": "enm", "form": "husbonde", "meaning": "married man", "year": 1290 },
+      { "lang": "en", "form": "husband", "year": 1500 }
+    ],
+    "story": "A husband was the head of a household: Old Norse hús, 'house', + bóndi, 'dweller, farmer'. The 'married man' sense came in the late 1200s, while husbandry still means farming and to husband means to manage thriftily.",
+    "usage": [[1000, 20], [1300, 50], [1600, 75], [1800, 90], [1900, 100], [2020, 80]],
+    "tags": ["family", "vikings"], "related": ["house", "wife"]
+  },
+  {
+    "id": "die", "word": "die", "pos": "verb", "gloss": "to stop living",
+    "origin": "non", "first": 1135,
+    "path": [
+      { "lang": "ine-pro", "form": "*dʰew-", "meaning": "to pass away", "year": -4000 },
+      { "lang": "gem-pro", "form": "*dawjaną", "year": -500 },
+      { "lang": "non", "form": "deyja", "year": 900 },
+      { "lang": "enm", "form": "deien, dien", "year": 1135 },
+      { "lang": "en", "form": "die", "year": 1500 }
+    ],
+    "story": "Old English seems to have had no everyday verb for dying: it said steorfan (now starve), sweltan (now swelter) or 'to be dead'. The Norse deyja filled the gap in the 1100s, though dead and death are native.",
+    "usage": [[1135, 40], [1300, 65], [1600, 90], [1800, 100], [1900, 90], [2020, 85]],
+    "tags": ["vikings", "core"], "related": ["starve", "dead"]
+  },
+  {
+    "id": "get", "word": "get", "pos": "verb", "gloss": "to obtain, receive or become",
+    "origin": "non", "first": 1200, "root": "ghend-seize",
+    "path": [
+      { "lang": "ine-pro", "form": "*gʰe(n)d-", "meaning": "to seize, to take", "year": -4000 },
+      { "lang": "gem-pro", "form": "*getaną", "year": -500 },
+      { "lang": "non", "form": "geta", "meaning": "to obtain; to beget; to guess", "year": 900 },
+      { "lang": "enm", "form": "geten", "year": 1200 },
+      { "lang": "en", "form": "get", "year": 1500 }
+    ],
+    "story": "Old English had a ġietan pronounced with a y, which survives inside forget, but the Vikings' hard-g geta won out. Its PIE root also lies inside Latin prehendere, 'to grasp', so get is a distant cousin of comprehend and prison.",
+    "usage": [[1200, 30], [1400, 50], [1600, 70], [1800, 80], [1900, 90], [2020, 100]],
+    "tags": ["vikings", "core"], "related": ["forget", "comprehend", "prison"]
+  },
+  {
+    "id": "give", "word": "give", "pos": "verb", "gloss": "to hand something to someone",
+    "origin": "non", "first": 1200, "root": "ghabh-take",
+    "path": [
+      { "lang": "ine-pro", "form": "*gʰeh₁bʰ-", "meaning": "to give or receive", "year": -4000 },
+      { "lang": "gem-pro", "form": "*gebaną", "year": -500 },
+      { "lang": "non", "form": "gefa", "year": 900 },
+      { "lang": "enm", "form": "given", "year": 1200 },
+      { "lang": "en", "form": "give", "year": 1500 }
+    ],
+    "story": "Native Old English said ġiefan, with a y-sound, and Chaucer still wrote yeven. The hard g of give and gift came from the Vikings' gefa and spread slowly south from the old Danelaw.",
+    "usage": [[1200, 50], [1400, 65], [1600, 85], [1800, 100], [1900, 95], [2020, 90]],
+    "tags": ["vikings", "core"], "related": ["gift", "habit"]
+  },
+  {
+    "id": "gift", "word": "gift", "pos": "noun", "gloss": "something given freely; a natural talent",
+    "origin": "non", "first": 1200, "root": "ghabh-take",
+    "path": [
+      { "lang": "gem-pro", "form": "*giftiz", "year": -500 },
+      { "lang": "non", "form": "gift, gipt", "meaning": "gift; good luck", "year": 900 },
+      { "lang": "enm", "form": "gift", "year": 1200 },
+      { "lang": "en", "form": "gift", "year": 1500 }
+    ],
+    "story": "Old English gift meant the price paid for a wife, and its plural meant a wedding. The everyday 'present' sense, and the hard g, came from Norse. In German the word took a darker turn: Gift means poison, from the sense of a 'dose'.",
+    "usage": [[1200, 30], [1500, 50], [1700, 60], [1800, 70], [1900, 80], [2020, 100]],
+    "tags": ["vikings"], "related": ["give"]
+  },
+  {
+    "id": "take", "word": "take", "pos": "verb", "gloss": "to lay hold of; to carry or accept",
+    "origin": "non", "first": 1100,
+    "path": [
+      { "lang": "gem-pro", "form": "*tēkaną", "year": -500 },
+      { "lang": "non", "form": "taka", "year": 900 },
+      { "lang": "ang", "form": "tacan", "year": 1100 },
+      { "lang": "enm", "form": "taken", "year": 1200 },
+      { "lang": "en", "form": "take", "year": 1500 }
+    ],
+    "story": "Take pushed out the native verb niman (German nehmen), now remembered only in nimble, 'quick to take', and numb, literally 'taken' by cold. Few borrowings have done so well: big dictionaries list hundreds of senses.",
+    "usage": [[1100, 30], [1300, 60], [1600, 90], [1800, 100], [1900, 95], [2020, 92]],
+    "tags": ["vikings", "core"], "related": ["nimble", "numb"]
+  },
+  {
+    "id": "they", "word": "they", "pos": "pronoun", "gloss": "the people or things already mentioned (with them, their)",
+    "origin": "non", "first": 1200, "featured": true,
+    "path": [
+      { "lang": "gem-pro", "form": "*þai", "year": -500 },
+      { "lang": "non", "form": "þeir, þeim, þeira", "meaning": "they, them, their", "year": 900 },
+      { "lang": "enm", "form": "thei", "year": 1200 },
+      { "lang": "en", "form": "they, them, their", "year": 1500 }
+    ],
+    "story": "Even pronouns came from the Vikings, which is very rare between languages. Old English hīe (they), heom (them) and hiera (their) were easily confused with he, him and her; Norse þeir, þeim and þeira took over, they first in the north and them and their by about 1500. The 'em of 'let 'em go' is the last echo of heom.",
+    "usage": [[1200, 30], [1400, 70], [1600, 90], [1800, 95], [1900, 95], [2020, 100]],
+    "tags": ["vikings", "core"]
+  },
+  {
+    "id": "anger", "word": "anger", "pos": "noun", "gloss": "a strong feeling of annoyance or hostility",
+    "origin": "non", "first": 1250,
+    "path": [
+      { "lang": "ine-pro", "form": "*h₂emǵʰ-", "meaning": "narrow, tight", "year": -4000 },
+      { "lang": "non", "form": "angr", "meaning": "grief, sorrow, trouble", "year": 900 },
+      { "lang": "enm", "form": "anger", "meaning": "distress, affliction", "year": 1250 },
+      { "lang": "en", "form": "anger", "meaning": "rage", "year": 1500 }
+    ],
+    "story": "In Old Norse angr meant grief or trouble, and early English used anger for distress before rage. Its root means 'narrow, tight', shared with anguish, anxiety and angina, the tightening pain in the chest.",
+    "usage": [[1250, 30], [1500, 60], [1700, 80], [1800, 100], [1900, 90], [2020, 85]],
+    "tags": ["feelings", "meaning-shift", "vikings"], "related": ["anguish", "anxiety", "angst"]
+  },
+  {
+    "id": "ugly", "word": "ugly", "pos": "adjective", "gloss": "unpleasant to look at",
+    "origin": "non", "first": 1300,
+    "path": [
+      { "lang": "non", "form": "uggligr", "meaning": "dreadful", "year": 900 },
+      { "lang": "enm", "form": "uglike", "meaning": "frightful, horrible", "year": 1300 },
+      { "lang": "en", "form": "ugly", "meaning": "unsightly", "year": 1500 }
+    ],
+    "story": "Ugly began as frightening, not unattractive: Old Norse uggligr, 'dreadful', from uggr, 'fear'. The 'unpleasant to look at' sense was taking over by the late 1300s, though an 'ugly' situation is still a menacing one.",
+    "usage": [[1300, 20], [1500, 40], [1700, 55], [1800, 70], [1900, 85], [2020, 100]],
+    "tags": ["feelings", "meaning-shift", "vikings"]
+  },
+  {
+    "id": "happy", "word": "happy", "pos": "adjective", "gloss": "feeling or showing pleasure",
+    "origin": "enm", "first": 1380,
+    "path": [
+      { "lang": "non", "form": "happ", "meaning": "chance, good luck", "year": 900 },
+      { "lang": "enm", "form": "hap", "meaning": "chance, fortune", "year": 1200 },
+      { "lang": "enm", "form": "happy", "meaning": "lucky", "year": 1380 },
+      { "lang": "en", "form": "happy", "meaning": "glad", "year": 1525 }
+    ],
+    "story": "Happiness began as luck. Hap, from Old Norse happ, 'chance', also gave happen, mishap, perhaps and haphazard. Happy first meant fortunate and only took on 'very glad' in the 1500s.",
+    "usage": [[1380, 15], [1500, 35], [1700, 60], [1800, 75], [1900, 85], [2020, 100]],
+    "tags": ["feelings", "meaning-shift", "vikings"], "related": ["happen", "perhaps", "mishap"]
+  },
+  {
+    "id": "freckle", "word": "freckle", "pos": "noun", "gloss": "a small light-brown spot on the skin",
+    "origin": "non", "first": 1350,
+    "path": [
+      { "lang": "non", "form": "freknur", "meaning": "freckles", "year": 900 },
+      { "lang": "enm", "form": "fraknes", "year": 1350 },
+      { "lang": "en", "form": "freckle", "year": 1560 }
+    ],
+    "story": "The Vikings' freknur became Middle English fraknes, then picked up an English -le ending in the 1500s to become freckle. Swedish still says fräknar.",
+    "usage": [[1350, 10], [1600, 30], [1800, 55], [1900, 75], [2020, 100]],
+    "tags": ["body", "vikings"]
+  },
+  {
+    "id": "berserk", "word": "berserk", "pos": "adjective", "gloss": "out of control with anger or excitement",
+    "origin": "non", "first": 1822,
+    "path": [
+      { "lang": "non", "form": "berserkr", "meaning": "a frenzied warrior", "year": 1100 },
+      { "lang": "en", "form": "berserker", "meaning": "a frenzied Norse warrior", "year": 1822 },
+      { "lang": "en", "form": "berserk", "meaning": "wildly out of control", "year": 1940 }
+    ],
+    "story": "A berserkr was a Norse warrior who fought in a trance-like fury. The name probably means 'bear-shirt', though some read it as 'bare-shirt', fighting without armour. Walter Scott brought it into English in 1822, and people have been going berserk since the 20th century.",
+    "usage": [[1822, 5], [1900, 15], [1950, 45], [1990, 85], [2020, 100]],
+    "tags": ["war", "vikings"]
+  },
+  {
+    "id": "ransack", "word": "ransack", "pos": "verb", "gloss": "to search a place roughly, making a mess and stealing things",
+    "origin": "non", "first": 1200,
+    "path": [
+      { "lang": "non", "form": "rannsaka", "meaning": "to search a house (for stolen goods)", "year": 900 },
+      { "lang": "enm", "form": "ransaken", "meaning": "to search", "year": 1200 },
+      { "lang": "en", "form": "ransack", "meaning": "to plunder", "year": 1500 }
+    ],
+    "story": "Old Norse rannsaka, from rann, 'house', + saka, 'to seek', was a lawful search of a house for stolen goods. By about 1300 the searchers had become the robbers, and ransack meant to plunder.",
+    "usage": [[1200, 30], [1400, 55], [1600, 100], [1800, 60], [1900, 45], [2020, 40]],
+    "tags": ["law", "vikings", "meaning-shift"]
+  },
+  {
+    "id": "steak", "word": "steak", "pos": "noun", "gloss": "a thick slice of meat, especially beef",
+    "origin": "non", "first": 1420,
+    "path": [
+      { "lang": "non", "form": "steik", "meaning": "roast meat", "year": 900 },
+      { "lang": "enm", "form": "steike", "year": 1420 },
+      { "lang": "en", "form": "steak", "year": 1500 }
+    ],
+    "story": "A steak is something stuck on a spit to roast: Old Norse steik is related to steikja, 'to roast on a spit', and to English stick and stake.",
+    "usage": [[1420, 5], [1600, 15], [1800, 35], [1900, 60], [2000, 100], [2020, 95]],
+    "tags": ["food", "vikings"], "related": ["stick", "stake", "beef"]
+  },
+  {
+    "id": "cake", "word": "cake", "pos": "noun", "gloss": "a sweet baked food made from flour, sugar, eggs and butter",
+    "origin": "non", "first": 1230,
+    "path": [
+      { "lang": "gem-pro", "form": "*kakǭ", "year": -500 },
+      { "lang": "non", "form": "kaka", "year": 900 },
+      { "lang": "enm", "form": "cake", "meaning": "a small flat loaf", "year": 1230 },
+      { "lang": "en", "form": "cake", "year": 1500 }
+    ],
+    "story": "From Old Norse kaka. Medieval cakes were small flat loaves, often unsweetened, and the oatcake keeps that older idea. Its relatives include German Kuchen and, by way of Dutch koekje, the cookie.",
+    "usage": [[1230, 15], [1500, 30], [1700, 45], [1800, 60], [1900, 80], [2020, 100]],
+    "tags": ["food", "vikings"], "related": ["cookie"]
+  },
+  {
+    "id": "outlaw", "word": "outlaw", "pos": "noun", "gloss": "a person who has broken the law and is hiding from it",
+    "origin": "non", "first": 1000,
+    "path": [
+      { "lang": "non", "form": "útlagi", "meaning": "one outside the law", "year": 900 },
+      { "lang": "ang", "form": "ūtlaga", "year": 1000 },
+      { "lang": "enm", "form": "outlawe", "year": 1200 },
+      { "lang": "en", "form": "outlaw", "year": 1500 }
+    ],
+    "story": "In Norse law an útlagi was literally 'out of the law': stripped of all protection, he could be killed by anyone without penalty. Iceland's sagas are full of them, and the hero Grettir survived nearly twenty years as an outlaw.",
+    "usage": [[1000, 30], [1300, 50], [1600, 45], [1800, 60], [1900, 100], [2020, 70]],
+    "tags": ["law", "vikings"], "related": ["law"]
+  },
+  {
+    "id": "saga", "word": "saga", "pos": "noun", "gloss": "a long story of heroic deeds; a long, involved account",
+    "origin": "non", "first": 1709,
+    "path": [
+      { "lang": "non", "form": "saga", "meaning": "story, saying, history", "year": 1200 },
+      { "lang": "en", "form": "saga", "meaning": "medieval Icelandic prose history", "year": 1709 },
+      { "lang": "en", "form": "saga", "meaning": "any long, eventful story", "year": 1857 }
+    ],
+    "story": "Saga is a cousin of English say and saw (an old saying). The sagas were prose histories composed in medieval Iceland, and since the 1850s the word has stretched to cover any long, tangled tale.",
+    "usage": [[1709, 5], [1800, 15], [1900, 40], [1970, 75], [2020, 100]],
+    "tags": ["vikings", "art"], "related": ["say", "saw"]
+  },
+  {
+    "id": "geyser", "word": "geyser", "pos": "noun", "gloss": "a hot spring that shoots columns of water and steam into the air",
+    "origin": "is", "first": 1781,
+    "path": [
+      { "lang": "non", "form": "geysa", "meaning": "to gush", "year": 1200 },
+      { "lang": "is", "form": "Geysir", "meaning": "the Gusher (one hot spring)", "year": 1647 },
+      { "lang": "en", "form": "geyser", "year": 1781 }
+    ],
+    "story": "Every geyser on Earth is named after one: the Great Geysir in Iceland's Haukadalur valley, 'the Gusher', from geysa, 'to gush'. In Britain a geyser was also, more humbly, a gas water heater.",
+    "usage": [[1781, 5], [1850, 25], [1900, 60], [1950, 80], [2020, 100]],
+    "tags": ["nature", "places", "vikings"]
+  },
+  {
+    "id": "ski", "word": "ski", "pos": "noun", "gloss": "one of a pair of long narrow runners for gliding over snow",
+    "origin": "no", "first": 1755,
+    "path": [
+      { "lang": "non", "form": "skíð", "meaning": "a split length of wood; snowshoe", "year": 900 },
+      { "lang": "no", "form": "ski", "year": 1700 },
+      { "lang": "en", "form": "ski", "year": 1755 }
+    ],
+    "story": "Old Norse skíð meant a split stick of wood, a cousin of Old English scīd, a plank. The word stayed rare in English until Fridtjof Nansen's account of crossing Greenland on skis (1890) set off a craze. Norwegians say it 'shee'.",
+    "usage": [[1755, 2], [1890, 10], [1930, 45], [1970, 85], [2000, 100], [2020, 90]],
+    "tags": ["vikings"]
+  },
+  {
+    "id": "fjord", "word": "fjord", "pos": "noun", "gloss": "a long, narrow inlet of the sea between high cliffs",
+    "origin": "no", "first": 1674,
+    "path": [
+      { "lang": "ine-pro", "form": "*pértus", "meaning": "crossing", "year": -4000 },
+      { "lang": "gem-pro", "form": "*ferþuz", "year": -500 },
+      { "lang": "non", "form": "fjǫrðr", "year": 900 },
+      { "lang": "no", "form": "fjord", "year": 1600 },
+      { "lang": "en", "form": "fjord", "year": 1674 }
+    ],
+    "story": "A fjord was a place to cross. It shares an ancient root with English ford and with Latin portus (port), and Scots had already taken the same Norse word centuries earlier as firth.",
+    "usage": [[1674, 5], [1800, 20], [1900, 60], [1970, 90], [2020, 100]],
+    "tags": ["nature", "sea", "places"], "related": ["ford", "firth", "port"]
+  },
+  {
+    "id": "slalom", "word": "slalom", "pos": "noun", "gloss": "a ski race down a zigzag course between poles",
+    "origin": "no", "first": 1921,
+    "path": [
+      { "lang": "no", "form": "slalåm", "meaning": "sloping track", "year": 1900 },
+      { "lang": "en", "form": "slalom", "year": 1921 }
+    ],
+    "story": "Norwegian slalåm, 'sloping track', from sla (slope) + låm (track), a word from the ski-mad Telemark region. The British skier Arnold Lunn set the first modern slalom course with gates at Mürren, Switzerland, in 1922.",
+    "usage": [[1921, 10], [1950, 50], [1980, 100], [2000, 85], [2020, 70]],
+    "tags": ["places"]
+  },
+  {
+    "id": "smorgasbord", "word": "smorgasbord", "pos": "noun", "gloss": "a buffet of many hot and cold dishes; a wide variety",
+    "origin": "sv", "first": 1893,
+    "path": [
+      { "lang": "sv", "form": "smörgåsbord", "meaning": "open-sandwich table", "year": 1850 },
+      { "lang": "en", "form": "smorgasbord", "year": 1893 }
+    ],
+    "story": "A 'sandwich table': Swedish smörgås, an open sandwich (literally 'butter-goose', perhaps from the lumps of butter that looked like geese floating on cream), + bord, 'table'. English now uses it for any lavish variety.",
+    "usage": [[1893, 5], [1940, 40], [1970, 100], [2000, 80], [2020, 70]],
+    "tags": ["food"]
+  },
+  {
+    "id": "ombudsman", "word": "ombudsman", "pos": "noun", "gloss": "an official who investigates complaints against organisations or the state",
+    "origin": "sv", "first": 1959,
+    "path": [
+      { "lang": "non", "form": "umboðsmaðr", "meaning": "commissioner, steward", "year": 1200 },
+      { "lang": "sv", "form": "ombudsman", "meaning": "parliamentary commissioner", "year": 1809 },
+      { "lang": "en", "form": "ombudsman", "year": 1959 }
+    ],
+    "story": "Sweden created the first parliamentary ombudsman in 1809, an official to hear citizens' complaints against the state; the word goes back to Old Norse umboðsmaðr, a royal agent. English took it in 1959 as countries around the world copied the office.",
+    "usage": [[1959, 10], [1970, 60], [1990, 100], [2020, 80]],
+    "tags": ["law", "people"]
+  },
+  {
+    "id": "tungsten", "word": "tungsten", "pos": "noun", "gloss": "a hard grey metal (W) used in light-bulb filaments",
+    "origin": "sv", "first": 1770,
+    "path": [
+      { "lang": "sv", "form": "tungsten", "meaning": "heavy stone", "year": 1755 },
+      { "lang": "en", "form": "tungsten", "year": 1770 }
+    ],
+    "story": "Swedish for 'heavy stone', tung + sten. Confusingly, Swedish now calls the metal volfram, and its symbol W stands for wolfram, a German miners' name for the ore, said to 'eat' tin like a wolf.",
+    "usage": [[1770, 5], [1850, 15], [1920, 60], [1960, 100], [2020, 70]],
+    "tags": ["science"], "related": ["cobalt"]
+  },
+  {
+    "id": "guest", "word": "guest", "pos": "noun", "gloss": "a person who is invited to visit or stay",
+    "origin": "non", "first": 1200, "root": "ghosti-guest",
+    "path": [
+      { "lang": "ine-pro", "form": "*gʰóstis", "meaning": "stranger, guest, host", "year": -4000 },
+      { "lang": "gem-pro", "form": "*gastiz", "year": -500 },
+      { "lang": "non", "form": "gestr", "year": 900 },
+      { "lang": "enm", "form": "gest", "year": 1200 },
+      { "lang": "en", "form": "guest", "year": 1500 }
+    ],
+    "story": "The hard g is a Viking legacy: native Old English ġiest began with a y-sound. The PIE word meant a stranger bound to you by mutual duties, which is why Latin hostis became an enemy (hostile) while hospes became a host (hospital, hotel).",
+    "usage": [[1200, 30], [1400, 45], [1600, 60], [1800, 70], [1900, 85], [2020, 100]],
+    "tags": ["people", "vikings"], "related": ["host", "hostile", "hospital", "hotel"]
+  },
+  {
+    "id": "trust", "word": "trust", "pos": "noun", "gloss": "firm belief in the reliability or honesty of someone",
+    "origin": "non", "first": 1200, "root": "deru-tree",
+    "path": [
+      { "lang": "gem-pro", "form": "*traustą", "year": -500 },
+      { "lang": "non", "form": "traust", "meaning": "confidence, protection, help", "year": 900 },
+      { "lang": "enm", "form": "trust", "year": 1200 },
+      { "lang": "en", "form": "trust", "year": 1500 }
+    ],
+    "story": "From Old Norse traust, 'confidence, protection', and probably from the same deep root as true and tree: the idea of something firm as an oak. Truce, once a pledge of good faith, is a close relative.",
+    "usage": [[1200, 30], [1400, 50], [1600, 70], [1800, 85], [1900, 90], [2020, 100]],
+    "tags": ["feelings", "vikings"], "related": ["true", "tree", "truce"]
+  },
+  {
+    "id": "kid", "word": "kid", "pos": "noun", "gloss": "a child; a young goat",
+    "origin": "non", "first": 1200,
+    "path": [
+      { "lang": "non", "form": "kið", "meaning": "young goat", "year": 900 },
+      { "lang": "enm", "form": "kide", "meaning": "young goat", "year": 1200 },
+      { "lang": "en", "form": "kid", "meaning": "child (slang)", "year": 1599 }
+    ],
+    "story": "A kid is a young goat, from Old Norse kið. Calling a child a kid began as slang in the 1590s and stayed 'low' until the 1800s. Kidnapping, first recorded in the 1680s, meant stealing children to work on plantations in the American colonies.",
+    "usage": [[1200, 10], [1600, 15], [1800, 20], [1900, 40], [1990, 100], [2020, 95]],
+    "tags": ["animals", "people", "meaning-shift"], "related": ["kidnap"]
+  },
+  {
+    "id": "want", "word": "want", "pos": "verb", "gloss": "to wish for or desire",
+    "origin": "non", "first": 1200,
+    "path": [
+      { "lang": "non", "form": "vanta", "meaning": "to lack", "year": 900 },
+      { "lang": "enm", "form": "wanten", "meaning": "to lack, be missing", "year": 1200 },
+      { "lang": "en", "form": "want", "meaning": "to wish for", "year": 1706 }
+    ],
+    "story": "To want was to lack, from Old Norse vanta, as in 'for want of a nail the shoe was lost'. What you lack you tend to wish for, and the sense 'desire' took over from the 1700s on.",
+    "usage": [[1200, 20], [1500, 40], [1700, 55], [1800, 65], [1900, 80], [2020, 100]],
+    "tags": ["feelings", "meaning-shift", "vikings"]
+  },
+  {
+    "id": "wrong", "word": "wrong", "pos": "adjective", "gloss": "not correct; unjust or immoral",
+    "origin": "non", "first": 1100,
+    "path": [
+      { "lang": "non", "form": "vrangr", "meaning": "crooked, awry", "year": 900 },
+      { "lang": "ang", "form": "wrang", "meaning": "injustice", "year": 1100 },
+      { "lang": "enm", "form": "wrong", "year": 1200 },
+      { "lang": "en", "form": "wrong", "year": 1500 }
+    ],
+    "story": "Wrong is literally crooked, from Old Norse vrangr, 'awry', related to wring. That makes it a perfect opposite of right, which first meant straight.",
+    "usage": [[1100, 30], [1300, 50], [1600, 70], [1800, 85], [1900, 90], [2020, 100]],
+    "tags": ["law", "vikings"], "related": ["right", "wring"]
+  },
+  {
+    "id": "yacht", "word": "yacht", "pos": "noun", "gloss": "a sailing or motor boat used for pleasure or racing",
+    "origin": "nl", "first": 1557,
+    "path": [
+      { "lang": "nl", "form": "jachtschip, jaght", "meaning": "hunting ship", "year": 1550 },
+      { "lang": "en", "form": "yacht", "year": 1557 }
+    ],
+    "story": "Short for Dutch jachtschip, 'hunting ship', a fast boat for chasing down pirates and smugglers. Charles II brought the pleasure-boat craze home from his Dutch exile in 1660, when the Dutch presented him with the yacht Mary.",
+    "usage": [[1557, 5], [1700, 20], [1850, 50], [1900, 100], [1950, 75], [2020, 70]],
+    "tags": ["sea", "trade"]
+  },
+  {
+    "id": "boss", "word": "boss", "pos": "noun", "gloss": "a person in charge of workers or an organisation",
+    "origin": "nl", "first": 1649,
+    "path": [
+      { "lang": "nl", "form": "baas", "meaning": "master", "year": 1600 },
+      { "lang": "en", "form": "boss", "year": 1649 }
+    ],
+    "story": "American English picked up baas, 'master', from the Dutch of New Amsterdam, later New York. It was a handy word in a new democracy where free workers disliked calling anyone 'master'.",
+    "usage": [[1649, 2], [1800, 10], [1850, 30], [1900, 50], [1950, 70], [2020, 100]],
+    "tags": ["people", "trade"]
+  },
+  {
+    "id": "cookie", "word": "cookie", "pos": "noun", "gloss": "a small sweet baked biscuit; a small file a website stores in your browser",
+    "origin": "nl", "first": 1703,
+    "path": [
+      { "lang": "nl", "form": "koekje", "meaning": "little cake", "year": 1650 },
+      { "lang": "en", "form": "cookie", "year": 1703 },
+      { "lang": "en", "form": "cookie", "meaning": "browser data file", "year": 1994 }
+    ],
+    "story": "Dutch koekje, 'little cake', came into English through the Dutch of New York. Britain still mostly says biscuit, but since 1994 every web user has met cookies: Netscape's Lou Montulli named them after programmers' 'magic cookies'.",
+    "usage": [[1703, 2], [1800, 5], [1900, 15], [1950, 40], [1990, 60], [2020, 100]],
+    "tags": ["food", "technology"], "related": ["cake"]
+  },
+  {
+    "id": "cruise", "word": "cruise", "pos": "verb", "gloss": "to sail about for pleasure; to travel at a steady speed",
+    "origin": "nl", "first": 1651,
+    "path": [
+      { "lang": "la", "form": "crux", "meaning": "cross", "year": -100 },
+      { "lang": "nl", "form": "kruisen", "meaning": "to cross; to sail back and forth", "year": 1600 },
+      { "lang": "en", "form": "cruise", "year": 1651 }
+    ],
+    "story": "To cruise was to criss-cross a stretch of sea, Dutch kruisen, from kruis, 'cross', and ultimately Latin crux. Warships and privateers cruised in search of prey long before holidaymakers did.",
+    "usage": [[1651, 5], [1750, 25], [1850, 40], [1950, 70], [2020, 100]],
+    "tags": ["sea"], "related": ["cross", "crux"]
+  },
+  {
+    "id": "landscape", "word": "landscape", "pos": "noun", "gloss": "all the visible features of an area of land; a picture of scenery",
+    "origin": "nl", "first": 1598,
+    "path": [
+      { "lang": "dum", "form": "lantscap", "meaning": "region, tract of land", "year": 1300 },
+      { "lang": "nl", "form": "landschap", "meaning": "painting of scenery", "year": 1590 },
+      { "lang": "en", "form": "landskip", "meaning": "a painted view", "year": 1598 },
+      { "lang": "en", "form": "landscape", "year": 1650 }
+    ],
+    "story": "A painters' word: Dutch landschap meant a picture of scenery, the speciality of the Low Countries' masters. English first spelled it landskip, and only later used it for the view itself. Its -scape has since bred seascape, cityscape and moonscape.",
+    "usage": [[1598, 5], [1700, 20], [1800, 35], [1900, 50], [2000, 100], [2020, 95]],
+    "tags": ["art", "nature"], "related": ["sketch", "easel"]
+  },
+  {
+    "id": "easel", "word": "easel", "pos": "noun", "gloss": "a wooden stand that holds a painting while it is worked on",
+    "origin": "nl", "first": 1634,
+    "path": [
+      { "lang": "la", "form": "asinus", "meaning": "donkey", "year": -100 },
+      { "lang": "nl", "form": "ezel", "meaning": "donkey; painter's stand", "year": 1600 },
+      { "lang": "en", "form": "easel", "year": 1634 }
+    ],
+    "story": "An easel is a donkey: Dutch ezel, which, like English ass, goes back to Latin asinus. The stand is a beast of burden for paintings, just as English has its clotheshorse and sawhorse.",
+    "usage": [[1634, 5], [1750, 20], [1850, 60], [1900, 100], [2020, 60]],
+    "tags": ["art", "animals"], "related": ["ass", "landscape"]
+  },
+  {
+    "id": "sketch", "word": "sketch", "pos": "noun", "gloss": "a rough drawing or short description",
+    "origin": "nl", "first": 1668,
+    "path": [
+      { "lang": "grc", "form": "σχέδιος (skhédios)", "meaning": "done on the spur of the moment", "year": -400 },
+      { "lang": "it", "form": "schizzo", "meaning": "splash; rough draft", "year": 1500 },
+      { "lang": "nl", "form": "schets", "year": 1650 },
+      { "lang": "en", "form": "sketch", "year": 1668 }
+    ],
+    "story": "More artists' jargon: Dutch schets came from Italian schizzo, a splash or rough draft, and ultimately from Greek skhédios, 'improvised'.",
+    "usage": [[1668, 5], [1750, 20], [1850, 60], [1900, 100], [2020, 85]],
+    "tags": ["art"], "related": ["landscape", "easel"]
+  },
+  {
+    "id": "brandy", "word": "brandy", "pos": "noun", "gloss": "a strong spirit distilled from wine",
+    "origin": "nl", "first": 1622,
+    "path": [
+      { "lang": "nl", "form": "brandewijn", "meaning": "burnt wine", "year": 1600 },
+      { "lang": "en", "form": "brandewine", "year": 1622 },
+      { "lang": "en", "form": "brandy", "year": 1657 }
+    ],
+    "story": "Short for brandywine, from Dutch brandewijn, 'burnt wine', because it was distilled over a fire. English drinkers clipped it to brandy within a few decades.",
+    "usage": [[1622, 5], [1700, 40], [1800, 100], [1900, 70], [2020, 35]],
+    "tags": ["food", "trade"]
+  },
+  {
+    "id": "coleslaw", "word": "coleslaw", "pos": "noun", "gloss": "a salad of shredded raw cabbage in dressing",
+    "origin": "nl", "first": 1794,
+    "path": [
+      { "lang": "nl", "form": "koolsla", "meaning": "cabbage salad", "year": 1700 },
+      { "lang": "en", "form": "cole-slaw", "year": 1794 }
+    ],
+    "story": "Dutch koolsla, 'cabbage salad': kool (cabbage, from Latin caulis, as in cauliflower) + sla, short for salade. Folk etymology quickly produced the variant 'cold slaw'.",
+    "usage": [[1794, 5], [1900, 20], [1950, 60], [2000, 100], [2020, 95]],
+    "tags": ["food"], "related": ["cauliflower", "salad"]
+  },
+  {
+    "id": "snack", "word": "snack", "pos": "noun", "gloss": "a small amount of food eaten between meals",
+    "origin": "dum", "first": 1400,
+    "path": [
+      { "lang": "dum", "form": "snacken", "meaning": "to snap, to bite (like a dog)", "year": 1300 },
+      { "lang": "enm", "form": "snak", "meaning": "a snap, a bite", "year": 1400 },
+      { "lang": "en", "form": "snack", "meaning": "a light meal", "year": 1757 }
+    ],
+    "story": "First a snap or bite, from Middle Dutch snacken, 'to snap at', as a dog does. Then it meant a share or portion, and by the 1750s a bite to eat between meals.",
+    "usage": [[1400, 2], [1700, 5], [1800, 10], [1900, 20], [1970, 60], [2020, 100]],
+    "tags": ["food"]
+  },
+  {
+    "id": "skipper", "word": "skipper", "pos": "noun", "gloss": "the captain of a ship or boat; the captain of a team",
+    "origin": "dum", "first": 1390,
+    "path": [
+      { "lang": "dum", "form": "schipper", "meaning": "shipmaster", "year": 1300 },
+      { "lang": "enm", "form": "skipper", "year": 1390 },
+      { "lang": "en", "form": "skipper", "year": 1500 }
+    ],
+    "story": "Middle Dutch schipper, from schip, 'ship': a skipper is simply a 'shipper'. The sk- echoes Dutch and Low German sailors' pronunciation in the busy North Sea ports.",
+    "usage": [[1390, 10], [1600, 25], [1800, 45], [1900, 80], [1950, 100], [2020, 75]],
+    "tags": ["sea", "people"], "related": ["ship"]
+  },
+  {
+    "id": "gherkin", "word": "gherkin", "pos": "noun", "gloss": "a small pickled cucumber",
+    "origin": "nl", "first": 1661,
+    "path": [
+      { "lang": "nl", "form": "gurkje, augurkje", "meaning": "little cucumber", "year": 1600 },
+      { "lang": "en", "form": "gerkin", "year": 1661 },
+      { "lang": "en", "form": "gherkin", "year": 1800 }
+    ],
+    "story": "From Dutch gurkje, 'little cucumber', the end of a long relay of borrowings that leads back through Polish ogórek to medieval Greek angoúrion. Since 2004 it has also been the nickname of a London skyscraper.",
+    "usage": [[1661, 10], [1800, 30], [1900, 50], [2000, 80], [2020, 100]],
+    "tags": ["food"]
+  },
+  {
+    "id": "decoy", "word": "decoy", "pos": "noun", "gloss": "something used to lure a person or animal into a trap",
+    "origin": "nl", "first": 1618,
+    "path": [
+      { "lang": "la", "form": "cavea", "meaning": "cage, enclosure", "year": -100 },
+      { "lang": "nl", "form": "kooi, de kooi", "meaning": "cage; the cage", "year": 1600 },
+      { "lang": "en", "form": "coy, decoy", "meaning": "a duck trap", "year": 1618 }
+    ],
+    "story": "Dutch hunters lured wild ducks into netted channels called a kooi, 'cage' (from Latin cavea, cage). English first said coy; decoy probably comes from de kooi, the Dutch word with its article stuck on.",
+    "usage": [[1618, 5], [1700, 20], [1800, 40], [1900, 60], [1950, 100], [2020, 85]],
+    "tags": ["animals", "war"], "related": ["cage"]
+  },
+  {
+    "id": "wagon", "word": "wagon", "pos": "noun", "gloss": "a four-wheeled vehicle for carrying heavy loads",
+    "origin": "nl", "first": 1512, "root": "wegh-carry",
+    "path": [
+      { "lang": "ine-pro", "form": "*weǵʰ-", "meaning": "to carry in a vehicle", "year": -4000 },
+      { "lang": "gem-pro", "form": "*wagnaz", "year": -500 },
+      { "lang": "dum", "form": "wagen", "year": 1300 },
+      { "lang": "nl", "form": "wagen", "year": 1500 },
+      { "lang": "en", "form": "wagon", "year": 1512 }
+    ],
+    "story": "English already had its own native form, wain, as in Constable's painting The Hay Wain. Wagon arrived later, from Dutch wagen, in the 1500s. Both come from the root of way, weigh and, through Latin, vehicle.",
+    "usage": [[1512, 10], [1700, 40], [1850, 100], [1900, 90], [2020, 50]],
+    "tags": ["trade"], "related": ["wain", "way", "vehicle"]
+  },
+  {
+    "id": "uproar", "word": "uproar", "pos": "noun", "gloss": "a loud, angry public protest; noisy confusion",
+    "origin": "nl", "first": 1526,
+    "path": [
+      { "lang": "nl", "form": "oproer", "meaning": "revolt, uprising", "year": 1500 },
+      { "lang": "en", "form": "uproar", "meaning": "insurrection", "year": 1526 },
+      { "lang": "en", "form": "uproar", "meaning": "loud outcry", "year": 1550 }
+    ],
+    "story": "Nothing to do with roaring, originally: Dutch oproer meant a revolt, a 'stirring up' (op + roeren, 'to stir'). William Tyndale used it in his 1526 New Testament, and English ears, hearing roar in it, turned it into noise.",
+    "usage": [[1526, 10], [1600, 40], [1800, 70], [1900, 80], [2020, 100]],
+    "tags": ["meaning-shift"]
+  },
+  {
+    "id": "santa-claus", "word": "Santa Claus", "pos": "noun", "gloss": "a legendary figure who brings presents at Christmas",
+    "origin": "nl", "first": 1773,
+    "path": [
+      { "lang": "dum", "form": "Sinter Niklaas", "meaning": "Saint Nicholas", "year": 1400 },
+      { "lang": "nl", "form": "Sinterklaas, Sante Klaas", "year": 1700 },
+      { "lang": "en", "form": "Santa Claus", "year": 1773 }
+    ],
+    "story": "From Dutch Sinterklaas, 'Saint Nicholas', whose feast the Dutch of New York kept. A New York newspaper of 1773 mentioned 'St. A Claus'; the 1823 poem 'A Visit from St. Nicholas' and Thomas Nast's cartoons turned him into the jolly man in red.",
+    "usage": [[1773, 2], [1850, 15], [1900, 50], [1950, 100], [2020, 85]],
+    "tags": ["people", "religion"]
+  },
+  {
+    "id": "dollar", "word": "dollar", "pos": "noun", "gloss": "the basic unit of money in the US and many other countries",
+    "origin": "gml", "first": 1553,
+    "path": [
+      { "lang": "de", "form": "Joachimsthaler", "meaning": "coin from Joachimsthal", "year": 1519 },
+      { "lang": "de", "form": "Thaler", "year": 1540 },
+      { "lang": "gml", "form": "daler", "year": 1550 },
+      { "lang": "en", "form": "dollar", "year": 1553 }
+    ],
+    "story": "From the silver mines of Joachimsthal, 'Joachim's valley', in Bohemia, whose coins of 1519 were called Joachimsthalers, soon just thalers. Low German and Dutch daler reached English as dollar, and in 1792 the young United States took the name, already in use for the Spanish pieces of eight.",
+    "usage": [[1553, 2], [1700, 10], [1800, 30], [1900, 60], [1980, 100], [2020, 90]],
+    "tags": ["money", "trade", "places"]
+  },
+  {
+    "id": "kindergarten", "word": "kindergarten", "pos": "noun", "gloss": "a school or class for young children",
+    "origin": "de", "first": 1852,
+    "path": [
+      { "lang": "de", "form": "Kindergarten", "meaning": "children's garden", "year": 1840 },
+      { "lang": "en", "form": "kindergarten", "year": 1852 }
+    ],
+    "story": "The educator Friedrich Fröbel coined it in 1840 for a school where children would be tended like plants in a garden. German immigrants carried the idea to America, and English kept the German word, garden and all.",
+    "usage": [[1852, 5], [1900, 60], [1950, 80], [2000, 100], [2020, 90]],
+    "tags": ["people"], "related": ["garden"]
+  },
+  {
+    "id": "angst", "word": "angst", "pos": "noun", "gloss": "a feeling of deep anxiety or dread",
+    "origin": "de", "first": 1849,
+    "path": [
+      { "lang": "ine-pro", "form": "*h₂emǵʰ-", "meaning": "narrow, tight", "year": -4000 },
+      { "lang": "goh", "form": "angust", "year": 900 },
+      { "lang": "de", "form": "Angst", "meaning": "fear", "year": 1500 },
+      { "lang": "en", "form": "angst", "year": 1849 }
+    ],
+    "story": "German Angst, 'fear', taken into English in the 1840s and given philosophical weight by translations of Kierkegaard and Freud. It shares a root with anger, anguish and anxiety: the feeling of a tightening in the chest.",
+    "usage": [[1849, 2], [1920, 10], [1960, 40], [1990, 100], [2020, 90]],
+    "tags": ["feelings"], "related": ["anger", "anguish", "anxiety"]
+  },
+  {
+    "id": "hamster", "word": "hamster", "pos": "noun", "gloss": "a small rodent with cheek pouches, often kept as a pet",
+    "origin": "de", "first": 1607,
+    "path": [
+      { "lang": "goh", "form": "hamustro", "year": 900 },
+      { "lang": "de", "form": "Hamster", "year": 1500 },
+      { "lang": "en", "form": "hamster", "year": 1607 }
+    ],
+    "story": "From German Hamster, from Old High German hamustro, perhaps a loan from a Slavic language. German has even made a verb of it: hamstern, to hoard, after the animal's habit of stuffing its cheeks.",
+    "usage": [[1607, 2], [1800, 5], [1900, 15], [1950, 50], [2000, 100], [2020, 90]],
+    "tags": ["animals"]
+  },
+  {
+    "id": "poltergeist", "word": "poltergeist", "pos": "noun", "gloss": "a ghost blamed for loud noises and moving objects",
+    "origin": "de", "first": 1848,
+    "path": [
+      { "lang": "de", "form": "Poltergeist", "meaning": "rumbling ghost", "year": 1600 },
+      { "lang": "en", "form": "poltergeist", "year": 1848 }
+    ],
+    "story": "A 'rumbling ghost': German poltern, 'to make a racket, to rattle', + Geist, 'spirit'. Geist and English ghost are siblings.",
+    "usage": [[1848, 5], [1930, 40], [1982, 100], [2020, 75]],
+    "tags": ["religion"], "related": ["zeitgeist", "ghost"]
+  },
+  {
+    "id": "wanderlust", "word": "wanderlust", "pos": "noun", "gloss": "a strong desire to travel",
+    "origin": "de", "first": 1902,
+    "path": [
+      { "lang": "de", "form": "Wanderlust", "meaning": "desire to hike", "year": 1850 },
+      { "lang": "en", "form": "wanderlust", "year": 1902 }
+    ],
+    "story": "German for 'the urge to hike': wandern (wander) + Lust (desire, without the sinful edge of English lust). English had both halves already, yet still borrowed the compound whole around 1900.",
+    "usage": [[1902, 10], [1930, 40], [1970, 50], [2000, 75], [2020, 100]],
+    "tags": ["feelings"], "related": ["wander", "lust"]
+  },
+  {
+    "id": "zeitgeist", "word": "zeitgeist", "pos": "noun", "gloss": "the defining spirit or mood of a particular period",
+    "origin": "de", "first": 1835,
+    "path": [
+      { "lang": "de", "form": "Zeitgeist", "meaning": "spirit of the time", "year": 1769 },
+      { "lang": "en", "form": "zeitgeist", "year": 1835 }
+    ],
+    "story": "The 'spirit of the age': Zeit, 'time' (a cousin of English tide), + Geist, 'spirit, ghost'. German thinkers from Herder to Hegel made the idea famous, and English borrowed it in the 1830s.",
+    "usage": [[1835, 2], [1900, 10], [1960, 30], [2000, 100], [2020, 90]],
+    "tags": ["time"], "related": ["tide", "ghost", "poltergeist"]
+  },
+  {
+    "id": "noodle", "word": "noodle", "pos": "noun", "gloss": "a long thin strip of pasta or dough",
+    "origin": "de", "first": 1779,
+    "path": [
+      { "lang": "de", "form": "Nudel", "year": 1700 },
+      { "lang": "en", "form": "noodle", "year": 1779 }
+    ],
+    "story": "From German Nudel, itself of unknown origin. Oddly, noodle meaning a fool (and later a head, as in 'use your noodle') is an older English word, just as mysterious and probably unrelated.",
+    "usage": [[1779, 2], [1850, 10], [1900, 25], [1950, 50], [2020, 100]],
+    "tags": ["food"]
+  },
+  {
+    "id": "pretzel", "word": "pretzel", "pos": "noun", "gloss": "a crisp, salted biscuit or bread baked in a knot",
+    "origin": "de", "first": 1824,
+    "path": [
+      { "lang": "la", "form": "bracchium", "meaning": "arm", "year": -100 },
+      { "lang": "la-med", "form": "brachitella", "year": 800 },
+      { "lang": "goh", "form": "brezitella", "year": 1000 },
+      { "lang": "de", "form": "Brezel, Bretzel", "year": 1500 },
+      { "lang": "en", "form": "pretzel", "year": 1824 }
+    ],
+    "story": "German Brezel goes back to Latin bracchium, 'arm', because the knot looks like a pair of folded arms. A much-repeated legend credits a monk who shaped dough like arms crossed in prayer.",
+    "usage": [[1824, 2], [1900, 20], [1950, 50], [2000, 100], [2020, 95]],
+    "tags": ["food"]
+  },
+  {
+    "id": "cobalt", "word": "cobalt", "pos": "noun", "gloss": "a hard silvery metal (Co); a deep blue colour",
+    "origin": "de", "first": 1683,
+    "path": [
+      { "lang": "de", "form": "Kobold", "meaning": "household goblin", "year": 1500 },
+      { "lang": "de", "form": "Kobalt", "meaning": "goblin ore", "year": 1550 },
+      { "lang": "en", "form": "cobalt", "year": 1683 }
+    ],
+    "story": "Saxon silver miners named it after the Kobold, a goblin: the ore looked promising but yielded no silver or copper, and gave off poisonous arsenic fumes when smelted, which was surely goblin mischief. Nickel is named after a mine sprite too, from German Kupfernickel, 'copper demon'.",
+    "usage": [[1683, 5], [1800, 20], [1900, 60], [1960, 100], [2020, 80]],
+    "tags": ["science", "colors"], "related": ["nickel", "tungsten"]
+  },
+  {
+    "id": "glitch", "word": "glitch", "pos": "noun", "gloss": "a sudden, usually temporary, malfunction",
+    "origin": "yi", "first": 1962,
+    "path": [
+      { "lang": "yi", "form": "גליטש (glitsh)", "meaning": "a slip", "year": 1900 },
+      { "lang": "en", "form": "glitch", "year": 1962 }
+    ],
+    "story": "Probably from Yiddish glitsh, 'a slip', from glitshn, 'to slide'. It was radio engineers' slang until 1962, when astronaut John Glenn explained it in print as 'a spike or change in voltage'; computers did the rest.",
+    "usage": [[1962, 5], [1980, 30], [2000, 70], [2020, 100]],
+    "tags": ["technology"]
+  },
+  {
+    "id": "schmooze", "word": "schmooze", "pos": "verb", "gloss": "to chat in a friendly, persuasive way, especially to gain an advantage",
+    "origin": "yi", "first": 1897,
+    "path": [
+      { "lang": "hbo", "form": "שְׁמוּעוֹת (šəmūʿōṯ)", "meaning": "reports, rumours", "year": -500 },
+      { "lang": "yi", "form": "שמועסן (shmuesn)", "meaning": "to chat", "year": 1800 },
+      { "lang": "en", "form": "schmooze", "year": 1897 }
+    ],
+    "story": "Yiddish shmuesn, 'to have a chat', from Hebrew šəmūʿōṯ, 'reports, rumours'. Jewish immigrants brought it to America in the 1890s, and it now powers every networking reception.",
+    "usage": [[1897, 2], [1950, 15], [1990, 70], [2020, 100]],
+    "tags": ["people"]
+  },
+  {
+    "id": "chutzpah", "word": "chutzpah", "pos": "noun", "gloss": "extreme self-confidence or audacity",
+    "origin": "yi", "first": 1883,
+    "path": [
+      { "lang": "hbo", "form": "חֻצְפָּה (ḥuṣpā)", "meaning": "insolence", "year": 200 },
+      { "lang": "yi", "form": "חוצפה (khutspe)", "meaning": "nerve, cheek", "year": 1600 },
+      { "lang": "en", "form": "chutzpah", "year": 1883 }
+    ],
+    "story": "Hebrew ḥuṣpā meant insolence; in Yiddish khutspe can mean outrageous nerve or grudging admiration for it. The classic illustration: the man who murders his parents and then pleads for mercy because he is an orphan.",
+    "usage": [[1883, 2], [1950, 15], [1980, 60], [2010, 100], [2020, 95]],
+    "tags": ["feelings", "people"]
+  },
+  {
+    "id": "klutz", "word": "klutz", "pos": "noun", "gloss": "a clumsy, awkward person",
+    "origin": "yi", "first": 1960,
+    "path": [
+      { "lang": "gmh", "form": "klotz", "meaning": "lump, block of wood", "year": 1200 },
+      { "lang": "yi", "form": "קלאָץ (klots)", "meaning": "block of wood; clumsy person", "year": 1800 },
+      { "lang": "en", "form": "klutz", "year": 1960 }
+    ],
+    "story": "A klutz is a block of wood: Yiddish klots, from German Klotz, 'lump, log', a cousin of English clot. Calling someone a blockhead is the same joke in English.",
+    "usage": [[1960, 10], [1980, 60], [2000, 100], [2020, 85]],
+    "tags": ["people"], "related": ["clot"]
+  },
+  {
+    "id": "bagel", "word": "bagel", "pos": "noun", "gloss": "a dense ring-shaped bread roll, boiled then baked",
+    "origin": "yi", "first": 1919,
+    "path": [
+      { "lang": "gmh", "form": "boug, *böugel", "meaning": "ring, bracelet", "year": 1200 },
+      { "lang": "yi", "form": "בייגל (beygl)", "year": 1600 },
+      { "lang": "en", "form": "bagel", "year": 1919 }
+    ],
+    "story": "Yiddish beygl comes from a Middle High German word for a ring or bracelet, a cousin of English bow. Community rules in Kraków in 1610 already mention bagels, as gifts for women who had given birth.",
+    "usage": [[1919, 2], [1950, 10], [1980, 50], [2010, 100], [2020, 95]],
+    "tags": ["food"], "related": ["bow"]
+  },
+  {
+    "id": "aardvark", "word": "aardvark", "pos": "noun", "gloss": "a burrowing African mammal with a long snout that eats ants and termites",
+    "origin": "af", "first": 1833, "root": "porko-pig", "featured": true,
+    "path": [
+      { "lang": "ine-pro", "form": "*pórḱos", "meaning": "young pig", "year": -4000 },
+      { "lang": "gem-pro", "form": "*farhaz", "meaning": "pig", "year": -500 },
+      { "lang": "dum", "form": "varken", "meaning": "pig", "year": 1300 },
+      { "lang": "af", "form": "aardvark", "meaning": "earth-pig", "year": 1780 },
+      { "lang": "en", "form": "aardvark", "year": 1833 }
+    ],
+    "story": "Afrikaans for 'earth-pig', aarde + vark, for the burrowing, pig-snouted ant-eater of southern Africa. Vark comes from the same ancient root as Latin porcus (pork) and the English farrow, a litter of piglets. It is also, famously, the first word in many English dictionaries.",
+    "usage": [[1833, 5], [1900, 20], [1950, 40], [2000, 90], [2020, 100]],
+    "tags": ["animals"], "related": ["pork", "porcupine", "porpoise"]
+  },
+  {
+    "id": "trek", "word": "trek", "pos": "noun", "gloss": "a long, difficult journey, especially on foot",
+    "origin": "af", "first": 1849,
+    "path": [
+      { "lang": "nl", "form": "trekken", "meaning": "to pull, to travel", "year": 1600 },
+      { "lang": "af", "form": "trek", "meaning": "a journey by ox-wagon", "year": 1800 },
+      { "lang": "en", "form": "trek", "year": 1849 }
+    ],
+    "story": "In South Africa a trek was a journey by ox-wagon, from Dutch trekken, 'to pull', above all the Great Trek of the 1830s, when Boer settlers moved inland. Star Trek beamed the word into space in 1966.",
+    "usage": [[1849, 5], [1900, 30], [1950, 40], [1990, 100], [2020, 85]],
+    "tags": ["places"]
+  },
+  {
+    "id": "guard", "word": "guard", "pos": "noun", "gloss": "a person who watches over and protects someone or something",
+    "origin": "fro", "first": 1420,
+    "path": [
+      { "lang": "gem-pro", "form": "*wardōną", "meaning": "to watch over", "year": -500 },
+      { "lang": "frk", "form": "*wardōn", "year": 500 },
+      { "lang": "fro", "form": "garde, guarder", "year": 1100 },
+      { "lang": "enm", "form": "garde", "year": 1420 },
+      { "lang": "en", "form": "guard", "year": 1500 }
+    ],
+    "story": "French speakers turned the Franks' w into gu-, so Frankish wardōn became garder. English ended up with both versions side by side: guard and ward, guardian and warden, guarantee and warrant, guile and wile, guise and wise ('in no wise').",
+    "usage": [[1420, 20], [1600, 50], [1800, 80], [1900, 100], [2020, 85]],
+    "tags": ["war", "people"], "related": ["ward", "warden", "warrant", "guarantee"]
+  },
+  {
+    "id": "war", "word": "war", "pos": "noun", "gloss": "armed conflict between nations or groups",
+    "origin": "xno", "first": 1154, "root": "wers-rub",
+    "path": [
+      { "lang": "ine-pro", "form": "*wers-", "meaning": "to confuse, to mix up", "year": -4000 },
+      { "lang": "frk", "form": "*werru", "meaning": "confusion, strife", "year": 500 },
+      { "lang": "xno", "form": "werre", "year": 1100 },
+      { "lang": "ang", "form": "werre, wyrre", "year": 1150 },
+      { "lang": "enm", "form": "werre", "year": 1200 },
+      { "lang": "en", "form": "war", "year": 1500 }
+    ],
+    "story": "English took its word for war from Norman French werre, which came from Frankish *werru, 'confusion, strife', the root of worse. The Romance languages perhaps reached for a Germanic word because Latin bellum, war, was too easily confused with bellus, beautiful; Spanish guerra gave guerrilla, 'little war'.",
+    "usage": [[1154, 40], [1400, 60], [1600, 70], [1800, 75], [1945, 100], [2020, 70]],
+    "tags": ["war"], "related": ["worse", "guerrilla"]
+  },
+  {
+    "id": "blue", "word": "blue", "pos": "adjective", "gloss": "the colour of a clear sky",
+    "origin": "fro", "first": 1300,
+    "path": [
+      { "lang": "ine-pro", "form": "*bʰleh₃wos", "meaning": "light-coloured, pale", "year": -4000 },
+      { "lang": "gem-pro", "form": "*blēwaz", "year": -500 },
+      { "lang": "frk", "form": "*blāo", "year": 500 },
+      { "lang": "fro", "form": "blo, bleu", "year": 1150 },
+      { "lang": "enm", "form": "bleu, blewe", "year": 1300 },
+      { "lang": "en", "form": "blue", "year": 1500 }
+    ],
+    "story": "Old English had its own blǣwen, but the word that stuck came from French bleu, which the French had borrowed from the Franks. Its Latin cousin flāvus means yellow: the ancient root seems to have covered a range of pale and shining shades.",
+    "usage": [[1300, 30], [1500, 45], [1700, 55], [1800, 65], [1900, 85], [2020, 100]],
+    "tags": ["colors"], "related": ["yellow"]
+  },
+  {
+    "id": "garden", "word": "garden", "pos": "noun", "gloss": "a piece of ground for growing flowers, fruit or vegetables",
+    "origin": "xno", "first": 1300, "root": "gher-enclose",
+    "path": [
+      { "lang": "ine-pro", "form": "*gʰer-", "meaning": "to grasp, to enclose", "year": -4000 },
+      { "lang": "gem-pro", "form": "*gardaz", "year": -500 },
+      { "lang": "frk", "form": "*gardo", "year": 500 },
+      { "lang": "xno", "form": "gardin", "year": 1250 },
+      { "lang": "enm", "form": "gardin", "year": 1300 },
+      { "lang": "en", "form": "garden", "year": 1500 }
+    ],
+    "story": "English already had the native version: yard, Old English ġeard. Garden came through Norman French gardin, a Frankish word whose hard g survived in the north of France (Parisian French softened it to jardin). Latin hortus, as in horticulture, is a cousin.",
+    "usage": [[1300, 40], [1500, 55], [1700, 70], [1800, 85], [1900, 100], [2020, 85]],
+    "tags": ["nature", "home"], "related": ["yard", "orchard", "kindergarten", "horticulture"]
+  },
+  {
+    "id": "helmet", "word": "helmet", "pos": "noun", "gloss": "a hard hat worn for protection",
+    "origin": "frm", "first": 1470, "root": "kel-cover",
+    "path": [
+      { "lang": "ine-pro", "form": "*ḱel-", "meaning": "to cover, to hide", "year": -4000 },
+      { "lang": "gem-pro", "form": "*helmaz", "year": -500 },
+      { "lang": "frk", "form": "*helm", "year": 500 },
+      { "lang": "frm", "form": "helmet", "meaning": "little helm", "year": 1450 },
+      { "lang": "en", "form": "helmet", "year": 1470 }
+    ],
+    "story": "English already had helm, but knightly fashion took the French diminutive helmet, 'little helm', from Frankish *helm. Both come from the root meaning 'to cover', like hell, hall and hole.",
+    "usage": [[1470, 20], [1600, 40], [1800, 50], [1900, 70], [2020, 100]],
+    "tags": ["war", "clothing"], "related": ["hell", "hall", "conceal"]
+  },
+  {
+    "id": "marshal", "word": "marshal", "pos": "noun", "gloss": "a high-ranking officer; an official who keeps order",
+    "origin": "xno", "first": 1258,
+    "path": [
+      { "lang": "frk", "form": "*marhskalk", "meaning": "horse-servant", "year": 500 },
+      { "lang": "fro", "form": "mareschal", "meaning": "farrier; officer of the royal household", "year": 1100 },
+      { "lang": "xno", "form": "mareschal", "year": 1200 },
+      { "lang": "enm", "form": "marchal", "year": 1258 },
+      { "lang": "en", "form": "marshal", "year": 1500 }
+    ],
+    "story": "A marshal was a stable boy: Frankish *marh-skalk, 'horse-servant', where marh is the same word as English mare. Keepers of the royal horses rose to command the cavalry, then whole armies, ending as field marshals.",
+    "usage": [[1258, 30], [1500, 60], [1700, 80], [1900, 100], [2020, 60]],
+    "tags": ["war", "people", "meaning-shift"], "related": ["mare"]
+  },
+  {
+    "id": "grape", "word": "grape", "pos": "noun", "gloss": "a small round green or purple fruit growing in bunches on a vine",
+    "origin": "fro", "first": 1300,
+    "path": [
+      { "lang": "frk", "form": "*krappō", "meaning": "hook", "year": 500 },
+      { "lang": "fro", "form": "grape", "meaning": "hook; bunch of grapes", "year": 1150 },
+      { "lang": "enm", "form": "grape", "year": 1300 },
+      { "lang": "en", "form": "grape", "year": 1500 }
+    ],
+    "story": "Grapes are named after the hook that cut them: Old French graper, 'to pick grapes', came from grape, 'hook', a Frankish word also behind grapple. In French the fruit itself is raisin, which English borrowed for the dried kind.",
+    "usage": [[1300, 20], [1500, 35], [1700, 50], [1800, 60], [1900, 75], [2020, 100]],
+    "tags": ["food", "nature"], "related": ["grapple", "raisin"]
+  }
+]
