@@ -38,7 +38,7 @@
     ],
     "story": "To Plato an idea was the perfect, eternal Form of a thing, of which every real horse or chair is a shadowy copy. The word comes from idein, 'to see': an idea was first a look. Its cousins include wit, wise, video and history.",
     "usage": [[1400, 2], [1600, 20], [1700, 55], [1800, 80], [1900, 90], [2000, 100], [2020, 98]],
-    "tags": ["philosophy", "meaning-shift"], "related": ["history", "wise", "wit", "video"]
+    "tags": ["philosophy", "meaning-shift"], "related": ["history", "video"]
   },
   {
     "id": "history", "word": "history", "pos": "noun", "gloss": "the study of past events; a record of them",
@@ -53,7 +53,7 @@
     ],
     "story": "When Herodotus called his book Historiai in the 400s BCE, he meant 'inquiries': the findings of a man who went and asked. History and story are the same word. Story came through French, history straight from Latin, and for centuries either could mean a tale.",
     "usage": [[1390, 5], [1550, 25], [1700, 50], [1850, 75], [1950, 95], [2000, 100], [2020, 95]],
-    "tags": ["time", "meaning-shift"], "related": ["story", "idea"]
+    "tags": ["time", "meaning-shift"], "related": ["idea"]
   },
   {
     "id": "theory", "word": "theory", "pos": "noun", "gloss": "a set of ideas intended to explain something",
@@ -67,7 +67,7 @@
     ],
     "story": "Thea, a view, gave both theory and theatre. A theōros was a spectator, sometimes an official envoy sent to watch a festival or consult an oracle, and theōria was the act of looking. A theory is still, at heart, a way of seeing.",
     "usage": [[1592, 2], [1700, 20], [1800, 35], [1900, 60], [1975, 100], [2020, 85]],
-    "tags": ["science", "philosophy"], "related": ["theatre", "idea"]
+    "tags": ["science", "philosophy"], "related": ["idea"]
   },
   {
     "id": "music", "word": "music", "pos": "noun", "gloss": "sounds arranged to be pleasing or expressive",
@@ -82,7 +82,7 @@
     ],
     "story": "Mousikē meant any art presided over by the nine Muses: poetry, dance and learning as well as song. Museum, a 'seat of the Muses', is a cousin. Amuse, oddly, is not.",
     "usage": [[1250, 8], [1500, 30], [1700, 50], [1850, 65], [1950, 85], [2000, 100], [2020, 98]],
-    "tags": ["music", "art", "mythology"], "related": ["museum", "muse"]
+    "tags": ["music", "art", "mythology"]
   },
   {
     "id": "school", "word": "school", "pos": "noun", "gloss": "a place where children or students are taught",
@@ -96,7 +96,7 @@
     ],
     "story": "Greek skholē meant leisure, and then what free men did with their leisure: argue, listen, learn. So school literally means 'spare time'. (A school of fish is a different word, from Dutch.)",
     "usage": [[900, 30], [1200, 35], [1500, 50], [1700, 60], [1850, 80], [1950, 100], [2020, 95]],
-    "tags": ["meaning-shift"], "related": ["scholar"]
+    "tags": ["meaning-shift"]
   },
   {
     "id": "telephone", "word": "telephone", "pos": "noun", "gloss": "a device for talking to someone at a distance",
@@ -109,7 +109,7 @@
     ],
     "story": "Built in English from Greek parts, tēle (far) + phōnē (voice), decades before the device existed: in the 1830s it named systems for sending signals with musical notes or horns. Alexander Graham Bell's talking wire of 1876 took the name over, and by the 1880s people were shortening it to phone.",
     "usage": [[1835, 1], [1876, 5], [1900, 40], [1950, 100], [2000, 75], [2020, 60]],
-    "tags": ["technology"], "related": ["telescope", "symphony", "phone"]
+    "tags": ["technology"], "related": ["telescope"]
   },
   {
     "id": "atom", "word": "atom", "pos": "noun", "gloss": "the smallest unit of a chemical element",
@@ -122,7 +122,7 @@
     ],
     "story": "Democritus imagined the world built from tiny particles that could not be cut: a- (not) + tomos (cut). In 1932 physicists split one anyway. The same Greek 'cut' is inside anatomy (a cutting up) and tome (a volume cut from a larger work).",
     "usage": [[1490, 2], [1650, 10], [1800, 15], [1900, 35], [1955, 100], [2020, 55]],
-    "tags": ["science"], "related": ["anatomy", "tome"]
+    "tags": ["science"]
   },
   {
     "id": "planet", "word": "planet", "pos": "noun", "gloss": "a large body moving in orbit around a star",
@@ -162,7 +162,7 @@
     ],
     "story": "Kosmos meant order and also ornament: anything well arranged. Pythagoras is said to have been the first to call the universe a kosmos, an orderly whole. The 'ornament' sense survives in cosmetic, the art of putting your face in order.",
     "usage": [[1650, 2], [1848, 12], [1900, 18], [1960, 40], [1980, 85], [2014, 100], [2020, 95]],
-    "tags": ["science", "philosophy"], "related": ["chaos", "cosmetic"]
+    "tags": ["science", "philosophy"], "related": ["chaos"]
   },
   {
     "id": "chaos", "word": "chaos", "pos": "noun", "gloss": "complete disorder and confusion",
@@ -175,7 +175,7 @@
     ],
     "story": "In Hesiod's account of creation, first of all came Chaos: not a mess, but a yawning gap. The sense of total disorder came later. In the 1600s the Flemish chemist Jan Baptist van Helmont, reading the Greek ch like a Dutch g, built a new word from it: gas.",
     "usage": [[1400, 3], [1600, 20], [1800, 30], [1900, 30], [2000, 85], [2020, 100]],
-    "tags": ["mythology", "meaning-shift", "philosophy"], "related": ["gas", "cosmos"]
+    "tags": ["mythology", "meaning-shift", "philosophy"], "related": ["cosmos"]
   },
   {
     "id": "echo", "word": "echo", "pos": "noun", "gloss": "a sound reflected back to the listener",
@@ -269,7 +269,7 @@
     ],
     "story": "In Athens an idiōtēs was a private citizen: someone with no public office or professional skill, from idios, 'one's own'. Latin turned the layman into an ignoramus, and English into a fool. Its siblings idiom and idiosyncrasy kept the 'one's own' sense.",
     "usage": [[1300, 10], [1600, 30], [1800, 40], [1900, 50], [2000, 90], [2020, 100]],
-    "tags": ["meaning-shift", "people"], "related": ["idiom", "idiosyncrasy"]
+    "tags": ["meaning-shift", "people"]
   },
   {
     "id": "sarcasm", "word": "sarcasm", "pos": "noun", "gloss": "mocking remarks that say the opposite of what is meant",
@@ -284,7 +284,7 @@
     ],
     "story": "Sarcasm bites. Greek sarkazein meant to tear flesh like a dog, then to bite one's lips in rage, then to sneer. The same sarx, flesh, is in sarcophagus, the 'flesh-eater': a limestone coffin that Greeks believed consumed the body.",
     "usage": [[1579, 2], [1700, 15], [1800, 40], [1900, 55], [2000, 90], [2020, 100]],
-    "tags": ["feelings", "body"], "related": ["sarcophagus"]
+    "tags": ["feelings", "body"]
   },
   {
     "id": "enthusiasm", "word": "enthusiasm", "pos": "noun", "gloss": "intense and eager enjoyment or interest",
@@ -299,7 +299,7 @@
     ],
     "story": "To be enthousiastos was to have a god inside you (en + theos), speaking through you like the oracle at Delphi. In the 1600s and 1700s the word was an insult, hurled at religious zealots who claimed private revelations. Only later did it cool into mere eagerness.",
     "usage": [[1603, 2], [1700, 25], [1800, 70], [1900, 100], [2000, 65], [2020, 62]],
-    "tags": ["religion", "feelings", "meaning-shift"], "related": ["theology", "ecstasy"]
+    "tags": ["religion", "feelings", "meaning-shift"], "related": ["ecstasy"]
   },
   {
     "id": "cynic", "word": "cynic", "pos": "noun", "gloss": "a person who believes people act only out of self-interest",
@@ -329,7 +329,7 @@
     ],
     "story": "A skeptikos was 'one who looks carefully'. The followers of Pyrrho held that we can never be certain of anything, so the wise suspend judgement. The Greek skep- is the ancient root of spy and spectacle with its sounds swapped round.",
     "usage": [[1587, 2], [1700, 25], [1800, 35], [1900, 40], [2000, 90], [2020, 100]],
-    "tags": ["philosophy"], "related": ["telescope", "bishop", "spy"]
+    "tags": ["philosophy"], "related": ["telescope", "bishop"]
   },
   {
     "id": "bishop", "word": "bishop", "pos": "noun", "gloss": "a senior member of the Christian clergy in charge of a diocese",
@@ -344,7 +344,7 @@
     ],
     "story": "An episkopos was an 'over-seer' (epi + skopos, watcher). Spoken Latin dropped the e-, Old English softened the rest, and episkopos became biscop, while Spanish made it obispo and French évêque. The learned word episcopal keeps the full Greek shape.",
     "usage": [[700, 60], [1100, 80], [1400, 100], [1700, 70], [1900, 45], [2020, 30]],
-    "tags": ["religion", "people"], "related": ["telescope", "skeptic", "episcopal"]
+    "tags": ["religion", "people"], "related": ["telescope", "skeptic"]
   },
   {
     "id": "telescope", "word": "telescope", "pos": "noun", "gloss": "an instrument that makes distant objects look nearer",
@@ -370,7 +370,7 @@
     ],
     "story": "Eight (oktō) feet (pous). Because the word is Greek, not Latin, the learned plural would be octopodes; octopi is a mistaken Latin ending. Plain English octopuses is perfectly correct.",
     "usage": [[1758, 2], [1850, 15], [1900, 35], [1950, 50], [2000, 80], [2020, 100]],
-    "tags": ["animals", "sea", "numbers"], "related": ["podium", "pajamas", "foot", "pedal"]
+    "tags": ["animals", "sea", "numbers"], "related": ["podium", "pajamas", "foot"]
   },
   {
     "id": "podium", "word": "podium", "pos": "noun", "gloss": "a raised platform for a speaker, conductor or winner",
@@ -383,7 +383,7 @@
     ],
     "story": "A 'little foot' that grew. In Roman amphitheatres the podium was the raised wall around the arena where the emperor and senators had their seats. Its Latin plural podia, via French, also gave English pew.",
     "usage": [[1743, 2], [1850, 8], [1900, 15], [1950, 30], [2000, 80], [2020, 100]],
-    "tags": ["meaning-shift"], "related": ["pew", "octopus", "foot"]
+    "tags": ["meaning-shift"], "related": ["octopus", "foot"]
   },
   {
     "id": "rhinoceros", "word": "rhinoceros", "pos": "noun", "gloss": "a large, thick-skinned animal with one or two horns on its nose",
@@ -397,7 +397,7 @@
     ],
     "story": "Rhis (nose) + keras (horn). In 1515 Albrecht Dürer made a famous woodcut of a rhinoceros sent to the king of Portugal without ever seeing it. Working from a sketch and a letter, he gave it armour plates and a small extra horn on its back, and Europeans copied his version for two centuries.",
     "usage": [[1300, 2], [1600, 10], [1800, 25], [1900, 40], [2000, 100], [2020, 90]],
-    "tags": ["animals"], "related": ["horn", "unicorn"]
+    "tags": ["animals"], "related": ["horn"]
   },
   {
     "id": "hippopotamus", "word": "hippopotamus", "pos": "noun", "gloss": "a huge, thick-skinned African mammal that lives in rivers",
@@ -426,7 +426,7 @@
     ],
     "story": "Khamai (on the ground) + leōn (lion): a 'ground lion'. People long believed chameleons lived on air alone, which is why Hamlet, asked how he fares, quips: 'Of the chameleon's dish: I eat the air, promise-crammed.' Its distant cousins include human and humble, creatures of the earth.",
     "usage": [[1340, 3], [1600, 20], [1800, 30], [1900, 40], [2000, 100], [2020, 90]],
-    "tags": ["animals", "colors"], "related": ["human", "humble"]
+    "tags": ["animals", "colors"], "related": ["human"]
   },
   {
     "id": "anonymous", "word": "anonymous", "pos": "adjective", "gloss": "of unknown name or authorship",
@@ -498,7 +498,7 @@
     ],
     "story": "Logos meant word, speech, account and reason all at once; the Gospel of John opens 'In the beginning was the Logos'. Logikē was the art of reasoning with words, and the same logos ends every -logy, from biology to theology.",
     "usage": [[1350, 5], [1600, 30], [1800, 50], [1900, 60], [1970, 100], [2020, 85]],
-    "tags": ["philosophy", "math"], "related": ["lexicon", "catalogue", "theology"]
+    "tags": ["philosophy", "math"], "related": ["lexicon", "catalogue"]
   },
   {
     "id": "mania", "word": "mania", "pos": "noun", "gloss": "wild excitement or obsession; a mental state of abnormal elation",
@@ -539,7 +539,7 @@
     ],
     "story": "Classical Greek tragedy used at most three speaking actors: the prōtagōnistēs (first contender), the deuteragonist (second) and the tritagonist (third). The pro- is not 'for' but prōtos, first, so strictly a play has only one protagonist.",
     "usage": [[1671, 2], [1800, 10], [1900, 25], [1950, 50], [2000, 90], [2020, 100]],
-    "tags": ["art", "people"], "related": ["agony", "hypocrite", "act"]
+    "tags": ["art", "people"], "related": ["agony", "hypocrite"]
   },
   {
     "id": "agony", "word": "agony", "pos": "noun", "gloss": "extreme physical or mental suffering",
@@ -554,7 +554,7 @@
     ],
     "story": "An agōn was a contest: an athletic event, a lawsuit, a battle of wits. Agōnia was the struggle and strain of it. English first used agony for Christ's anguish in the Garden of Gethsemane before letting it mean any extreme pain.",
     "usage": [[1380, 5], [1600, 35], [1800, 75], [1880, 100], [1950, 70], [2020, 60]],
-    "tags": ["feelings", "religion"], "related": ["protagonist", "act"]
+    "tags": ["feelings", "religion"], "related": ["protagonist"]
   },
   {
     "id": "apocalypse", "word": "apocalypse", "pos": "noun", "gloss": "the complete destruction of the world; a catastrophe",
@@ -569,7 +569,7 @@
     ],
     "story": "Apo- (off) + kalyptein (to cover): a revelation, the lifting of a veil. It became the Greek name of the Bible's last book, the Revelation of John, whose visions of the world's end gave the word its modern doom. The same verb is inside eucalyptus, named for the cap that 'well covers' its flower bud.",
     "usage": [[1300, 5], [1600, 20], [1800, 15], [1900, 20], [1980, 60], [2020, 100]],
-    "tags": ["religion", "meaning-shift"], "related": ["eucalyptus", "hell", "helmet", "conceal"]
+    "tags": ["religion", "meaning-shift"], "related": ["hell", "helmet"]
   },
   {
     "id": "cardiac", "word": "cardiac", "pos": "adjective", "gloss": "relating to the heart",
@@ -668,7 +668,7 @@
     ],
     "story": "A thema was 'something put down': the text a speaker sets before an audience. Middle English spelled it teme; scholars later put the h back to make it look Greek again. Theme parks arrived in 1960.",
     "usage": [[1300, 5], [1600, 25], [1800, 45], [1900, 55], [2000, 100], [2020, 95]],
-    "tags": ["art", "music"], "related": ["thesis", "do"]
+    "tags": ["art", "music"], "related": ["thesis"]
   },
   {
     "id": "thesis", "word": "thesis", "pos": "noun", "gloss": "a statement put forward to be proved; a long academic essay",
@@ -727,7 +727,7 @@
     ],
     "story": "Genesis meant 'origin' or 'birth'. Greek translators of the Hebrew Bible, working in Alexandria around 250 BCE, gave the name to its first book, whose Hebrew title Bereshit means 'in the beginning'. English began using it for any beginning in the 1600s.",
     "usage": [[1000, 10], [1500, 20], [1700, 30], [1850, 50], [1950, 60], [2000, 100], [2020, 95]],
-    "tags": ["religion", "time"], "related": ["gene", "kin", "genius"]
+    "tags": ["religion", "time"], "related": ["gene", "genius"]
   },
   {
     "id": "gene", "word": "gene", "pos": "noun", "gloss": "a unit of heredity passed from parent to offspring",
@@ -740,7 +740,7 @@
     ],
     "story": "The Danish botanist Wilhelm Johannsen coined Gen in 1909, wanting a short word free of any hypothesis for a unit of heredity; he trimmed it from Hugo de Vries's pangene. Oddly, genetics came first: William Bateson had named the science in 1905.",
     "usage": [[1911, 1], [1950, 15], [1980, 50], [2000, 100], [2020, 95]],
-    "tags": ["science", "family"], "related": ["genesis", "kin", "genius"]
+    "tags": ["science", "family"], "related": ["genesis", "genius"]
   },
   {
     "id": "diagnosis", "word": "diagnosis", "pos": "noun", "gloss": "the identification of an illness from its signs and symptoms",
@@ -753,7 +753,7 @@
     ],
     "story": "Dia- (apart) + gnōsis (knowing): a diagnosis tells one disease apart from another. Its ancient root also gave English know, can and cunning, and Latin's noble and ignore.",
     "usage": [[1681, 2], [1800, 10], [1900, 30], [1950, 60], [2000, 100], [2020, 95]],
-    "tags": ["medicine"], "related": ["know", "agnostic", "prognosis"]
+    "tags": ["medicine"], "related": ["know"]
   },
   {
     "id": "alphabet", "word": "alphabet", "pos": "noun", "gloss": "the set of letters used to write a language",

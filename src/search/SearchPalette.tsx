@@ -29,6 +29,12 @@ function onScreen(el: HTMLElement): boolean {
 export default function SearchPalette() {
   const open = useSearchOpen();
   useEffect(() => { isOpenNow = open; }, [open]);
+  // Any navigation (a result, a link behind the palette, back/forward) closes it.
+  useEffect(() => {
+    const onNav = () => { if (isOpenNow) closeSearch(); };
+    window.addEventListener('hashchange', onNav);
+    return () => window.removeEventListener('hashchange', onNav);
+  }, []);
 
   useEffect(() => {
     const onKey = (e: KeyboardEvent) => {

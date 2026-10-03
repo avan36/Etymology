@@ -11,7 +11,7 @@
     ],
     "story": "One of the oldest words you use. Six thousand years ago on the steppe, *wódr̥ already meant water; its descendants include Russian vodka (\"little water\") and Greek hydor, which gave us hydrogen.",
     "usage": [[700, 70], [1100, 75], [1500, 85], [1800, 95], [1900, 100], [2000, 92], [2020, 90]],
-    "tags": ["nature", "core"], "related": ["vodka", "hydrogen", "otter"]
+    "tags": ["nature", "core"], "related": ["vodka", "hydrogen"]
   },
   {
     "id": "sky", "word": "sky", "pos": "noun", "gloss": "the space above the earth where clouds and stars are seen",
@@ -25,7 +25,7 @@
     ],
     "story": "A Viking gift. In Old Norse ský meant \"cloud\", and so it did in early English. By 1300 it had pushed aside the native word heofon — which survives as heaven — for the vault above us.",
     "usage": [[1220, 10], [1400, 45], [1600, 75], [1800, 85], [1900, 90], [2000, 100], [2020, 98]],
-    "tags": ["nature"], "related": ["heaven"]
+    "tags": ["nature"]
   },
   {
     "id": "beef", "word": "beef", "pos": "noun", "gloss": "the meat of a cow",
@@ -143,7 +143,7 @@
     ],
     "story": "A beautifully plain way to say despair: wan (lacking) + hope. Chaucer used it, then the French-born despair crowded it out. Its sibling wantrust (distrust) died with it.",
     "usage": [[1300, 70], [1400, 100], [1500, 50], [1600, 5], [1700, 0]],
-    "tags": ["feelings"], "related": ["despair"]
+    "tags": ["feelings"]
   },
   {
     "id": "hound", "word": "hound", "pos": "noun", "gloss": "a dog, especially one bred for hunting",
@@ -157,6 +157,6 @@
     ],
     "story": "For centuries hund was simply the English word for dog — as Hund still is in German. Then the mysterious word dog, of unknown origin, took over, and hound narrowed to hunting breeds.",
     "usage": [[700, 100], [1200, 90], [1500, 60], [1800, 45], [1900, 40], [2020, 25]],
-    "tags": ["animals", "meaning-shift"], "related": ["dog", "canine"]
+    "tags": ["animals", "meaning-shift"], "related": ["canine"]
   }
 ]

@@ -35,7 +35,7 @@
     ],
     "story": "Surprisingly, clan comes from Latin planta, a sprout. Early Irish had no p sound, so borrowed Latin p became c: planta turned into cland, 'offspring', and a clan was everyone sprung from a common stock.",
     "usage": [[1425, 3], [1600, 15], [1800, 45], [1900, 60], [2000, 100], [2020, 95]],
-    "tags": ["family", "people"], "related": ["plant", "slogan"]
+    "tags": ["family", "people"], "related": ["slogan"]
   },
   {
     "id": "glen", "word": "glen", "pos": "noun", "gloss": "a narrow valley, especially in Scotland or Ireland",
@@ -103,7 +103,7 @@
     ],
     "story": "Probably from Welsh gwlanen, a woollen cloth, at a time when Wales was famous for its weaving; English smoothed the tricky gwl- into fl-. Welsh gwlân is a distant cousin of English wool.",
     "usage": [[1503, 3], [1700, 20], [1850, 60], [1920, 100], [2000, 60], [2020, 55]],
-    "tags": ["clothing"], "related": ["wool"]
+    "tags": ["clothing"]
   },
   {
     "id": "car", "word": "car", "pos": "noun", "gloss": "a road vehicle with an engine, for a small number of people",
@@ -119,7 +119,7 @@
     ],
     "story": "The Romans borrowed carrus from the Gauls, whose wagons and war chariots impressed them. It rolled on into French and English as a word for any cart, then for railway carriages, and from 1896 for the horseless carriage. Carry, cargo, career and charge are all its offspring.",
     "usage": [[1300, 5], [1600, 10], [1850, 20], [1900, 35], [1960, 90], [2000, 100], [2020, 95]],
-    "tags": ["technology"], "related": ["carry", "cargo", "career", "charge"]
+    "tags": ["technology"]
   },
   {
     "id": "bard", "word": "bard", "pos": "noun", "gloss": "a poet, especially one in the ancient Celtic tradition",
@@ -171,7 +171,7 @@
     ],
     "story": "In Latin opera meant 'works', the plural of opus. Around 1600 Florentine musicians invented a new kind of drama sung from start to finish, and such a 'work' of music gave the art form its name. English travellers met it in Italy in the 1640s and brought the word home.",
     "usage": [[1644, 5], [1750, 40], [1850, 80], [1920, 100], [2000, 70], [2020, 65]],
-    "tags": ["music", "art"], "related": ["piano", "operate"]
+    "tags": ["music", "art"], "related": ["piano"]
   },
   {
     "id": "fresco", "word": "fresco", "pos": "noun", "gloss": "a painting made on wet plaster",
@@ -183,7 +183,7 @@
     ],
     "story": "Fresco simply means 'fresh', and Italian borrowed it from a Germanic language: it is a cousin of English fresh. Fresco painters brush pigment onto fresh, wet plaster so the colour binds into the wall as it dries, which is why Michelangelo had to work fast, patch by patch, across the Sistine Chapel ceiling.",
     "usage": [[1598, 3], [1700, 15], [1850, 50], [1900, 70], [2000, 100], [2020, 90]],
-    "tags": ["art"], "related": ["fresh"]
+    "tags": ["art"]
   },
   {
     "id": "balcony", "word": "balcony", "pos": "noun", "gloss": "a platform with a railing projecting from the wall of a building",
@@ -195,7 +195,7 @@
     ],
     "story": "Italian balcone came from a Germanic word for a beam, a cousin of English balk. Until about 1825 English stressed it bal-CO-ny, and the poet Samuel Rogers grumbled that 'contemplate is bad enough, but balcony makes me sick'.",
     "usage": [[1618, 3], [1700, 20], [1800, 45], [1900, 80], [2000, 100], [2020, 95]],
-    "tags": ["home"], "related": ["balk"]
+    "tags": ["home"]
   },
   {
     "id": "bank", "word": "bank", "pos": "noun", "gloss": "a business that keeps and lends money",
@@ -208,7 +208,7 @@
     ],
     "story": "Medieval Italian money-changers did business at a banca, a bench or counter, in the marketplace; the word is Germanic, a cousin of English bench. Italian bankers spread it across Europe, and London's Lombard Street is still named after them.",
     "usage": [[1474, 5], [1600, 25], [1750, 50], [1900, 85], [2000, 100], [2020, 95]],
-    "tags": ["money", "trade"], "related": ["bankrupt", "bench"]
+    "tags": ["money", "trade"], "related": ["bankrupt"]
   },
   {
     "id": "bankrupt", "word": "bankrupt", "pos": "adjective", "gloss": "unable to pay one's debts",
@@ -221,7 +221,7 @@
     ],
     "story": "Italian banca rotta, 'broken bench': a money-changer who could not pay was finished. The tale that his bench was ceremonially smashed is colourful but hard to prove. English later re-spelled the second half to match Latin ruptus, 'broken', as in rupture.",
     "usage": [[1533, 5], [1700, 40], [1850, 60], [1900, 70], [2000, 100], [2020, 90]],
-    "tags": ["money", "law"], "related": ["bank", "rupture"]
+    "tags": ["money", "law"], "related": ["bank"]
   },
   {
     "id": "umbrella", "word": "umbrella", "pos": "noun", "gloss": "a folding canopy on a stick, used against rain or sun",
@@ -259,7 +259,7 @@
     ],
     "story": "Italian influenza meant 'influence', specifically the influence of the stars, which were blamed for outbreaks of disease. English borrowed it during a European epidemic in 1743, and by 1839 had shortened it to flu.",
     "usage": [[1743, 5], [1850, 30], [1918, 100], [1950, 40], [2009, 60], [2020, 55]],
-    "tags": ["medicine"], "related": ["influence", "disaster"]
+    "tags": ["medicine"], "related": ["disaster"]
   },
   {
     "id": "malaria", "word": "malaria", "pos": "noun", "gloss": "a fever caused by a parasite spread by mosquitoes",
@@ -319,7 +319,7 @@
     ],
     "story": "Spanish cañón means a large tube or pipe, from caño, tube, from Latin canna, a reed; in Mexico it came to mean a deep, narrow gorge. Americans anglicised the spelling as they pushed west. Cannon and cane grew from the same reed.",
     "usage": [[1834, 2], [1880, 20], [1920, 50], [2000, 100], [2020, 90]],
-    "tags": ["nature", "places"], "related": ["cannon", "cane"]
+    "tags": ["nature", "places"]
   },
   {
     "id": "guitar", "word": "guitar", "pos": "noun", "gloss": "a stringed instrument with a long neck, played by plucking",
@@ -332,7 +332,7 @@
     ],
     "story": "The Greek kithara was a lyre; by way of Arabic qīthāra it became Spanish guitarra. English had already borrowed the same word once, through French, as gittern, and German, through Latin, made it zither.",
     "usage": [[1621, 2], [1800, 20], [1900, 30], [1950, 50], [2000, 100], [2020, 95]],
-    "tags": ["music"], "related": ["zither"]
+    "tags": ["music"]
   },
   {
     "id": "mosquito", "word": "mosquito", "pos": "noun", "gloss": "a small flying insect whose female sucks blood",
@@ -370,7 +370,7 @@
     ],
     "story": "Spanish sailors in the Caribbean called the creature el lagarto, 'the lizard'. English swallowed the article along with the noun, and el lagarto became alligator. Lizard comes from the same Latin lacertus.",
     "usage": [[1568, 2], [1700, 10], [1850, 30], [1950, 50], [2000, 100], [2020, 95]],
-    "tags": ["animals"], "related": ["lizard"]
+    "tags": ["animals"]
   },
   {
     "id": "cockroach", "word": "cockroach", "pos": "noun", "gloss": "a fast-running, flat-bodied insect that infests buildings",
@@ -409,7 +409,7 @@
     ],
     "story": "From Spanish rodear, 'to go around': a rodeo was a round-up, when vaqueros circled the herd. The public shows of riding and roping took the name in the early 1900s. Rotate is a cousin.",
     "usage": [[1834, 2], [1900, 10], [1930, 50], [1980, 100], [2020, 80]],
-    "tags": ["animals"], "related": ["ranch", "rotate"]
+    "tags": ["animals"], "related": ["ranch"]
   },
   {
     "id": "vanilla", "word": "vanilla", "pos": "noun", "gloss": "a flavouring from the pods of a tropical orchid",
@@ -520,7 +520,7 @@
     ],
     "story": "Sanskrit śarkarā meant grit or gravel, a fair description of the coarse crystals Indians first boiled from cane juice. The word travelled west with the crop, through Persian and Arabic. Candy comes from India too: Sanskrit khaṇḍa, a lump of sugar.",
     "usage": [[1300, 5], [1600, 30], [1800, 60], [1900, 80], [1980, 100], [2020, 90]],
-    "tags": ["food", "trade"], "related": ["candy"]
+    "tags": ["food", "trade"]
   },
   {
     "id": "alcohol", "word": "alcohol", "pos": "noun", "gloss": "the intoxicating ingredient in wine, beer and spirits",
@@ -534,7 +534,7 @@
     ],
     "story": "Al-kuḥl was kohl, the fine black powder that has lined eyes since ancient Egypt. Alchemists stretched it to mean any fine powder, then the purest essence of anything, until 'alcohol of wine' meant distilled spirit. By the 1750s the essence of the party had taken the whole word.",
     "usage": [[1543, 1], [1700, 5], [1800, 20], [1900, 60], [1950, 80], [2000, 100], [2020, 95]],
-    "tags": ["science", "meaning-shift", "food"], "related": ["algebra", "kohl"]
+    "tags": ["science", "meaning-shift", "food"], "related": ["algebra"]
   },
   {
     "id": "zero", "word": "zero", "pos": "numeral", "gloss": "the number 0; nothing",
@@ -592,7 +592,7 @@
     ],
     "story": "Arabic amīr, commander, appeared in titles like amīr al-baḥr, 'commander of the sea'. Europeans took amīr-al for a single word, and Latin scribes slipped in a d from admirabilis, 'admirable'. Emir is the same word, borrowed again.",
     "usage": [[1205, 2], [1500, 30], [1700, 70], [1800, 100], [1950, 50], [2020, 30]],
-    "tags": ["sea", "war", "people"], "related": ["emir"]
+    "tags": ["sea", "war", "people"]
   },
   {
     "id": "magazine", "word": "magazine", "pos": "noun", "gloss": "a periodical publication; also, a store for ammunition",
@@ -672,7 +672,7 @@
     ],
     "story": "Persian līmū and Arabic laymūn travelled with the fruit itself, which Arab growers spread around the Mediterranean in the Middle Ages. Lime comes from the same source. Slang has called a dud a lemon since the early 1900s, and a bad car in particular since the 1960s.",
     "usage": [[1400, 3], [1600, 20], [1800, 40], [1950, 70], [2000, 100], [2020, 95]],
-    "tags": ["food"], "related": ["lime", "orange"]
+    "tags": ["food"], "related": ["orange"]
   },
   {
     "id": "orange", "word": "orange", "pos": "noun", "gloss": "a round, juicy citrus fruit; the colour between red and yellow",
@@ -745,7 +745,7 @@
     ],
     "story": "Šabbāṯ, the seventh day, from a verb meaning 'to stop, to rest'. Many languages still name Saturday after it, like Spanish sábado, Italian sabato and Russian subbota, and a sabbatical is a rest from work.",
     "usage": [[900, 40], [1200, 60], [1600, 100], [1800, 80], [1900, 50], [2020, 30]],
-    "tags": ["religion", "time"], "related": ["sabbatical"]
+    "tags": ["religion", "time"]
   },
   {
     "id": "cherub", "word": "cherub", "pos": "noun", "gloss": "a winged angelic being, often shown as a chubby child",
@@ -814,7 +814,7 @@
     ],
     "story": "Egyptian hbnj was the black heartwood the pharaohs imported from the south, which makes ebony one of the oldest traceable words in English. Greek ebenos and Latin hebenus passed it to Old French eban; the -y ending was perhaps modelled on its pale partner, ivory.",
     "usage": [[1385, 3], [1600, 40], [1800, 75], [1900, 100], [2000, 90], [2020, 85]],
-    "tags": ["nature", "trade", "colors"], "related": ["ivory"]
+    "tags": ["nature", "trade", "colors"]
   },
   {
     "id": "ghoul", "word": "ghoul", "pos": "noun", "gloss": "an evil spirit that robs graves and feeds on corpses; a morbid person",
@@ -847,7 +847,7 @@
     ],
     "story": "Arabic ḥashīsh means dried herbage. Its derivative ḥashīshī, 'hashish user', was a hostile nickname for the Nizari Ismailis of medieval Syria and Persia, feared for killing their enemies' leaders, and it became English assassin. Whether they used the drug at all is doubtful: the tales come from their enemies and from Marco Polo.",
     "usage": [[1598, 1], [1800, 10], [1900, 40], [1970, 100], [2000, 60], [2020, 45]],
-    "tags": ["medicine", "meaning-shift"], "related": ["assassin"]
+    "tags": ["medicine", "meaning-shift"]
   },
   {
     "id": "sheikh", "word": "sheikh", "pos": "noun", "gloss": "an Arab leader, chief of a tribe or family; a Muslim religious scholar",
@@ -899,7 +899,7 @@
     ],
     "story": "Persian kings kept vast walled parks of trees and game, called by a word meaning 'around-wall'. The Greek soldier Xenophon marvelled at them and wrote of paradeisoi; Jewish scholars translating Genesis then used the word for Eden, and a royal hunting ground became heaven.",
     "usage": [[1175, 20], [1400, 50], [1600, 80], [1800, 70], [1900, 60], [2000, 100], [2020, 95]],
-    "tags": ["religion", "nature", "meaning-shift"], "related": ["dough", "lady", "figure"]
+    "tags": ["religion", "nature", "meaning-shift"], "related": ["lady"]
   },
   {
     "id": "bazaar", "word": "bazaar", "pos": "noun", "gloss": "a market of small shops and stalls; a fund-raising sale",
@@ -925,7 +925,7 @@
     ],
     "story": "Crusaders learned kārvān, a company of merchants and camels crossing the desert together. In English it came to mean a covered wagon and later a trailer, and in 1829 Londoners clipped it to van.",
     "usage": [[1588, 3], [1700, 15], [1850, 40], [1950, 80], [2000, 100], [2020, 85]],
-    "tags": ["trade"], "related": ["van", "bazaar"]
+    "tags": ["trade"], "related": ["bazaar"]
   },
   {
     "id": "checkmate", "word": "checkmate", "pos": "noun", "gloss": "in chess, a position in which the king cannot escape; total defeat",
@@ -938,7 +938,7 @@
     ],
     "story": "When Persian chess players trapped the enemy king they said šāh māt, 'the king is helpless'. It is often translated 'the king is dead', but in chess the king is never taken. From šāh come chess, check, the chequered table of the exchequer and the bank cheque.",
     "usage": [[1350, 10], [1600, 30], [1800, 40], [1900, 50], [2000, 100], [2020, 95]],
-    "tags": ["war", "empire"], "related": ["chess", "check", "cheque", "exchequer"]
+    "tags": ["war", "empire"]
   },
   {
     "id": "pajamas", "word": "pajamas", "pos": "noun", "gloss": "loose trousers and jacket for sleeping in (British: pyjamas)",
@@ -1035,7 +1035,7 @@
     ],
     "story": "Sanskrit guru means 'heavy', and so 'weighty, venerable': a teacher of real gravity. That is more than a pun, because guru comes from the same ancient root as Latin gravis, source of grave and gravity.",
     "usage": [[1613, 1], [1800, 5], [1900, 10], [1970, 50], [2000, 100], [2020, 90]],
-    "tags": ["religion", "people"], "related": ["gravity", "grief"]
+    "tags": ["religion", "people"]
   },
   {
     "id": "yoga", "word": "yoga", "pos": "noun", "gloss": "a Hindu discipline of breathing, meditation and bodily postures",
@@ -1047,7 +1047,7 @@
     ],
     "story": "Sanskrit yoga means 'yoking': harnessing mind and body as oxen are joined to a plough. Through the same ancient root it is a cousin of English yoke, and of join, junction and conjugal.",
     "usage": [[1820, 1], [1900, 8], [1960, 20], [1990, 40], [2010, 90], [2020, 100]],
-    "tags": ["religion", "body", "philosophy"], "related": ["yoke", "join", "junction"]
+    "tags": ["religion", "body", "philosophy"]
   },
   {
     "id": "mantra", "word": "mantra", "pos": "noun", "gloss": "a sacred word or sound repeated in meditation; a much-repeated slogan",
@@ -1134,7 +1134,7 @@
     ],
     "story": "Chinese reads 茶 two ways: chá in Mandarin and Cantonese, tê in Hokkien. Lands that got tea overland or through Portuguese Macau say something like chai or chá; those supplied by Dutch ships from Fujian say tea, thé or Tee. English said 'tay' at first (Alexander Pope rhymed it with obey), and Samuel Pepys drank his first 'cup of tee (a China drink)' in 1660.",
     "usage": [[1655, 2], [1700, 25], [1800, 70], [1900, 100], [1950, 90], [2020, 80]],
-    "tags": ["food", "trade", "empire"], "related": ["chai", "coffee"]
+    "tags": ["food", "trade", "empire"], "related": ["coffee"]
   },
   {
     "id": "kowtow", "word": "kowtow", "pos": "verb", "gloss": "to act with excessive deference; to grovel",
@@ -1187,7 +1187,7 @@
     ],
     "story": "Kara (empty) + oke, short for ōkesutora: an 'empty orchestra', the band without the singer. The word is a round trip. Orchestra was the Greek dancing floor in front of the stage; it reached Japan through English and came back as karaoke in the late 1970s.",
     "usage": [[1979, 1], [1990, 40], [2000, 100], [2010, 85], [2020, 80]],
-    "tags": ["music", "technology"], "related": ["orchestra"]
+    "tags": ["music", "technology"]
   },
   {
     "id": "emoji", "word": "emoji", "pos": "noun", "gloss": "a small digital picture used to express an idea or emotion",
@@ -1261,7 +1261,7 @@
     ],
     "story": "Tulip and turban are the same word: Turkish tülbend, from Persian dulband. A European visitor to the Ottoman court in the 1550s seems to have mixed up the cloth with the flower it resembled (the Turks called the flower lâle). In 1637 Dutch tulip mania sent single bulbs to the price of a fine Amsterdam house.",
     "usage": [[1578, 2], [1700, 20], [1850, 40], [1950, 50], [2000, 100], [2020, 95]],
-    "tags": ["nature", "clothing", "trade"], "related": ["turban"]
+    "tags": ["nature", "clothing", "trade"]
   },
   {
     "id": "amok", "word": "amok", "pos": "adverb", "gloss": "in a wild, uncontrolled frenzy (run amok)",
@@ -1322,7 +1322,7 @@
     ],
     "story": "The Aztecs drank cacao frothy, bitter and often spiced with chili; Spanish colonists sweetened it. The exact Nahuatl source is a puzzle, since chocolātl doesn't appear in the earliest records and may be a blend, but its ending is probably ātl, water.",
     "usage": [[1604, 2], [1700, 15], [1800, 25], [1900, 50], [2000, 100], [2020, 98]],
-    "tags": ["food", "trade"], "related": ["cocoa", "vanilla", "chili"]
+    "tags": ["food", "trade"], "related": ["vanilla", "chili"]
   },
   {
     "id": "tomato", "word": "tomato", "pos": "noun", "gloss": "a glossy red fruit eaten as a vegetable",
@@ -1335,7 +1335,7 @@
     ],
     "story": "Nahuatl tomatl named the tomatillo and its relatives. English borrowed Spanish tomate and then changed the ending to -o, probably on the model of potato. Many Europeans grew the plant as a curiosity long before they trusted it at the table.",
     "usage": [[1604, 1], [1750, 5], [1850, 25], [1950, 70], [2000, 100], [2020, 95]],
-    "tags": ["food"], "related": ["potato", "ketchup"]
+    "tags": ["food"], "related": ["ketchup"]
   },
   {
     "id": "avocado", "word": "avocado", "pos": "noun", "gloss": "a pear-shaped tropical fruit with creamy green flesh",
@@ -1348,7 +1348,7 @@
     ],
     "story": "Nahuatl āhuacatl meant the fruit, and it was also a word for testicle, presumably for the shape. Spanish speakers turned the strange word into aguacate, and then into avocado, which already meant 'lawyer'. Guacamole is āhuacamōlli, avocado sauce.",
     "usage": [[1763, 1], [1900, 5], [1950, 15], [1990, 40], [2010, 80], [2020, 100]],
-    "tags": ["food", "body"], "related": ["guacamole"]
+    "tags": ["food", "body"]
   },
   {
     "id": "chili", "word": "chili", "pos": "noun", "gloss": "a small hot-tasting pod of a capsicum plant",
@@ -1360,7 +1360,7 @@
     ],
     "story": "Nahuatl chīlli. Columbus, hoping he had reached the spice lands of Asia, called the fiery pods pimientos, peppers, though they are no relation to black pepper. Both names stuck, and English still says chili pepper.",
     "usage": [[1662, 1], [1800, 5], [1900, 15], [1950, 40], [2000, 90], [2020, 100]],
-    "tags": ["food"], "related": ["chocolate", "pepper", "paprika"]
+    "tags": ["food"], "related": ["chocolate", "paprika"]
   },
   {
     "id": "coyote", "word": "coyote", "pos": "noun", "gloss": "a wild dog of North and Central America",
@@ -1719,7 +1719,7 @@
     ],
     "story": "Hungarian paprika came from Serbo-Croatian, a diminutive of papar, pepper: the same word as English pepper, which goes back through Latin and Greek to Sanskrit pippalī. Yet paprika is made from capsicum, a New World plant that is no relation to pepper at all.",
     "usage": [[1896, 1], [1920, 20], [1950, 50], [2000, 100], [2020, 95]],
-    "tags": ["food"], "related": ["pepper", "chili"]
+    "tags": ["food"], "related": ["chili"]
   },
   {
     "id": "sauna", "word": "sauna", "pos": "noun", "gloss": "a small room heated to high temperatures for sweat bathing",

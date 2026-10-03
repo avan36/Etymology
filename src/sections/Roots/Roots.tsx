@@ -24,7 +24,7 @@ export default function Roots() {
     () =>
       data.roots
         .map((root) => ({ root, n: data.wordsByRoot.get(root.id)?.length ?? 0 }))
-        .filter((r) => r.n > 0)
+        .filter((r) => r.n >= 2)
         .sort((a, b) => b.n - a.n || a.root.meaning.localeCompare(b.root.meaning)),
     [],
   );

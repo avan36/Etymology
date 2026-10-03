@@ -22,7 +22,7 @@
     ],
     "story": "In Old English a wer was a man and a wīf a woman, while mann meant any person at all. When man narrowed to mean ‘male’, wer was squeezed out — but it still hides in werewolf (‘man-wolf’), in wergild (the ‘man-price’ paid for a killing) and in world, from wer + eld, ‘the age of man’. Its Latin cousin vir gave us virile.",
     "usage": [[700, 100], [1000, 85], [1150, 40], [1250, 8], [1300, 2], [1350, 0]],
-    "tags": ["people", "core"], "related": ["werewolf", "world", "man"]
+    "tags": ["people", "core"], "related": ["werewolf", "world"]
   },
   {
     "id": "here-army", "word": "here", "pos": "noun", "gloss": "an army, especially a raiding one",
@@ -33,7 +33,7 @@
     ],
     "story": "When the Anglo-Saxon Chronicle described the Viking ‘great heathen army’ that landed in 865, it called it the micel hæþen here. The word lives on in harbour (herebeorg, ‘army shelter’), in harry (to ravage, as armies do) and in Hereford, ‘army ford’ — but after the Conquest the French army marched in.",
     "usage": [[750, 70], [870, 100], [1000, 85], [1100, 40], [1200, 5], [1250, 0]],
-    "tags": ["war"], "related": ["harbour", "army"]
+    "tags": ["war"], "related": ["army"]
   },
   {
     "id": "eam", "word": "ēam", "pos": "noun", "gloss": "an uncle — specifically, your mother's brother",
@@ -45,7 +45,7 @@
     ],
     "story": "Old English kept careful track of family: your fædera was your father's brother, your ēam your mother's. The French-born uncle swept both away after 1300, though eme lingered in northern speech into the 1500s; Dutch still says oom. Oddly, uncle (from Latin avunculus) is a distant relative — both go back to an Indo-European word for grandfather.",
     "usage": [[800, 90], [1000, 100], [1200, 80], [1300, 40], [1400, 15], [1500, 3], [1550, 0]],
-    "tags": ["family"], "related": ["uncle"]
+    "tags": ["family"]
   },
   {
     "id": "ae-law", "word": "ǣ", "pos": "noun", "gloss": "law, especially divine law; custom; marriage",
@@ -79,7 +79,7 @@
     ],
     "story": "German still says Leute for people; English said lēode. Middle English poets such as the author of Sir Gawain and the Green Knight still used lede, but the Anglo-Norman peple, from Latin populus, won out.",
     "usage": [[750, 100], [1000, 90], [1200, 50], [1350, 25], [1450, 5], [1500, 0]],
-    "tags": ["people"], "related": ["people"]
+    "tags": ["people"]
   },
   {
     "id": "dryhten", "word": "dryhten", "pos": "noun", "gloss": "a lord, a ruler; in Christian use, the Lord",
@@ -102,7 +102,7 @@
     ],
     "story": "Old English had its own word for easily — ēaþe — and an opposite, unēaþe, ‘hardly, with difficulty’. French aise brought easy and easily after 1200; the old pair faded, though uneath still turns up in Shakespeare's Henry VI.",
     "usage": [[800, 80], [1000, 100], [1200, 70], [1350, 35], [1500, 8], [1600, 0]],
-    "tags": ["core"], "related": ["easy"]
+    "tags": ["core"]
   },
   {
     "id": "wordhord", "word": "wordhord", "pos": "noun", "gloss": "a hoard of words; one's store of words and lore",
@@ -113,7 +113,7 @@
     ],
     "story": "When Beowulf answers the coastguard of Denmark, the poet says he ‘wordhord onleac’ — unlocked his word-hoard. The Anglo-Saxons pictured speech as treasure kept in a locked chest; the Latin vocabulary arrived only in the 1500s.",
     "usage": [[950, 80], [1000, 100], [1050, 60], [1100, 20], [1150, 0]],
-    "tags": ["art"], "related": ["vocabulary"]
+    "tags": ["art"]
   },
   {
     "id": "earendel", "word": "ēarendel", "pos": "noun", "gloss": "a ray of light, a shining one — perhaps the morning star",
@@ -128,7 +128,7 @@
   },
   {
     "id": "middangeard", "word": "middangeard", "pos": "noun", "gloss": "middle-earth: the world of humans, between heaven and hell",
-    "origin": "ang", "first": 800, "root": "ghordho-garden", "status": "extinct", "died": 1400, "replacedBy": "world", "featured": true,
+    "origin": "ang", "first": 800, "root": "gher-enclose", "status": "extinct", "died": 1400, "replacedBy": "world", "featured": true,
     "path": [
       {"lang": "gem-pro", "form": "*midjagardaz", "meaning": "middle enclosure", "year": -500},
       {"lang": "ang", "form": "middangeard", "year": 800},
@@ -158,7 +158,7 @@
     ],
     "story": "The earliest English poem by a poet we can name — Cædmon's Hymn, from the late 600s — praises the weorc wuldorfæder, ‘the work of the Father of glory’. After the Conquest, glory, from Latin gloria via French, took its place.",
     "usage": [[700, 90], [900, 100], [1050, 80], [1150, 35], [1250, 3], [1300, 0]],
-    "tags": ["religion"], "related": ["glory"]
+    "tags": ["religion"]
   },
   {
     "id": "ellen", "word": "ellen", "pos": "noun", "gloss": "courage, valour, zeal",
@@ -179,7 +179,7 @@
     ],
     "story": "Sige meant victory, and Anglo-Saxon nobles wore it in their names, like the East Saxon king Sigeberht, ‘victory-bright’. German keeps it as Sieg; English swapped it for Latin-French victory.",
     "usage": [[750, 90], [900, 100], [1050, 70], [1150, 25], [1250, 0]],
-    "tags": ["war"], "related": ["victory"]
+    "tags": ["war"]
   },
   {
     "id": "leorningcniht", "word": "leorningcniht", "pos": "noun", "gloss": "a disciple — literally a ‘learning-lad’",
@@ -190,12 +190,13 @@
     ],
     "story": "In the Old English Gospels of around 1000, Christ's disciples are his leorningcnihtas — learning-lads. Cniht meant a boy or servant before it rose to knight. Disciple, from Latin discipulus, replaced it in Middle English.",
     "usage": [[950, 50], [1000, 100], [1100, 60], [1200, 10], [1250, 0]],
-    "tags": ["religion", "people"], "related": ["knight", "disciple"]
+    "tags": ["religion", "people"], "related": ["knight"]
   },
   {
     "id": "wyrd", "word": "wyrd", "pos": "noun", "gloss": "fate, destiny; what comes to pass",
-    "origin": "ang", "first": 750, "status": "extinct", "died": 1600, "replacedBy": "fate",
+    "origin": "ang", "first": 750, "root": "wert-turn", "status": "extinct", "died": 1600, "replacedBy": "fate",
     "path": [
+      {"lang": "ine-pro", "form": "*wert-", "meaning": "to turn", "year": -4000},
       {"lang": "gem-pro", "form": "*wurdiz", "year": -500},
       {"lang": "ang", "form": "wyrd", "meaning": "fate", "year": 750},
       {"lang": "enm", "form": "werd", "meaning": "fate, destiny", "year": 1200},
@@ -204,7 +205,7 @@
     ],
     "story": "Wyrd, from weorþan ‘to become’, was what happens — fate itself. Macbeth's three witches are the Weird Sisters, the sisters of fate; readers took weird as a description of them, and by the 1800s it meant ‘uncanny’. Scots kept the old noun in the saying ‘dree your weird’ — endure your fate.",
     "usage": [[750, 80], [1000, 100], [1300, 60], [1500, 30], [1600, 8], [1700, 2], [1800, 0]],
-    "tags": ["meaning-shift", "religion"], "related": ["weird", "fate"]
+    "tags": ["meaning-shift", "religion"], "related": ["weird"]
   },
   {
     "id": "scop", "word": "scop", "pos": "noun", "gloss": "a poet; a singer of the Anglo-Saxon hall",
@@ -214,7 +215,7 @@
     ],
     "story": "The scop sang heroic lays to the harp in the mead-hall, like the singer in Beowulf who performs the tale of Finnsburh for King Hrothgar's court. Its origin is uncertain — perhaps related to shape (create), perhaps to scoff. Poet, from Greek poiētēs via Latin and French, took its place.",
     "usage": [[750, 90], [950, 100], [1050, 60], [1150, 15], [1200, 0]],
-    "tags": ["art", "music", "people"], "related": ["poet"]
+    "tags": ["art", "music", "people"]
   },
   {
     "id": "theod", "word": "þēod", "pos": "noun", "gloss": "a people, a nation",
@@ -225,7 +226,7 @@
     ],
     "story": "Þēod meant ‘the people’, and þēodisc meant ‘of the people’ — the language ordinary folk spoke, rather than Latin. Its cousins became German Deutsch and English Dutch. The ruler of a þēod was its þēoden, the name Tolkien gave to the king of Rohan.",
     "usage": [[750, 90], [900, 100], [1050, 60], [1150, 15], [1250, 0]],
-    "tags": ["people", "places"], "related": ["people", "dutch"]
+    "tags": ["people", "places"]
   },
   {
     "id": "sibb", "word": "sibb", "pos": "noun", "gloss": "kinship; the peace and friendship of a family",
@@ -237,7 +238,7 @@
     ],
     "story": "To the Anglo-Saxons sibb meant both relationship and the peace that came with it. A godsibb was a ‘god-relative’, a sponsor at a baptism — and since godparents chattered, godsibb wore down into gossip. Sibling, an Old English word for any relative, was revived by anthropologists around 1900 to mean brother or sister.",
     "usage": [[750, 80], [1000, 100], [1200, 60], [1400, 25], [1550, 5], [1600, 0]],
-    "tags": ["family"], "related": ["gossip", "sibling"]
+    "tags": ["family"], "related": ["gossip"]
   },
   {
     "id": "ofermod", "word": "ofermōd", "pos": "noun", "gloss": "pride, overconfidence (literally ‘over-mind’)",
@@ -248,7 +249,7 @@
     ],
     "story": "In The Battle of Maldon, about a fight with Viking raiders in Essex in 991, the English leader Byrhtnoth lets the enemy cross the causeway to fight fairly ‘for his ofermōde’ — and dies. Mōd meant mind or spirit (it gave us mood); ofermōd was a spirit that overreached.",
     "usage": [[900, 80], [991, 100], [1050, 60], [1150, 15], [1200, 0]],
-    "tags": ["feelings", "war"], "related": ["mood", "pride"]
+    "tags": ["feelings", "war"]
   },
   {
     "id": "haelend", "word": "Hǣlend", "pos": "noun", "gloss": "the Saviour — literally ‘the Healer’",
@@ -259,7 +260,7 @@
     ],
     "story": "Old English Christians called Jesus se Hǣlend, ‘the Healer’, from hǣlan, to heal — kin to whole, health and holy. After the Conquest the French-born Saviour took his place.",
     "usage": [[800, 85], [1000, 100], [1100, 70], [1200, 20], [1250, 3], [1300, 0]],
-    "tags": ["religion"], "related": ["heal", "whole", "holy"]
+    "tags": ["religion"]
   },
   {
     "id": "rood", "word": "rood", "pos": "noun", "gloss": "the cross of Christ; a crucifix",
@@ -272,7 +273,7 @@
     ],
     "story": "The Dream of the Rood, among the finest Old English poems, lets the cross itself tell of the crucifixion; lines of it are carved in runes on the 8th-century Ruthwell Cross. Rood gave way to cross — which came via Old Norse kross from Old Irish and Latin crux — but survives in the rood screens of old churches.",
     "usage": [[800, 70], [1000, 100], [1300, 80], [1500, 50], [1600, 20], [1800, 8], [2020, 3]],
-    "tags": ["religion"], "related": ["cross"]
+    "tags": ["religion"]
   },
   {
     "id": "lich", "word": "lich", "pos": "noun", "gloss": "a corpse (originally any body, living or dead)",
@@ -284,7 +285,7 @@
     ],
     "story": "Līc first meant a body, living or dead. It survives in the lychgate, the roofed churchyard gate where a coffin waited, and, more surprisingly, in like: alike once meant ‘having the same body or form’. Dutch lijk and German Leiche still mean corpse.",
     "usage": [[750, 90], [1000, 100], [1300, 70], [1500, 35], [1650, 8], [1900, 4], [2020, 3]],
-    "tags": ["body", "religion"], "related": ["like"]
+    "tags": ["body", "religion"]
   },
   {
     "id": "attercop", "word": "attercop", "pos": "noun", "gloss": "a spider; a spiteful person",
@@ -296,7 +297,7 @@
     ],
     "story": "Ātor was poison; the second half may mean head or cup — nobody is sure. The word lingered in northern dialects, and Tolkien gave it to Bilbo, who taunts the giant spiders of Mirkwood with ‘Attercop! Attercop!’",
     "usage": [[1000, 70], [1200, 90], [1400, 100], [1550, 40], [1700, 15], [1900, 5], [2020, 3]],
-    "tags": ["animals", "insults"], "related": ["spider"]
+    "tags": ["animals", "insults"]
   },
   {
     "id": "erne", "word": "erne", "pos": "noun", "gloss": "an eagle, especially the white-tailed sea eagle",
@@ -310,7 +311,7 @@
     ],
     "story": "In Old English battle poetry the earn circles the field, waiting for the slain. The French-born eagle (from Latin aquila) took over in the 1300s, but erne hangs on in bird books and crossword puzzles — and its Greek cousin ornis, ‘bird’, gave us ornithology.",
     "usage": [[750, 90], [1000, 100], [1300, 60], [1500, 25], [1700, 10], [1900, 6], [2020, 4]],
-    "tags": ["animals"], "related": ["eagle"]
+    "tags": ["animals"]
   },
   {
     "id": "cempa", "word": "cempa", "pos": "noun", "gloss": "a warrior, a champion",
@@ -323,7 +324,7 @@
     ],
     "story": "Early on, Old English borrowed Latin campus, ‘field’, as camp, ‘battle’ — and a cempa was a fighter. Kempe survived in Middle English ballads and lives on in the surname Kemp. Its replacement, champion, comes from the very same Latin word by way of French.",
     "usage": [[750, 90], [950, 100], [1100, 60], [1300, 35], [1450, 10], [1500, 0]],
-    "tags": ["war", "people"], "related": ["champion", "camp"]
+    "tags": ["war", "people"]
   },
   {
     "id": "thou", "word": "thou", "pos": "pronoun", "gloss": "you (one person; familiar or intimate)",
@@ -515,8 +516,7 @@
       {"lang": "en", "form": "quoth", "year": 1500}
     ],
     "story": "The past tense of Old English cweþan, to say. Every other form of the verb died, and this one survived only in front of its subject — ‘Quoth the Raven, “Nevermore”’ (Edgar Allan Poe, 1845). A relative lives on in bequeath, to ‘say over’ your goods to someone.",
-    "usage": [[800, 70], [1200, 90], [1400, 100], [1600, 70], [1750, 25], [1850, 15], [2020, 6]],
-    "related": ["bequeath"]
+    "usage": [[800, 70], [1200, 90], [1400, 100], [1600, 70], [1750, 25], [1850, 15], [2020, 6]]
   },
   {
     "id": "gramercy", "word": "gramercy", "pos": "interjection", "gloss": "thank you very much",
@@ -528,8 +528,7 @@
       {"lang": "en", "form": "gramercy", "year": 1500}
     ],
     "story": "Old French grant merci, ‘great thanks’, anglicised in the 1300s. It survives as a stagey exclamation, while French still says merci — which goes back to Latin mercēs, wages: thanks as a kind of payment.",
-    "usage": [[1300, 60], [1400, 100], [1550, 70], [1650, 25], [1800, 8], [2020, 4]],
-    "related": ["mercy"]
+    "usage": [[1300, 60], [1400, 100], [1550, 70], [1650, 25], [1800, 8], [2020, 4]]
   },
   {
     "id": "sooth", "word": "sooth", "pos": "noun", "gloss": "truth",
@@ -543,7 +542,7 @@
     ],
     "story": "Sōþ meant true or truth, so a soothsayer was a truth-sayer. Its verb soothe first meant ‘to prove true’, then ‘to agree with, flatter’, and finally ‘to calm’. Sanskrit satya, ‘truth’, is a distant cousin.",
     "usage": [[800, 80], [1100, 100], [1400, 85], [1600, 45], [1700, 15], [1900, 8], [2020, 4]],
-    "tags": ["meaning-shift"], "related": ["forsooth", "soothe"]
+    "tags": ["meaning-shift"], "related": ["forsooth"]
   },
   {
     "id": "lief", "word": "lief", "pos": "adverb", "gloss": "gladly, willingly (as in ‘I'd as lief’)",
@@ -569,7 +568,7 @@
     ],
     "story": "Cȳþþ came from cūþ, ‘known’ — as in uncouth, which first meant ‘unknown’. Your kith were the people and places you knew, your home ground; your kin were your relatives. The word survives only in the alliterative pair ‘kith and kin’.",
     "usage": [[900, 70], [1200, 100], [1400, 85], [1600, 40], [1800, 25], [1950, 20], [2020, 15]],
-    "tags": ["family", "people"], "related": ["uncouth"]
+    "tags": ["family", "people"]
   },
   {
     "id": "ruth", "word": "ruth", "pos": "noun", "gloss": "pity, compassion",
@@ -581,7 +580,7 @@
     ],
     "story": "Ruth was the feeling of rue: pity, sorrow for another. ‘Look homeward, Angel, now, and melt with ruth,’ wrote Milton in Lycidas (1637). The noun withered, but its negative, ruthless, thrives.",
     "usage": [[1200, 60], [1400, 100], [1600, 70], [1700, 25], [1850, 10], [2020, 4]],
-    "tags": ["feelings"], "related": ["ruthless"]
+    "tags": ["feelings"]
   },
   {
     "id": "reck", "word": "reck", "pos": "verb", "gloss": "to care, to heed",
@@ -593,7 +592,7 @@
     ],
     "story": "To reck was to take care, to pay heed. Ophelia warns her brother not to be like a preacher who ‘recks not his own rede’ — ignores his own advice. Reck faded, but reckless never did.",
     "usage": [[800, 60], [1200, 90], [1400, 100], [1600, 60], [1700, 20], [1900, 8], [2020, 3]],
-    "tags": ["feelings", "shakespeare"], "related": ["reckless"]
+    "tags": ["feelings", "shakespeare"]
   },
   {
     "id": "mickle", "word": "mickle", "pos": "adjective", "gloss": "much, great",
@@ -606,7 +605,7 @@
     ],
     "story": "Old English micel, ‘great’, split in two: southern muchel wore down to much, while northern mickle (or muckle) survives in Scots. The proverb ‘many a little makes a mickle’ was later garbled into ‘many a mickle makes a muckle’ — which, since mickle and muckle are the same word, makes no sense at all.",
     "usage": [[800, 90], [1000, 100], [1300, 80], [1500, 45], [1600, 20], [1900, 8], [2020, 5]],
-    "tags": ["core"], "related": ["much"]
+    "tags": ["core"]
   },
   {
     "id": "eftsoons", "word": "eftsoons", "pos": "adverb", "gloss": "soon afterwards; again",
@@ -643,8 +642,7 @@
       {"lang": "en", "form": "nill", "year": 1500}
     ],
     "story": "Old English could fuse ‘not’ onto a verb: ne + willan made nyllan, ‘to not want’. The phrase ‘will I, nill I’ — whether I want to or not — wore down into willy-nilly, the only place nill still lives.",
-    "usage": [[900, 60], [1200, 90], [1400, 100], [1550, 50], [1650, 10], [1700, 0]],
-    "related": ["willy-nilly"]
+    "usage": [[900, 60], [1200, 90], [1400, 100], [1550, 50], [1650, 10], [1700, 0]]
   },
   {
     "id": "twain", "word": "twain", "pos": "numeral", "gloss": "two",
@@ -684,7 +682,7 @@
     ],
     "story": "Wiht meant any creature or thing. Nā wiht, ‘no thing’, became naught; ā wiht, ‘anything’, became aught; and ‘not a whit’ is the same word again. Wight itself now haunts fantasy fiction, from Tolkien's barrow-wights onward.",
     "usage": [[800, 80], [1200, 100], [1500, 75], [1700, 25], [1900, 10], [2020, 6]],
-    "tags": ["people"], "related": ["naught"]
+    "tags": ["people"]
   },
   {
     "id": "eke", "word": "eke", "pos": "adverb", "gloss": "also, moreover",
@@ -709,7 +707,7 @@
     ],
     "story": "The Anglo-Saxons counted time in nights, not days, so a week was seofon niht and two weeks fēowertīene niht. The second became fortnight, still everyday in Britain; the first wore down to sennight and vanished — though Macbeth's witches curse a sailor for ‘weary sev'nnights nine times nine’.",
     "usage": [[900, 60], [1300, 90], [1500, 100], [1700, 60], [1800, 20], [1900, 5], [2020, 2]],
-    "tags": ["time", "numbers"], "related": ["fortnight", "night"]
+    "tags": ["time", "numbers"], "related": ["night"]
   },
   {
     "id": "knave", "word": "knave", "pos": "noun", "gloss": "a dishonest man, a rogue; (in cards) the jack",
@@ -735,7 +733,7 @@
     ],
     "story": "In Anglo-Saxon law a ceorl was a free man of the lowest rank — neither slave nor noble. After the Conquest it sank to ‘peasant’ and then ‘boor’, leaving us churlish. Its Continental cousin did far better: Karl, the name that became Charles.",
     "usage": [[700, 80], [1000, 100], [1300, 70], [1600, 60], [1800, 20], [1900, 8], [2020, 4]],
-    "tags": ["people", "insults", "meaning-shift"], "related": ["churlish"]
+    "tags": ["people", "insults", "meaning-shift"]
   },
   {
     "id": "leman", "word": "leman", "pos": "noun", "gloss": "a sweetheart, a lover",
@@ -760,7 +758,7 @@
     ],
     "story": "Old Norse sveinn meant a boy or servant. Pastoral poets turned the swain into a lovesick shepherd, but the original sense hides in boatswain (the ‘boat servant’) and coxswain.",
     "usage": [[1150, 40], [1300, 70], [1600, 100], [1750, 70], [1850, 25], [1950, 8], [2020, 4]],
-    "tags": ["people", "feelings"], "related": ["boatswain"]
+    "tags": ["people", "feelings"]
   },
   {
     "id": "thole", "word": "thole", "pos": "verb", "gloss": "to endure, to suffer",
@@ -774,7 +772,7 @@
     ],
     "story": "Þolian meant to endure, and it shares a distant root with Latin tolerare, to tolerate. It dropped out of standard English after 1500 but never left Scotland and the north of England, where you can still thole a long wait.",
     "usage": [[800, 80], [1100, 100], [1300, 80], [1500, 35], [1700, 15], [1900, 10], [2020, 8]],
-    "tags": ["feelings"], "related": ["tolerate"]
+    "tags": ["feelings"]
   },
   {
     "id": "verily", "word": "verily", "pos": "adverb", "gloss": "truly, certainly",
@@ -787,12 +785,13 @@
     ],
     "story": "Built in English on verray, from Old French for ‘true’ — the ancestor of very, which still meant ‘true’ in the creed's ‘very God of very God’. The King James Bible's ‘Verily, verily, I say unto thee’ translates the Greek amēn, amēn.",
     "usage": [[1300, 60], [1500, 85], [1611, 100], [1750, 40], [1900, 15], [2020, 6]],
-    "tags": ["religion"], "related": ["very"]
+    "tags": ["religion"]
   },
   {
     "id": "doth", "word": "doth", "pos": "verb", "gloss": "does (the old third-person form of do)",
-    "origin": "ang", "first": 800, "status": "archaic", "died": 1700, "replacedBy": "does",
+    "origin": "ang", "first": 800, "root": "dhe-put", "status": "archaic", "died": 1700, "replacedBy": "does",
     "path": [
+      {"lang": "ine-pro", "form": "*dʰeh₁-", "meaning": "to set, to put, to do", "year": -4000},
       {"lang": "ang", "form": "dēþ", "year": 800},
       {"lang": "enm", "form": "doth", "year": 1200},
       {"lang": "en", "form": "doth", "year": 1500}
@@ -824,7 +823,7 @@
     ],
     "story": "Ǣr meant ‘before’ or ‘earlier’, and it is the ancestor of early itself (ǣrlīce). Ere survives in poetry and in the palindrome ‘Able was I ere I saw Elba’.",
     "usage": [[800, 80], [1200, 95], [1500, 100], [1650, 60], [1800, 30], [1900, 15], [2020, 6]],
-    "tags": ["time"], "related": ["early"]
+    "tags": ["time"]
   },
   {
     "id": "coxcomb", "word": "coxcomb", "pos": "noun", "gloss": "a vain, conceited man; originally a jester's cap",
@@ -848,7 +847,7 @@
     ],
     "story": "Wan- meant lacking, as in wanhope (despair) and wanton (literally ‘undisciplined’). Chaucer's Manciple's Tale cries ‘O wantrust, ful of fals suspecioun!’ — but distrust and mistrust won out, and only wanton survives from the family.",
     "usage": [[1385, 70], [1420, 100], [1500, 40], [1580, 8], [1650, 0]],
-    "tags": ["feelings"], "related": ["wanhope", "wanton"]
+    "tags": ["feelings"], "related": ["wanhope"]
   },
   {
     "id": "overmorrow", "word": "overmorrow", "pos": "noun", "gloss": "the day after tomorrow",
@@ -882,8 +881,7 @@
       {"lang": "en", "form": "swink", "year": 1500}
     ],
     "story": "Swink was hard, sweaty work. Chaucer's pleasure-loving Monk sees no reason to ‘swynken with his handes’, and someone worn out by it was forswonke. Milton could still write of a ‘swink't hedger’ in 1634, but French-born toil and labour had taken over.",
-    "usage": [[900, 60], [1200, 80], [1380, 100], [1500, 60], [1650, 10], [1700, 0]],
-    "related": ["toil"]
+    "usage": [[900, 60], [1200, 80], [1380, 100], [1500, 60], [1650, 10], [1700, 0]]
   },
   {
     "id": "curglaff", "word": "curglaff", "pos": "noun", "gloss": "the shock of cold water when you first plunge in",
@@ -1008,7 +1006,7 @@
     ],
     "story": "For centuries coney was the word for the animal, and rabbit meant only a young one. Coney once rhymed with honey, uncomfortably close to a vulgar slang word — perhaps one reason rabbit took over by the 1800s. The ‘conies’ of the King James Bible are really rock hyraxes, and New York's Coney Island was probably named for its rabbits.",
     "usage": [[1300, 70], [1500, 100], [1650, 85], [1750, 45], [1850, 15], [2020, 5]],
-    "tags": ["animals", "food"], "related": ["rabbit"]
+    "tags": ["animals", "food"]
   },
   {
     "id": "pismire", "word": "pismire", "pos": "noun", "gloss": "an ant",
@@ -1020,7 +1018,7 @@
     ],
     "story": "An ant named for its smell: anthills give off a sharp, urine-like whiff of formic acid. Mire was itself an old word for ant (compare Danish myre). Pismire scurried through English for five centuries before polite speech settled on plain ant.",
     "usage": [[1380, 60], [1500, 100], [1650, 80], [1800, 40], [1900, 15], [2020, 4]],
-    "tags": ["animals"], "related": ["emmet", "ant"]
+    "tags": ["animals"], "related": ["emmet"]
   },
   {
     "id": "emmet", "word": "emmet", "pos": "noun", "gloss": "an ant (dialect); in Cornwall, a tourist",
@@ -1032,7 +1030,7 @@
     ],
     "story": "Old English ǣmete became two words: in some dialects it wore down into ant, in others it stayed emmet. Emmet survives in the West Country — and in Cornwall it is a teasing name for the tourists who swarm the beaches every summer.",
     "usage": [[900, 60], [1300, 90], [1500, 100], [1700, 50], [1850, 20], [2020, 8]],
-    "tags": ["animals", "insults"], "related": ["pismire", "ant"]
+    "tags": ["animals", "insults"], "related": ["pismire"]
   },
   {
     "id": "dumbledore", "word": "dumbledore", "pos": "noun", "gloss": "a bumblebee (English dialect)",

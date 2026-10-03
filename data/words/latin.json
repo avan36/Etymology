@@ -11,7 +11,7 @@
     ],
     "story": "Roman roads were viae strātae, “paved ways”. Germanic tribes borrowed strāta before they ever reached Britain — hence German Straße and Dutch straat — and the Anglo-Saxons gave the name to the old Roman roads they found, like Watling Street.",
     "usage": [[700, 40], [1200, 50], [1500, 60], [1700, 70], [1900, 100], [2020, 85]],
-    "tags": ["places", "core"], "related": ["destroy", "strew"]
+    "tags": ["places", "core"], "related": ["destroy"]
   },
   {
     "id": "wine", "word": "wine", "pos": "noun", "gloss": "an alcoholic drink made from fermented grape juice", "origin": "la", "first": 700,
@@ -24,7 +24,7 @@
     ],
     "story": "Germanic peoples learned about wine from Roman traders, and the word came with the amphorae: German Wein, Dutch wijn and Old English wīn were all borrowed from Latin vīnum before the Anglo-Saxons crossed to Britain. Vine, vintage and vinegar (“sour wine”) arrived much later, through French.",
     "usage": [[700, 45], [1200, 55], [1500, 65], [1800, 75], [1950, 85], [2020, 100]],
-    "tags": ["food"], "related": ["vinegar", "vine"]
+    "tags": ["food"]
   },
   {
     "id": "cheese", "word": "cheese", "pos": "noun", "gloss": "a food made from pressed milk curds", "origin": "la", "first": 800,
@@ -37,7 +37,7 @@
     ],
     "story": "Germanic farmers borrowed Latin cāseus in Roman times, which is why cheese, German Käse and Dutch kaas match. French and Italian took another road: fromage and formaggio come from Latin formāticus, cheese “shaped in a mould”.",
     "usage": [[800, 30], [1200, 40], [1500, 50], [1800, 60], [1950, 85], [2020, 100]],
-    "tags": ["food"], "related": ["butter"]
+    "tags": ["food"]
   },
   {
     "id": "mile", "word": "mile", "pos": "noun", "gloss": "a unit of distance equal to 1,760 yards (about 1.6 km)", "origin": "la", "first": 800,
@@ -50,7 +50,7 @@
     ],
     "story": "A Roman mile was mīlle passūs, a thousand double steps of a marching legion, about 1,480 metres. English kept the name while the length crept up: an Act of Parliament fixed the statute mile at 5,280 feet in 1593.",
     "usage": [[800, 30], [1200, 40], [1500, 55], [1800, 85], [1900, 100], [2020, 70]],
-    "tags": ["numbers"], "related": ["million"]
+    "tags": ["numbers"]
   },
   {
     "id": "kitchen", "word": "kitchen", "pos": "noun", "gloss": "a room where food is prepared and cooked", "origin": "la-lat", "first": 900, "root": "pekw-cook",
@@ -116,7 +116,7 @@
     ],
     "story": "An early church borrowing: Old English offrian meant to make an offering at the altar. French offrir later widened it to holding out anything at all — a gift, a price, a hand. Same root as suffer, transfer and the native bear.",
     "usage": [[900, 20], [1200, 30], [1500, 50], [1800, 75], [1950, 100], [2020, 95]],
-    "tags": ["religion", "trade"], "related": ["suffer", "transfer", "bear"]
+    "tags": ["religion", "trade"], "related": ["transfer", "bear"]
   },
   {
     "id": "verse", "word": "verse", "pos": "noun", "gloss": "writing arranged in lines with a rhythm; poetry", "origin": "la", "first": 900, "root": "wert-turn",
@@ -129,7 +129,7 @@
     ],
     "story": "A Latin versus was the turn a ploughman made at the end of a furrow — and then a line of writing, which also turns back at its end. Prose, by contrast, is prōsa ōrātiō: “straightforward speech”.",
     "usage": [[900, 30], [1200, 40], [1500, 60], [1700, 90], [1850, 100], [2020, 55]],
-    "tags": ["art"], "related": ["prose", "version", "convert"]
+    "tags": ["art"], "related": ["prose", "convert"]
   },
   {
     "id": "wall", "word": "wall", "pos": "noun", "gloss": "an upright structure of stone, brick or other material that encloses or divides", "origin": "la", "first": 750,
@@ -155,7 +155,7 @@
     ],
     "story": "Latin portus, a harbour, and porta, a gate, are both places you pass through. The root gave opportunity — a wind blowing ob portum, “toward the harbour” — and, on the Germanic side, ford and fare. Port wine comes full circle: it is named after Porto, “the harbour”, in Portugal.",
     "usage": [[900, 30], [1200, 35], [1500, 50], [1800, 80], [1900, 100], [2020, 80]],
-    "tags": ["sea", "places"], "related": ["opportunity", "ford"]
+    "tags": ["sea", "places"], "related": ["opportunity"]
   },
   {
     "id": "mint", "word": "mint", "pos": "noun", "gloss": "a place where coins are made", "origin": "la", "first": 800,
@@ -168,7 +168,7 @@
     ],
     "story": "Rome struck its coins at the temple of Juno Monēta, so monēta came to mean both mint and money. English got the word twice: as mynet with the Anglo-Saxons, now mint, and as moneie with the Normans, now money. (The herb mint is unrelated.)",
     "usage": [[800, 40], [1200, 45], [1500, 55], [1800, 70], [1950, 100], [2020, 80]],
-    "tags": ["money"], "related": ["money"]
+    "tags": ["money"]
   },
   {
     "id": "inch", "word": "inch", "pos": "noun", "gloss": "a unit of length equal to one twelfth of a foot (2.54 cm)", "origin": "la", "first": 1000,
@@ -180,7 +180,7 @@
     ],
     "story": "An inch is literally a twelfth — of a foot. The same Latin uncia, arriving later through French, became ounce, a twelfth of the Roman pound. Troy pounds still have twelve ounces.",
     "usage": [[1000, 30], [1300, 45], [1500, 55], [1800, 85], [1900, 100], [2020, 70]],
-    "tags": ["numbers"], "related": ["ounce"]
+    "tags": ["numbers"]
   },
   {
     "id": "pound", "word": "pound", "pos": "noun", "gloss": "a unit of weight (about 454 g); the British unit of money", "origin": "la", "first": 800,
@@ -193,7 +193,7 @@
     ],
     "story": "Romans measured a lībra pondō, “a pound by weight”. Germanic peoples borrowed the pondō half — German Pfund, English pound — while the abbreviations lb and £ still stand for lībra. Ponder, to weigh something in the mind, comes from the same pondus.",
     "usage": [[800, 40], [1200, 50], [1500, 60], [1800, 90], [1900, 100], [2020, 75]],
-    "tags": ["money", "numbers"], "related": ["ponder"]
+    "tags": ["money", "numbers"]
   },
   {
     "id": "chalk", "word": "chalk", "pos": "noun", "gloss": "soft white limestone; a stick of it for writing", "origin": "la", "first": 800,
@@ -217,7 +217,7 @@
     ],
     "story": "Counting from sunrise, the Romans’ ninth hour fell at about 3 p.m., and for centuries noon meant mid-afternoon, the hour of the monks’ service of None. By about 1300 it had drifted back to midday, probably because that service or the meal after it was moved earlier.",
     "usage": [[900, 40], [1200, 50], [1500, 70], [1800, 100], [1900, 90], [2020, 70]],
-    "tags": ["time", "meaning-shift"], "related": ["nine"]
+    "tags": ["time", "meaning-shift"]
   },
   {
     "id": "fork", "word": "fork", "pos": "noun", "gloss": "a pronged tool for eating, or for lifting hay", "origin": "la", "first": 1000,
@@ -243,7 +243,7 @@
     ],
     "story": "Roman farmers lent the Germanic world a better harvesting tool and its name: Latin secula, from secāre, “to cut”. The same root slices through insect, section and segment, and natively through saw.",
     "usage": [[900, 60], [1200, 70], [1500, 80], [1800, 100], [1950, 60], [2020, 35]],
-    "tags": ["nature", "home"], "related": ["insect", "saw"]
+    "tags": ["nature", "home"], "related": ["insect"]
   },
   {
     "id": "genius", "word": "genius", "pos": "noun", "gloss": "exceptional intellectual or creative power; a person who has it", "origin": "la", "first": 1390, "root": "gene-beget",
@@ -256,7 +256,7 @@
     ],
     "story": "Every Roman was born with a genius, a guardian spirit that shaped their character, so for centuries a person had genius rather than being one. The sense of an exceptional mind arrived in the 1700s. Genie is the same word, picked by French translators of the Arabian Nights because it sounded like Arabic jinnī.",
     "usage": [[1390, 3], [1600, 15], [1750, 45], [1850, 85], [1900, 100], [2020, 80]],
-    "tags": ["people", "meaning-shift"], "related": ["genie", "gene", "native"]
+    "tags": ["people", "meaning-shift"], "related": ["gene", "native"]
   },
   {
     "id": "species", "word": "species", "pos": "noun", "gloss": "a group of living things that can breed together; a kind or sort", "origin": "la", "first": 1550, "root": "spek-observe",
@@ -268,7 +268,7 @@
     ],
     "story": "Species is literally “a look”: things that look alike are the same kind. In medieval Latin speciēs also meant goods, especially costly spices, which is how the same word, travelling through French, gave English spice.",
     "usage": [[1550, 5], [1700, 20], [1859, 55], [1950, 80], [2020, 100]],
-    "tags": ["science", "nature"], "related": ["spice", "spectacle", "inspect"]
+    "tags": ["science", "nature"], "related": ["spice", "inspect"]
   },
   {
     "id": "exit", "word": "exit", "pos": "noun", "gloss": "a way out; the act of leaving", "origin": "la", "first": 1538, "root": "ei-go",
@@ -281,7 +281,7 @@
     ],
     "story": "Exit is a Latin verb, “he goes out”, printed in the margins of Renaissance plays; exeunt means “they go out”. Shakespeare’s most famous one is “Exit, pursued by a bear”. Only later did the word become the way out itself.",
     "usage": [[1538, 10], [1700, 20], [1850, 25], [1950, 60], [2020, 100]],
-    "tags": ["art"], "related": ["issue", "ambition"]
+    "tags": ["art"], "related": ["ambition"]
   },
   {
     "id": "ambition", "word": "ambition", "pos": "noun", "gloss": "a strong desire to achieve something", "origin": "la", "first": 1340, "root": "ei-go",
@@ -293,7 +293,7 @@
     ],
     "story": "Roman politicians seeking office went around the Forum shaking hands, which in Latin was ambīre, “to go around”. Ambitiō was electioneering, and in English the word long kept a whiff of disapproval: an excessive hunger for honour.",
     "usage": [[1340, 10], [1600, 50], [1800, 90], [1900, 100], [2020, 75]],
-    "tags": ["feelings", "power"], "related": ["exit", "issue"]
+    "tags": ["feelings", "power"], "related": ["exit"]
   },
   {
     "id": "vacuum", "word": "vacuum", "pos": "noun", "gloss": "a space empty of matter; a vacuum cleaner", "origin": "la", "first": 1550, "root": "eue-empty",
@@ -341,7 +341,7 @@
     ],
     "story": "Data are “givens”: the facts handed to you at the start of a geometry problem. Whether data is plural or singular has been argued for a century; as a mass noun like “information” it has quietly won. Its sibling date comes from the word data, “given”, written on Roman letters.",
     "usage": [[1646, 1], [1850, 5], [1950, 25], [1990, 70], [2020, 100]],
-    "tags": ["science", "technology"], "related": ["date", "tradition"]
+    "tags": ["science", "technology"], "related": ["tradition"]
   },
   {
     "id": "virus", "word": "virus", "pos": "noun", "gloss": "a tiny infectious agent that multiplies inside living cells; a harmful computer program", "origin": "la", "first": 1400,
@@ -365,7 +365,7 @@
     ],
     "story": "In Latin it is only an adverb, “elsewhere”. Eighteenth-century courts used it for the defence that the accused was somewhere else at the time. By 1912 Americans were using it for any excuse at all.",
     "usage": [[1727, 5], [1850, 20], [1930, 80], [1960, 100], [2020, 70]],
-    "tags": ["law"], "related": ["alien", "ultimate", "else"]
+    "tags": ["law"], "related": ["ultimate"]
   },
   {
     "id": "bonus", "word": "bonus", "pos": "noun", "gloss": "an extra payment or benefit", "origin": "la", "first": 1773,
@@ -388,7 +388,7 @@
     ],
     "story": "Latin for “a standing”: how you stand. English used it first in medicine and law, and after the 1950s coinage status symbol, for social rank. State and estate are the same word, worn down on its way through French.",
     "usage": [[1671, 1], [1800, 5], [1900, 20], [1970, 85], [2020, 100]],
-    "tags": ["people", "power"], "related": ["state", "station", "obstacle"]
+    "tags": ["people", "power"], "related": ["state", "station"]
   },
   {
     "id": "ego", "word": "ego", "pos": "noun", "gloss": "a person's sense of self-esteem; the conscious self", "origin": "la", "first": 1789,
@@ -412,7 +412,7 @@
     ],
     "story": "From ultimus, “farthest”, the superlative of a word meaning “beyond”: the ultimate is as far as you can go. Its cousins include ultra and ulterior and, through French, outrage, which has nothing to do with “out” or “rage”.",
     "usage": [[1654, 10], [1800, 40], [1900, 60], [1990, 95], [2020, 100]],
-    "tags": ["core"], "related": ["outrage", "alibi", "alien"]
+    "tags": ["core"], "related": ["outrage", "alibi"]
   },
   {
     "id": "educate", "word": "educate", "pos": "verb", "gloss": "to teach and train, especially at school", "origin": "la", "first": 1588, "root": "deuk-lead",
@@ -436,7 +436,7 @@
     ],
     "story": "A tradition is something handed over, from trādere (trāns + dare, “give across”). The same verb could mean handing over to an enemy: Christians who surrendered scripture during the Roman persecutions were called trāditōrēs. So tradition and traitor, and treason, are one word that went two ways.",
     "usage": [[1380, 10], [1600, 35], [1800, 55], [1900, 80], [1980, 100], [2020, 90]],
-    "tags": ["religion", "people"], "related": ["treason", "data", "date"]
+    "tags": ["religion", "people"], "related": ["treason", "data"]
   },
   {
     "id": "veto", "word": "veto", "pos": "noun", "gloss": "the right to reject a decision or proposal", "origin": "la", "first": 1629,
@@ -527,7 +527,7 @@
     ],
     "story": "Aristotle called insects entoma, “cut-up ones”, for their notched, segmented bodies, and Pliny translated that into Latin as īnsecta. English borrowed it in 1601 in a translation of Pliny. The Greek original lives on in entomology.",
     "usage": [[1601, 5], [1700, 25], [1850, 70], [1950, 100], [2020, 85]],
-    "tags": ["animals", "science"], "related": ["sickle", "entomology"]
+    "tags": ["animals", "science"], "related": ["sickle"]
   },
   {
     "id": "momentum", "word": "momentum", "pos": "noun", "gloss": "the force a moving object has; driving force or speed of progress", "origin": "la-new", "first": 1699, "root": "meue-push",
@@ -539,7 +539,7 @@
     ],
     "story": "Latin mōmentum, from movēre, “to move”, meant a movement — even the slight dip of a balance that decides a weighing, which is how moment came to mean an instant and importance. Newtonian physics kept the original sense: momentum is mass in motion.",
     "usage": [[1699, 3], [1800, 15], [1900, 35], [1980, 75], [2020, 100]],
-    "tags": ["science"], "related": ["moment", "mob"]
+    "tags": ["science"], "related": ["mob"]
   },
   {
     "id": "mob", "word": "mob", "pos": "noun", "gloss": "a large disorderly crowd", "origin": "la", "first": 1688, "root": "meue-push",
@@ -551,7 +551,7 @@
     ],
     "story": "Restoration wits called the restless London crowd the mōbile vulgus, “the fickle common people”, then just “the mobile”, then mob. In 1710 Jonathan Swift complained that such clipped words were ruining English. The mob took no notice.",
     "usage": [[1688, 15], [1800, 60], [1900, 80], [1930, 100], [2020, 60]],
-    "tags": ["people", "power"], "related": ["momentum", "moment"]
+    "tags": ["people", "power"], "related": ["momentum"]
   },
   {
     "id": "veteran", "word": "veteran", "pos": "noun", "gloss": "a person with long experience, especially a former member of the armed forces", "origin": "la", "first": 1509, "root": "wet-year",
@@ -573,7 +573,7 @@
     ],
     "story": "Straight from a legal phrase: a litigant too poor to pay could sue in formā pauperis, “in the manner of a pauper”, and have the fees waived. The same Latin word, worn down in French, had already given English poor and poverty.",
     "usage": [[1516, 10], [1700, 40], [1850, 100], [1950, 35], [2020, 20]],
-    "tags": ["money", "law", "people"], "related": ["poor", "poultry"]
+    "tags": ["money", "law", "people"], "related": ["poultry"]
   },
   {
     "id": "peculiar", "word": "peculiar", "pos": "adjective", "gloss": "strange or odd; belonging only to one person or thing", "origin": "la", "first": 1450, "root": "peku-cattle",
@@ -586,7 +586,7 @@
     ],
     "story": "Wealth was once counted in cattle. Latin pecū, “cattle”, gave pecūlium, a person’s own private property, so something peculiar was originally your very own. “Strange” is a 17th-century twist; pecuniary kept the money.",
     "usage": [[1450, 10], [1600, 30], [1800, 70], [1900, 100], [2020, 60]],
-    "tags": ["meaning-shift", "money"], "related": ["pecuniary", "fee"]
+    "tags": ["meaning-shift", "money"], "related": ["pecuniary"]
   },
   {
     "id": "pecuniary", "word": "pecuniary", "pos": "adjective", "gloss": "relating to money", "origin": "la", "first": 1502, "root": "peku-cattle",
@@ -598,7 +598,7 @@
     ],
     "story": "From pecūnia, money, which comes from pecū, cattle: the walking wealth of early Rome. Impecunious, “having no money”, followed in the 1590s.",
     "usage": [[1502, 10], [1700, 50], [1850, 100], [1950, 60], [2020, 40]],
-    "tags": ["money"], "related": ["peculiar", "fee"]
+    "tags": ["money"], "related": ["peculiar"]
   },
   {
     "id": "navigate", "word": "navigate", "pos": "verb", "gloss": "to plan and direct the route of a ship, plane or person; to find one's way", "origin": "la", "first": 1588, "root": "nau-boat",
@@ -610,7 +610,7 @@
     ],
     "story": "To navigate is literally to drive a ship (nāvis + agere). The same ancient boat word gave navy and, through Greek, nausea (seasickness) and astronaut, a “star sailor”.",
     "usage": [[1588, 5], [1700, 15], [1850, 25], [1950, 40], [2020, 100]],
-    "tags": ["sea", "technology"], "related": ["navy", "nausea", "astronaut"]
+    "tags": ["sea", "technology"], "related": ["navy"]
   },
   {
     "id": "calculate", "word": "calculate", "pos": "verb", "gloss": "to work out a number or amount mathematically", "origin": "la-lat", "first": 1565,
@@ -658,7 +658,7 @@
     ],
     "story": "A word borrowed twice. Old French had already worn Latin fragilis down to fraile, which English took as frail around 1300. Two centuries later scholars borrowed the Latin form fresh, giving fragile. One word, two doors.",
     "usage": [[1513, 5], [1700, 20], [1850, 40], [1950, 70], [2020, 100]],
-    "tags": ["meaning-shift"], "related": ["frail", "fraction", "break"]
+    "tags": ["meaning-shift"], "related": ["frail"]
   },
   {
     "id": "regal", "word": "regal", "pos": "adjective", "gloss": "fit for a king or queen; magnificent", "origin": "la", "first": 1380, "root": "hreg-straight",
@@ -694,7 +694,7 @@
     ],
     "story": "The Roman moon, lūna, was “the luminous one”, from the same root as light and lucid. Lunatic comes from the old belief that madness waxed and waned with the moon.",
     "usage": [[1626, 10], [1800, 35], [1900, 50], [1969, 100], [2020, 80]],
-    "tags": ["nature", "science"], "related": ["lunatic", "lucid", "light"]
+    "tags": ["nature", "science"], "related": ["lucid"]
   },
   {
     "id": "lucid", "word": "lucid", "pos": "adjective", "gloss": "clear and easy to understand; thinking clearly", "origin": "la", "first": 1591, "root": "leuk-light",
@@ -706,7 +706,7 @@
     ],
     "story": "Lucid first meant shining. Lawyers spoke of a madman’s “lucid intervals”, bright spells of sanity between bouts of lunacy, and the brightness moved into the mind. Lucid dreaming was named in 1913 by the Dutch psychiatrist Frederik van Eeden.",
     "usage": [[1591, 10], [1700, 30], [1850, 70], [1950, 100], [2020, 90]],
-    "tags": ["feelings"], "related": ["lunar", "lunatic"]
+    "tags": ["feelings"], "related": ["lunar"]
   },
   {
     "id": "stellar", "word": "stellar", "pos": "adjective", "gloss": "of the stars; outstanding", "origin": "la-lat", "first": 1650, "root": "ster-star",
@@ -719,7 +719,7 @@
     ],
     "story": "Latin stēlla comes from the same ancient star as English star and Greek astēr. Stellar meant only “of the stars” until the 1880s, by which time the theatre was calling its leading performers stars, and a stellar performance was one that outshone the rest.",
     "usage": [[1650, 5], [1800, 15], [1900, 30], [1990, 80], [2020, 100]],
-    "tags": ["science", "nature"], "related": ["constellation", "disaster", "star"]
+    "tags": ["science", "nature"], "related": ["disaster", "star"]
   },
   {
     "id": "diary", "word": "diary", "pos": "noun", "gloss": "a book in which one writes daily events and thoughts", "origin": "la", "first": 1581, "root": "dyew-sky",
@@ -731,7 +731,7 @@
     ],
     "story": "A Roman diārium could be a soldier’s daily ration as well as a daily record: both were measured out a day at a time. The most famous diary in English is the one Samuel Pepys kept from 1660 to 1669.",
     "usage": [[1581, 5], [1700, 25], [1850, 60], [1950, 100], [2020, 80]],
-    "tags": ["time"], "related": ["journal", "divine"]
+    "tags": ["time"], "related": ["journal"]
   },
   {
     "id": "matrix", "word": "matrix", "pos": "noun", "gloss": "an environment in which something develops; a grid of numbers", "origin": "la", "first": 1400, "root": "mehter-mother",
@@ -807,7 +807,7 @@
     ],
     "story": "Your pointed canine teeth have been named after dogs since about 1400. Latin canis comes from the same ancient word as English hound; through French it gave kennel, and through Spanish the Canary Islands, Pliny’s “islands of dogs”.",
     "usage": [[1400, 5], [1650, 15], [1850, 40], [1950, 80], [2020, 100]],
-    "tags": ["animals", "body"], "related": ["hound", "kennel", "canary"]
+    "tags": ["animals", "body"], "related": ["hound", "canary"]
   },
   {
     "id": "bovine", "word": "bovine", "pos": "adjective", "gloss": "of or relating to cattle; dull and slow", "origin": "la-lat", "first": 1817, "root": "gwow-cow",
@@ -843,7 +843,7 @@
     ],
     "story": "A Roman centuria was a company of a hundred soldiers, commanded by a centurion. In English a century could be a hundred of anything until it settled on a hundred years in the 1620s. Cricketers kept the old sense: a century is a hundred runs.",
     "usage": [[1533, 5], [1700, 35], [1850, 75], [1950, 100], [2020, 95]],
-    "tags": ["numbers", "time"], "related": ["cent", "hundred"]
+    "tags": ["numbers", "time"], "related": ["hundred"]
   },
   {
     "id": "nominate", "word": "nominate", "pos": "verb", "gloss": "to propose someone for a job, office or award", "origin": "la", "first": 1540, "root": "nomn-name",
@@ -855,7 +855,7 @@
     ],
     "story": "To nominate is simply to name. Latin nōmen shares an ancestor with English name and Greek onoma (anonymous, synonym), and with noun, which in Norman French was the everyday word for “name”.",
     "usage": [[1540, 5], [1700, 25], [1850, 55], [1950, 100], [2020, 90]],
-    "tags": ["power"], "related": ["noun", "renown", "name", "anonymous"]
+    "tags": ["power"], "related": ["noun", "name", "anonymous"]
   },
   {
     "id": "monitor", "word": "monitor", "pos": "noun", "gloss": "a screen that displays images; a person or device that watches over something", "origin": "la", "first": 1546, "root": "men-think",
@@ -893,7 +893,7 @@
     ],
     "story": "To inspect is to look in, from Latin specere, “to look”. The same root gives spectacle, species and despise, and through Greek skopos, telescope and bishop (episkopos, “overseer”).",
     "usage": [[1623, 5], [1750, 30], [1850, 60], [1950, 100], [2020, 85]],
-    "tags": ["core"], "related": ["spectacle", "despise", "species", "bishop"]
+    "tags": ["core"], "related": ["despise", "species", "bishop"]
   },
   {
     "id": "transfer", "word": "transfer", "pos": "verb", "gloss": "to move something or someone from one place to another", "origin": "la", "first": 1380, "root": "bher-carry",
@@ -905,7 +905,7 @@
     ],
     "story": "Latin ferre, “to carry”, sits inside a whole family of English verbs: transfer (carry across), offer (carry towards), suffer (carry from below), refer, defer and prefer. Its Germanic twin is bear.",
     "usage": [[1380, 5], [1600, 20], [1800, 40], [1950, 85], [2020, 100]],
-    "tags": ["trade"], "related": ["offer", "suffer", "bear"]
+    "tags": ["trade"], "related": ["offer", "bear"]
   },
   {
     "id": "fact", "word": "fact", "pos": "noun", "gloss": "a thing that is known to be true", "origin": "la", "first": 1539, "root": "dhe-put",
@@ -917,7 +917,7 @@
     ],
     "story": "A fact was first a deed, usually a bad one, which is why lawyers still speak of an accessory “after the fact”. Only in the 1600s did it come to mean something known to be true. The same Latin factum, worn down by French, became feat.",
     "usage": [[1539, 5], [1700, 35], [1850, 80], [1950, 100], [2020, 95]],
-    "tags": ["law", "meaning-shift"], "related": ["fashion", "perfect"]
+    "tags": ["law", "meaning-shift"], "related": ["fashion"]
   },
   {
     "id": "dental", "word": "dental", "pos": "adjective", "gloss": "of or relating to the teeth", "origin": "la-med", "first": 1594, "root": "dent-tooth",
@@ -1059,7 +1059,7 @@
     ],
     "story": "A Roman army punishment: a mutinous unit was divided into groups of ten, and each group killed one of its own, chosen by lot. Since the 1660s decimate has meant destroying a large part of something, a shift that pedants still grumble about.",
     "usage": [[1600, 5], [1750, 15], [1900, 40], [1990, 100], [2020, 90]],
-    "tags": ["war", "numbers", "meaning-shift"], "related": ["dean", "ten"]
+    "tags": ["war", "numbers", "meaning-shift"], "related": ["dean"]
   },
   {
     "id": "ignore", "word": "ignore", "pos": "verb", "gloss": "to refuse to take notice of", "origin": "la", "first": 1611, "root": "gno-know",
@@ -1096,7 +1096,7 @@
     ],
     "story": "To prevent was to come before, to anticipate. The old Book of Common Prayer asks God to “prevent us, O Lord, in all our doings”, meaning go before and guide us, not stop us. Stopping something by getting there first came later.",
     "usage": [[1425, 5], [1600, 30], [1800, 55], [1950, 90], [2020, 100]],
-    "tags": ["meaning-shift", "religion"], "related": ["souvenir", "adventure"]
+    "tags": ["meaning-shift", "religion"], "related": ["souvenir"]
   },
   {
     "id": "concrete", "word": "concrete", "pos": "noun", "gloss": "a building material of cement, sand, gravel and water; (adj.) real, solid", "origin": "la", "first": 1400, "root": "ker-grow",
@@ -1109,7 +1109,7 @@
     ],
     "story": "Concrete means “grown together”: Latin con- + crēscere, “to grow”. It described anything solidified, then things real rather than abstract. The building material, gravel and cement grown into stone, took the name in the 1830s, though the Romans had already used concrete to build the dome of the Pantheon.",
     "usage": [[1400, 3], [1700, 15], [1850, 30], [1950, 80], [2020, 100]],
-    "tags": ["science", "technology"], "related": ["croissant", "crescent"]
+    "tags": ["science", "technology"], "related": ["croissant"]
   },
   {
     "id": "vicinity", "word": "vicinity", "pos": "noun", "gloss": "the area near or surrounding a place", "origin": "la", "first": 1560, "root": "weik-settlement",
@@ -1121,6 +1121,6 @@
     ],
     "story": "Your vicinity is your neighbourhood: Latin vīcīnus, “neighbour”, from vīcus, a village. The same root gave Greek oikos, “house” (economy, ecology), and through Old English wīc, borrowed from vīcus, the -wich of Norwich and Greenwich.",
     "usage": [[1560, 5], [1700, 30], [1850, 80], [1950, 100], [2020, 70]],
-    "tags": ["places"], "related": ["villain", "economy", "ecology"]
+    "tags": ["places"], "related": ["villain"]
   }
 ]

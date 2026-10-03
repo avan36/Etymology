@@ -1,0 +1,564 @@
+[
+  {
+    "id": "fly", "word": "fly", "pos": "verb", "gloss": "to move through the air using wings or an aircraft", "origin": "ang", "first": 800, "root": "pleu-flow",
+    "path": [
+      {"lang": "ine-pro", "form": "*plew-", "meaning": "to flow, to float", "year": -4000},
+      {"lang": "gem-pro", "form": "*fleuganą", "meaning": "to fly", "year": -500},
+      {"lang": "ang", "form": "flēogan", "year": 800},
+      {"lang": "enm", "form": "flien", "year": 1200},
+      {"lang": "en", "form": "fly", "year": 1500}
+    ],
+    "story": "Germanic speakers built their word for flying on an old root for flowing and floating: to fly was to float on the air. The same verb gave German fliegen and Dutch vliegen, and its family includes flight and the insect fly, named simply for what it does.",
+    "usage": [[800, 40], [1200, 50], [1500, 65], [1800, 80], [1950, 100], [2020, 95]],
+    "tags": ["nature", "core"], "related": ["float", "fleet"]
+  },
+  {
+    "id": "float", "word": "float", "pos": "verb", "gloss": "to rest or drift on the surface of a liquid or in the air", "origin": "ang", "first": 1000, "root": "pleu-flow",
+    "path": [
+      {"lang": "ine-pro", "form": "*plew-", "meaning": "to flow, to float", "year": -4000},
+      {"lang": "ang", "form": "flotian", "meaning": "to float on water", "year": 1000},
+      {"lang": "enm", "form": "floten", "year": 1200, "note": "reinforced by Old French floter"},
+      {"lang": "en", "form": "float", "year": 1500}
+    ],
+    "story": "Old English flotian meant to float on water, and its relative flota was a ship. In Middle English the verb was reinforced by Old French floter, which the French had themselves borrowed from Germanic: a word that went abroad and came home again.",
+    "usage": [[1000, 30], [1300, 45], [1600, 60], [1800, 75], [1950, 100], [2020, 92]],
+    "tags": ["sea", "nature"], "related": ["fleet", "fly"]
+  },
+  {
+    "id": "fleet", "word": "fleet", "pos": "noun", "gloss": "a group of ships, vehicles or aircraft under one command or owner", "origin": "ang", "first": 900, "root": "pleu-flow",
+    "path": [
+      {"lang": "ine-pro", "form": "*plew-", "meaning": "to flow, to float", "year": -4000},
+      {"lang": "gem-pro", "form": "*fleutaną", "meaning": "to float, to flow", "year": -500},
+      {"lang": "ang", "form": "flēot", "meaning": "a ship, a raft", "year": 900},
+      {"lang": "enm", "form": "flete", "meaning": "a fleet of ships", "year": 1300},
+      {"lang": "en", "form": "fleet", "year": 1500}
+    ],
+    "story": "In Old English a flēot was a single ship or raft, from flēotan, to float; by about 1300 the word meant a whole navy sailing together. German fließen, to flow, is a cousin, and so is the Fleet, the buried London river (Old English flēot, a tidal inlet) that gave Fleet Street its name.",
+    "usage": [[900, 20], [1300, 40], [1600, 60], [1800, 85], [1940, 100], [2020, 80]],
+    "tags": ["sea", "war"], "related": ["float", "navy"]
+  },
+  {
+    "id": "plover", "word": "plover", "pos": "noun", "gloss": "a short-billed wading bird of shores and open ground", "origin": "xno", "first": 1300, "root": "pleu-flow",
+    "path": [
+      {"lang": "ine-pro", "form": "*plew-", "meaning": "to flow", "year": -4000},
+      {"lang": "la", "form": "pluvia", "meaning": "rain", "year": -100},
+      {"lang": "la-vul", "form": "*plovārius", "meaning": "the rain bird", "year": 600},
+      {"lang": "xno", "form": "plover", "year": 1200},
+      {"lang": "enm", "form": "plover", "year": 1300},
+      {"lang": "en", "form": "plover", "year": 1500}
+    ],
+    "story": "The rain bird: Latin pluvia, rain, gave the plover its name. Nobody is sure why. Perhaps the birds grew restless before rain, or perhaps they arrived with the autumn rains. Pluvial and Latin pluere, to rain, come from the same root, which pictured water flowing.",
+    "usage": [[1300, 30], [1500, 40], [1700, 50], [1900, 100], [2020, 70]],
+    "tags": ["animals", "weather"]
+  },
+  {
+    "id": "pneumonia", "word": "pneumonia", "pos": "noun", "gloss": "inflammation of the lungs, usually caused by infection", "origin": "la-new", "first": 1603, "root": "pleu-flow",
+    "path": [
+      {"lang": "ine-pro", "form": "*plew-", "meaning": "to float", "year": -4000},
+      {"lang": "grc", "form": "πλεύμων (pleúmōn)", "meaning": "lung", "year": -600},
+      {"lang": "grc", "form": "πνεύμων (pneúmōn)", "meaning": "lung, reshaped after pneîn, to breathe", "year": -450},
+      {"lang": "grc", "form": "πνευμονία (pneumonía)", "meaning": "disease of the lungs", "year": -400},
+      {"lang": "la-new", "form": "pneumonia", "year": 1600},
+      {"lang": "en", "form": "pneumonia", "year": 1603}
+    ],
+    "story": "Lungs may have been named as floaters. Greek pleúmōn, lung, seems to come from the root for floating, perhaps because lungs float in water, as any butcher knew. Greeks later reshaped it to pneúmōn after pneîn, to breathe, which left English with a silent p. Latin pulmō, behind pulmonary, is a cousin.",
+    "usage": [[1603, 2], [1700, 10], [1800, 30], [1900, 100], [1950, 70], [2020, 60]],
+    "tags": ["medicine", "body"]
+  },
+  {
+    "id": "bite", "word": "bite", "pos": "verb", "gloss": "to cut into or grip something with the teeth", "origin": "ang", "first": 900, "root": "bheid-split",
+    "path": [
+      {"lang": "ine-pro", "form": "*bʰeyd-", "meaning": "to split", "year": -4000},
+      {"lang": "gem-pro", "form": "*bītaną", "meaning": "to bite", "year": -500},
+      {"lang": "ang", "form": "bītan", "year": 900},
+      {"lang": "enm", "form": "biten", "year": 1200},
+      {"lang": "en", "form": "bite", "year": 1500}
+    ],
+    "story": "To bite was to split something with your teeth. The Germanic verb grew from a root meaning to split, which in Latin became findere and gave fissure. Bit (first a mouthful, later any small piece), bitter (sharp, biting) and bait (what you let a fish bite) all come from it.",
+    "usage": [[900, 40], [1200, 50], [1500, 60], [1800, 70], [1950, 90], [2020, 100]],
+    "tags": ["body", "food", "core"], "related": ["bit", "bitter", "bait", "fissure"]
+  },
+  {
+    "id": "bit", "word": "bit", "pos": "noun", "gloss": "a small piece or amount of something", "origin": "ang", "first": 1000, "root": "bheid-split",
+    "path": [
+      {"lang": "ine-pro", "form": "*bʰeyd-", "meaning": "to split", "year": -4000},
+      {"lang": "ang", "form": "bita", "meaning": "a piece bitten off, a morsel", "year": 1000},
+      {"lang": "enm", "form": "bite", "meaning": "a morsel", "year": 1200},
+      {"lang": "en", "form": "bit", "meaning": "any small piece", "year": 1600}
+    ],
+    "story": "A bit was first a bite: Old English bita, the piece your teeth take off. Over the centuries it came to mean any small piece or amount. The bit in a horse's mouth also comes from biting. The computer bit was a 1940s contraction of binary digit, though the pun on a small piece surely helped.",
+    "usage": [[1000, 20], [1300, 30], [1600, 55], [1800, 75], [1950, 95], [2020, 100]],
+    "tags": ["food", "meaning-shift"], "related": ["bite"]
+  },
+  {
+    "id": "bitter", "word": "bitter", "pos": "adjective", "gloss": "having a sharp, harsh taste; full of resentment", "origin": "ang", "first": 800, "root": "bheid-split",
+    "path": [
+      {"lang": "ine-pro", "form": "*bʰeyd-", "meaning": "to split", "year": -4000},
+      {"lang": "gem-pro", "form": "*bitraz", "meaning": "biting, sharp", "year": -500},
+      {"lang": "ang", "form": "biter", "year": 800},
+      {"lang": "enm", "form": "bitter", "year": 1200},
+      {"lang": "en", "form": "bitter", "year": 1500}
+    ],
+    "story": "Bitter is the taste that bites. Old English biter is built on the same root as bite, and German and Dutch bitter match it exactly. It has meant painful and resentful since Old English times, and in the 1800s it also became the name of a hoppy English beer.",
+    "usage": [[800, 40], [1200, 55], [1600, 70], [1850, 100], [1950, 85], [2020, 80]],
+    "tags": ["food", "feelings"], "related": ["bite"]
+  },
+  {
+    "id": "bait", "word": "bait", "pos": "noun", "gloss": "food put on a hook or in a trap to lure an animal; a lure", "origin": "non", "first": 1300, "root": "bheid-split",
+    "path": [
+      {"lang": "ine-pro", "form": "*bʰeyd-", "meaning": "to split", "year": -4000},
+      {"lang": "non", "form": "beita", "meaning": "food, bait; (verb) to make bite", "year": 900},
+      {"lang": "enm", "form": "beyte", "year": 1300},
+      {"lang": "en", "form": "bait", "year": 1500}
+    ],
+    "story": "A Viking word. Old Norse beita meant food put out for animals, and the verb beita meant to make something bite, whether a fish on a hook or dogs set on a chained bear in the cruel sport of bear-baiting. Bait is bite with a causative twist.",
+    "usage": [[1300, 30], [1500, 40], [1700, 50], [1900, 70], [2020, 80]],
+    "tags": ["vikings", "animals"], "related": ["bite"]
+  },
+  {
+    "id": "fissure", "word": "fissure", "pos": "noun", "gloss": "a long, narrow crack or opening", "origin": "fro", "first": 1400, "root": "bheid-split",
+    "path": [
+      {"lang": "ine-pro", "form": "*bʰeyd-", "meaning": "to split", "year": -4000},
+      {"lang": "la", "form": "findere (fissum)", "meaning": "to split", "year": -100},
+      {"lang": "la", "form": "fissūra", "meaning": "a cleft", "year": 50},
+      {"lang": "fro", "form": "fissure", "year": 1300},
+      {"lang": "enm", "form": "fissure", "year": 1400},
+      {"lang": "en", "form": "fissure", "year": 1600}
+    ],
+    "story": "Latin findere, to split, gave fissūra, a crack or cleft. In English it was first a medical word for a split in bone or tissue, and later a word for cracks in rock. Fission, splitting of cells and later of atoms, is its sibling, and bite its distant Germanic cousin.",
+    "usage": [[1400, 10], [1600, 25], [1800, 60], [1900, 100], [2020, 70]],
+    "tags": ["science", "nature"], "related": ["bite"]
+  },
+  {
+    "id": "birth", "word": "birth", "pos": "noun", "gloss": "the emergence of a baby from its mother's body; a beginning", "origin": "non", "first": 1200, "root": "bher-carry",
+    "path": [
+      {"lang": "ine-pro", "form": "*bʰer-", "meaning": "to carry; to bear children", "year": -4000},
+      {"lang": "gem-pro", "form": "*burþiz", "meaning": "birth", "year": -500},
+      {"lang": "non", "form": "burðr", "year": 900},
+      {"lang": "enm", "form": "burthe", "year": 1200},
+      {"lang": "en", "form": "birth", "year": 1500}
+    ],
+    "story": "To give birth is to bear a child, and birth is built on the same root as bear. Old English had its own form, ġebyrd, but the word we use was shaped by Old Norse burðr in the 1200s. Burden, born and Latin fertile all grew from the same ancient sense of carrying.",
+    "usage": [[1200, 30], [1400, 45], [1600, 60], [1800, 75], [1950, 95], [2020, 100]],
+    "tags": ["family", "body", "vikings"], "related": ["bear", "burden"]
+  },
+  {
+    "id": "burden", "word": "burden", "pos": "noun", "gloss": "a heavy load; a duty or worry that is hard to bear", "origin": "ang", "first": 900, "root": "bher-carry",
+    "path": [
+      {"lang": "ine-pro", "form": "*bʰer-", "meaning": "to carry", "year": -4000},
+      {"lang": "ang", "form": "byrþen", "meaning": "a load", "year": 900},
+      {"lang": "enm", "form": "burthen", "year": 1200},
+      {"lang": "en", "form": "burden", "year": 1600}
+    ],
+    "story": "Literally that which is borne: Old English byrþen came from the same root as bear and birth. The old spelling burthen lasted into the 1800s, especially for a ship's carrying capacity. The burden of a song, its refrain, is a different word, from French bourdon, a droning bass.",
+    "usage": [[900, 30], [1300, 45], [1600, 70], [1800, 85], [1950, 90], [2020, 85]],
+    "tags": ["work", "core"], "related": ["bear", "birth"]
+  },
+  {
+    "id": "fertile", "word": "fertile", "pos": "adjective", "gloss": "able to produce abundant crops or offspring", "origin": "frm", "first": 1460, "root": "bher-carry",
+    "path": [
+      {"lang": "ine-pro", "form": "*bʰer-", "meaning": "to carry; to bear children", "year": -4000},
+      {"lang": "la", "form": "fertilis", "meaning": "bearing in abundance", "year": -50},
+      {"lang": "frm", "form": "fertile", "year": 1400},
+      {"lang": "en", "form": "fertile", "year": 1460}
+    ],
+    "story": "Fertile land bears crops, and that is just what the Latin says: fertilis, bearing in abundance, from ferre, to carry or bear. English bear and birth come from the same root by the Germanic road; transfer, offer and metaphor by the Latin and Greek ones.",
+    "usage": [[1460, 10], [1600, 40], [1800, 70], [1950, 100], [2020, 85]],
+    "tags": ["nature", "family"], "related": ["bear", "transfer", "offer"]
+  },
+  {
+    "id": "novel", "word": "novel", "pos": "noun", "gloss": "a long written story about imaginary people and events", "origin": "it", "first": 1566, "root": "newo-new",
+    "path": [
+      {"lang": "ine-pro", "form": "*néwos", "meaning": "new", "year": -4000},
+      {"lang": "la", "form": "novus", "meaning": "new", "year": -200},
+      {"lang": "la", "form": "novellus", "meaning": "young, new", "year": -100},
+      {"lang": "it", "form": "novella", "meaning": "a short tale; a piece of news", "year": 1350},
+      {"lang": "en", "form": "novel", "year": 1566}
+    ],
+    "story": "A novel was a piece of news. Italian novella, a new tale, was the name for short stories like those in Boccaccio's Decameron. English borrowed it in the 1560s, and by the 1700s, with Defoe and Richardson, it had settled on the long prose fiction we read today.",
+    "usage": [[1566, 5], [1700, 30], [1800, 70], [1900, 100], [2020, 90]],
+    "tags": ["art", "meaning-shift"], "related": ["new", "novice"]
+  },
+  {
+    "id": "novice", "word": "novice", "pos": "noun", "gloss": "a beginner; a person who has newly entered a religious order", "origin": "fro", "first": 1340, "root": "newo-new",
+    "path": [
+      {"lang": "ine-pro", "form": "*néwos", "meaning": "new", "year": -4000},
+      {"lang": "la", "form": "novus", "meaning": "new", "year": -200},
+      {"lang": "la", "form": "novīcius", "meaning": "newly arrived (of slaves)", "year": -50},
+      {"lang": "la-med", "form": "novicius", "meaning": "a beginner in a religious order", "year": 1000},
+      {"lang": "fro", "form": "novice", "year": 1250},
+      {"lang": "enm", "form": "novice", "year": 1340},
+      {"lang": "en", "form": "novice", "year": 1500}
+    ],
+    "story": "In Rome a novīcius was something new, often a newly bought slave. The Church borrowed it for someone newly entered into a monastery or convent and still on probation. English took that sense from French in the 1300s before widening it to any beginner.",
+    "usage": [[1340, 20], [1500, 35], [1700, 45], [1900, 70], [2020, 80]],
+    "tags": ["religion", "people"], "related": ["new", "novel"]
+  },
+  {
+    "id": "renovate", "word": "renovate", "pos": "verb", "gloss": "to restore something old, especially a building, to good condition", "origin": "la", "first": 1525, "root": "newo-new",
+    "path": [
+      {"lang": "ine-pro", "form": "*néwos", "meaning": "new", "year": -4000},
+      {"lang": "la", "form": "novus", "meaning": "new", "year": -200},
+      {"lang": "la", "form": "renovāre", "meaning": "to make new again", "year": -50},
+      {"lang": "en", "form": "renovate", "year": 1525}
+    ],
+    "story": "To renovate is literally to make new again: Latin re- (again) + novāre (to make new), from novus. Learned writers took it straight from Latin in the 1500s; the home-improvement boom of the 20th century made it an everyday word.",
+    "usage": [[1525, 5], [1700, 20], [1850, 40], [1950, 70], [2020, 100]],
+    "tags": ["home"], "related": ["new"]
+  },
+  {
+    "id": "neon", "word": "neon", "pos": "noun", "gloss": "a colourless gas that glows red-orange in electric lamps and signs", "origin": "en", "first": 1898, "root": "newo-new",
+    "path": [
+      {"lang": "ine-pro", "form": "*néwos", "meaning": "new", "year": -4000},
+      {"lang": "grc", "form": "νέος (néos)", "meaning": "new", "year": -800},
+      {"lang": "en", "form": "neon", "meaning": "the new (gas)", "year": 1898}
+    ],
+    "story": "When William Ramsay and Morris Travers isolated a new gas from liquefied air in 1898, Ramsay's young son suggested calling it novum, Latin for new. His father liked the idea but preferred Greek: néon, the new one. Its red glow lit the first neon signs, shown in Paris in 1910.",
+    "usage": [[1898, 5], [1920, 40], [1950, 100], [1980, 80], [2020, 75]],
+    "tags": ["science"], "related": ["new"]
+  },
+  {
+    "id": "trinity", "word": "trinity", "pos": "noun", "gloss": "a group of three; in Christianity, the Father, Son and Holy Spirit as one God", "origin": "fro", "first": 1225, "root": "tre-three",
+    "path": [
+      {"lang": "ine-pro", "form": "*tréyes", "meaning": "three", "year": -4000},
+      {"lang": "la", "form": "trēs", "meaning": "three", "year": -200},
+      {"lang": "la-ecc", "form": "trīnitās", "meaning": "threeness; the Holy Trinity", "year": 200},
+      {"lang": "fro", "form": "trinite", "year": 1150},
+      {"lang": "enm", "form": "trinite", "year": 1225},
+      {"lang": "en", "form": "trinity", "year": 1500}
+    ],
+    "story": "Latin trīnitās, a group of three, was put to work around AD 200 by the theologian Tertullian for the Christian doctrine of Father, Son and Holy Spirit. English took it from French in the 1200s, and Trinity College, Trinity Sunday and countless churches carry it still.",
+    "usage": [[1225, 40], [1500, 60], [1700, 70], [1900, 60], [2020, 45]],
+    "tags": ["religion", "numbers"], "related": ["three"]
+  },
+  {
+    "id": "tripod", "word": "tripod", "pos": "noun", "gloss": "a three-legged stand, as for a camera", "origin": "la", "first": 1611, "root": "tre-three",
+    "path": [
+      {"lang": "ine-pro", "form": "*tréyes", "meaning": "three", "year": -4000},
+      {"lang": "grc", "form": "τρίπους (trípous)", "meaning": "three-footed; a three-legged cauldron or stand", "year": -700},
+      {"lang": "la", "form": "tripūs, tripodis", "year": 50},
+      {"lang": "en", "form": "tripod", "year": 1611}
+    ],
+    "story": "Tri- (three) + pous (foot). In Homer a trípous was a three-legged bronze cauldron, offered as a prize in the games, and the Pythia at Delphi gave her oracles seated on one. Photographers made it an everyday word in the 1800s.",
+    "usage": [[1611, 5], [1700, 10], [1850, 40], [1950, 80], [2020, 100]],
+    "tags": ["numbers", "technology"], "related": ["three", "octopus", "podium"]
+  },
+  {
+    "id": "third", "word": "third", "pos": "adjective", "gloss": "coming next after the second", "origin": "ang", "first": 800, "root": "tre-three",
+    "path": [
+      {"lang": "ine-pro", "form": "*tréyes", "meaning": "three", "year": -4000},
+      {"lang": "gem-pro", "form": "*þridjô", "meaning": "third", "year": -500},
+      {"lang": "ang", "form": "þridda", "year": 800},
+      {"lang": "enm", "form": "thridde, thirde", "year": 1200},
+      {"lang": "en", "form": "third", "year": 1500}
+    ],
+    "story": "Old English said þridda, and for centuries English said thrid. It became third through metathesis, the r and the vowel swapping places, a form that won out in the 1500s. Bird (Old English bridd) went through exactly the same switch.",
+    "usage": [[800, 40], [1200, 50], [1500, 65], [1800, 80], [1950, 100], [2020, 95]],
+    "tags": ["numbers", "core"], "related": ["three", "bird"]
+  },
+  {
+    "id": "trio", "word": "trio", "pos": "noun", "gloss": "a group of three, especially three musicians", "origin": "it", "first": 1724, "root": "tre-three",
+    "path": [
+      {"lang": "ine-pro", "form": "*tréyes", "meaning": "three", "year": -4000},
+      {"lang": "la", "form": "trēs", "meaning": "three", "year": -200},
+      {"lang": "it", "form": "trio", "meaning": "a piece for three voices or instruments", "year": 1700},
+      {"lang": "en", "form": "trio", "year": 1724}
+    ],
+    "story": "Italian musicians made trio from tre, three, on the model of duo, for a piece written for three voices or instruments. English borrowed it with Italian music in the 1700s, and before long it meant any group of three.",
+    "usage": [[1724, 5], [1800, 25], [1900, 60], [1960, 100], [2020, 90]],
+    "tags": ["music", "numbers"], "related": ["three"]
+  },
+  {
+    "id": "gold", "word": "gold", "pos": "noun", "gloss": "a soft, heavy, yellow precious metal", "origin": "ang", "first": 700, "root": "ghel-shine",
+    "path": [
+      {"lang": "ine-pro", "form": "*ǵʰel-", "meaning": "to shine; yellow", "year": -4000},
+      {"lang": "gem-pro", "form": "*gulþą", "meaning": "gold", "year": -500},
+      {"lang": "ang", "form": "gold", "year": 700},
+      {"lang": "enm", "form": "gold", "year": 1200},
+      {"lang": "en", "form": "gold", "year": 1500}
+    ],
+    "story": "Gold is, quite literally, the yellow metal: it comes from the same root as yellow, and so do German Gold and Russian zóloto. Its English relatives include gild, glow and glass, all words for things that shine.",
+    "usage": [[700, 60], [1200, 70], [1500, 80], [1800, 85], [1950, 95], [2020, 100]],
+    "tags": ["money", "colors", "core"], "related": ["yellow", "glow", "glass"]
+  },
+  {
+    "id": "glow", "word": "glow", "pos": "verb", "gloss": "to give out steady light, especially without a flame", "origin": "ang", "first": 900, "root": "ghel-shine",
+    "path": [
+      {"lang": "ine-pro", "form": "*ǵʰel-", "meaning": "to shine", "year": -4000},
+      {"lang": "gem-pro", "form": "*glōaną", "meaning": "to glow", "year": -500},
+      {"lang": "ang", "form": "glōwan", "year": 900},
+      {"lang": "enm", "form": "glowen", "year": 1200},
+      {"lang": "en", "form": "glow", "year": 1500}
+    ],
+    "story": "Old English glōwan meant to glow like a coal, shining with heat but without a flame. It belongs to a bright family of gl- words from the root for shining and for yellow-green, among them gleam, glimmer and glass.",
+    "usage": [[900, 30], [1300, 45], [1600, 60], [1800, 80], [1950, 100], [2020, 95]],
+    "tags": ["nature", "colors"], "related": ["gold", "glass", "yellow"]
+  },
+  {
+    "id": "glass", "word": "glass", "pos": "noun", "gloss": "a hard, brittle, usually transparent material", "origin": "ang", "first": 800, "root": "ghel-shine",
+    "path": [
+      {"lang": "ine-pro", "form": "*ǵʰel-", "meaning": "to shine", "year": -4000},
+      {"lang": "gem-pro", "form": "*glasą", "meaning": "glass, amber", "year": -500},
+      {"lang": "ang", "form": "glæs", "year": 800},
+      {"lang": "enm", "form": "glas", "year": 1200},
+      {"lang": "en", "form": "glass", "year": 1500}
+    ],
+    "story": "Named for its shine: Old English glæs comes from the root that gave yellow, gold and glow. Its Germanic ancestor may first have meant amber, the glowing resin traded across northern Europe. The Roman historian Tacitus recorded that the Germans called amber glesum.",
+    "usage": [[800, 30], [1200, 45], [1500, 60], [1800, 80], [1950, 100], [2020, 95]],
+    "tags": ["home", "technology"], "related": ["gold", "glow"]
+  },
+  {
+    "id": "chlorine", "word": "chlorine", "pos": "noun", "gloss": "a greenish-yellow poisonous gas, used to disinfect water", "origin": "en", "first": 1810, "root": "ghel-shine",
+    "path": [
+      {"lang": "ine-pro", "form": "*ǵʰel-", "meaning": "yellow, green", "year": -4000},
+      {"lang": "grc", "form": "χλωρός (khlōrós)", "meaning": "pale green, yellow-green", "year": -800},
+      {"lang": "en", "form": "chlorine", "year": 1810}
+    ],
+    "story": "Humphry Davy named the gas in 1810 for its colour, from Greek khlōrós, pale green. Khlōrós comes from the same root as yellow and gold, and it also gave chlorophyll, the green of leaves.",
+    "usage": [[1810, 5], [1850, 30], [1900, 60], [1950, 100], [2020, 70]],
+    "tags": ["science", "colors"], "related": ["yellow"]
+  },
+  {
+    "id": "second", "word": "second", "pos": "adjective", "gloss": "coming next after the first", "origin": "fro", "first": 1300, "root": "sekw-follow",
+    "path": [
+      {"lang": "ine-pro", "form": "*sekʷ-", "meaning": "to follow", "year": -4000},
+      {"lang": "la", "form": "secundus", "meaning": "following, next", "year": -200},
+      {"lang": "fro", "form": "second", "year": 1150},
+      {"lang": "enm", "form": "secounde", "year": 1300},
+      {"lang": "en", "form": "second", "year": 1500}
+    ],
+    "story": "Second is the one that follows: Latin secundus comes from sequī, to follow. It pushed out Old English ōþer, other, which had been the word for second. The second of time is Medieval Latin secunda minūta, the second small division of an hour, after the first: the minute.",
+    "usage": [[1300, 40], [1500, 60], [1700, 75], [1900, 95], [2020, 100]],
+    "tags": ["numbers", "time", "core"], "related": ["suit", "sequence"]
+  },
+  {
+    "id": "sequence", "word": "sequence", "pos": "noun", "gloss": "a set of things that follow each other in a particular order", "origin": "fro", "first": 1380, "root": "sekw-follow",
+    "path": [
+      {"lang": "ine-pro", "form": "*sekʷ-", "meaning": "to follow", "year": -4000},
+      {"lang": "la", "form": "sequī", "meaning": "to follow", "year": -100},
+      {"lang": "la-lat", "form": "sequentia", "meaning": "a following; a hymn sung after the Alleluia", "year": 500},
+      {"lang": "fro", "form": "sequence", "year": 1300},
+      {"lang": "enm", "form": "sequence", "year": 1380},
+      {"lang": "en", "form": "sequence", "year": 1600}
+    ],
+    "story": "First a church word: a sequence was a hymn sung in the Mass after the Alleluia, from Late Latin sequentia, a following. By the late 1500s it meant any series of things following one another, and in the 20th century genes and DNA had sequences too.",
+    "usage": [[1380, 5], [1600, 25], [1800, 40], [1950, 80], [2020, 100]],
+    "tags": ["religion", "science"], "related": ["second", "suit"]
+  },
+  {
+    "id": "pursue", "word": "pursue", "pos": "verb", "gloss": "to follow or chase; to try to achieve", "origin": "xno", "first": 1300, "root": "sekw-follow",
+    "path": [
+      {"lang": "ine-pro", "form": "*sekʷ-", "meaning": "to follow", "year": -4000},
+      {"lang": "la", "form": "prōsequī", "meaning": "to follow after, to escort, to chase", "year": -100},
+      {"lang": "la-vul", "form": "*prōsequere", "year": 600},
+      {"lang": "xno", "form": "pursuer", "year": 1250},
+      {"lang": "enm", "form": "pursuen", "year": 1300},
+      {"lang": "en", "form": "pursue", "year": 1500}
+    ],
+    "story": "Latin prōsequī meant to follow forward, whether to escort someone or to chase them. Through Anglo-Norman pursuer it reached English around 1300, first meaning to persecute or harass, then to chase, then to strive after, as in Jefferson's pursuit of happiness. Prosecute is its Latin-shaped twin.",
+    "usage": [[1300, 30], [1500, 50], [1700, 70], [1900, 90], [2020, 85]],
+    "tags": ["law", "meaning-shift"], "related": ["suit", "second"]
+  },
+  {
+    "id": "execute", "word": "execute", "pos": "verb", "gloss": "to carry out a plan or order; to put someone to death as a legal punishment", "origin": "fro", "first": 1380, "root": "sekw-follow",
+    "path": [
+      {"lang": "ine-pro", "form": "*sekʷ-", "meaning": "to follow", "year": -4000},
+      {"lang": "la", "form": "exsequī", "meaning": "to follow out, to accomplish", "year": -100},
+      {"lang": "la-med", "form": "executāre", "year": 1200},
+      {"lang": "fro", "form": "executer", "year": 1300},
+      {"lang": "enm", "form": "executen", "year": 1380},
+      {"lang": "en", "form": "execute", "year": 1500}
+    ],
+    "story": "To execute is to follow something through to the end: Latin ex- (out) + sequī (follow). You executed a plan, a will or a sentence of the court, and from carrying out a death sentence it came, by the late 1400s, to mean putting someone to death. Computers execute programs in the older sense.",
+    "usage": [[1380, 15], [1600, 40], [1800, 60], [1950, 80], [2020, 90]],
+    "tags": ["law", "technology", "meaning-shift"], "related": ["pursue", "suit"]
+  },
+  {
+    "id": "way", "word": "way", "pos": "noun", "gloss": "a road or path; a method or manner of doing something", "origin": "ang", "first": 700, "root": "wegh-carry",
+    "path": [
+      {"lang": "ine-pro", "form": "*weǵʰ-", "meaning": "to carry in a vehicle", "year": -4000},
+      {"lang": "gem-pro", "form": "*wegaz", "meaning": "way, road", "year": -500},
+      {"lang": "ang", "form": "weġ", "year": 700},
+      {"lang": "enm", "form": "wei", "year": 1200},
+      {"lang": "en", "form": "way", "year": 1500}
+    ],
+    "story": "A way was a road for carrying things along. The word grows from the same root as wagon and Latin vehere, to carry or ride, and German Weg is the same word. From roads it spread to methods, manners and directions. Latin via, road, is a cousin.",
+    "usage": [[700, 60], [1200, 70], [1500, 80], [1800, 90], [1950, 100], [2020, 100]],
+    "tags": ["core", "places"], "related": ["wagon", "weigh"]
+  },
+  {
+    "id": "weigh", "word": "weigh", "pos": "verb", "gloss": "to find out how heavy something is; to have a certain weight", "origin": "ang", "first": 800, "root": "wegh-carry",
+    "path": [
+      {"lang": "ine-pro", "form": "*weǵʰ-", "meaning": "to carry in a vehicle", "year": -4000},
+      {"lang": "gem-pro", "form": "*weganą", "meaning": "to move, to carry", "year": -500},
+      {"lang": "ang", "form": "wegan", "meaning": "to carry, to lift; to weigh", "year": 800},
+      {"lang": "enm", "form": "weien", "year": 1200},
+      {"lang": "en", "form": "weigh", "year": 1500}
+    ],
+    "story": "Old English wegan meant to carry or lift, and sailors still weigh anchor, lifting it aboard. Lifting something tells you how heavy it is, and that became the main sense; weight is its noun. Wagon, way and Latin vehicle share the root.",
+    "usage": [[800, 30], [1200, 40], [1500, 55], [1800, 70], [1950, 90], [2020, 85]],
+    "tags": ["sea", "core", "meaning-shift"], "related": ["way", "wagon", "vehicle"]
+  },
+  {
+    "id": "vehicle", "word": "vehicle", "pos": "noun", "gloss": "a thing used to carry people or goods, such as a car or truck; a means of expression", "origin": "fr", "first": 1612, "root": "wegh-carry",
+    "path": [
+      {"lang": "ine-pro", "form": "*weǵʰ-", "meaning": "to carry in a vehicle", "year": -4000},
+      {"lang": "la", "form": "vehere", "meaning": "to carry", "year": -200},
+      {"lang": "la", "form": "vehiculum", "meaning": "a carriage, a conveyance", "year": -100},
+      {"lang": "fr", "form": "véhicule", "year": 1550},
+      {"lang": "en", "form": "vehicle", "year": 1612}
+    ],
+    "story": "Latin vehiculum, from vehere, to carry, was anything that carries, from a cart to a ship. In English it first meant a liquid that carries a medicine, and only from the 1650s a cart or carriage. By the 20th century it meant, above all, a motor vehicle.",
+    "usage": [[1612, 5], [1700, 20], [1850, 40], [1950, 85], [2020, 100]],
+    "tags": ["technology"], "related": ["wagon", "weigh", "convey"]
+  },
+  {
+    "id": "convey", "word": "convey", "pos": "verb", "gloss": "to carry or transport; to communicate an idea or feeling", "origin": "xno", "first": 1300, "root": "wegh-carry",
+    "path": [
+      {"lang": "ine-pro", "form": "*weǵʰ-", "meaning": "to carry in a vehicle", "year": -4000},
+      {"lang": "la", "form": "via", "meaning": "road, way", "year": -200},
+      {"lang": "la-vul", "form": "*conviāre", "meaning": "to accompany on the way", "year": 600},
+      {"lang": "xno", "form": "conveier", "year": 1200},
+      {"lang": "enm", "form": "conveien", "year": 1300},
+      {"lang": "en", "form": "convey", "year": 1500}
+    ],
+    "story": "To convey was first to escort someone on their way: Vulgar Latin *conviāre, from com- (with) + via (road). Then goods were conveyed, then property, then meaning, and the conveyor belt carries the idea on. Convoy is the same word in another French spelling.",
+    "usage": [[1300, 30], [1500, 45], [1700, 60], [1850, 80], [2020, 70]],
+    "tags": ["trade", "meaning-shift"], "related": ["way", "vehicle"]
+  },
+  {
+    "id": "course", "word": "course", "pos": "noun", "gloss": "the route or direction something follows; a series of lessons; one part of a meal", "origin": "fro", "first": 1300, "root": "kers-run",
+    "path": [
+      {"lang": "ine-pro", "form": "*ḱers-", "meaning": "to run", "year": -4000},
+      {"lang": "la", "form": "currere", "meaning": "to run", "year": -200},
+      {"lang": "la", "form": "cursus", "meaning": "a running, a race", "year": -100},
+      {"lang": "fro", "form": "cours", "year": 1150},
+      {"lang": "enm", "form": "cours", "year": 1300},
+      {"lang": "en", "form": "course", "year": 1500}
+    ],
+    "story": "A course was a running: Latin cursus, from currere, to run. In English it was first a race or a charge in battle, then the path something runs along: a river's course, a course of study, the courses of a meal served in order. Of course, meaning in the natural order of things, dates from the 1500s.",
+    "usage": [[1300, 30], [1500, 50], [1700, 70], [1900, 90], [2020, 100]],
+    "tags": ["education", "food"], "related": ["car", "current", "carry"]
+  },
+  {
+    "id": "current", "word": "current", "pos": "adjective", "gloss": "belonging to the present time; in general use", "origin": "fro", "first": 1300, "root": "kers-run",
+    "path": [
+      {"lang": "ine-pro", "form": "*ḱers-", "meaning": "to run", "year": -4000},
+      {"lang": "la", "form": "currēns", "meaning": "running", "year": -100},
+      {"lang": "fro", "form": "corant", "meaning": "running", "year": 1150},
+      {"lang": "enm", "form": "curraunt", "meaning": "running, flowing", "year": 1300},
+      {"lang": "en", "form": "current", "year": 1600}
+    ],
+    "story": "Current means running: Latin currēns, Old French corant. Water ran, so a current became a flowing stream; money and news ran from hand to hand, so they were current, in circulation now. In the 1700s electricity got a current too.",
+    "usage": [[1300, 15], [1500, 30], [1700, 50], [1900, 80], [2020, 100]],
+    "tags": ["time", "science", "meaning-shift"], "related": ["course", "car"]
+  },
+  {
+    "id": "carry", "word": "carry", "pos": "verb", "gloss": "to hold and take something from one place to another", "origin": "xno", "first": 1300, "root": "kers-run",
+    "path": [
+      {"lang": "ine-pro", "form": "*ḱers-", "meaning": "to run", "year": -4000},
+      {"lang": "cel-gau", "form": "*karros", "meaning": "wagon", "year": -200},
+      {"lang": "la", "form": "carrus", "meaning": "a four-wheeled wagon", "year": -50},
+      {"lang": "la-lat", "form": "carricāre", "meaning": "to load a cart", "year": 400},
+      {"lang": "xno", "form": "carier", "year": 1250},
+      {"lang": "enm", "form": "carien", "year": 1300},
+      {"lang": "en", "form": "carry", "year": 1500}
+    ],
+    "story": "To carry was first to take something by cart. Anglo-Norman carier comes from Late Latin carricāre, to load a wagon, from carrus, which the Romans borrowed from the Gauls. Its Central French twin chargier gave English charge, and carrus itself gave car.",
+    "usage": [[1300, 30], [1500, 50], [1700, 70], [1900, 90], [2020, 95]],
+    "tags": ["core", "technology"], "related": ["car", "course"]
+  },
+  {
+    "id": "career", "word": "career", "pos": "noun", "gloss": "a person's working life or profession", "origin": "fr", "first": 1534, "root": "kers-run",
+    "path": [
+      {"lang": "ine-pro", "form": "*ḱers-", "meaning": "to run", "year": -4000},
+      {"lang": "cel-gau", "form": "*karros", "meaning": "wagon", "year": -200},
+      {"lang": "la", "form": "carrus", "meaning": "a four-wheeled wagon", "year": -50},
+      {"lang": "la-med", "form": "carrāria (via)", "meaning": "a road for carts", "year": 900},
+      {"lang": "pro", "form": "carriera", "year": 1100},
+      {"lang": "fr", "form": "carrière", "meaning": "a racecourse", "year": 1500},
+      {"lang": "en", "form": "career", "year": 1534}
+    ],
+    "story": "A career was a racecourse: French carrière, from Medieval Latin carrāria, a road for carts. In the 1500s English used it for a horse's charge at full gallop, and careering is still headlong. The sense of a person's course through working life arrived around 1800.",
+    "usage": [[1534, 5], [1700, 15], [1850, 40], [1950, 85], [2020, 100]],
+    "tags": ["work", "meaning-shift"], "related": ["car", "carry", "course"]
+  },
+  {
+    "id": "fame", "word": "fame", "pos": "noun", "gloss": "the state of being widely known and talked about", "origin": "fro", "first": 1200, "root": "bheh-speak",
+    "path": [
+      {"lang": "ine-pro", "form": "*bʰeh₂-", "meaning": "to speak, to say", "year": -4000},
+      {"lang": "la", "form": "fāma", "meaning": "talk, rumour, reputation", "year": -100},
+      {"lang": "fro", "form": "fame", "year": 1150},
+      {"lang": "enm", "form": "fame", "year": 1200},
+      {"lang": "en", "form": "fame", "year": 1500}
+    ],
+    "story": "Fame was what people said about you: Latin fāma, talk, rumour or reputation, from fārī, to speak. Virgil pictured Fama as a monster with a tongue and a mouth for every feather, spreading news good and bad. Infamous keeps the bad side; famous now mostly keeps the good.",
+    "usage": [[1200, 30], [1500, 50], [1700, 70], [1900, 75], [2020, 90]],
+    "tags": ["people", "mythology"], "related": ["fate", "infant", "fab"]
+  },
+  {
+    "id": "fate", "word": "fate", "pos": "noun", "gloss": "the power believed to decide events in advance; destiny", "origin": "la", "first": 1385, "root": "bheh-speak",
+    "path": [
+      {"lang": "ine-pro", "form": "*bʰeh₂-", "meaning": "to speak, to say", "year": -4000},
+      {"lang": "la", "form": "fātum", "meaning": "a thing spoken (by the gods); destiny", "year": -100},
+      {"lang": "enm", "form": "fate", "year": 1385},
+      {"lang": "en", "form": "fate", "year": 1500}
+    ],
+    "story": "Fate is, literally, what has been spoken: Latin fātum, from fārī, to speak, the decree of the gods, uttered and unchangeable. English took it in the late 1300s, and it slowly replaced the native wyrd. The Fates of Greek and Roman myth spin, measure and cut the thread of each life.",
+    "usage": [[1385, 20], [1600, 60], [1800, 80], [1900, 85], [2020, 80]],
+    "tags": ["mythology", "religion"], "related": ["wyrd", "fame"]
+  },
+  {
+    "id": "infant", "word": "infant", "pos": "noun", "gloss": "a very young child or baby", "origin": "fro", "first": 1380, "root": "bheh-speak",
+    "path": [
+      {"lang": "ine-pro", "form": "*bʰeh₂-", "meaning": "to speak, to say", "year": -4000},
+      {"lang": "la", "form": "īnfāns", "meaning": "not speaking; a young child", "year": -100},
+      {"lang": "fro", "form": "enfant", "year": 1150},
+      {"lang": "enm", "form": "enfaunt", "year": 1380},
+      {"lang": "en", "form": "infant", "year": 1500}
+    ],
+    "story": "An infant is someone who cannot yet speak: Latin īnfāns, from in- (not) + fāns (speaking), a form of fārī. Middle English often spelled it enfaunt, after French, before the Latin spelling was restored. In Italian, infante came to mean a youth and then a foot soldier, hence infantry.",
+    "usage": [[1380, 20], [1600, 45], [1800, 70], [1950, 100], [2020, 85]],
+    "tags": ["family", "people"], "related": ["fame", "fate", "fab"]
+  },
+  {
+    "id": "worse", "word": "worse", "pos": "adjective", "gloss": "of poorer quality; more bad", "origin": "ang", "first": 800, "root": "wers-rub",
+    "path": [
+      {"lang": "ine-pro", "form": "*wers-", "meaning": "to confuse, to mix up", "year": -4000},
+      {"lang": "gem-pro", "form": "*wirsizô", "meaning": "worse", "year": -500},
+      {"lang": "ang", "form": "wiersa, wyrsa", "year": 800},
+      {"lang": "enm", "form": "werse, worse", "year": 1200},
+      {"lang": "en", "form": "worse", "year": 1500}
+    ],
+    "story": "Worse has no positive of its own: it serves as the comparative of bad, and worst as its superlative. Its root meant to confuse or mix things up, and the same root gave the Franks werra, strife, the source of war and, through Spanish, of guerrilla.",
+    "usage": [[800, 50], [1200, 60], [1500, 70], [1800, 80], [1950, 95], [2020, 100]],
+    "tags": ["core"], "related": ["war"]
+  },
+  {
+    "id": "friar", "word": "friar", "pos": "noun", "gloss": "a member of a religious order, such as the Franciscans, who lives among the people", "origin": "fro", "first": 1300, "root": "bhrater-brother",
+    "path": [
+      {"lang": "ine-pro", "form": "*bʰréh₂tēr", "meaning": "brother", "year": -4000},
+      {"lang": "la", "form": "frāter", "meaning": "brother", "year": -200},
+      {"lang": "fro", "form": "frere", "meaning": "brother; friar", "year": 1150},
+      {"lang": "enm", "form": "frere", "year": 1300},
+      {"lang": "en", "form": "friar", "year": 1500}
+    ],
+    "story": "A friar is a brother: French frère, from Latin frāter. In the 1200s the new begging orders, the Franciscans and Dominicans, called their members brothers rather than monks, and English took the French word for them. Fraternal and fraternity come straight from Latin; brother is the same word by the Germanic road.",
+    "usage": [[1300, 60], [1500, 70], [1600, 50], [1800, 30], [2020, 25]],
+    "tags": ["religion", "family"], "related": ["brother"]
+  },
+  {
+    "id": "reason", "word": "reason", "pos": "noun", "gloss": "a cause or explanation; the power of the mind to think logically", "origin": "fro", "first": 1225, "root": "reh-reason",
+    "path": [
+      {"lang": "ine-pro", "form": "*reh₁-", "meaning": "to reason, to count", "year": -4000},
+      {"lang": "la", "form": "rērī", "meaning": "to reckon, to think", "year": -200},
+      {"lang": "la", "form": "ratiō", "meaning": "reckoning, account", "year": -100},
+      {"lang": "fro", "form": "raison", "year": 1150},
+      {"lang": "enm", "form": "resoun", "year": 1225},
+      {"lang": "en", "form": "reason", "year": 1500}
+    ],
+    "story": "Reason began as reckoning: Latin ratiō, an account or calculation, from rērī, to count or think. French wore it down to raison, and English took it in the 1200s. Ratio and ration are the same Latin word borrowed again; read and riddle are Germanic cousins.",
+    "usage": [[1225, 40], [1500, 60], [1700, 85], [1800, 100], [1950, 85], [2020, 80]],
+    "tags": ["philosophy", "core"], "related": ["read"]
+  }
+]

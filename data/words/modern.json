@@ -82,8 +82,9 @@
   },
   {
     "id": "fashionable", "word": "fashionable", "pos": "adjective", "gloss": "popular or stylish at a particular time",
-    "origin": "en", "first": 1602,
+    "origin": "en", "first": 1602, "root": "dhe-put",
     "path": [
+      {"lang": "ine-pro", "form": "*dʰeh₁-", "meaning": "to set, to put, to do", "year": -4000},
       {"lang": "la", "form": "factiō", "meaning": "a making", "year": -50},
       {"lang": "fro", "form": "façon", "meaning": "shape, manner", "year": 1150},
       {"lang": "enm", "form": "fasoun", "year": 1300},
@@ -427,8 +428,9 @@
   },
   {
     "id": "unfriend", "word": "unfriend", "pos": "verb", "gloss": "to remove someone from your friends on a social network",
-    "origin": "en", "first": 1659,
+    "origin": "en", "first": 1659, "root": "preyh-dear",
     "path": [
+      {"lang": "ine-pro", "form": "*preyH-", "meaning": "to love; dear", "year": -4000},
       {"lang": "en", "form": "un-friend", "meaning": "to end a friendship", "year": 1659},
       {"lang": "en", "form": "unfriend", "meaning": "to remove from a friends list", "year": 2007}
     ],
@@ -449,8 +451,9 @@
   },
   {
     "id": "doomscrolling", "word": "doomscrolling", "pos": "noun", "gloss": "endlessly scrolling through bad news online",
-    "origin": "en", "first": 2018,
+    "origin": "en", "first": 2018, "root": "dhe-put",
     "path": [
+      {"lang": "ine-pro", "form": "*dʰeh₁-", "meaning": "to set, to put, to do", "year": -4000},
       {"lang": "en", "form": "doom + scrolling", "year": 2018},
       {"lang": "en", "form": "doomscrolling", "year": 2018}
     ],
@@ -580,7 +583,7 @@
     ],
     "story": "Coined in 1944 by the Texas congressman Maury Maverick, fed up with bureaucratic jargon; he said it was inspired by a turkey, always gobbling and strutting with ludicrous pomposity. His grandfather, the rancher Samuel Maverick, had already given English the word maverick.",
     "usage": [[1944, 10], [1960, 50], [1980, 90], [2000, 100], [2020, 80]],
-    "tags": ["slang", "eponym"], "related": ["maverick"]
+    "tags": ["slang", "eponym"]
   },
   {
     "id": "gaslighting", "word": "gaslighting", "pos": "noun", "gloss": "manipulating someone into doubting their own memory or sanity",
@@ -596,8 +599,9 @@
   },
   {
     "id": "truthiness", "word": "truthiness", "pos": "noun", "gloss": "the quality of feeling true in your gut, regardless of the facts",
-    "origin": "en", "first": 2005,
+    "origin": "en", "first": 2005, "root": "deru-tree",
     "path": [
+      {"lang": "ine-pro", "form": "*dóru", "meaning": "tree, wood; firm, solid", "year": -4000},
       {"lang": "en", "form": "truth + -iness", "year": 2005},
       {"lang": "en", "form": "truthiness", "year": 2005}
     ],
@@ -696,8 +700,9 @@
   },
   {
     "id": "factoid", "word": "factoid", "pos": "noun", "gloss": "a small piece of trivia; originally, an invented ‘fact’ repeated until believed",
-    "origin": "en", "first": 1973,
+    "origin": "en", "first": 1973, "root": "dhe-put",
     "path": [
+      {"lang": "ine-pro", "form": "*dʰeh₁-", "meaning": "to set, to put, to do", "year": -4000},
       {"lang": "en", "form": "fact + -oid", "meaning": "something like a fact", "year": 1973},
       {"lang": "en", "form": "factoid", "meaning": "a trivial fact", "year": 1985}
     ],
@@ -867,8 +872,9 @@
   },
   {
     "id": "fab", "word": "fab", "pos": "adjective", "gloss": "(informal) fabulous, wonderful",
-    "origin": "en", "first": 1957,
+    "origin": "en", "first": 1957, "root": "bheh-speak",
     "path": [
+      {"lang": "ine-pro", "form": "*bʰeh₂-", "meaning": "to speak, to say", "year": -4000},
       {"lang": "la", "form": "fābulōsus", "meaning": "celebrated in fable", "year": -50},
       {"lang": "en", "form": "fabulous", "meaning": "of fables; astonishing", "year": 1450},
       {"lang": "en", "form": "fab", "year": 1957}
