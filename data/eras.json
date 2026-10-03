@@ -1,0 +1,7 @@
+[
+  { "id": "old", "name": "Old English", "start": 450, "end": 1150, "blurb": "Germanic tribes settle Britain. A language of kennings and case endings, Beowulf and Alfred the Great. Vikings add Norse in the 800s." },
+  { "id": "middle", "name": "Middle English", "start": 1150, "end": 1500, "blurb": "After the Norman Conquest, French rules court and law while English survives in the fields. When English returns, it is transformed — Chaucer's English." },
+  { "id": "early-modern", "name": "Early Modern English", "start": 1500, "end": 1700, "blurb": "Printing, the Renaissance and Shakespeare. Thousands of Latin and Greek words pour in; the Great Vowel Shift changes how everything sounds." },
+  { "id": "modern", "name": "Modern English", "start": 1700, "end": 1900, "blurb": "Dictionaries fix spelling, the Empire and science spread English around the world and borrow from every continent." },
+  { "id": "global", "name": "Global English", "start": 1900, "end": 2030, "blurb": "Radio, film and the internet. English becomes the world's lingua franca and coins words faster than ever: radar, emoji, selfie." }
+]

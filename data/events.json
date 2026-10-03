@@ -1,0 +1,10 @@
+[
+  { "year": 449, "title": "The Anglo-Saxons arrive", "blurb": "Angles, Saxons and Jutes cross the North Sea and bring the Germanic dialects that become Old English.", "streams": ["native"] },
+  { "year": 597, "title": "Christianity returns", "blurb": "Augustine's mission brings Latin church words: altar, candle, school, monk.", "streams": ["latin"] },
+  { "year": 793, "title": "The Vikings", "blurb": "Raids, then settlement. Norse and English mingle across the Danelaw.", "streams": ["norse"] },
+  { "year": 1066, "title": "The Norman Conquest", "blurb": "William of Normandy takes the throne. For three centuries the rulers of England speak French.", "streams": ["french"] },
+  { "year": 1476, "title": "The printing press", "blurb": "William Caxton prints the first books in England, and spelling starts to set.", "streams": ["latin", "greek"] },
+  { "year": 1600, "title": "Shakespeare", "blurb": "The playwright is first recorded using hundreds of words, from bedroom to swagger.", "streams": ["english", "latin"] },
+  { "year": 1755, "title": "Johnson's Dictionary", "blurb": "Samuel Johnson defines 42,773 words — wittily — and English gets its first great dictionary.", "streams": ["english"] },
+  { "year": 1990, "title": "The World Wide Web", "blurb": "A new frontier for coinages: blog, google, emoji, selfie.", "streams": ["english", "asia"] }
+]

@@ -1,0 +1,162 @@
+[
+  {
+    "id": "water", "word": "water", "pos": "noun", "gloss": "the clear liquid that falls as rain and fills rivers and seas",
+    "origin": "ang", "first": 700, "root": "wed-water", "featured": true,
+    "path": [
+      { "lang": "ine-pro", "form": "*wódr̥", "year": -4000 },
+      { "lang": "gem-pro", "form": "*watōr", "year": -500 },
+      { "lang": "ang", "form": "wæter", "year": 700 },
+      { "lang": "enm", "form": "water", "year": 1200 },
+      { "lang": "en", "form": "water", "year": 1500 }
+    ],
+    "story": "One of the oldest words you use. Six thousand years ago on the steppe, *wódr̥ already meant water; its descendants include Russian vodka (\"little water\") and Greek hydor, which gave us hydrogen.",
+    "usage": [[700, 70], [1100, 75], [1500, 85], [1800, 95], [1900, 100], [2000, 92], [2020, 90]],
+    "tags": ["nature", "core"], "related": ["vodka", "hydrogen", "otter"]
+  },
+  {
+    "id": "sky", "word": "sky", "pos": "noun", "gloss": "the space above the earth where clouds and stars are seen",
+    "origin": "non", "first": 1220, "featured": true,
+    "path": [
+      { "lang": "ine-pro", "form": "*(s)kewH-", "meaning": "to cover", "year": -4000 },
+      { "lang": "gem-pro", "form": "*skiwją", "meaning": "cloud", "year": -500 },
+      { "lang": "non", "form": "ský", "meaning": "cloud", "year": 900 },
+      { "lang": "enm", "form": "skie", "meaning": "cloud", "year": 1220 },
+      { "lang": "en", "form": "sky", "year": 1500 }
+    ],
+    "story": "A Viking gift. In Old Norse ský meant \"cloud\", and so it did in early English. By 1300 it had pushed aside the native word heofon — which survives as heaven — for the vault above us.",
+    "usage": [[1220, 10], [1400, 45], [1600, 75], [1800, 85], [1900, 90], [2000, 100], [2020, 98]],
+    "tags": ["nature"], "related": ["heaven"]
+  },
+  {
+    "id": "beef", "word": "beef", "pos": "noun", "gloss": "the meat of a cow",
+    "origin": "xno", "first": 1300, "root": "gwow-cow", "featured": true,
+    "path": [
+      { "lang": "ine-pro", "form": "*gʷṓws", "meaning": "cow", "year": -4000 },
+      { "lang": "la", "form": "bos, bovis", "meaning": "ox, cow", "year": -200 },
+      { "lang": "fro", "form": "buef", "meaning": "ox", "year": 1100 },
+      { "lang": "xno", "form": "boef", "year": 1250 },
+      { "lang": "enm", "form": "beef", "year": 1300 },
+      { "lang": "en", "form": "beef", "year": 1500 }
+    ],
+    "story": "After 1066, the Saxons who tended the animals kept their English words — cow, swine, sheep — while the Norman lords who ate them used French: beef, pork, mutton. The class divide is still on your menu.",
+    "usage": [[1300, 20], [1500, 40], [1700, 60], [1850, 80], [1950, 100], [2020, 85]],
+    "tags": ["food"], "related": ["cow", "pork", "mutton"]
+  },
+  {
+    "id": "salary", "word": "salary", "pos": "noun", "gloss": "a fixed regular payment for work",
+    "origin": "xno", "first": 1300, "root": "sal-salt",
+    "path": [
+      { "lang": "ine-pro", "form": "*seh₂l-", "meaning": "salt", "year": -4000 },
+      { "lang": "la", "form": "salārium", "meaning": "a soldier's allowance (for salt?)", "year": 50 },
+      { "lang": "xno", "form": "salarie", "year": 1250 },
+      { "lang": "enm", "form": "salarie", "year": 1300 },
+      { "lang": "en", "form": "salary", "year": 1500 }
+    ],
+    "story": "Latin salārium was a payment to Roman soldiers, and it's built on sal, salt. The popular tale that soldiers were paid in salt is probably a myth — but the salt is really in the word.",
+    "usage": [[1300, 5], [1600, 20], [1800, 40], [1900, 70], [1980, 100], [2020, 88]],
+    "tags": ["money", "work"], "related": ["salad", "sauce"]
+  },
+  {
+    "id": "disaster", "word": "disaster", "pos": "noun", "gloss": "a sudden event causing great damage or loss",
+    "origin": "frm", "first": 1590, "root": "ster-star",
+    "path": [
+      { "lang": "ine-pro", "form": "*h₂stḗr", "meaning": "star", "year": -4000 },
+      { "lang": "grc", "form": "ἀστήρ (astēr)", "meaning": "star", "year": -700 },
+      { "lang": "it", "form": "disastro", "meaning": "ill-starred event", "year": 1400 },
+      { "lang": "frm", "form": "désastre", "year": 1560 },
+      { "lang": "en", "form": "disaster", "year": 1590 }
+    ],
+    "story": "Literally a \"bad star\". Renaissance Italians blamed calamities on unlucky planets — dis- (bad) + astro (star) — and English borrowed the astrology along with the word.",
+    "usage": [[1590, 10], [1700, 30], [1800, 35], [1900, 55], [1990, 100], [2020, 95]],
+    "tags": ["astronomy"], "related": ["star", "asterisk"]
+  },
+  {
+    "id": "algebra", "word": "algebra", "pos": "noun", "gloss": "mathematics using letters and symbols for numbers",
+    "origin": "la-med", "first": 1550,
+    "path": [
+      { "lang": "ar", "form": "الجبر (al-jabr)", "meaning": "the reunion of broken parts", "year": 820 },
+      { "lang": "la-med", "form": "algebra", "year": 1145 },
+      { "lang": "en", "form": "algebra", "year": 1550 }
+    ],
+    "story": "From the title of a 9th-century book by the Baghdad scholar al-Khwārizmī — whose own name gave us algorithm. Al-jabr also meant bone-setting, and \"algebrist\" once meant a surgeon who set fractures.",
+    "usage": [[1550, 5], [1700, 25], [1850, 60], [1950, 100], [2020, 80]],
+    "tags": ["science", "math"], "related": ["algorithm", "zero"]
+  },
+  {
+    "id": "shampoo", "word": "shampoo", "pos": "noun", "gloss": "liquid soap for washing hair",
+    "origin": "hi", "first": 1762, "featured": true,
+    "path": [
+      { "lang": "sa", "form": "चपयति (capayati)", "meaning": "kneads, presses", "year": -200 },
+      { "lang": "hi", "form": "चाँपो (cā̃po)", "meaning": "press! knead!", "year": 1700 },
+      { "lang": "en", "form": "shampoo", "meaning": "to massage", "year": 1762 },
+      { "lang": "en", "form": "shampoo", "meaning": "hair soap", "year": 1860 }
+    ],
+    "story": "At first it meant a full-body massage, brought home from India in the 1760s. Sake Dean Mahomed opened \"shampooing\" baths in Brighton in 1814; only in the 1860s did the word move up to the scalp.",
+    "usage": [[1762, 2], [1850, 8], [1900, 20], [1950, 60], [2000, 100], [2020, 95]],
+    "tags": ["body", "empire"]
+  },
+  {
+    "id": "robot", "word": "robot", "pos": "noun", "gloss": "a machine that carries out complex actions automatically",
+    "origin": "cs", "first": 1923, "featured": true,
+    "path": [
+      { "lang": "ine-pro", "form": "*h₃erbʰ-", "meaning": "to change status", "year": -4000 },
+      { "lang": "cs", "form": "robota", "meaning": "forced labour", "year": 1500 },
+      { "lang": "cs", "form": "robot", "meaning": "artificial worker (Čapek, R.U.R.)", "year": 1920 },
+      { "lang": "en", "form": "robot", "year": 1923 }
+    ],
+    "story": "Coined for Karel Čapek's 1920 play R.U.R. — his brother Josef suggested it — from Czech robota, the forced labour serfs owed their lords. Distant cousin of English orphan and German Arbeit.",
+    "usage": [[1923, 5], [1950, 35], [1980, 70], [2000, 80], [2020, 100]],
+    "tags": ["technology"]
+  },
+  {
+    "id": "selfie", "word": "selfie", "pos": "noun", "gloss": "a photo you take of yourself, usually with a phone",
+    "origin": "en", "first": 2002, "featured": true,
+    "path": [
+      { "lang": "ang", "form": "self", "meaning": "same, own", "year": 800 },
+      { "lang": "en", "form": "self + -ie", "year": 2002 },
+      { "lang": "en", "form": "selfie", "year": 2002 }
+    ],
+    "story": "First spotted on an Australian internet forum in 2002, under a blurry photo of a lip split in a drunken fall. Oxford Dictionaries made it Word of the Year in 2013, when its use had grown 17,000% in a year.",
+    "usage": [[2002, 0], [2010, 5], [2013, 85], [2015, 100], [2020, 80]],
+    "tags": ["internet", "technology"]
+  },
+  {
+    "id": "nice", "word": "nice", "pos": "adjective", "gloss": "pleasant, kind, agreeable",
+    "origin": "fro", "first": 1300,
+    "path": [
+      { "lang": "la", "form": "nescius", "meaning": "ignorant, not knowing", "year": -50 },
+      { "lang": "fro", "form": "nice", "meaning": "silly, simple", "year": 1100 },
+      { "lang": "enm", "form": "nice", "meaning": "foolish", "year": 1300 },
+      { "lang": "en", "form": "nice", "meaning": "fussy, precise", "year": 1550 },
+      { "lang": "en", "form": "nice", "meaning": "pleasant", "year": 1769 }
+    ],
+    "story": "Few words have travelled further in meaning: from Latin \"ignorant\" to \"foolish\", \"shy\", \"fussy\", \"precise\" (a nice distinction) and finally, in the 1700s, \"pleasant\".",
+    "usage": [[1300, 10], [1600, 30], [1800, 50], [1900, 70], [1990, 100], [2020, 95]],
+    "tags": ["meaning-shift"]
+  },
+  {
+    "id": "wanhope", "word": "wanhope", "pos": "noun", "gloss": "despair; hopelessness",
+    "origin": "enm", "first": 1300, "status": "extinct", "died": 1600, "replacedBy": "despair",
+    "path": [
+      { "lang": "ang", "form": "wan- + hopa", "meaning": "lacking + hope", "year": 1000 },
+      { "lang": "enm", "form": "wanhope", "year": 1300 }
+    ],
+    "story": "A beautifully plain way to say despair: wan (lacking) + hope. Chaucer used it, then the French-born despair crowded it out. Its sibling wantrust (distrust) died with it.",
+    "usage": [[1300, 70], [1400, 100], [1500, 50], [1600, 5], [1700, 0]],
+    "tags": ["feelings"], "related": ["despair"]
+  },
+  {
+    "id": "hound", "word": "hound", "pos": "noun", "gloss": "a dog, especially one bred for hunting",
+    "origin": "ang", "first": 700, "root": "kwon-dog",
+    "path": [
+      { "lang": "ine-pro", "form": "*ḱwṓ", "meaning": "dog", "year": -4000 },
+      { "lang": "gem-pro", "form": "*hundaz", "meaning": "dog", "year": -500 },
+      { "lang": "ang", "form": "hund", "meaning": "dog", "year": 700 },
+      { "lang": "enm", "form": "hound", "year": 1200 },
+      { "lang": "en", "form": "hound", "meaning": "hunting dog", "year": 1500 }
+    ],
+    "story": "For centuries hund was simply the English word for dog — as Hund still is in German. Then the mysterious word dog, of unknown origin, took over, and hound narrowed to hunting breeds.",
+    "usage": [[700, 100], [1200, 90], [1500, 60], [1800, 45], [1900, 40], [2020, 25]],
+    "tags": ["animals", "meaning-shift"], "related": ["dog", "canine"]
+  }
+]

@@ -1,0 +1,105 @@
+/* ────────────────────────────────────────────────────────────────
+   Etymon — design tokens
+   Light "paper" theme by default; dark "ink" theme via the OS setting
+   or the toggle (html[data-theme]). Components use only these tokens.
+   ──────────────────────────────────────────────────────────────── */
+:root {
+  --paper: #f6f3ec;
+  --paper-2: #eee9df;
+  --paper-3: #e4ddcf;
+  --card: rgba(255, 253, 248, 0.78);
+  --card-solid: #fffdf8;
+  --ink: #16140f;
+  --ink-2: #4b463d;
+  --ink-3: #8b8477;
+  --ink-4: #b9b2a4;
+  --line: rgba(22, 20, 15, 0.09);
+  --line-2: rgba(22, 20, 15, 0.16);
+  --accent: #4f46e5;
+  --accent-ink: #ffffff;
+  --glow: rgba(255, 255, 255, 0.9);
+  --shadow-sm: 0 1px 2px rgba(40, 30, 10, 0.06), 0 2px 8px rgba(40, 30, 10, 0.04);
+  --shadow: 0 1px 2px rgba(40, 30, 10, 0.05), 0 12px 40px -12px rgba(40, 30, 10, 0.18);
+  --shadow-lg: 0 2px 6px rgba(40, 30, 10, 0.05), 0 40px 100px -30px rgba(40, 30, 10, 0.35);
+  /* How coloured layers combine with the background: multiply on paper, screen on ink. */
+  --blend: multiply;
+  --stream-alpha: 0.82;
+
+  --font-display: 'Fraunces', 'Noto Serif', 'Iowan Old Style', Georgia, serif;
+  --font-ui: 'Geist', 'Inter', system-ui, -apple-system, 'Segoe UI', sans-serif;
+  --font-mono: 'Geist Mono', ui-monospace, 'SF Mono', Menlo, monospace;
+  /* For reconstructed / old forms with unusual letters (þ ð ǣ ȝ ʰ ʷ ḱ ə): Noto Serif has them all. */
+  --font-old: 'Noto Serif', 'Fraunces', Georgia, serif;
+
+  --radius-sm: 10px;
+  --radius: 18px;
+  --radius-lg: 28px;
+  --ease: cubic-bezier(0.2, 0.8, 0.2, 1);
+  --ease-out: cubic-bezier(0.16, 1, 0.3, 1);
+  --page-w: 1240px;
+  --gutter: clamp(16px, 4vw, 48px);
+
+  /* Stream colours (mirrors src/lib/streams.ts) */
+  --s-ancient: #8b8172;
+  --s-native: #e3a008;
+  --s-norse: #0ea5e9;
+  --s-latin: #e11d48;
+  --s-french: #9333ea;
+  --s-greek: #2563eb;
+  --s-dutch: #f97316;
+  --s-celtic: #16a34a;
+  --s-romance: #db2777;
+  --s-semitic: #0d9488;
+  --s-asia: #c2410c;
+  --s-world: #65a30d;
+  --s-english: #6366f1;
+
+  color-scheme: light;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme='light']) {
+    --paper: #0d0c0a;
+    --paper-2: #15130f;
+    --paper-3: #1f1c17;
+    --card: rgba(26, 24, 20, 0.72);
+    --card-solid: #1a1814;
+    --ink: #f4efe4;
+    --ink-2: #c9c1b2;
+    --ink-3: #8f877a;
+    --ink-4: #5a544b;
+    --line: rgba(244, 239, 228, 0.09);
+    --line-2: rgba(244, 239, 228, 0.17);
+    --accent: #8b87ff;
+    --accent-ink: #0d0c0a;
+    --glow: rgba(255, 245, 225, 0.12);
+    --shadow-sm: 0 1px 2px rgba(0, 0, 0, 0.4);
+    --shadow: 0 1px 2px rgba(0, 0, 0, 0.4), 0 16px 48px -16px rgba(0, 0, 0, 0.7);
+    --shadow-lg: 0 2px 6px rgba(0, 0, 0, 0.4), 0 40px 120px -30px rgba(0, 0, 0, 0.9);
+    --blend: screen;
+    --stream-alpha: 0.9;
+    color-scheme: dark;
+  }
+}
+:root[data-theme='dark'] {
+  --paper: #0d0c0a;
+  --paper-2: #15130f;
+  --paper-3: #1f1c17;
+  --card: rgba(26, 24, 20, 0.72);
+  --card-solid: #1a1814;
+  --ink: #f4efe4;
+  --ink-2: #c9c1b2;
+  --ink-3: #8f877a;
+  --ink-4: #5a544b;
+  --line: rgba(244, 239, 228, 0.09);
+  --line-2: rgba(244, 239, 228, 0.17);
+  --accent: #8b87ff;
+  --accent-ink: #0d0c0a;
+  --glow: rgba(255, 245, 225, 0.12);
+  --shadow-sm: 0 1px 2px rgba(0, 0, 0, 0.4);
+  --shadow: 0 1px 2px rgba(0, 0, 0, 0.4), 0 16px 48px -16px rgba(0, 0, 0, 0.7);
+  --shadow-lg: 0 2px 6px rgba(0, 0, 0, 0.4), 0 40px 120px -30px rgba(0, 0, 0, 0.9);
+  --blend: screen;
+  --stream-alpha: 0.9;
+  color-scheme: dark;
+}
